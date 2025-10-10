@@ -4,6 +4,8 @@
 
 This repository accompanies the study of the molecular mechanisms of interaction of *Diatrea* infected with *Fusarium* including several techniques, RNAseq, Metabolomics and Microbiome.
 
+ALL FILES IN /home/diegoj/rnaseq_diatraea/
+
 ---
 
 ## Repository Structure
@@ -69,12 +71,42 @@ RUVs, RUGg and RUVr methods (see: https://bioconductor.org/packages/release/bioc
 
 code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
 
-    - RUVs
+    - RUVs (We selected this correction for downstream analysis)
 ![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/k1_RUVs_groups.png)
+
     - RUVg
 ![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/RUVg_groups.png)
+
     - RUVr
 ![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/k1_RUVr_groups.png)
+
+
+### 5. **Differential Expression Analysis (DEA)**
+
+We conducted a differential expression analysis (DEA) between the two sample groups (control vs. infected). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the infected condition than in the control, and downregulated genes as those more highly expressed in the control than in the infected condition.
+
+we found 82 genes down-regulated and 147 upregulated (p-value < 0.05). We corrected for multiple p-values using Benjamini–Hochberg (BH) procedure.
+
+- code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
+- results: /home/diegoj/rnaseq_diatraea/rnaseq/run_paired_samples/star_salmon/deseq2_qc
+
+### 6. **Functional Enrichment Analysis**
+
+To get insights about the function and the processes that are represented by the sets of up-regulated and down-regulated genes we carried out over representation analysis (ORA) for gene ontology terms (GO) and KEGG pathways.
+
+- GO: We used topGO R package (v2.58.0) 
+
+    - Up: [View overrepresented GO terms in up-regulated genes (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_up.pdf)
+
+    - Down: [View overrepresented GO terms in down-regulated genes (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_down.pdf)
+
+- KEGG
+
+    - Up:
+
+    - Down:
+
+
 
 
 
