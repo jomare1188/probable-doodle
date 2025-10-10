@@ -55,7 +55,7 @@ We used a `Nextflow v25.04.7` pipeline `rnaseq (v3.12.0)` from nf-core (https://
 We used the default method from `rnaseq (v3.12.0)` which uses `STAR` aligner and `Salmon` to quantify transcript abundance.
 
 Full report of preprocess and aligment can be found in 
-[View the full report (html)](rnaseq_diatraea/rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html)
+[Download full report (html)](rnaseq_diatraea/rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html)*(right-click and save as to view)*
 
 
 ### 4. **Exploratory Analysis**
@@ -63,6 +63,21 @@ Full report of preprocess and aligment can be found in
 - Principal component analysis: We load the quantification data produced by Salmon into DESEQ2 (Love et al., 2014) and used the transformed counts matrix variance stabilizing transformation (vst) which accounts for the dependance between abundance and variance in RNAseq data.
 
 [View the full report (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/deseq2.plots.pdf)
+
+- Remove batch effects: We used RUVseq package (v1.40.0) to try to remove the unwanted variation in replicate 1 in both conditions (control and infected), we tried 
+RUVs, RUGg and RUVr methods (see: https://bioconductor.org/packages/release/bioc/manuals/RUVSeq/man/RUVSeq.pdf)
+
+code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
+
+    - RUVs
+![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/k1_RUVs_groups.png)
+    - RUVg
+![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/RUVg_groups.png)
+    - RUVr
+![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/k1_RUVr_groups.png)
+
+
+
 
 
 
