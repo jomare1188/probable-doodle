@@ -54,12 +54,13 @@ We used a `Nextflow v25.04.7` pipeline `rnaseq (v3.12.0)` from nf-core (https://
 
 We used the default method from `rnaseq (v3.12.0)` which uses `STAR` aligner and `Salmon` to quantify transcript abundance.
 
-Full report of preprocess and aligment can be found in `rnaseq_diatraea/rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html`
+Full report of preprocess and aligment can be found in 
+[View the full report (html)](rnaseq_diatraea/rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html)
 
 
 ### 4. **Exploratory Analysis**
 
-We load the quantification data produced by Salmon into DESEQ2 (Love et al., 2014) and used the transformed counts matrix variance stabilizing transformation (vst) which accounts for the dependance between abundance and variance in RNAseq data.
+- Principal component analysis: We load the quantification data produced by Salmon into DESEQ2 (Love et al., 2014) and used the transformed counts matrix variance stabilizing transformation (vst) which accounts for the dependance between abundance and variance in RNAseq data.
 
 [View the full report (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/deseq2.plots.pdf)
 
