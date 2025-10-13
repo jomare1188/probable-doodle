@@ -94,17 +94,18 @@ we found 82 genes down-regulated and 147 upregulated (p-value < 0.05). We correc
 
 To get insights about the function and the processes that are represented by the sets of up-regulated and down-regulated genes we carried out over representation analysis (ORA) for gene ontology terms (GO) and KEGG pathways.
 
-- GO: We used topGO R package (v2.58.0) 
+- GO: We used topGO R package (v2.58.0), p-value < 0.05 and corrected for multiple testing using BH procedure  ()
 
     - Up: [View overrepresented GO terms in up-regulated genes (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_up.pdf)
 
     - Down: [View overrepresented GO terms in down-regulated genes (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_down.pdf)
 
-- KEGG
+- KEGG: We used enrichKEGG function from Cluster profiler R package (v4.14.6) to get KEGG enriched categories in each gene set
 
-    - Up:
+    - Up: ![Overrepresented KEGG categories in up-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/kegg_up.svg)
 
-    - Down:
+    - Down: ![Overrepresented KEGG categories in down-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/kegg_down.svg)
+
 
 
 
