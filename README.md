@@ -109,6 +109,9 @@ To get insights about the function and the processes that are represented by the
 
 ### 7. **GO-KEGG Interaction Network**
 
+    - Up: ![Interaction network GO-KEGG for up-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/gene_network_up.png)
+
+    - Up: ![Interaction network GO-KEGG for down-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/gene_network_down.png)
 
 ### 8. **Important Files**
 
@@ -122,8 +125,8 @@ To get insights about the function and the processes that are represented by the
 | | Main R script | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r` |
 | **Functional Enrichment (GO & KEGG)** | GO up results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_up.csv` |
 | | GO down results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_down.csv` |
-| | GO–KEGG interaction network (up-regulated) | *[path not specified]* |
-| | GO–KEGG interaction network (down-regulated) | *[path not specified]* |
+| | GO–KEGG interaction network (up-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/up_network_edges_with_class.tsv` |
+| | GO–KEGG interaction network (down-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/down_network_edges_with_class.tsv` |
 | **Functional Annotation** | EggNOG results | `eggnog/annotation/proteins.emapper.emapper.annotations` |
 | | PANNZER results | `panzzer/annot_01/formated_go.txt` |
 
