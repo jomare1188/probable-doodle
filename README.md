@@ -107,11 +107,23 @@ To get insights about the function and the processes that are represented by the
     - Down: ![Overrepresented KEGG categories in down-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/kegg_down.png)
 
 
+### 7. **GO-KEGG Interaction Network**
 
 
+### 8. **Important Files**
 
-
-
-
-
+| **Process Step** | **Description** | **File Path** |
+|------------------|-----------------|----------------|
+| **Quality Control** | MultiQC report | `rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html` |
+| **Quantification (Salmon)** | TPM counts | `rnaseq/run_paired_samples/star_salmon/salmon.merged.gene_tpm.tsv` |
+| | RAW counts | `rnaseq/run_paired_samples/star_salmon/salmon.merged.transcript_counts.tsv` |
+| **Differential Expression (DESeq2)** | Up-regulated genes | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/genes_up.txt` |
+| | Down-regulated genes | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/genes_down.txt` |
+| | Main R script | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r` |
+| **Functional Enrichment (GO & KEGG)** | GO up results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_up.csv` |
+| | GO down results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_down.csv` |
+| | GO–KEGG interaction network (up-regulated) | *[path not specified]* |
+| | GO–KEGG interaction network (down-regulated) | *[path not specified]* |
+| **Functional Annotation** | EggNOG results | `eggnog/annotation/proteins.emapper.emapper.annotations` |
+| | PANNZER results | `panzzer/annot_01/formated_go.txt` |
 
