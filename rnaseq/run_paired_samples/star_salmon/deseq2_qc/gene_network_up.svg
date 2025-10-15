@@ -303,30 +303,30 @@
 <circle cx='915.00' cy='46.35' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
 <circle cx='47.53' cy='476.10' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
 <circle cx='784.28' cy='189.60' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
-<text transform='translate(118.33,185.86) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='55.55px' lengthAdjust='spacingAndGlyphs'>axon guidance</text>
-<text transform='translate(219.67,196.41) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='51.27px' lengthAdjust='spacingAndGlyphs'>neurogenesis</text>
-<text transform='translate(260.77,185.96) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='77.86px' lengthAdjust='spacingAndGlyphs'>neuron development</text>
-<text transform='translate(391.62,185.87) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='128.14px' lengthAdjust='spacingAndGlyphs'>anatomical structure development</text>
-<text transform='translate(415.19,186.06) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='103.02px' lengthAdjust='spacingAndGlyphs'>neuron projection guidance</text>
-<text transform='translate(430.98,180.60) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='73.55px' lengthAdjust='spacingAndGlyphs'>cell morphogenesis</text>
-<text transform='translate(445.52,196.32) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='111.05px' lengthAdjust='spacingAndGlyphs'>nervous system development</text>
-<text transform='translate(469.43,196.19) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='52.69px' lengthAdjust='spacingAndGlyphs'>axonogenesis</text>
-<text transform='translate(510.50,185.84) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='137.62px' lengthAdjust='spacingAndGlyphs'>anatomical structure morphogenesis</text>
-<text transform='translate(534.07,186.02) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>cell differentiation</text>
-<text transform='translate(548.92,180.53) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='117.25px' lengthAdjust='spacingAndGlyphs'>neuron projection development</text>
-<text transform='translate(564.47,196.57) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='87.80px' lengthAdjust='spacingAndGlyphs'>developmental process</text>
-<text transform='translate(605.32,185.97) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='100.62px' lengthAdjust='spacingAndGlyphs'>animal organ development</text>
-<text transform='translate(620.39,201.63) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='161.36px' lengthAdjust='spacingAndGlyphs'>cell morphogenesis involved in neuron di...</text>
-<text transform='translate(635.74,196.30) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='126.73px' lengthAdjust='spacingAndGlyphs'>neuron projection morphogenesis</text>
-<text transform='translate(659.41,185.92) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='112.94px' lengthAdjust='spacingAndGlyphs'>cell projection morphogenesis</text>
-<text transform='translate(683.20,196.35) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='117.20px' lengthAdjust='spacingAndGlyphs'>cellular developmental process</text>
-<text transform='translate(724.31,185.95) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='69.78px' lengthAdjust='spacingAndGlyphs'>axon development</text>
-<text transform='translate(738.87,201.75) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='166.55px' lengthAdjust='spacingAndGlyphs'>cell-cell adhesion via plasma-membrane a...</text>
-<text transform='translate(754.55,196.32) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='170.39px' lengthAdjust='spacingAndGlyphs'>plasma membrane bounded cell projection ...</text>
-<text transform='translate(130.09,472.52) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='116.94px' lengthAdjust='spacingAndGlyphs'>Th1 and Th2 cell differentiation</text>
-<text transform='translate(926.44,42.58) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='54.58px' lengthAdjust='spacingAndGlyphs'>Motor proteins</text>
-<text transform='translate(58.78,472.45) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='106.75px' lengthAdjust='spacingAndGlyphs'>Dorso-ventral axis formation</text>
-<text transform='translate(778.29,196.33) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='92.52px' lengthAdjust='spacingAndGlyphs'>Cell adhesion molecules</text>
+<text transform='translate(100.85,196.40) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='55.55px' lengthAdjust='spacingAndGlyphs'>axon guidance</text>
+<text transform='translate(237.09,185.91) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='51.27px' lengthAdjust='spacingAndGlyphs'>neurogenesis</text>
+<text transform='translate(260.76,185.96) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='77.86px' lengthAdjust='spacingAndGlyphs'>neuron development</text>
+<text transform='translate(391.49,186.04) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='128.14px' lengthAdjust='spacingAndGlyphs'>anatomical structure development</text>
+<text transform='translate(415.43,185.85) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='103.02px' lengthAdjust='spacingAndGlyphs'>neuron projection guidance</text>
+<text transform='translate(439.06,185.94) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='73.55px' lengthAdjust='spacingAndGlyphs'>cell morphogenesis</text>
+<text transform='translate(454.02,201.75) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='111.05px' lengthAdjust='spacingAndGlyphs'>nervous system development</text>
+<text transform='translate(469.23,196.34) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='52.69px' lengthAdjust='spacingAndGlyphs'>axonogenesis</text>
+<text transform='translate(493.10,196.25) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='137.62px' lengthAdjust='spacingAndGlyphs'>anatomical structure morphogenesis</text>
+<text transform='translate(516.96,196.27) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>cell differentiation</text>
+<text transform='translate(540.67,196.31) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='117.25px' lengthAdjust='spacingAndGlyphs'>neuron projection development</text>
+<text transform='translate(564.48,196.28) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='87.80px' lengthAdjust='spacingAndGlyphs'>developmental process</text>
+<text transform='translate(588.19,196.32) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='100.62px' lengthAdjust='spacingAndGlyphs'>animal organ development</text>
+<text transform='translate(629.17,185.86) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='161.36px' lengthAdjust='spacingAndGlyphs'>cell morphogenesis involved in neuron di...</text>
+<text transform='translate(653.12,185.83) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='126.73px' lengthAdjust='spacingAndGlyphs'>neuron projection morphogenesis</text>
+<text transform='translate(676.74,186.01) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='112.94px' lengthAdjust='spacingAndGlyphs'>cell projection morphogenesis</text>
+<text transform='translate(700.51,185.93) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='117.20px' lengthAdjust='spacingAndGlyphs'>cellular developmental process</text>
+<text transform='translate(724.40,184.88) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='69.78px' lengthAdjust='spacingAndGlyphs'>axon development</text>
+<text transform='translate(739.19,201.65) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='166.55px' lengthAdjust='spacingAndGlyphs'>cell-cell adhesion via plasma-membrane a...</text>
+<text transform='translate(754.46,196.37) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='170.39px' lengthAdjust='spacingAndGlyphs'>plasma membrane bounded cell projection ...</text>
+<text transform='translate(130.25,472.34) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='116.94px' lengthAdjust='spacingAndGlyphs'>Th1 and Th2 cell differentiation</text>
+<text transform='translate(909.03,53.16) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='54.58px' lengthAdjust='spacingAndGlyphs'>Motor proteins</text>
+<text transform='translate(41.54,482.92) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='106.75px' lengthAdjust='spacingAndGlyphs'>Dorso-ventral axis formation</text>
+<text transform='translate(778.43,196.17) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "Arial";' textLength='92.52px' lengthAdjust='spacingAndGlyphs'>Cell adhesion molecules</text>
 </g>
 <g clip-path='url(#cpMC4wMHwxMTUyLjAwfDAuMDB8NjQ4LjAw)'>
 <text x='1051.38' y='299.49' style='font-size: 11.00px; font-family: "Arial";' textLength='53.03px' lengthAdjust='spacingAndGlyphs'>Node Type</text>
