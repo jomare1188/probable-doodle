@@ -107,13 +107,41 @@ To get insights about the function and the processes that are represented by the
     - Down: ![Overrepresented KEGG categories in down-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/kegg_down.png)
 
 
-### 7. **GO-KEGG Interaction Network**
+### 7. **Transcription Factor Annotation**
+
+We invstigated if some of the DEGs were predicted as Transcription Factors using http://www.insecttfdb.com/ which uses  AnimalTFDB (Animal Transcription Factor Database) version 4.0, to search PFAM transcription factors protein domains using Hmmer v3.3 in our querys.
+
+We found eight up-regulated differential expressed gene predicted as TF 
+ 
+CAG9783855.1	THR-like	-	5.1e-45	145.6	0.3
+CAG9786977.1	BTB	PF00651.37	2.1e-29	94.1	0.1
+CAG9787444.1	zf-C2H2	PF00096.32	1.2e-31	99.7	120.1
+CAG9791224.1	Homeobox	PF00046.35	3e-08	25.6	0.4
+CAG9794522.1	NDT80_PhoG	PF05224.17	4.5e-33	107.1	2.3
+CAG9795420.1	zf-C2H2	PF00096.32	2.5e-25	79.8	57.6
+CAH0748350.1	THR-like	-	5.5e-30	96.5	0.2
+CAH0748970.1	bHLH	PF00010.31	5.2e-05	15.2	0.4
+
+Remarkably one gene DIATSA_LOCUS4889 -> CAG9783855.1 (protein) was detected with GO and KEGG annotations 
+
+DIATSA_LOCUS4889        neurogenesis    gene    GO
+DIATSA_LOCUS4889        neuron development      gene    GO
+DIATSA_LOCUS4889        anatomical structure development        gene    GO
+DIATSA_LOCUS4889        nervous system development      gene    GO
+DIATSA_LOCUS4889        cell differentiation    gene    GO
+DIATSA_LOCUS4889        developmental process   gene    GO
+DIATSA_LOCUS4889        animal organ development        gene    GO
+DIATSA_LOCUS4889        cellular developmental process  gene    GO
+DIATSA_LOCUS4889        Dorso-ventral axis formation    gene    KEGG
+
+
+### 8. **GO-KEGG Interaction Network**
 
 - Up: ![Interaction network GO-KEGG for up-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/gene_network_up.png)
 
 - Down: ![Interaction network GO-KEGG for down-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/gene_network_down.png)
 
-### 8. **Important Files**
+### 9. **Important Files**
 
 | **Process Step** | **Description** | **File Path** |
 |------------------|-----------------|----------------|
