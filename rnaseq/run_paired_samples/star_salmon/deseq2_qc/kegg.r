@@ -5,6 +5,10 @@ library(ggplot2)
 library(dplyr)
 library(clusterProfiler)
 
+
+
+
+###
 emapper_df <- read_tsv("/home/j/proteins.emapper.emapper.annotations", comment = "#", 
                        guess_max = 100000)  
                             
@@ -23,6 +27,33 @@ colnames(KOs_long) <- c("gene", "KEGG_ko")
 
 KOs_long_formatted <- KOs_long %>%
   mutate(KEGG_ko = sub("^ko:", "", KEGG_ko))
+
+
+
+### read insectec KOs 
+up_kos_insect <- readxl::read_excel("~/Downloads/genes_kegg_up_ghostkoala_completed.xlsx", sheet = 2)
+#down_kos_insect <- readxl::read_excel("~/Downloads/genes_kegg_up_ghostkoala_completed.xlsx", sheet = 2)
+
+## taking all kos form excel
+up_kos_insect_list <- up_kos_insect %>% select(ko_1, ko_2) 
+
+up_kos <- up_kos_insect_list %>%
+  select(ko_1, ko_2) %>%      # select both columns
+  unlist(use.names = FALSE) %>% # flatten into a single vector
+  na.omit() %>%                # remove NAs
+  unique()  
+
+up_kos <- unlist(strsplit(up_kos, ",\\s*"))  # split by comma and optional space
+up_kos <- unique(trimws(up_kos))             # remove extra spaces and duplicates
+
+##
+up_kos_insect_list <- up_kos_insect %>% select(ko_1) 
+up_kos_insect_list <- as.character(na.omit(up_kos_insect_list$ko_1))
+
+down_kos_insect_list <- down_kos_insect %>% select(ko_1) 
+down_kos_insect_list <- as.character(na.omit(down_kos_insect_list$ko_1))
+
+################# read up and down genes
 
 DOWN <- rownames(read.table("/home/j/down_regulated.csv", header = T, sep = ","))
 UP   <- rownames(read.table("/home/j/up_regulated.csv", header = T, sep = ","))
@@ -54,7 +85,8 @@ universe_kos <- sub("^ko:", "", universe_kos)
 
 universe_genes <- KOs_long$gene
 
-
+## up_kos_insect_list
+## up_kos
 ekegg_up <- enrichKEGG(
   gene = up_kos,
   universe = universe_kos ,
@@ -65,7 +97,8 @@ ekegg_up <- enrichKEGG(
   qvalueCutoff = 0.05
 )
 
-
+## down_kos_insect_list
+## down_kos
 ekegg_down <- enrichKEGG(
   gene = down_kos,
   universe = universe_kos,
@@ -165,6 +198,7 @@ g <- igraph::simplify(g, remove.multiple = TRUE, remove.loops = TRUE)
 # ---- 2. Set node attributes ----
 # Get a vector indicating which nodes are GO/KEGG terms
 V(g)$type <- ifelse(V(g)$name %in% combined_edge_list$Description, "Description", "Gene")
+V(g)["DIATSA_LOCUS4889"]$type <- "Transcription Factor"
 
 # Assign the Class (GO/KEGG) only to description nodes
 desc_class <- combined_edge_list %>% distinct(Description, Class)
@@ -175,6 +209,7 @@ V(g)$Class <- desc_class$Class[match(V(g)$name, desc_class$Description)]
 # ---- 3. Define colors ----
 # We'll color nodes by Class only for Description nodes
 V(g)$color <- ifelse(
+#  V(g)$type == "Transcription Factor", "#FF0033",
   V(g)$type == "Gene", "gray80",              # genes: gray
   ifelse(V(g)$Class == "GO", "#66c2a5", "#fc8d62")  # GO=greenish, KEGG=orangeish
 )
@@ -195,9 +230,6 @@ V(g)$label <- ifelse(V(g)$Class == "Gene", "", V(g)$name)
 
 ###############################################3
 
-library(ggraph)
-library(ggrepel)
-library(dplyr)
 
 # Ensure proper class labels for all vertices
 V(g)$Category <- ifelse(
@@ -205,18 +237,16 @@ V(g)$Category <- ifelse(
   ifelse(V(g)$Class == "GO", "GO term", "KEGG pathway")
 )
 
+V(g)["DIATSA_LOCUS4889"]$Category <- "Transcription Factor"
+
 library(ggraph)
 library(ggrepel)
 library(dplyr)
 
-# Make sure the category column exists and is a factor
-V(g)$Category <- ifelse(
-  V(g)$type == "Gene", "Gene",
-  ifelse(V(g)$Class == "GO", "GO term", "KEGG pathway")
-)
+
 
 # Convert to factor to force ggplot to create a legend
-V(g)$Category <- factor(V(g)$Category, levels = c("Gene", "GO term", "KEGG pathway"))
+V(g)$Category <- factor(V(g)$Category, levels = c("Gene", "GO term", "KEGG pathway", "Transcription Factor"))
 
 # Build the plot
 net_plot <- ggraph(g, layout = 'tree') +
@@ -225,7 +255,7 @@ net_plot <- ggraph(g, layout = 'tree') +
   geom_node_text(aes(label = label), repel = T, angle = 60, size = 3, color = "black") +
   scale_color_manual(
     name = "Node Type",
-    values = c("Gene" = "gray80", "GO term" = "#66c2a5", "KEGG pathway" = "#fc8d62")
+    values = c("Gene" = "gray80", "GO term" = "#66c2a5", "KEGG pathway" = "#fc8d62", "Transcription Factor" = "#FF0033")
   ) +
   theme_void() +
   ggtitle("Up Regulated Gene–Functional Term Network") +
@@ -406,7 +436,7 @@ net_plot <- ggraph(g, layout = 'tree') +
     values = c("Gene" = "gray80", "GO term" = "#66c2a5", "KEGG pathway" = "#fc8d62")
   ) +
   theme_void() +
-  ggtitle("Up Regulated Gene–Functional Term Network") +
+  ggtitle("Down Regulated Gene–Functional Term Network") +
   theme(
     plot.title = element_text(hjust = 0.5),
     legend.position = "right"  # or "bottom" or "top"
@@ -440,10 +470,6 @@ edges <- edges %>%
 # Save to TSV
 write.table(edges, "down_network_edges_with_class.tsv",
             sep = "\t", quote = FALSE, row.names = FALSE)
-
-
-
-
 #############
 
 
@@ -473,6 +499,7 @@ write.table(edges, "down_network_edges_with_class.tsv",
 ## Import to igraph
 
 library(igraph)
+
 
 # ---- 1. Build the graph ----
 g <- graph_from_data_frame(d = combined_edge_list, directed = FALSE, )
