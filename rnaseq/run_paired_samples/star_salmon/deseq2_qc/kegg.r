@@ -1,4 +1,3 @@
-
 library(readr)
 library(tidyr)
 library(ggplot2)
@@ -7,31 +6,41 @@ library(clusterProfiler)
 
 
 
+annot_file <- "../../../../eggnog/annotation/proteins.emapper.emapper.annotations"
+gene2protein_file <- "../../../../reference_genomes/diatraea_saccharalis/gene2protein.txt"
 
-###
-emapper_df <- read_tsv("/home/j/proteins.emapper.emapper.annotations", comment = "#", 
+### function to read eggnog annotations 
+
+read_eggnog <- function(annot_file, gene2protein_file){
+
+emapper_df <<- read_tsv(annot_file, comment = "#", 
                        guess_max = 100000)  
+
                             
-gene2protein <- read.table("/home/j/gene2protein.txt", col.names = c("gene", "protein"))
+gene2protein <<- read.table(gene2protein_file, col.names = c("gene", "protein"))
 
 emapper_with_genes <- emapper_df %>%
   left_join(gene2protein, by = c("query" = "protein"))
 
 
 # Create a table with IDs and ko:Knumber from input file 1
-KOs <- emapper_with_genes %>% select(gene,KEGG_ko)
+KOs <<- emapper_with_genes %>% select(gene,KEGG_ko)
 
-KOs_long <- KOs %>%  filter(KEGG_ko != "-" & KEGG_ko != "" & !is.na(KEGG_ko)) %>% separate_rows(KEGG_ko, sep = ",")
-colnames(KOs_long) <- c("gene", "KEGG_ko")
+KOs_long <<- KOs %>%  filter(KEGG_ko != "-" & KEGG_ko != "" & !is.na(KEGG_ko)) %>% separate_rows(KEGG_ko, sep = ",")
+colnames(KOs_long) <<- c("gene", "KEGG_ko")
 
 
-KOs_long_formatted <- KOs_long %>%
+KOs_long_formatted <<- KOs_long %>%
   mutate(KEGG_ko = sub("^ko:", "", KEGG_ko))
+}
 
-
+read_eggnog(annot_file, gene2protein_file)
 
 ### read insectec KOs 
-up_kos_insect <- readxl::read_excel("~/Downloads/genes_kegg_up_ghostkoala_completed.xlsx", sheet = 2)
+
+ghost_koala <- "/Downloads/genes_kegg_up_ghostkoala_completed.xlsx"
+read_insect_ko <- function(ghost_koala){
+up_kos_insect <- readxl::read_excel("ghost_koala", sheet = 2)
 #down_kos_insect <- readxl::read_excel("~/Downloads/genes_kegg_up_ghostkoala_completed.xlsx", sheet = 2)
 
 ## taking all kos form excel
@@ -45,51 +54,52 @@ up_kos <- up_kos_insect_list %>%
 
 up_kos <- unlist(strsplit(up_kos, ",\\s*"))  # split by comma and optional space
 up_kos <- unique(trimws(up_kos))             # remove extra spaces and duplicates
-
-##
-up_kos_insect_list <- up_kos_insect %>% select(ko_1) 
-up_kos_insect_list <- as.character(na.omit(up_kos_insect_list$ko_1))
-
-down_kos_insect_list <- down_kos_insect %>% select(ko_1) 
-down_kos_insect_list <- as.character(na.omit(down_kos_insect_list$ko_1))
-
+}
+### end of read insect KOS ##
 ################# read up and down genes
 
-DOWN <- rownames(read.table("/home/j/down_regulated.csv", header = T, sep = ","))
-UP   <- rownames(read.table("/home/j/up_regulated.csv", header = T, sep = ","))
+DOWN <- rownames(read.table("down_regulated.csv", header = T, sep = ","))
+UP   <- rownames(read.table("up_regulated.csv", header = T, sep = ","))
+
 
 library(dplyr)
 
+format_data_for_enrichment <- function (UP, DOWN, KOs_long){
+
 ####
 # Get KOs for UP genes
-up_gene_kos <- gene2protein %>%
+up_gene_kos <<- gene2protein %>%
   filter(gene %in% UP) %>%
   left_join(KOs_long, by = "gene") %>%
   distinct(gene, KEGG_ko) %>%
   filter(!is.na(KEGG_ko))
 
-down_gene_kos <- gene2protein %>%
+down_gene_kos <<- gene2protein %>%
   filter(gene %in% DOWN) %>%
   left_join(KOs_long, by = "gene") %>%
   distinct(gene, KEGG_ko) %>%
   filter(!is.na(KEGG_ko))
 
-up_kos <- up_gene_kos$KEGG_ko
-up_kos <- sub("^ko:", "", up_kos)
+up_kos <<- up_gene_kos$KEGG_ko
+up_kos <<- sub("^ko:", "", up_kos)
 
-down_kos <- down_gene_kos$KEGG_ko
-down_kos <- sub("^ko:", "", down_kos)
+down_kos <<- down_gene_kos$KEGG_ko
+down_kos <<- sub("^ko:", "", down_kos)
 
-universe_kos <- KOs_long$KEGG_ko
-universe_kos <- sub("^ko:", "", universe_kos)
+universe_kos <<- KOs_long$KEGG_ko
+universe_kos <<- sub("^ko:", "", universe_kos)
 
-universe_genes <- KOs_long$gene
+universe_genes <<- KOs_long$gene
+}
 
-## up_kos_insect_list
+format_data_for_enrichment(UP, DOWN, KOs_long)
+
+
+kegg_enrichment <- function(up_kos, down_kos, universe_kos){
 ## up_kos
 ekegg_up <- enrichKEGG(
   gene = up_kos,
-  universe = universe_kos ,
+  universe = universe_kos,
   organism = "ko",
   pAdjustMethod = "fdr",
   keyType = "kegg",
@@ -97,7 +107,6 @@ ekegg_up <- enrichKEGG(
   qvalueCutoff = 0.05
 )
 
-## down_kos_insect_list
 ## down_kos
 ekegg_down <- enrichKEGG(
   gene = down_kos,
@@ -111,10 +120,13 @@ ekegg_down <- enrichKEGG(
 
 dotplot(ekegg_down)
 dotplot(ekegg_up)
+}
+
+kegg_enrichment(up_kos, down_kos, universe_kos)
 
 
 
-
+## Prepare data for GO-KEGG interaction network
 kegg_up_df <- ekegg_up@result
 kos_up_enriched <- kegg_up_df %>% filter(p.adjust < 0.05) %>% select(Description, geneID)
 
@@ -470,67 +482,4 @@ edges <- edges %>%
 # Save to TSV
 write.table(edges, "down_network_edges_with_class.tsv",
             sep = "\t", quote = FALSE, row.names = FALSE)
-#############
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Import to igraph
-
-library(igraph)
-
-
-# ---- 1. Build the graph ----
-g <- graph_from_data_frame(d = combined_edge_list, directed = FALSE, )
-g <- igraph::simplify(g, remove.multiple = TRUE, remove.loops = TRUE)
-
-# ---- 2. Set node attributes ----
-# Get a vector indicating which nodes are GO/KEGG terms
-V(g)$type <- ifelse(V(g)$name %in% combined_edge_list$Description, "Description", "Gene")
-
-# Assign the Class (GO/KEGG) only to description nodes
-desc_class <- combined_edge_list %>%
-  distinct(Description, Class)
-
-# Match the class info to vertex names
-V(g)$Class <- desc_class$Class[match(V(g)$name, desc_class$Description)]
-
-# ---- 3. Define colors ----
-# We'll color nodes by Class only for Description nodes
-V(g)$color <- ifelse(
-  V(g)$type == "Gene", "gray80",              # genes: gray
-  ifelse(V(g)$Class == "GO", "#66c2a5", "#fc8d62")  # GO=greenish, KEGG=orangeish
-)
-
-# ---- 4. Define sizes ----
-V(g)$size <- ifelse(V(g)$type == "Gene", 3, 6)
-
-# ---- Layout options ----
-
-# 2. Or alternatively:
-layout_bip <- layout_with_graphopt(g, niter = 800)
-
-# ---- Plot ----
-
-
+############

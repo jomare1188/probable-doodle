@@ -1,0 +1,38 @@
+from	to	source_Class	target_Class
+DIATSA_LOCUS3766	cell killing	gene	GO
+DIATSA_LOCUS3766	killing of cells of another organism	gene	GO
+DIATSA_LOCUS3766	disruption of anatomical structure in an...	gene	GO
+DIATSA_LOCUS3766	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS3795	cell killing	gene	GO
+DIATSA_LOCUS3795	killing of cells of another organism	gene	GO
+DIATSA_LOCUS3795	disruption of anatomical structure in an...	gene	GO
+DIATSA_LOCUS3795	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS5755	iron ion transport	gene	GO
+DIATSA_LOCUS5755	transition metal ion transport	gene	GO
+DIATSA_LOCUS7417	iron ion transport	gene	GO
+DIATSA_LOCUS7417	transition metal ion transport	gene	GO
+DIATSA_LOCUS12916	monosaccharide metabolic process	gene	GO
+DIATSA_LOCUS12916	hexose metabolic process	gene	GO
+DIATSA_LOCUS9321	regulation of gluconeogenesis	gene	GO
+DIATSA_LOCUS9321	cellular modified amino acid metabolic p...	gene	GO
+DIATSA_LOCUS9321	regulation of glucose metabolic process	gene	GO
+DIATSA_LOCUS9321	regulation of carbohydrate biosynthetic ...	gene	GO
+DIATSA_LOCUS9321	S-adenosylhomocysteine metabolic process	gene	GO
+DIATSA_LOCUS9002	asparagine metabolic process	gene	GO
+DIATSA_LOCUS3221	cellular modified amino acid metabolic p...	gene	GO
+DIATSA_LOCUS3221	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS12223	antibacterial humoral response	gene	GO
+DIATSA_LOCUS3728	zymogen activation	gene	GO
+DIATSA_LOCUS7897	regulation of cytoplasmic pattern recogn...	gene	GO
+DIATSA_LOCUS7897	negative regulation of cytoplasmic patte...	gene	GO
+DIATSA_LOCUS7897	negative regulation of innate immune res...	gene	GO
+DIATSA_LOCUS6206	negative regulation of Notch signaling p...	gene	GO
+DIATSA_LOCUS10408	Fat digestion and absorption	gene	KEGG
+DIATSA_LOCUS10408	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS10408	Glycerolipid metabolism	gene	KEGG
+DIATSA_LOCUS10408	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS3060	Fat digestion and absorption	gene	KEGG
+DIATSA_LOCUS3060	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS3060	Glycerolipid metabolism	gene	KEGG
+DIATSA_LOCUS5995	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS9828	Drug metabolism - other enzymes	gene	KEGG
