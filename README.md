@@ -83,7 +83,7 @@ code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
 
 ### 5. **Differential Expression Analysis (DEA)**
 
-We conducted a differential expression analysis (DEA) between the two sample groups (control vs. infected). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the infected condition than in the control, and downregulated genes as those more highly expressed in the control than in the infected condition.
+We conducted a differential expression analysis (DEA) using DESEeq2 R package between the two sample groups (control vs. infected). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the infected condition than in the control, and downregulated genes as those more highly expressed in the control than in the infected condition.
 
 we found 82 genes down-regulated and 147 upregulated (p-value < 0.05). We corrected for multiple p-values using Benjamini–Hochberg (BH) procedure.
 
