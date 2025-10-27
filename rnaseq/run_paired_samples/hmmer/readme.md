@@ -7,3 +7,10 @@ Requeriments
 conda init hmmer
 ```
 
+```bash
+./run_hmmer_parallel.sh
+```
+
+```bash
+./assign_family_membership.pl
+```
