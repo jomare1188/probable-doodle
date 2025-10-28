@@ -83,7 +83,7 @@ code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
 
 ### 5. **Differential Expression Analysis (DEA)**
 
-We conducted a differential expression analysis (DEA) using DESEeq2 R package between the two sample groups (control vs. infected). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the infected condition than in the control, and downregulated genes as those more highly expressed in the control than in the infected condition.
+We conducted a differential expression analysis (DEA) using DESEeq2 R package between the two sample groups (control vs. infected). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the control condition than in the infected, and downregulated genes as those more highly expressed in the infected than in the control condition.
 
 we found 82 genes down-regulated and 147 upregulated (p-value < 0.05). We corrected for multiple p-values using Benjamini–Hochberg (BH) procedure.
 
@@ -162,4 +162,95 @@ Remarkably one gene DIATSA_LOCUS4889 -> CAG9783855.1 (protein) was detected with
 | | GO–KEGG interaction network (down-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/down_network_edges_with_class.tsv` |
 | **Functional Annotation** | EggNOG results | `eggnog/annotation/proteins.emapper.emapper.annotations` |
 | | PANNZER results | `panzzer/annot_01/formated_go.txt` |
+
+
+# RNAseq Sugarcane
+
+| sample | fastq_1 | fastq_2 | strandedness | Tissue | Time_Point | Treatment | Replicate | Group |
+|:-------|:---------|:---------|:--------------|:--------|:-------------|:------------|:------------|:------------------------------|
+| N31 | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N31_120h_T2R1_1.fq.gz | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N31_120h_T2R1_2.fq.gz | auto | Stem | 120h | Diatrea | 1 | Stem_120h_Diatrea |
+| N32 | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N32_120h_T2R2_1.fq.gz | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N32_120h_T2R2_2.fq.gz | auto | Stem | 120h | Diatrea | 2 | Stem_120h_Diatrea |
+| N33 | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N33_120h_T2R3_1.fq.gz | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N33_120h_T2R3_2.fq.gz | auto | Stem | 120h | Diatrea | 3 | Stem_120h_Diatrea |
+| N37 | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N37_120h_T4R1_1.fq.gz | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N37_120h_T4R1_2.fq.gz | auto | Stem | 120h | Diatrea+Fusarium | 1 | Stem_120h_Diatrea+Fusarium |
+| N38 | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N38_120h_T4R2_1.fq.gz | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N38_120h_T4R2_2.fq.gz | auto | Stem | 120h | Diatrea+Fusarium | 2 | Stem_120h_Diatrea+Fusarium |
+| N39 | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N39_120h_T4R3_1.fq.gz | /home/diego/RNAseq/Sugarcane_RNAseq_Interaction_Sugarcane_Diatraea_Fusarium/raw_data/N39_120h_T4R3_2.fq.gz | auto | Stem | 120h | Diatrea+Fusarium | 3 | Stem_120h_Diatrea+Fusarium |
+
+### 1. **References**
+
+- We used the genome assembly Saccharum officinarum X spontaneum var R570 v2.1 (https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_038087645.1/)
+- `Genome Assembly`: /home/diegoj/rnaseq_diatraea/reference_genomes/sugarcane/assembly/SofficinarumxspontaneumR570_771_v2.0.fa.gz
+- `Proteins`: /home/diegoj/rnaseq_diatraea/reference_genomes/sugarcane/annotation/SofficinarumxspontaneumR570_771_v2.1.protein.fa
+- `GFF`: /home/diegoj/rnaseq_diatraea/reference_genomes/sugarcane/annotation/SofficinarumxspontaneumR570_771_v2.1.gene_exons.gff
+
+
+### 2. **Protein Annotation**
+
+We used the annotatiovs provided in the GFF annotation file
+
+
+
+### 3. **RNAseq processing**
+
+We used a `Nextflow v25.04.7` pipeline `rnaseq (v3.12.0)` from nf-core (https://nf-co.re/rnaseq/3.12.0) to preprocces, align and quantify RNAseq data
+
+We used the default method from `rnaseq (v3.12.0)` which uses `STAR` aligner and `Salmon` to quantify transcript abundance.
+
+Full report of preprocess and aligment can be found in
+[Download full report (html)](/home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/multiqc/star_salmon/multiqc_report.html)*(right-click and save as to view)*
+
+### 4. **Exploratory Analysis**
+
+- Principal component analysis: We load the quantification data produced by Salmon into DESEQ2 (Love et al., 2014) and used the transformed counts matrix variance stabilizing transformation (vst) which accounts for the dependance between abundance and variance in RNAseq data.
+
+[View the full report (PDF)](/home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/deseq2.plots.pdf)
+
+### 5. **Differential Expression Analysis (DEA)**
+
+We conducted a differential expression analysis (DEA) using DESEeq2 R package between the two sample groups control (tem_120h_Diatrea) vs. infected (tem_120h_Diatrea+Fusarium). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the control condition than in the infected, and downregulated genes as those more highly expressed in the infected than in the control condition.
+
+we found 98 genes down-regulated and 18 upregulated (p-value < 0.05). We corrected for multiple p-values using Benjamini–Hochberg (BH) procedure.
+
+- code: /home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/ruv.r
+- results: /home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc
+
+### 6. **Functional Enrichment Analysis**
+
+To get insights about the function and the processes that are represented by the sets of up-regulated and down-regulated genes we carried out over representation analysis (ORA) for gene ontology terms (GO) and KEGG pathways.
+
+- GO: We used topGO R package (v2.58.0), p-value < 0.05 and corrected for multiple testing using BH procedure
+
+    - Up: [View overrepresented GO terms in up-regulated genes (PDF)](rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/GO_up.pdf)
+
+    - Down: [View overrepresented GO terms in down-regulated genes (PDF)](rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/GO_down.pdf)
+
+- KEGG: We used enrichKEGG function from Cluster profiler R package (v4.14.6) to get KEGG enriched categories in each gene set. We could not detect overrepresented KEGG genes
+
+
+### 7. **Transcription Factor Annotation**
+
+Transcription associated proteins (TAPs) domains were identified using Hmmer v3.3.2 (Eddy, 2011) against Pfam v34 (El-Gebali et al., 2019). Protein domains were classified into TAPs families following the rules used in PlnTFDB  (Riaño-Pachón et al., 2007; Pérez-Rodríguez et al., 2010).
+
+    Results: rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/only_tf.out
+
+
+We found one up regulated gene classified as TF, this genes have 3 isforms all classified as MYB-related TF
+
+| Protein ID                         | Family      | Category |
+|:--------------------------------|:-------------|:----------|
+| SoffiXsponR570.07Dg092200.2.p | MYB-related | TFF |
+| SoffiXsponR570.07Dg092200.1.p | MYB-related | TFF |
+| SoffiXsponR570.07Dg092200.3.p | MYB-related | TFF |
+
+We found 2 genes down regulated classified as TF (bHLH), each gene has two isoforms.
+
+| Protein ID                         | Family | Category |
+|:--------------------------------|:--------|:----------|
+| SoffiXsponR570.03Ag094400.1.p | bHLH | TFF |
+| SoffiXsponR570.03Ag094400.2.p | bHLH | TFF |
+| SoffiXsponR570.01Eg058700.1.p | bHLH | TFF |
+| SoffiXsponR570.01Eg058700.2.p | bHLH | TFF |
+
+
+
+
 
