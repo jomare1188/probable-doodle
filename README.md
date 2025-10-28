@@ -196,13 +196,13 @@ We used a `Nextflow v25.04.7` pipeline `rnaseq (v3.12.0)` from nf-core (https://
 We used the default method from `rnaseq (v3.12.0)` which uses `STAR` aligner and `Salmon` to quantify transcript abundance.
 
 Full report of preprocess and aligment can be found in
-[Download full report (html)](/home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/multiqc/star_salmon/multiqc_report.html)*(right-click and save as to view)*
+[Download full report (html)](rnaseq/run_sugarcane_diatrea/multiqc/star_salmon/multiqc_report.html)*(right-click and save as to view)*
 
 ### 4. **Exploratory Analysis**
 
 - Principal component analysis: We load the quantification data produced by Salmon into DESEQ2 (Love et al., 2014) and used the transformed counts matrix variance stabilizing transformation (vst) which accounts for the dependance between abundance and variance in RNAseq data.
 
-[View the full report (PDF)](/home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/deseq2.plots.pdf)
+[View the full report (PDF)](rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/deseq2.plots.pdf)
 
 ### 5. **Differential Expression Analysis (DEA)**
 
@@ -210,8 +210,8 @@ We conducted a differential expression analysis (DEA) using DESEeq2 R package be
 
 we found 98 genes down-regulated and 18 upregulated (p-value < 0.05). We corrected for multiple p-values using Benjamini–Hochberg (BH) procedure.
 
-- code: /home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/ruv.r
-- results: /home/diegoj/rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc
+- code: rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/ruv.r
+- results: rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc
 
 ### 6. **Functional Enrichment Analysis**
 
@@ -230,7 +230,7 @@ To get insights about the function and the processes that are represented by the
 
 Transcription associated proteins (TAPs) domains were identified using Hmmer v3.3.2 (Eddy, 2011) against Pfam v34 (El-Gebali et al., 2019). Protein domains were classified into TAPs families following the rules used in PlnTFDB  (Riaño-Pachón et al., 2007; Pérez-Rodríguez et al., 2010).
 
-    Results: rnaseq_diatraea/rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/only_tf.out
+    Results: rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/only_tf.out
 
 
 We found one up regulated gene classified as TF, this genes have 3 isforms all classified as MYB-related TF
