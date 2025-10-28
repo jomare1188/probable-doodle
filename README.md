@@ -218,8 +218,8 @@ we found 98 genes down-regulated and 18 upregulated (p-value < 0.05). We correct
 To get insights about the function and the processes that are represented by the sets of up-regulated and down-regulated genes we carried out over representation analysis (ORA) for gene ontology terms (GO) and KEGG pathways.
 
 - GO: We used topGO R package (v2.58.0), p-value < 0.05 and corrected for multiple testing using BH procedure
-
-    - Up: [View overrepresented GO terms in up-regulated genes (PDF)](rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/GO_up.pdf)
+    
+    - Up: We only found one overrepresented GO term in up regulated genes: GO:0006508	proteolysis
 
     - Down: [View overrepresented GO terms in down-regulated genes (PDF)](rnaseq/run_sugarcane_diatrea/star_salmon/deseq2_qc/GO_down.pdf)
 
