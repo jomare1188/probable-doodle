@@ -231,7 +231,7 @@ names(gene2GO) <- formatted_GO$Gene
 geneNames <- names(gene2GO)
 
 # select set of genes to make overrepresentation test
-MyInterestingGenes <- rownames(up)
+MyInterestingGenes <- rownames(down)
 MyInterestingGenes <- sub("\\.v2\\.1$", "", MyInterestingGenes)
 
 geneList <- factor(as.integer(geneNames %in% MyInterestingGenes))
@@ -243,7 +243,7 @@ GOdata <- new("topGOdata",
               gene2GO = gene2GO)
 allGO=usedGO(GOdata)
 # MIRAR SI DA VALOR Pcorregido el TOP GO
-# classic ingnora la topologia del go
+# classic ingnora la topologia del CCCgo
 # revisar algoritmos
 
 Classic <- runTest(GOdata, algorithm = "classic", statistic = "fisher")
@@ -298,4 +298,4 @@ gg1 <- ggplot(ggdata, aes(x = Term, y = -log10(p.adj), size = Significant)) +
 
 
 ggsave("GO_down.svg", device = "svg", width = 40, height = 30, dpi = 300, units = "cm")
-
+ggsave("GO_down.pdf", plot = gg1, device = "pdf", width = 40, height = 30, dpi = 300, units = "cm")
