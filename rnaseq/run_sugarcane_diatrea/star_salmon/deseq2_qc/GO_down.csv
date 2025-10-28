@@ -1,0 +1,25 @@
+GO.ID,Term,Annotated,Significant,Expected,Classic,p.adj
+GO:0005975,carbohydrate metabolic process,4219,9,2.58,0.00081,0.0033
+GO:0010273,detoxification of copper ion,2,1,0,0.00122,0.0033
+GO:0046686,response to cadmium ion,2,1,0,0.00122,0.0033
+GO:0046688,response to copper ion,2,1,0,0.00122,0.0033
+GO:0061687,detoxification of inorganic compound,2,1,0,0.00122,0.0033
+GO:0071585,detoxification of cadmium ion,2,1,0,0.00122,0.0033
+GO:0097501,stress response to metal ion,2,1,0,0.00122,0.0033
+GO:1990169,stress response to copper ion,2,1,0,0.00122,0.0033
+GO:1990170,stress response to cadmium ion,2,1,0,0.00122,0.0033
+GO:0009808,lignin metabolic process,169,2,0.1,0.00483,0.0095
+GO:0046271,phenylpropanoid catabolic process,169,2,0.1,0.00483,0.0095
+GO:0046274,lignin catabolic process,169,2,0.1,0.00483,0.0095
+GO:0009698,phenylpropanoid metabolic process,175,2,0.11,0.00517,0.0095
+GO:1901293,nucleoside phosphate biosynthetic proces...,669,3,0.41,0.00789,0.0135
+GO:0010038,response to metal ion,24,1,0.01,0.01455,0.0233
+GO:1901137,carbohydrate derivative biosynthetic pro...,880,3,0.54,0.01646,0.0247
+GO:0098754,detoxification,38,1,0.02,0.02295,0.0305
+GO:0090407,organophosphate biosynthetic process,1017,3,0.62,0.02402,0.0305
+GO:0009636,response to toxic substance,40,1,0.02,0.02414,0.0305
+GO:0019748,secondary metabolic process,499,2,0.3,0.03730,0.0448
+GO:0006793,phosphorus metabolic process,11817,12,7.22,0.04415,0.046
+GO:0006796,phosphate-containing compound metabolic ...,11817,12,7.22,0.04415,0.046
+GO:0009690,cytokinin metabolic process,77,1,0.05,0.04597,0.046
+GO:0042445,hormone metabolic process,77,1,0.05,0.04597,0.046
