@@ -8,6 +8,15 @@ ALL FILES IN /home/diegoj/rnaseq_diatraea/
 
 ---
 
+## Table of Contents
+- [RNAseq Workflow](rnaseq-workflow-description)
+- [RNAseq Sugarcane](rnaseq-sugarcane)
+- [Dependencies](#dependencies)
+- [Script Descriptions](#script-descriptions)
+- [Usage Instructions](#usage-instructions)
+- [Data Files and Terminology](#data-files-and-terminology)
+
+
 ## Repository Structure
 
 ```
@@ -164,7 +173,7 @@ Remarkably one gene DIATSA_LOCUS4889 -> CAG9783855.1 (protein) was detected with
 | | PANNZER results | `panzzer/annot_01/formated_go.txt` |
 
 
-# RNAseq Sugarcane
+## RNAseq Sugarcane
 
 | sample | fastq_1 | fastq_2 | strandedness | Tissue | Time_Point | Treatment | Replicate | Group |
 |:-------|:---------|:---------|:--------------|:--------|:-------------|:------------|:------------|:------------------------------|
@@ -250,7 +259,104 @@ We found 2 genes down regulated classified as TF (bHLH), each gene has two isofo
 | SoffiXsponR570.01Eg058700.1.p | bHLH | TFF |
 | SoffiXsponR570.01Eg058700.2.p | bHLH | TFF |
 
+---
 
+This block contains the R scripts used for the statical data analysis and visualization presented in the associated scientific article. The scripts cover a range of omics and experimental assay data, including transcriptomics, metabolomics, microbiome analysis, qPCR, and growth kinetics.
 
+## Dependencies
+
+The scripts require R (>= 4.0.0) and the following packages. You can install them using the code below:
+
+### CRAN Packages
+```R
+install.packages(c("tidyverse", "ggplot2", "dplyr", "readxl", "openxlsx", "scales", 
+                   "car", "emmeans", "broom", "ggpubr", "rstatix", "reshape2", 
+                   "gridExtra", "multcomp", "multcompView", "patchwork", "ggrepel", 
+                   "janitor", "FactoMineR", "factoextra", "corrplot", "RColorBrewer", 
+                   "Polychrome", "ape", "vegan", "writexl"))
+```
+
+### Bioconductor Packages
+```R
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install(c("topGO", "phyloseq", "ALDEx2", "ggtree", "ggnewscale"))
+```
+
+---
+
+## Script Descriptions
+
+Below is a detailed list of the scripts included in this repository and the corresponding figures they generate.
+
+### 1. Transcriptomics
+*   **`transcriptomic_fig5a_S6.R`**: Performs Gene Ontology (GO) enrichment analysis (using `topGO`) for up- and down-regulated genes in Diatraea saccharalis under fungal exposure. It generates both curated and global enrichment plots (dot plots) and exports detailed GO term results.
+    *   **Outputs:** Figure 5a, Supplementary Figure S6.
+
+### 2. Metabolomics
+*   **`metabolomic_fig4a_S5ab.R`**: Processes metabolomics concentration data from insect oral secretions (OS). Includes data cleaning, log-transformation, statistical testing (t-tests with FDR correction), and generation of individual/compact conditional violin plots, volcano plots, and Principal Component Analysis (PCA) with automated outlier detection and 95% confidence intervals.
+    *   **Outputs:** Figure 4a, Supplementary Figures S5a, S5b.
+
+### 3. Microbiome
+*   **`microbiome_fig3_S3_S4.R`**: A comprehensive microbiome pipeline for D. saccharalis oral secretion analysis. It handles hierarchical abundance data merging across multiple databases, taxonomic filtering, and `phyloseq` object construction. Performs `ALDEx2` differential expression analysis, alpha/beta diversity metrics (Shannon, Bray-Curtis), PCoA plots, and complex circular phylogenetic tree rings and heatmaps.
+    *   **Outputs:** Figure 3, Supplementary Figures S3, S4.
+
+### 4. qPCR Analysis
+*   **`qPCR_gradient_fig6gh.R`**: Analyzes qPCR data for the acropetal spatial distribution of F. verticillioides within sugarcane vascular tissues. It employs Two-Way ANOVA, calculates estimated marginal means (95% CI), and performs pairwise comparisons between treatments.
+    *   **Outputs:** Figure 6g, 6h.
+*   **`qPCR_fig1.R`**: Analyzes time-course qPCR data for fungal DNA quantification in sugarcane stems. Performs assumption testing, Two-Way ANOVA, and post-hoc comparisons using `emmeans` and `bonferroni` adjustments. Generates violin plots with significance annotations.
+    *   **Outputs:** Figure 1.
+
+### 5. Growth Kinetics and Biomass
+*   **`absorbance_sid_fig4b_S5c.R`**: Analyzes kinetic growth data (OD600) for siderophore-related treatments under defined iron-manipulated conditions. It calculates the Area Under the Curve (AUC), performs ANOVA with Tukey HSD, and generates growth curves and AUC bar charts.
+    *   **Outputs:** Figure 4b, Supplementary Figure S5c.
+*   **`absorbance_fig2a.R`**: Processes absorbance data over time for *F. verticillioides* and control groups. Generates growth curves and performs statistical tests (ANOVA/Kruskal-Wallis) for each incubation time point.
+    *   **Outputs:** Figure 2a.
+*   **`GFP quantification_fig2b_S2.R`**: Quantifies fungal biomass using GFP signal intensity across different culture media (MM, MM+sucrose, MM+saliva). Performs One-Way ANOVA/Kruskal-Wallis and generates annotated violin plots.
+    *   **Outputs:** Figure 2b, Supplementary Figure S2.
+*   **`GFP quantification (sid)_fig4cj_S5d.R`**: Analyzes fungal biomass (GFP) for a specific set of siderophore and iron-manipulation treatments. Includes global ANOVA and post-hoc Tukey HSD analysis, visualized via box and jitter plots.
+    *   **Outputs:** Figure 4c, 4j, Supplementary Figure S5d.
+
+---
+
+## Data Files and Terminology
+
+### Data File Mapping
+The following table describes the data files available in the `data/` directory and their corresponding analysis scripts:
+
+| Data File | Related Script | Description |
+| :--- | :--- | :--- |
+| `Absorbancia_fig2a.xlsx` | `absorbance_fig2a.R` | Growth kinetics data (OD600) for Figure 2a. |
+| `absorbance_siderophores.xlsx` | `absorbance_sid_fig4b_S5c.R` | Kinetic growth data under iron-manipulated conditions. |
+| `GFP_quantification (sid).xlsx` | `GFP quantification (sid)_fig4cj_S5d.R` | Fungal biomass quantification (GFP) for siderophore assays. |
+| `GFP quantification_fig2b.xlsx` | `GFP quantification_fig2b_S2.R` | Fungal biomass quantification (GFP) across different media. |
+| `source_data_fig1.xlsx` | `qPCR_fig1.R` | Time-course qPCR data for fungal DNA quantification. |
+| `qPCR_gradient.xlsx` | `qPCR_gradient_fig6gh.R` | qPCR data for fungal spatial distribution in tissues. |
+| `metabolites.xlsx` | `metabolomic_fig4a_S5ab.R` | Metabolomics concentration data from oral secretions. |
+| `microbiome.tar.xz` | `microbiome_fig3_S3_S4.R` | Compressed archive containing all microbiome data and results. |
+| `all_go_terms.csv`, `down_regulated.csv`, `gene_go_annotations.txt`, `go_selected.csv`, `Supplementary_Data_GO_Enrichment.xlsx`, `up_regulated.csv` | `transcriptomic_fig5a_S6.R` | Transcriptomics data and GO enrichment annotations. |
+
+### Terminology Clarification
+The word **"saliva"** is used within some data files and code scripts solely for the purpose of simplifying the code and for internal reference. However, it does not represent the formal definition of the collected material. In our work, we use the material present in the insect's mouth, which is more accurately defined as **oral secretions (OS)**. These secretions are a complex mixture containing saliva, the microbiome, and various enzymes.
+
+---
+
+## Usage Instructions
+
+To run these scripts, follow these steps:
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone git@github.com:jomare1188/probable-doodle.git
+    cd probable-doodle
+    ```
+2.  **Prepare Data:** Ensure your data files (Excel or CSV) are in the same directory as the scripts or update the file paths within the scripts.
+3.  **Insert File Paths:** Each script contains a placeholder like `# Insert file!!!` followed by a reading function (e.g., `read_excel("insert corresponding file")`). You **must** replace `"insert corresponding file"` with the actual path to your data file.
+4.  **Execute in R:** Open the scripts in RStudio or run them from the terminal:
+    ```R
+    source("script_name.R")
+    ```
+    
 
 
