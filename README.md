@@ -59,6 +59,44 @@ We used the default method from `rnaseq (v3.12.0)` which uses `STAR` aligner and
 Full report of preprocess and aligment can be found in 
 [Download full report (html)](rnaseq_diatraea/rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html)*(right-click and save as to view)*
 
+#### Mapping rate test
+
+With the pipeline's default STAR settings only 41–47% of read pairs mapped to the *D. saccharalis* genome. Almost all the rest (53–59%) were reported by STAR as "unmapped: too short", i.e. the alignment covered less than 66% of the read pair, and the mismatch rate of mapped reads was high (~4.2% per base). To check whether the unmapped reads are *Diatraea* or contamination, we took the first 1M read pairs of each sample and remapped them with STAR 2.7.11b (same version, genome and GTF as the pipeline) in three modes:
+
+- **A_default**: nf-core/rnaseq default STAR settings (reproduces the full run within 0.3%)
+- **B_relaxed**: `--outFilterScoreMinOverLread 0.3 --outFilterMatchNminOverLread 0.3`
+- **C_R1only**: default settings, mate 1 only (single-end)
+
+| Sample | A_default mapped (%) | B_relaxed mapped (%) | C_R1only mapped (%) |
+|---------------|------|------|------|
+| control_rep1  | 44.3 | 80.4 | 63.4 |
+| control_rep2  | 42.0 | 78.9 | 61.7 |
+| control_rep3  | 40.9 | 76.2 | 61.5 |
+| infected_rep1 | 46.7 | 81.9 | 65.8 |
+| infected_rep2 | 44.3 | 80.6 | 64.3 |
+| infected_rep3 | 42.8 | 77.0 | 64.0 |
+| Mismatch rate per base | ~4.2 | ~5.3 | ~5.9 |
+
+Mapped = uniquely mapped + multi-mapped reads. With relaxed filters 76–82% of the reads map to the genome, with even more mismatches, which points to high sequence divergence between our population and the reference assembly (GCA_918026875.4) rather than contamination. Relaxed filters also allow some spurious partial alignments, so 76–82% should be read as an upper bound.
+
+The pairs still unmapped in B_relaxed (≈18–24%) were classified with `Kraken2 v2.17.1` against the PlusPFP database (bacteria, archaea, viruses, fungi, protozoa, plants, human; no insects):
+
+| Sample | Unclassified | Plants | Fungi | Bacteria |
+|---------------|--------|-------|-------|-------|
+| control_rep1  | 98.83% | 0.59% | 0.03% | 0.19% |
+| control_rep2  | 98.86% | 0.51% | 0.03% | 0.16% |
+| control_rep3  | 98.91% | 0.48% | 0.03% | 0.15% |
+| infected_rep1 | 97.93% | 0.57% | 0.56% | 0.47% |
+| infected_rep2 | 98.10% | 0.52% | 0.48% | 0.40% |
+| infected_rep3 | 98.28% | 0.48% | 0.42% | 0.35% |
+
+Fungal reads (mostly *Fusarium*) are enriched only in infected samples, but together with plant and bacterial reads they account for <1% of the data. Contamination therefore does not explain the low default mapping rate.
+
+- code: `rnaseq/run_paired_samples/mapping_test/run_maptest.sh`, `rnaseq/run_paired_samples/mapping_test/run_kraken.sh`
+- results: `rnaseq/run_paired_samples/mapping_test/summary.tsv`, `rnaseq/run_paired_samples/mapping_test/kraken/`
+- 100 random unclassified reads (for BLAST): `rnaseq/run_paired_samples/mapping_test/unclassified_100_reads.fasta`
+- 100 random classified reads, Kraken2 taxon in header (for BLAST): `rnaseq/run_paired_samples/mapping_test/classified_100_reads.fasta`
+
 
 ### 4. **Exploratory Analysis**
 
