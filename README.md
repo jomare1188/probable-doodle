@@ -97,6 +97,27 @@ Fungal reads (mostly *Fusarium*) are enriched only in infected samples, but toge
 - 100 random unclassified reads (for BLAST): `rnaseq/run_paired_samples/mapping_test/unclassified_100_reads.fasta`
 - 100 random classified reads, Kraken2 taxon in header (for BLAST): `rnaseq/run_paired_samples/mapping_test/classified_100_reads.fasta`
 
+#### Identification of the unclassified reads
+
+The 100 unclassified reads gave no hits in NCBI web BLAST (blastn, core_nt). They are not technical artifacts (no poly-G, adapters or low-complexity sequence; 57% AT, insect-like). Note that core_nt does not include WGS assemblies, so the *D. saccharalis* genome itself is not searched by web BLAST.
+
+- **Read level:** 10,000 random unclassified reads were searched with `blastn -task blastn` (BLAST+, e-value 1e-5) against the *D. saccharalis* genome and transcripts, and with `DIAMOND v2.2.3 blastx --more-sensitive` against UniProt Swiss-Prot. 63% hit the *Diatraea* genome or transcripts, mostly at 80–90% identity, compared with 23% of the classified control reads. 13% hit Swiss-Prot proteins, mainly from Lepidoptera (*Bombyx*, *Manduca*, *Spodoptera*, *Ostrinia*) and *Drosophila*.
+- **Assembly level:** all unclassified pairs (≈1.46M) were assembled with `Trinity v2.9.1` (21,197 transcripts, N50 407 bp), and reads were quantified back with `salmon` (76% mapped). Contigs were annotated with blastn against the genome, DIAMOND against Swiss-Prot, and `TransDecoder v6` + `hmmsearch` against Pfam-A.
+
+| Category (contigs, read-weighted) | Contigs | % of reads |
+|---|---|---|
+| Hit to *D. saccharalis* genome, divergent (mean 84% identity, mostly partial) | 16,975 | 86.8 |
+| Mitochondrial (COX1, COX3, CYTB, ATP6, ND1–5); **no mitogenome in the reference assembly** | 10 | 6.6 |
+| No ORF, no homology | 4,033 | 5.4 |
+| ORF only, no homology | 78 | 0.7 |
+| Coding, no genome hit | 101 | 0.6 |
+
+Conclusion: nearly all unclassified reads are insect sequence. They are either strongly divergent from the reference assembly (84% mean identity, mostly partial matches) or mitochondrial transcripts, which cannot map because GCA_918026875.4 has no mitochondrial genome. The Kraken2 hits to *Leishmania* and several plants in the classified reads are mostly insect COX1 reads misassigned by Kraken2. The most abundant contig is COX1 (2,285 bp; best Swiss-Prot hit *Choristoneura occidentalis*, 66.7% amino-acid identity, underestimated because DIAMOND used the standard rather than the invertebrate mitochondrial genetic code). It is provided as a COI barcode to confirm the species or lineage of our samples in BOLD/NCBI.
+
+- code: `rnaseq/run_paired_samples/mapping_test/run_unclassified_id.sh`, `rnaseq/run_paired_samples/mapping_test/categorize_contigs.py`
+- results: `rnaseq/run_paired_samples/mapping_test/unclassified_id/` (`read_level_summary.tsv`, `category_summary.tsv`, `contig_annotation.tsv`, `trinity_unclassified_contigs.fa.gz`)
+- for web BLAST: `unclassified_id/top20_abundant_contigs.fasta`, `unclassified_id/top50_contigs_for_web_blast.fasta` (no homology), `unclassified_id/cox1_contigs.fasta` (COI barcode)
+
 
 ### 4. **Exploratory Analysis**
 
