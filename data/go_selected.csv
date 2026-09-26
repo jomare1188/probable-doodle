@@ -1,0 +1,29 @@
+GO.ID,Term,Annotated,Significant,Expected,Classic,p.adj,Direction
+GO:0007399,nervous system development,305,12,4.05,6e-04,0.0066,DOWN
+GO:0007409,axonogenesis,102,7,1.35,0.00037,0.0061,DOWN
+GO:0007411,axon guidance,90,7,1.19,0.00017,0.0039,DOWN
+GO:0008038,neuron recognition,36,3,0.48,0.01172,0.024,DOWN
+GO:0022008,neurogenesis,253,12,3.36,0.00011,0.0039,DOWN
+GO:0030182,neuron differentiation,225,12,2.99,3.4e-05,0.0022,DOWN
+GO:0031175,neuron projection development,145,8,1.92,0.00061,0.0066,DOWN
+GO:0048664,neuron fate determination,1,1,0.01,0.01327,0.024,DOWN
+GO:0048666,neuron development,188,10,2.5,0.00017,0.0039,DOWN
+GO:0048667,cell morphogenesis involved in neuron differentiation,108,7,1.43,0.00052,0.0066,DOWN
+GO:0048699,generation of neurons,233,12,3.09,4.8e-05,0.0024,DOWN
+GO:0048812,neuron projection morphogenesis,114,7,1.51,0.00073,0.0066,DOWN
+GO:0050768,negative regulation of neurogenesis,3,1,0.04,0.03929,0.041,DOWN
+GO:0097485,neuron projection guidance,91,7,1.21,0.00018,0.0039,DOWN
+GO:0000041,transition metal ion transport,35,2,0.21,0.0186,0.035,UP
+GO:0006826,iron ion transport,13,2,0.08,0.0026,0.0092,UP
+GO:0006959,humoral immune response,7,1,0.04,0.0415,0.0436,UP
+GO:0009617,response to bacterium,56,8,0.34,8.6e-10,0,UP
+GO:0019730,antimicrobial humoral response,6,1,0.04,0.0357,0.0415,UP
+GO:0019731,antibacterial humoral response,3,1,0.02,0.018,0.035,UP
+GO:0031640,killing of cells of another organism,12,2,0.07,0.0022,0.0083,UP
+GO:0042742,defense response to bacterium,50,8,0.3,3.3e-10,0,UP
+GO:0044419,biological process involved in interspecies interaction between organisms,128,10,0.77,2.2e-09,0,UP
+GO:0045087,innate immune response,79,7,0.48,3.3e-07,0,UP
+GO:0045824,negative regulation of innate immune response,4,1,0.02,0.0239,0.0356,UP
+GO:0050777,negative regulation of immune response,7,1,0.04,0.0415,0.0436,UP
+GO:0098542,defense response to other organism,106,10,0.64,3.4e-10,0,UP
+GO:0140546,defense response to symbiont,83,7,0.5,4.6e-07,0,UP
