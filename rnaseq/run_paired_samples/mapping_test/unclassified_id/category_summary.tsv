@@ -1,0 +1,6 @@
+category	contigs	reads	percent_reads
+Diatraea genome, divergent	16975	966390	86.8
+mitochondrial (absent from assembly)	10	73228	6.6
+no ORF, no homology	4033	59893	5.4
+ORF only, no homology	78	7444	0.7
+coding, no genome hit	101	6372	0.6
