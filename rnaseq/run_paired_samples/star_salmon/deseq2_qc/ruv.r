@@ -245,7 +245,7 @@ allGO=usedGO(GOdata)
 Classic <- runTest(GOdata, algorithm = "classic", statistic = "fisher")
 #resultsWeight01 <- runTest(GOdata, algorithm = "weight01", statistic = "fisher")
 # Make results  table
-table <- GenTable(GOdata, Classic = Classic, topNodes = length(allGO), orderBy = 'Classic')
+table <- GenTable(GOdata, Classic = Classic, topNodes = length(allGO), orderBy = 'Classic', numChar = 1000) # full term names (default truncates to 40 chars)
 # Filter not significant values for classic algorithm
 table1 <- filter(table, Classic < 0.05 )
 # Performing BH correction on our p values FDR
