@@ -1,0 +1,5 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Organismal Systems","Endocrine system","ko04921","Oxytocin signaling pathway","2/5","10/2356",0.2,94.24,13.6236163245401,0.000161109439555882,0.00389961354085527,0.00117281610251286,"K07199/K06269",2
+"Human Diseases","Endocrine and metabolic disease","ko04931","Insulin resistance","2/5","13/2356",0.153846153846154,72.4923076923077,11.9178795276692,0.000278543824346805,0.00389961354085527,0.00117281610251286,"K07199/K06269",2
+"Organismal Systems","Endocrine system","ko04910","Insulin signaling pathway","2/5","20/2356",0.1,47.12,9.5504100942416,0.000674467227647825,0.00629502745804637,0.00189324134076583,"K07199/K06269",2
+"Genetic Information Processing","Translation","ko03015","mRNA surveillance pathway","2/5","52/2356",0.0384615384615385,18.1230769230769,5.75700206815272,0.0045798785850823,0.0320591500955761,0.00964184965280485,"K14411/K06269",2

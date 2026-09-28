@@ -1,0 +1,7 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Metabolism","Lipid metabolism","ko00592","alpha-Linolenic acid metabolism","1/2","14/2356",0.0714285714285714,84.1428571428571,9.09290683592951,0.011851747717352,0.0379651357693598,NA,"K14674",1
+"Metabolism","Lipid metabolism","ko00100","Steroid biosynthesis","1/2","18/2356",0.0555555555555556,65.4444444444444,7.99846608348789,0.0152249845900967,0.0379651357693598,NA,"K14674",1
+"Metabolism","Lipid metabolism","ko00561","Glycerolipid metabolism","1/2","24/2356",0.0416666666666667,49.0833333333333,6.89990544408833,0.0202740259318939,0.0379651357693598,NA,"K14674",1
+"Metabolism","Metabolism of terpenoids and polyketides","ko00900","Terpenoid backbone biosynthesis","1/2","30/2356",0.0333333333333333,39.2666666666667,6.14728898451233,0.0253100905129066,0.0379651357693598,NA,"K11778",1
+"Metabolism","Lipid metabolism","ko00564","Glycerophospholipid metabolism","1/2","39/2356",0.0256410256410256,30.2051282051282,5.35964010244041,0.0328398559579556,0.0387197704555203,NA,"K14674",1
+"Metabolism","Global and overview maps","ko01110","Biosynthesis of secondary metabolites","2/2","464/2356",0.00431034482758621,5.07758620689655,2.85633275426617,0.0387197704555203,0.0387197704555203,NA,"K14674/K11778",2

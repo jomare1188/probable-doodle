@@ -1,0 +1,7 @@
+GO.ID,Term,Annotated,Significant,Expected,Classic,p.adj
+GO:0051716,cellular response to stimulus,3199,2,0.1,0.0026,0.0135
+GO:0006284,base-excision repair,139,1,0,0.0045,0.0135
+GO:0050896,response to stimulus,6317,2,0.2,0.0103,0.0206
+GO:0006281,DNA repair,1221,1,0.04,0.0389,0.0414
+GO:0006974,DNA damage response,1233,1,0.04,0.0392,0.0414
+GO:0033554,cellular response to stress,1301,1,0.04,0.0414,0.0414
