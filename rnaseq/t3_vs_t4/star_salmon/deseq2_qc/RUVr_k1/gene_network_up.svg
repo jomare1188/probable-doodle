@@ -56,13 +56,13 @@
 <circle cx='529.02' cy='190.25' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
 <circle cx='689.33' cy='190.25' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
 <circle cx='368.71' cy='476.34' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
-<text transform='translate(59.52,186.69) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='85.48px' lengthAdjust='spacingAndGlyphs'>response to sucrose</text>
-<text transform='translate(202.26,197.06) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='149.84px' lengthAdjust='spacingAndGlyphs'>cellular response to nitrogen levels</text>
-<text transform='translate(1003.82,53.92) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='172.41px' lengthAdjust='spacingAndGlyphs'>protein import into mitochondrial matrix</text>
-<text transform='translate(362.73,196.88) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='118.41px' lengthAdjust='spacingAndGlyphs'>Oxytocin signaling pathway</text>
-<text transform='translate(540.40,186.72) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='74.38px' lengthAdjust='spacingAndGlyphs'>Insulin resistance</text>
-<text transform='translate(683.26,197.01) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='108.48px' lengthAdjust='spacingAndGlyphs'>Insulin signaling pathway</text>
-<text transform='translate(362.84,483.08) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='119.91px' lengthAdjust='spacingAndGlyphs'>mRNA surveillance pathway</text>
+<text transform='translate(59.42,186.58) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='85.48px' lengthAdjust='spacingAndGlyphs'>response to sucrose</text>
+<text transform='translate(219.83,186.61) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='149.84px' lengthAdjust='spacingAndGlyphs'>cellular response to nitrogen levels</text>
+<text transform='translate(1004.08,53.94) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='172.41px' lengthAdjust='spacingAndGlyphs'>protein import into mitochondrial matrix</text>
+<text transform='translate(362.77,196.94) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='118.41px' lengthAdjust='spacingAndGlyphs'>Oxytocin signaling pathway</text>
+<text transform='translate(540.36,186.66) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='74.38px' lengthAdjust='spacingAndGlyphs'>Insulin resistance</text>
+<text transform='translate(683.20,197.05) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='108.48px' lengthAdjust='spacingAndGlyphs'>Insulin signaling pathway</text>
+<text transform='translate(379.97,472.89) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='119.91px' lengthAdjust='spacingAndGlyphs'>mRNA surveillance pathway</text>
 </g>
 <g clip-path='url(#cpMC4wMHwxMTUyLjAwfDAuMDB8NjQ4LjAw)'>
 <text x='1063.71' y='308.65' style='font-size: 11.00px; font-family: "DejaVu Sans";' textLength='57.48px' lengthAdjust='spacingAndGlyphs'>Node Type</text>

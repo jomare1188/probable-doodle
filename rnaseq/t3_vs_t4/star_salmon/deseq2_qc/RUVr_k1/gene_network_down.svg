@@ -49,12 +49,12 @@
 <circle cx='1009.95' cy='619.39' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
 <circle cx='769.48' cy='237.93' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
 <circle cx='1009.95' cy='237.93' r='4.62' style='stroke-width: 0.71; stroke: #FC8D62; fill: #FC8D62;' />
-<text transform='translate(59.37,234.29) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='138.03px' lengthAdjust='spacingAndGlyphs'>alpha-Linolenic acid metabolism</text>
-<text transform='translate(299.85,234.37) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='86.22px' lengthAdjust='spacingAndGlyphs'>Steroid biosynthesis</text>
-<text transform='translate(540.50,234.26) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='103.47px' lengthAdjust='spacingAndGlyphs'>Glycerolipid metabolism</text>
-<text transform='translate(1021.31,615.70) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='141.78px' lengthAdjust='spacingAndGlyphs'>Terpenoid backbone biosynthesis</text>
-<text transform='translate(780.86,234.41) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='140.00px' lengthAdjust='spacingAndGlyphs'>Glycerophospholipid metabolism</text>
-<text transform='translate(1003.94,244.66) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='164.73px' lengthAdjust='spacingAndGlyphs'>Biosynthesis of secondary metabolites</text>
+<text transform='translate(42.18,244.69) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='138.03px' lengthAdjust='spacingAndGlyphs'>alpha-Linolenic acid metabolism</text>
+<text transform='translate(282.67,244.59) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='86.22px' lengthAdjust='spacingAndGlyphs'>Steroid biosynthesis</text>
+<text transform='translate(540.31,234.37) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='103.47px' lengthAdjust='spacingAndGlyphs'>Glycerolipid metabolism</text>
+<text transform='translate(1021.34,615.86) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='141.78px' lengthAdjust='spacingAndGlyphs'>Terpenoid backbone biosynthesis</text>
+<text transform='translate(763.52,244.72) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='140.00px' lengthAdjust='spacingAndGlyphs'>Glycerophospholipid metabolism</text>
+<text transform='translate(1004.08,244.58) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='164.73px' lengthAdjust='spacingAndGlyphs'>Biosynthesis of secondary metabolites</text>
 </g>
 <g clip-path='url(#cpMC4wMHwxMTUyLjAwfDAuMDB8NjQ4LjAw)'>
 <text x='1063.71' y='317.29' style='font-size: 11.00px; font-family: "DejaVu Sans";' textLength='57.48px' lengthAdjust='spacingAndGlyphs'>Node Type</text>

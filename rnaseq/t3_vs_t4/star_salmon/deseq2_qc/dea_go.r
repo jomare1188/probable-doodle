@@ -165,7 +165,7 @@ run_go <- function(deg, prefix) {
 
   Classic <- runTest(GOdata, algorithm = "classic", statistic = "fisher")
   # Make results table
-  table <- GenTable(GOdata, Classic = Classic, topNodes = length(allGO), orderBy = 'Classic')
+  table <- GenTable(GOdata, Classic = Classic, topNodes = length(allGO), orderBy = 'Classic', numChar = 1000) # full term names (default truncates to 40 chars)
   # Filter not significant values for classic algorithm
   table1 <- filter(table, Classic < 0.05)
   # Performing BH correction on our p values FDR
@@ -184,7 +184,7 @@ run_go <- function(deg, prefix) {
   ggdata <- ggdata[complete.cases(ggdata), ]
   ggdata$p.adj <- as.numeric(ggdata$p.adj)
   ggdata <- ggdata[order(ggdata$p.adj),]
-  ggdata$Term <- factor(ggdata$Term, levels = rev(unique(ggdata$Term))) # fixes order
+  ggdata$Term <- factor(ggdata$Term, levels = rev(ggdata$Term)) # fixes order
 
   gg1 <- ggplot(ggdata, aes(x = Term, y = -log10(p.adj), size = Significant)) +
     geom_point(colour = "black") +
