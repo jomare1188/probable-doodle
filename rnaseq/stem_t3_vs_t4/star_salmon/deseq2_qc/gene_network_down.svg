@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1152.00pt' height='648.00pt' viewBox='0 0 1152.00 648.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwxMTUyLjAwfDAuMDB8NjQ4LjAw'>
+    <rect x='0.00' y='0.00' width='1152.00' height='648.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxMTUyLjAwfDAuMDB8NjQ4LjAw)'>
+<rect x='0.00' y='0.00' width='1152.00' height='648.00' style='stroke-width: 0.00; stroke: none;' />
+</g>
+<defs>
+  <clipPath id='cpMC4wMHwxMDg2LjE3fDE4LjU5fDY0OC4wMA=='>
+    <rect x='0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' y='18.59' width='1086.17' height='629.41' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxMDg2LjE3fDE4LjU5fDY0OC4wMA==)'>
+<polyline points='49.37,47.20 49.37,52.98 49.37,58.76 49.37,64.54 49.37,70.32 49.37,76.10 49.37,81.88 49.37,87.66 49.37,93.44 49.37,99.22 49.37,105.00 49.37,110.78 49.37,116.56 49.37,122.34 49.37,128.12 49.37,133.90 49.37,139.68 49.37,145.46 49.37,151.23 49.37,157.01 49.37,162.79 49.37,168.57 49.37,174.35 49.37,180.13 49.37,185.91 49.37,191.69 49.37,197.47 49.37,203.25 49.37,209.03 49.37,214.81 49.37,220.59 49.37,226.37 49.37,232.15 49.37,237.93 49.37,243.71 49.37,249.49 49.37,255.27 49.37,261.05 49.37,266.83 49.37,272.61 49.37,278.39 49.37,284.17 49.37,289.95 49.37,295.73 49.37,301.51 49.37,307.29 49.37,313.07 49.37,318.85 49.37,324.63 49.37,330.41 49.37,336.19 49.37,341.96 49.37,347.74 49.37,353.52 49.37,359.30 49.37,365.08 49.37,370.86 49.37,376.64 49.37,382.42 49.37,388.20 49.37,393.98 49.37,399.76 49.37,405.54 49.37,411.32 49.37,417.10 49.37,422.88 49.37,428.66 49.37,434.44 49.37,440.22 49.37,446.00 49.37,451.78 49.37,457.56 49.37,463.34 49.37,469.12 49.37,474.90 49.37,480.68 49.37,486.46 49.37,492.24 49.37,498.02 49.37,503.80 49.37,509.58 49.37,515.36 49.37,521.14 49.37,526.92 49.37,532.69 49.37,538.47 49.37,544.25 49.37,550.03 49.37,555.81 49.37,561.59 49.37,567.37 49.37,573.15 49.37,578.93 49.37,584.71 49.37,590.49 49.37,596.27 49.37,602.05 49.37,607.83 49.37,613.61 49.37,619.39 ' style='stroke-width: 1.07; stroke: #B3B3B3; stroke-opacity: 0.40; stroke-linecap: butt;' />
+<polyline points='1036.79,47.20 1036.79,52.98 1036.79,58.76 1036.79,64.54 1036.79,70.32 1036.79,76.10 1036.79,81.88 1036.79,87.66 1036.79,93.44 1036.79,99.22 1036.79,105.00 1036.79,110.78 1036.79,116.56 1036.79,122.34 1036.79,128.12 1036.79,133.90 1036.79,139.68 1036.79,145.46 1036.79,151.23 1036.79,157.01 1036.79,162.79 1036.79,168.57 1036.79,174.35 1036.79,180.13 1036.79,185.91 1036.79,191.69 1036.79,197.47 1036.79,203.25 1036.79,209.03 1036.79,214.81 1036.79,220.59 1036.79,226.37 1036.79,232.15 1036.79,237.93 1036.79,243.71 1036.79,249.49 1036.79,255.27 1036.79,261.05 1036.79,266.83 1036.79,272.61 1036.79,278.39 1036.79,284.17 1036.79,289.95 1036.79,295.73 1036.79,301.51 1036.79,307.29 1036.79,313.07 1036.79,318.85 1036.79,324.63 1036.79,330.41 1036.79,336.19 1036.79,341.96 1036.79,347.74 1036.79,353.52 1036.79,359.30 1036.79,365.08 1036.79,370.86 1036.79,376.64 1036.79,382.42 1036.79,388.20 1036.79,393.98 1036.79,399.76 1036.79,405.54 1036.79,411.32 1036.79,417.10 1036.79,422.88 1036.79,428.66 1036.79,434.44 1036.79,440.22 1036.79,446.00 1036.79,451.78 1036.79,457.56 1036.79,463.34 1036.79,469.12 1036.79,474.90 1036.79,480.68 1036.79,486.46 1036.79,492.24 1036.79,498.02 1036.79,503.80 1036.79,509.58 1036.79,515.36 1036.79,521.14 1036.79,526.92 1036.79,532.69 1036.79,538.47 1036.79,544.25 1036.79,550.03 1036.79,555.81 1036.79,561.59 1036.79,567.37 1036.79,573.15 1036.79,578.93 1036.79,584.71 1036.79,590.49 1036.79,596.27 1036.79,602.05 1036.79,607.83 1036.79,613.61 1036.79,619.39 ' style='stroke-width: 1.07; stroke: #B3B3B3; stroke-opacity: 0.40; stroke-linecap: butt;' />
+<circle cx='49.37' cy='47.20' r='4.62' style='stroke-width: 0.71; stroke: #CCCCCC; fill: #CCCCCC;' />
+<circle cx='1036.79' cy='47.20' r='4.62' style='stroke-width: 0.71; stroke: #CCCCCC; fill: #CCCCCC;' />
+<circle cx='49.37' cy='619.39' r='4.62' style='stroke-width: 0.71; stroke: #66C2A5; fill: #66C2A5;' />
+<circle cx='1036.79' cy='619.39' r='4.62' style='stroke-width: 0.71; stroke: #66C2A5; fill: #66C2A5;' />
+<text transform='translate(43.42,625.95) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='87.80px' lengthAdjust='spacingAndGlyphs'>biosynthetic process</text>
+<text transform='translate(1048.11,615.87) rotate(-60)' text-anchor='middle' style='font-size: 8.54px; font-family: "DejaVu Sans";' textLength='189.50px' lengthAdjust='spacingAndGlyphs'>steroid hormone receptor signaling pathway</text>
+</g>
+<g clip-path='url(#cpMC4wMHwxMTUyLjAwfDAuMDB8NjQ4LjAw)'>
+<text x='1091.83' y='317.29' style='font-size: 11.00px; font-family: "DejaVu Sans";' textLength='57.48px' lengthAdjust='spacingAndGlyphs'>Node Type</text>
+<circle cx='1100.47' cy='332.55' r='4.62' style='stroke-width: 0.71; stroke: #CCCCCC; fill: #CCCCCC;' />
+<circle cx='1100.47' cy='349.83' r='4.62' style='stroke-width: 0.71; stroke: #66C2A5; fill: #66C2A5;' />
+<text x='1114.59' y='335.76' style='font-size: 8.80px; font-family: "DejaVu Sans";' textLength='23.20px' lengthAdjust='spacingAndGlyphs'>Gene</text>
+<text x='1114.59' y='353.04' style='font-size: 8.80px; font-family: "DejaVu Sans";' textLength='37.41px' lengthAdjust='spacingAndGlyphs'>GO term</text>
+<text x='543.08' y='15.68' text-anchor='middle' style='font-size: 14.00px; font-weight: bold; font-family: "DejaVu Sans";' textLength='380.56px' lengthAdjust='spacingAndGlyphs'>Down-Regulated Gene–Functional Term Network</text>
+</g>
+</g>
+</svg>

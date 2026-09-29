@@ -1,0 +1,38 @@
+GO.ID,Term,Annotated,Significant,Expected,Classic,p.adj
+GO:0009404,toxin metabolic process,5,1,0,0.0004,0.0074
+GO:0030153,bacteriocin immunity,5,1,0,0.0004,0.0074
+GO:0006419,alanyl-tRNA aminoacylation,28,1,0,0.0022,0.0074
+GO:0006183,GTP biosynthetic process,30,1,0,0.0024,0.0074
+GO:0006228,UTP biosynthetic process,30,1,0,0.0024,0.0074
+GO:0006241,CTP biosynthetic process,30,1,0,0.0024,0.0074
+GO:0009148,pyrimidine nucleoside triphosphate biosynthetic process,30,1,0,0.0024,0.0074
+GO:0009208,pyrimidine ribonucleoside triphosphate metabolic process,30,1,0,0.0024,0.0074
+GO:0009209,pyrimidine ribonucleoside triphosphate biosynthetic process,30,1,0,0.0024,0.0074
+GO:0046036,CTP metabolic process,30,1,0,0.0024,0.0074
+GO:0046039,GTP metabolic process,30,1,0,0.0024,0.0074
+GO:0046051,UTP metabolic process,30,1,0,0.0024,0.0074
+GO:0009147,pyrimidine nucleoside triphosphate metabolic process,34,1,0,0.0027,0.0077
+GO:0009218,pyrimidine ribonucleotide metabolic process,48,1,0,0.0039,0.0096
+GO:0009220,pyrimidine ribonucleotide biosynthetic process,48,1,0,0.0039,0.0096
+GO:0006221,pyrimidine nucleotide biosynthetic process,142,1,0.01,0.0114,0.0255
+GO:0006220,pyrimidine nucleotide metabolic process,146,1,0.01,0.0117,0.0255
+GO:0072528,pyrimidine-containing compound biosynthetic process,232,1,0.02,0.0185,0.0314
+GO:0009142,nucleoside triphosphate biosynthetic process,237,1,0.02,0.0189,0.0314
+GO:0009145,purine nucleoside triphosphate biosynthetic process,237,1,0.02,0.0189,0.0314
+GO:0009201,ribonucleoside triphosphate biosynthetic process,237,1,0.02,0.0189,0.0314
+GO:0009206,purine ribonucleoside triphosphate biosynthetic process,237,1,0.02,0.0189,0.0314
+GO:0072527,pyrimidine-containing compound metabolic process,244,1,0.02,0.0195,0.0314
+GO:0009152,purine ribonucleotide biosynthetic process,314,1,0.03,0.0250,0.0376
+GO:0009260,ribonucleotide biosynthetic process,332,1,0.03,0.0264,0.0376
+GO:0046390,ribose phosphate biosynthetic process,332,1,0.03,0.0264,0.0376
+GO:0006164,purine nucleotide biosynthetic process,426,1,0.03,0.0338,0.0455
+GO:0006418,tRNA aminoacylation for protein translation,462,1,0.04,0.0366,0.0455
+GO:0043038,amino acid activation,466,1,0.04,0.0369,0.0455
+GO:0043039,tRNA aminoacylation,466,1,0.04,0.0369,0.0455
+GO:0019748,secondary metabolic process,499,1,0.04,0.0395,0.0471
+GO:0072522,purine-containing compound biosynthetic process,565,1,0.05,0.0446,0.0491
+GO:0009165,nucleotide biosynthetic process,571,1,0.05,0.0450,0.0491
+GO:0009144,purine nucleoside triphosphate metabolic process,619,1,0.05,0.0488,0.0491
+GO:0009199,ribonucleoside triphosphate metabolic process,619,1,0.05,0.0488,0.0491
+GO:0009205,purine ribonucleoside triphosphate metabolic process,619,1,0.05,0.0488,0.0491
+GO:0009141,nucleoside triphosphate metabolic process,623,1,0.05,0.0491,0.0491

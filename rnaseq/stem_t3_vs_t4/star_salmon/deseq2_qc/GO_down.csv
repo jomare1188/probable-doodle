@@ -1,0 +1,16 @@
+GO.ID,Term,Annotated,Significant,Expected,Classic,p.adj
+GO:0043170,macromolecule metabolic process,29662,22,12.39,0.00011,0.001
+GO:0009058,biosynthetic process,18111,17,7.57,0.00014,0.001
+GO:0044237,cellular metabolic process,29053,21,12.14,0.00039,0.0014
+GO:0008152,metabolic process,46054,26,19.24,0.00040,0.0014
+GO:0044238,primary metabolic process,38338,24,16.02,0.00048,0.0014
+GO:0014070,response to organic cyclic compound,54,1,0.02,0.02232,0.0335
+GO:0043401,steroid hormone receptor signaling pathway,54,1,0.02,0.02232,0.0335
+GO:0048545,response to steroid hormone,54,1,0.02,0.02232,0.0335
+GO:0071383,cellular response to steroid hormone stimulus,54,1,0.02,0.02232,0.0335
+GO:0071407,cellular response to organic cyclic compound,54,1,0.02,0.02232,0.0335
+GO:0033993,response to lipid,68,1,0.03,0.02803,0.035
+GO:0071396,cellular response to lipid,68,1,0.03,0.02803,0.035
+GO:0009755,hormone-mediated signaling pathway,82,1,0.03,0.03371,0.0357
+GO:0032870,cellular response to hormone stimulus,82,1,0.03,0.03371,0.0357
+GO:0071495,cellular response to endogenous stimulus,87,1,0.04,0.03573,0.0357
