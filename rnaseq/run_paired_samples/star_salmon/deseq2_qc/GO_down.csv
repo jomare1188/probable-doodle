@@ -1,51 +1,77 @@
 "GO.ID","Term","Annotated","Significant","Expected","Classic","p.adj"
-"GO:0031640","killing of cells of another organism",12,2,0.07,0.0022,0.031
-"GO:0141060","disruption of anatomical structure in another organism",12,2,0.07,0.0022,0.031
-"GO:0141061","disruption of cell in another organism",12,2,0.07,0.0022,0.031
-"GO:0006826","iron ion transport",13,2,0.08,0.0026,0.031
-"GO:0001906","cell killing",14,2,0.08,0.0031,0.031
-"GO:0046498","S-adenosylhomocysteine metabolic process",1,1,0.01,0.006,0.0412
-"GO:1901052","sarcosine metabolic process",1,1,0.01,0.006,0.0412
-"GO:0050896","response to stimulus",1237,14,7.46,0.0092,0.0412
-"GO:0006111","regulation of gluconeogenesis",2,1,0.01,0.012,0.0412
-"GO:0140896","cGAS/STING signaling pathway",2,1,0.01,0.012,0.0412
-"GO:0160049","negative regulation of cGAS/STING signaling pathway",2,1,0.01,0.012,0.0412
-"GO:0019318","hexose metabolic process",29,2,0.17,0.013,0.0412
-"GO:0170033","L-amino acid metabolic process",34,2,0.21,0.0176,0.0412
-"GO:0019731","antibacterial humoral response",3,1,0.02,0.018,0.0412
-"GO:0031638","zymogen activation",3,1,0.02,0.018,0.0412
-"GO:0039532","negative regulation of cytoplasmic pattern recognition receptor signaling pathway",3,1,0.02,0.018,0.0412
-"GO:0046500","S-adenosylmethionine metabolic process",3,1,0.02,0.018,0.0412
-"GO:0051262","protein tetramerization",3,1,0.02,0.018,0.0412
-"GO:0051289","protein homotetramerization",3,1,0.02,0.018,0.0412
-"GO:0000041","transition metal ion transport",35,2,0.21,0.0186,0.0412
-"GO:1901605","alpha-amino acid metabolic process",36,2,0.22,0.0196,0.0412
-"GO:0005996","monosaccharide metabolic process",37,2,0.22,0.0206,0.0412
-"GO:0006575","cellular modified amino acid metabolic process",40,2,0.24,0.0239,0.0412
-"GO:0006528","asparagine metabolic process",4,1,0.02,0.0239,0.0412
-"GO:0010906","regulation of glucose metabolic process",4,1,0.02,0.0239,0.0412
-"GO:0039531","regulation of cytoplasmic pattern recognition receptor signaling pathway",4,1,0.02,0.0239,0.0412
-"GO:0043255","regulation of carbohydrate biosynthetic process",4,1,0.02,0.0239,0.0412
-"GO:0045746","negative regulation of Notch signaling pathway",4,1,0.02,0.0239,0.0412
-"GO:0045824","negative regulation of innate immune response",4,1,0.02,0.0239,0.0412
-"GO:0016052","carbohydrate catabolic process",43,2,0.26,0.0274,0.043
-"GO:0002753","cytoplasmic pattern recognition receptor signaling pathway",5,1,0.03,0.0298,0.043
-"GO:0019388","galactose catabolic process",5,1,0.03,0.0298,0.043
-"GO:0033499","galactose catabolic process via UDP-galactose",5,1,0.03,0.0298,0.043
-"GO:0050830","defense response to Gram-positive bacterium",5,1,0.03,0.0298,0.043
-"GO:0005975","carbohydrate metabolic process",198,4,1.19,0.0301,0.043
-"GO:0006012","galactose metabolic process",6,1,0.04,0.0357,0.0433
-"GO:0006109","regulation of carbohydrate metabolic process",6,1,0.04,0.0357,0.0433
-"GO:0009612","response to mechanical stimulus",6,1,0.04,0.0357,0.0433
-"GO:0019320","hexose catabolic process",6,1,0.04,0.0357,0.0433
-"GO:0019730","antimicrobial humoral response",6,1,0.04,0.0357,0.0433
-"GO:0046365","monosaccharide catabolic process",6,1,0.04,0.0357,0.0433
-"GO:0006508","proteolysis",651,8,3.93,0.0364,0.0433
-"GO:0006959","humoral immune response",7,1,0.04,0.0415,0.0443
-"GO:0046128","purine ribonucleoside metabolic process",7,1,0.04,0.0415,0.0443
-"GO:0050777","negative regulation of immune response",7,1,0.04,0.0415,0.0443
-"GO:0170041","non-proteinogenic amino acid metabolic process",7,1,0.04,0.0415,0.0443
-"GO:0006520","amino acid metabolic process",54,2,0.33,0.0416,0.0443
-"GO:0006094","gluconeogenesis",8,1,0.05,0.0473,0.0473
-"GO:0019319","hexose biosynthetic process",8,1,0.05,0.0473,0.0473
-"GO:0042278","purine nucleoside metabolic process",8,1,0.05,0.0473,0.0473
+"GO:0042742","defense response to bacterium",50,8,0.59,8.48848757895193e-08,6.451e-06
+"GO:0009617","response to bacterium",56,8,0.66,2.12451592885122e-07,8.073e-06
+"GO:0098542","defense response to other organism",106,10,1.24,3.24593494522129e-07,8.223e-06
+"GO:0009607","response to biotic stimulus",116,10,1.36,7.58066925807222e-07,8.917e-06
+"GO:0043207","response to external biotic stimulus",116,10,1.36,7.58066925807222e-07,8.917e-06
+"GO:0051707","response to other organism",116,10,1.36,7.58066925807222e-07,8.917e-06
+"GO:0006952","defense response",117,10,1.37,8.21308387763002e-07,8.917e-06
+"GO:0044419","biological process involved in interspecies interaction between organisms",128,10,1.5,1.8872831225461e-06,1.793e-05
+"GO:0009605","response to external stimulus",165,10,1.93,1.84495483036648e-05,0.0001558
+"GO:0006412","translation",133,9,1.56,2.08961733455193e-05,0.0001588
+"GO:0019538","protein metabolic process",1137,28,13.33,3.25334107452221e-05,0.0002089
+"GO:0045087","innate immune response",79,7,0.93,3.29892534629888e-05,0.0002089
+"GO:0002181","cytoplasmic translation",17,4,0.2,3.66225348632961e-05,0.0002141
+"GO:0140546","defense response to symbiont",84,7,0.98,4.92169937757099e-05,0.0002672
+"GO:0006955","immune response",94,7,1.1,0.000101400891226888,0.0005138
+"GO:0002376","immune system process",106,7,1.24,0.000216069856370254,0.001026
+"GO:0006950","response to stress",410,13,4.81,0.000790365259267112,0.003533
+"GO:0006508","proteolysis",651,17,7.63,0.00104502684540099,0.004412
+"GO:0006575","cellular modified amino acid metabolic process",40,4,0.47,0.00114810875444342,0.004592
+"GO:0016052","carbohydrate catabolic process",43,4,0.5,0.00151002308154791,0.005258
+"GO:0000272","polysaccharide catabolic process",20,3,0.23,0.00152199450445505,0.005258
+"GO:0006032","chitin catabolic process",20,3,0.23,0.00152199450445505,0.005258
+"GO:0046348","amino sugar catabolic process",21,3,0.25,0.00176084434283624,0.005576
+"GO:1901072","glucosamine-containing compound catabolic process",21,3,0.25,0.00176084434283624,0.005576
+"GO:0006030","chitin metabolic process",23,3,0.27,0.00230576512972168,0.00701
+"GO:0170041","non-proteinogenic amino acid metabolic process",7,2,0.08,0.00273661617531523,0.007999
+"GO:0006749","glutathione metabolic process",25,3,0.29,0.00294481636664382,0.008289
+"GO:1901071","glucosamine-containing compound metabolic process",26,3,0.3,0.00330121030754604,0.00896
+"GO:0008152","metabolic process",3066,47,35.93,0.00447559493469527,0.01146
+"GO:0006026","aminoglycan catabolic process",29,3,0.34,0.00452467025926759,0.01146
+"GO:0005976","polysaccharide metabolic process",30,3,0.35,0.00498563728105809,0.01184
+"GO:0006040","amino sugar metabolic process",30,3,0.35,0.00498563728105809,0.01184
+"GO:0005975","carbohydrate metabolic process",198,7,2.32,0.00806842998021076,0.01748
+"GO:0031640","killing of cells of another organism",12,2,0.14,0.00828131441091545,0.01748
+"GO:0141060","disruption of anatomical structure in another organism",12,2,0.14,0.00828131441091545,0.01748
+"GO:0141061","disruption of cell in another organism",12,2,0.14,0.00828131441091545,0.01748
+"GO:0006826","iron ion transport",13,2,0.15,0.00971338213420311,0.01979
+"GO:0009628","response to abiotic stimulus",74,4,0.87,0.010734914038878,0.01979
+"GO:0044238","primary metabolic process",2657,41,31.14,0.0110393168119098,0.01979
+"GO:0006022","aminoglycan metabolic process",40,3,0.47,0.011163724694952,0.01979
+"GO:0001906","cell killing",14,2,0.16,0.011247101350891,0.01979
+"GO:0046498","S-adenosylhomocysteine metabolic process",1,1,0.01,0.0117200965184417,0.01979
+"GO:0060215","primitive hemopoiesis",1,1,0.01,0.0117200965184417,0.01979
+"GO:0060216","definitive hemopoiesis",1,1,0.01,0.0117200965184417,0.01979
+"GO:1901052","sarcosine metabolic process",1,1,0.01,0.0117200965184417,0.01979
+"GO:0042026","protein refolding",18,2,0.21,0.0183489940540334,0.03032
+"GO:0006790","sulfur compound metabolic process",90,4,1.05,0.0207456948099713,0.03355
+"GO:0006111","regulation of gluconeogenesis",2,1,0.02,0.0233048290536506,0.03473
+"GO:0007198","adenylate cyclase-inhibiting serotonin receptor signaling pathway",2,1,0.02,0.0233048290536506,0.03473
+"GO:0140896","cGAS/STING signaling pathway",2,1,0.02,0.0233048290536506,0.03473
+"GO:0160049","negative regulation of cGAS/STING signaling pathway",2,1,0.02,0.0233048290536506,0.03473
+"GO:0006520","amino acid metabolic process",54,3,0.63,0.0249615807612951,0.03648
+"GO:0009408","response to heat",22,2,0.26,0.0268843728526808,0.03855
+"GO:0009266","response to temperature stimulus",24,2,0.28,0.0316444644403525,0.04002
+"GO:0019482","beta-alanine metabolic process",3,1,0.04,0.0347557379544008,0.04002
+"GO:0019483","beta-alanine biosynthetic process",3,1,0.04,0.0347557379544008,0.04002
+"GO:0019731","antibacterial humoral response",3,1,0.04,0.0347557379544008,0.04002
+"GO:0030574","collagen catabolic process",3,1,0.04,0.0347557379544008,0.04002
+"GO:0031638","zymogen activation",3,1,0.04,0.0347557379544008,0.04002
+"GO:0033396","beta-alanine biosynthetic process via 3-ureidopropionate",3,1,0.04,0.0347557379544008,0.04002
+"GO:0034644","cellular response to UV",3,1,0.04,0.0347557379544008,0.04002
+"GO:0039532","negative regulation of cytoplasmic pattern recognition receptor signaling pathway",3,1,0.04,0.0347557379544008,0.04002
+"GO:0046500","S-adenosylmethionine metabolic process",3,1,0.04,0.0347557379544008,0.04002
+"GO:0051262","protein tetramerization",3,1,0.04,0.0347557379544008,0.04002
+"GO:0051289","protein homotetramerization",3,1,0.04,0.0347557379544008,0.04002
+"GO:0170043","non-proteinogenic amino acid biosynthetic process",3,1,0.04,0.0347557379544008,0.04002
+"GO:1901136","carbohydrate derivative catabolic process",67,3,0.79,0.0433256387467511,0.04607
+"GO:0019318","hexose metabolic process",29,2,0.34,0.0448453159683058,0.04607
+"GO:0006528","asparagine metabolic process",4,1,0.05,0.0460743463039613,0.04607
+"GO:0010906","regulation of glucose metabolic process",4,1,0.05,0.0460743463039613,0.04607
+"GO:0032963","collagen metabolic process",4,1,0.05,0.0460743463039613,0.04607
+"GO:0035162","embryonic hemopoiesis",4,1,0.05,0.0460743463039613,0.04607
+"GO:0039531","regulation of cytoplasmic pattern recognition receptor signaling pathway",4,1,0.05,0.0460743463039613,0.04607
+"GO:0043255","regulation of carbohydrate biosynthetic process",4,1,0.05,0.0460743463039613,0.04607
+"GO:0045746","negative regulation of Notch signaling pathway",4,1,0.05,0.0460743463039613,0.04607
+"GO:0045824","negative regulation of innate immune response",4,1,0.05,0.0460743463039613,0.04607

@@ -1,0 +1,375 @@
+from	to	source_Class	target_Class
+DIATSA_LOCUS11745	cell morphogenesis	gene	GO
+DIATSA_LOCUS11745	multicellular organism development	gene	GO
+DIATSA_LOCUS11745	axon guidance	gene	GO
+DIATSA_LOCUS11745	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS11745	neuron projection guidance	gene	GO
+DIATSA_LOCUS11745	anatomical structure development	gene	GO
+DIATSA_LOCUS11745	neuron differentiation	gene	GO
+DIATSA_LOCUS11745	multicellular organismal process	gene	GO
+DIATSA_LOCUS11745	developmental process	gene	GO
+DIATSA_LOCUS11745	axonogenesis	gene	GO
+DIATSA_LOCUS11745	generation of neurons	gene	GO
+DIATSA_LOCUS11745	axon development	gene	GO
+DIATSA_LOCUS11745	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS11745	neuron projection development	gene	GO
+DIATSA_LOCUS11745	neurogenesis	gene	GO
+DIATSA_LOCUS11745	neuron development	gene	GO
+DIATSA_LOCUS11745	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS11745	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS11745	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS13323	cell morphogenesis	gene	GO
+DIATSA_LOCUS13323	multicellular organism development	gene	GO
+DIATSA_LOCUS13323	axon guidance	gene	GO
+DIATSA_LOCUS13323	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS13323	neuron projection guidance	gene	GO
+DIATSA_LOCUS13323	anatomical structure development	gene	GO
+DIATSA_LOCUS13323	neuron differentiation	gene	GO
+DIATSA_LOCUS13323	multicellular organismal process	gene	GO
+DIATSA_LOCUS13323	developmental process	gene	GO
+DIATSA_LOCUS13323	axonogenesis	gene	GO
+DIATSA_LOCUS13323	generation of neurons	gene	GO
+DIATSA_LOCUS13323	axon development	gene	GO
+DIATSA_LOCUS13323	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS13323	neuron projection development	gene	GO
+DIATSA_LOCUS13323	neurogenesis	gene	GO
+DIATSA_LOCUS13323	neuron development	gene	GO
+DIATSA_LOCUS13323	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS13323	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS13323	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS13328	cell morphogenesis	gene	GO
+DIATSA_LOCUS13328	multicellular organism development	gene	GO
+DIATSA_LOCUS13328	axon guidance	gene	GO
+DIATSA_LOCUS13328	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS13328	neuron projection guidance	gene	GO
+DIATSA_LOCUS13328	anatomical structure development	gene	GO
+DIATSA_LOCUS13328	neuron differentiation	gene	GO
+DIATSA_LOCUS13328	multicellular organismal process	gene	GO
+DIATSA_LOCUS13328	developmental process	gene	GO
+DIATSA_LOCUS13328	axonogenesis	gene	GO
+DIATSA_LOCUS13328	generation of neurons	gene	GO
+DIATSA_LOCUS13328	axon development	gene	GO
+DIATSA_LOCUS13328	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS13328	neuron projection development	gene	GO
+DIATSA_LOCUS13328	neurogenesis	gene	GO
+DIATSA_LOCUS13328	neuron development	gene	GO
+DIATSA_LOCUS13328	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS13328	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS13328	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS13476	cell morphogenesis	gene	GO
+DIATSA_LOCUS13476	multicellular organism development	gene	GO
+DIATSA_LOCUS13476	axon guidance	gene	GO
+DIATSA_LOCUS13476	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS13476	neuron projection guidance	gene	GO
+DIATSA_LOCUS13476	anatomical structure development	gene	GO
+DIATSA_LOCUS13476	neuron differentiation	gene	GO
+DIATSA_LOCUS13476	multicellular organismal process	gene	GO
+DIATSA_LOCUS13476	developmental process	gene	GO
+DIATSA_LOCUS13476	axonogenesis	gene	GO
+DIATSA_LOCUS13476	generation of neurons	gene	GO
+DIATSA_LOCUS13476	axon development	gene	GO
+DIATSA_LOCUS13476	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS13476	neuron projection development	gene	GO
+DIATSA_LOCUS13476	neurogenesis	gene	GO
+DIATSA_LOCUS13476	neuron development	gene	GO
+DIATSA_LOCUS13476	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS13476	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS13476	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS1467	cell morphogenesis	gene	GO
+DIATSA_LOCUS1467	multicellular organism development	gene	GO
+DIATSA_LOCUS1467	axon guidance	gene	GO
+DIATSA_LOCUS1467	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS1467	neuron projection guidance	gene	GO
+DIATSA_LOCUS1467	anatomical structure development	gene	GO
+DIATSA_LOCUS1467	neuron differentiation	gene	GO
+DIATSA_LOCUS1467	multicellular organismal process	gene	GO
+DIATSA_LOCUS1467	developmental process	gene	GO
+DIATSA_LOCUS1467	axonogenesis	gene	GO
+DIATSA_LOCUS1467	generation of neurons	gene	GO
+DIATSA_LOCUS1467	axon development	gene	GO
+DIATSA_LOCUS1467	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS1467	neuron projection development	gene	GO
+DIATSA_LOCUS1467	neurogenesis	gene	GO
+DIATSA_LOCUS1467	neuron development	gene	GO
+DIATSA_LOCUS1467	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS1467	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS1467	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS1467	Th1 and Th2 cell differentiation	gene	KEGG
+DIATSA_LOCUS1871	cell morphogenesis	gene	GO
+DIATSA_LOCUS1871	multicellular organism development	gene	GO
+DIATSA_LOCUS1871	axon guidance	gene	GO
+DIATSA_LOCUS1871	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS1871	neuron projection guidance	gene	GO
+DIATSA_LOCUS1871	anatomical structure development	gene	GO
+DIATSA_LOCUS1871	neuron differentiation	gene	GO
+DIATSA_LOCUS1871	multicellular organismal process	gene	GO
+DIATSA_LOCUS1871	developmental process	gene	GO
+DIATSA_LOCUS1871	axonogenesis	gene	GO
+DIATSA_LOCUS1871	generation of neurons	gene	GO
+DIATSA_LOCUS1871	axon development	gene	GO
+DIATSA_LOCUS1871	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS1871	neuron projection development	gene	GO
+DIATSA_LOCUS1871	neurogenesis	gene	GO
+DIATSA_LOCUS1871	neuron development	gene	GO
+DIATSA_LOCUS1871	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS1871	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS1871	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS3682	cell morphogenesis	gene	GO
+DIATSA_LOCUS3682	multicellular organism development	gene	GO
+DIATSA_LOCUS3682	axon guidance	gene	GO
+DIATSA_LOCUS3682	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS3682	neuron projection guidance	gene	GO
+DIATSA_LOCUS3682	anatomical structure development	gene	GO
+DIATSA_LOCUS3682	neuron differentiation	gene	GO
+DIATSA_LOCUS3682	multicellular organismal process	gene	GO
+DIATSA_LOCUS3682	developmental process	gene	GO
+DIATSA_LOCUS3682	axonogenesis	gene	GO
+DIATSA_LOCUS3682	generation of neurons	gene	GO
+DIATSA_LOCUS3682	axon development	gene	GO
+DIATSA_LOCUS3682	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS3682	neuron projection development	gene	GO
+DIATSA_LOCUS3682	neurogenesis	gene	GO
+DIATSA_LOCUS3682	neuron development	gene	GO
+DIATSA_LOCUS3682	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS3682	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS3682	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS3697	cell morphogenesis	gene	GO
+DIATSA_LOCUS3697	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS3697	anatomical structure development	gene	GO
+DIATSA_LOCUS3697	developmental process	gene	GO
+DIATSA_LOCUS451	cell morphogenesis	gene	GO
+DIATSA_LOCUS451	multicellular organism development	gene	GO
+DIATSA_LOCUS451	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS451	anatomical structure development	gene	GO
+DIATSA_LOCUS451	neuron differentiation	gene	GO
+DIATSA_LOCUS451	multicellular organismal process	gene	GO
+DIATSA_LOCUS451	developmental process	gene	GO
+DIATSA_LOCUS451	generation of neurons	gene	GO
+DIATSA_LOCUS451	neuron projection development	gene	GO
+DIATSA_LOCUS451	neurogenesis	gene	GO
+DIATSA_LOCUS451	neuron development	gene	GO
+DIATSA_LOCUS453	cell morphogenesis	gene	GO
+DIATSA_LOCUS453	multicellular organism development	gene	GO
+DIATSA_LOCUS453	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS453	anatomical structure development	gene	GO
+DIATSA_LOCUS453	neuron differentiation	gene	GO
+DIATSA_LOCUS453	multicellular organismal process	gene	GO
+DIATSA_LOCUS453	developmental process	gene	GO
+DIATSA_LOCUS453	generation of neurons	gene	GO
+DIATSA_LOCUS453	neuron projection development	gene	GO
+DIATSA_LOCUS453	neurogenesis	gene	GO
+DIATSA_LOCUS453	neuron development	gene	GO
+DIATSA_LOCUS621	cell morphogenesis	gene	GO
+DIATSA_LOCUS621	multicellular organism development	gene	GO
+DIATSA_LOCUS621	axon guidance	gene	GO
+DIATSA_LOCUS621	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS621	neuron projection guidance	gene	GO
+DIATSA_LOCUS621	anatomical structure development	gene	GO
+DIATSA_LOCUS621	neuron differentiation	gene	GO
+DIATSA_LOCUS621	multicellular organismal process	gene	GO
+DIATSA_LOCUS621	developmental process	gene	GO
+DIATSA_LOCUS621	axonogenesis	gene	GO
+DIATSA_LOCUS621	generation of neurons	gene	GO
+DIATSA_LOCUS621	axon development	gene	GO
+DIATSA_LOCUS621	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS621	neuron projection development	gene	GO
+DIATSA_LOCUS621	neurogenesis	gene	GO
+DIATSA_LOCUS621	neuron development	gene	GO
+DIATSA_LOCUS621	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS621	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS621	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS73	cell morphogenesis	gene	GO
+DIATSA_LOCUS73	multicellular organism development	gene	GO
+DIATSA_LOCUS73	axon guidance	gene	GO
+DIATSA_LOCUS73	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS73	neuron projection guidance	gene	GO
+DIATSA_LOCUS73	anatomical structure development	gene	GO
+DIATSA_LOCUS73	neuron differentiation	gene	GO
+DIATSA_LOCUS73	multicellular organismal process	gene	GO
+DIATSA_LOCUS73	developmental process	gene	GO
+DIATSA_LOCUS73	axonogenesis	gene	GO
+DIATSA_LOCUS73	generation of neurons	gene	GO
+DIATSA_LOCUS73	axon development	gene	GO
+DIATSA_LOCUS73	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS73	neuron projection development	gene	GO
+DIATSA_LOCUS73	neurogenesis	gene	GO
+DIATSA_LOCUS73	neuron development	gene	GO
+DIATSA_LOCUS73	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS73	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS73	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS74	cell morphogenesis	gene	GO
+DIATSA_LOCUS74	multicellular organism development	gene	GO
+DIATSA_LOCUS74	axon guidance	gene	GO
+DIATSA_LOCUS74	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS74	neuron projection guidance	gene	GO
+DIATSA_LOCUS74	anatomical structure development	gene	GO
+DIATSA_LOCUS74	neuron differentiation	gene	GO
+DIATSA_LOCUS74	multicellular organismal process	gene	GO
+DIATSA_LOCUS74	developmental process	gene	GO
+DIATSA_LOCUS74	axonogenesis	gene	GO
+DIATSA_LOCUS74	generation of neurons	gene	GO
+DIATSA_LOCUS74	axon development	gene	GO
+DIATSA_LOCUS74	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS74	neuron projection development	gene	GO
+DIATSA_LOCUS74	neurogenesis	gene	GO
+DIATSA_LOCUS74	neuron development	gene	GO
+DIATSA_LOCUS74	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS74	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS74	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS77	cell morphogenesis	gene	GO
+DIATSA_LOCUS77	multicellular organism development	gene	GO
+DIATSA_LOCUS77	axon guidance	gene	GO
+DIATSA_LOCUS77	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS77	neuron projection guidance	gene	GO
+DIATSA_LOCUS77	anatomical structure development	gene	GO
+DIATSA_LOCUS77	neuron differentiation	gene	GO
+DIATSA_LOCUS77	multicellular organismal process	gene	GO
+DIATSA_LOCUS77	developmental process	gene	GO
+DIATSA_LOCUS77	axonogenesis	gene	GO
+DIATSA_LOCUS77	generation of neurons	gene	GO
+DIATSA_LOCUS77	axon development	gene	GO
+DIATSA_LOCUS77	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS77	neuron projection development	gene	GO
+DIATSA_LOCUS77	neurogenesis	gene	GO
+DIATSA_LOCUS77	neuron development	gene	GO
+DIATSA_LOCUS77	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS77	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS77	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS819	cell morphogenesis	gene	GO
+DIATSA_LOCUS819	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS819	anatomical structure development	gene	GO
+DIATSA_LOCUS819	developmental process	gene	GO
+DIATSA_LOCUS9595	cell morphogenesis	gene	GO
+DIATSA_LOCUS9595	multicellular organism development	gene	GO
+DIATSA_LOCUS9595	axon guidance	gene	GO
+DIATSA_LOCUS9595	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS9595	neuron projection guidance	gene	GO
+DIATSA_LOCUS9595	anatomical structure development	gene	GO
+DIATSA_LOCUS9595	neuron differentiation	gene	GO
+DIATSA_LOCUS9595	multicellular organismal process	gene	GO
+DIATSA_LOCUS9595	developmental process	gene	GO
+DIATSA_LOCUS9595	axonogenesis	gene	GO
+DIATSA_LOCUS9595	generation of neurons	gene	GO
+DIATSA_LOCUS9595	axon development	gene	GO
+DIATSA_LOCUS9595	cell morphogenesis involved in neuron differentiation	gene	GO
+DIATSA_LOCUS9595	neuron projection development	gene	GO
+DIATSA_LOCUS9595	neurogenesis	gene	GO
+DIATSA_LOCUS9595	neuron development	gene	GO
+DIATSA_LOCUS9595	neuron projection morphogenesis	gene	GO
+DIATSA_LOCUS9595	cell projection morphogenesis	gene	GO
+DIATSA_LOCUS9595	plasma membrane bounded cell projection morphogenesis	gene	GO
+DIATSA_LOCUS10589	multicellular organism development	gene	GO
+DIATSA_LOCUS10589	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS10589	anatomical structure development	gene	GO
+DIATSA_LOCUS10589	neuron differentiation	gene	GO
+DIATSA_LOCUS10589	multicellular organismal process	gene	GO
+DIATSA_LOCUS10589	developmental process	gene	GO
+DIATSA_LOCUS10589	generation of neurons	gene	GO
+DIATSA_LOCUS10589	neurogenesis	gene	GO
+DIATSA_LOCUS11673	multicellular organism development	gene	GO
+DIATSA_LOCUS11673	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS11673	anatomical structure development	gene	GO
+DIATSA_LOCUS11673	neuron differentiation	gene	GO
+DIATSA_LOCUS11673	multicellular organismal process	gene	GO
+DIATSA_LOCUS11673	developmental process	gene	GO
+DIATSA_LOCUS11673	generation of neurons	gene	GO
+DIATSA_LOCUS11673	neurogenesis	gene	GO
+DIATSA_LOCUS11743	multicellular organism development	gene	GO
+DIATSA_LOCUS11743	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS11743	anatomical structure development	gene	GO
+DIATSA_LOCUS11743	neuron differentiation	gene	GO
+DIATSA_LOCUS11743	multicellular organismal process	gene	GO
+DIATSA_LOCUS11743	developmental process	gene	GO
+DIATSA_LOCUS11743	generation of neurons	gene	GO
+DIATSA_LOCUS11743	neurogenesis	gene	GO
+DIATSA_LOCUS11743	neuron development	gene	GO
+DIATSA_LOCUS12650	multicellular organism development	gene	GO
+DIATSA_LOCUS12650	anatomical structure development	gene	GO
+DIATSA_LOCUS12650	multicellular organismal process	gene	GO
+DIATSA_LOCUS12650	developmental process	gene	GO
+DIATSA_LOCUS12664	multicellular organism development	gene	GO
+DIATSA_LOCUS12664	anatomical structure development	gene	GO
+DIATSA_LOCUS12664	multicellular organismal process	gene	GO
+DIATSA_LOCUS12664	developmental process	gene	GO
+DIATSA_LOCUS12666	multicellular organism development	gene	GO
+DIATSA_LOCUS12666	anatomical structure development	gene	GO
+DIATSA_LOCUS12666	multicellular organismal process	gene	GO
+DIATSA_LOCUS12666	developmental process	gene	GO
+DIATSA_LOCUS13322	multicellular organism development	gene	GO
+DIATSA_LOCUS13322	anatomical structure development	gene	GO
+DIATSA_LOCUS13322	multicellular organismal process	gene	GO
+DIATSA_LOCUS13322	developmental process	gene	GO
+DIATSA_LOCUS212	multicellular organism development	gene	GO
+DIATSA_LOCUS212	anatomical structure development	gene	GO
+DIATSA_LOCUS212	multicellular organismal process	gene	GO
+DIATSA_LOCUS212	developmental process	gene	GO
+DIATSA_LOCUS2503	multicellular organism development	gene	GO
+DIATSA_LOCUS2503	anatomical structure development	gene	GO
+DIATSA_LOCUS2503	multicellular organismal process	gene	GO
+DIATSA_LOCUS2503	developmental process	gene	GO
+DIATSA_LOCUS2912	multicellular organism development	gene	GO
+DIATSA_LOCUS2912	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS2912	anatomical structure development	gene	GO
+DIATSA_LOCUS2912	multicellular organismal process	gene	GO
+DIATSA_LOCUS2912	developmental process	gene	GO
+DIATSA_LOCUS3452	multicellular organism development	gene	GO
+DIATSA_LOCUS3452	anatomical structure development	gene	GO
+DIATSA_LOCUS3452	multicellular organismal process	gene	GO
+DIATSA_LOCUS3452	developmental process	gene	GO
+DIATSA_LOCUS355	multicellular organism development	gene	GO
+DIATSA_LOCUS355	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS355	anatomical structure development	gene	GO
+DIATSA_LOCUS355	multicellular organismal process	gene	GO
+DIATSA_LOCUS355	developmental process	gene	GO
+DIATSA_LOCUS3552	multicellular organism development	gene	GO
+DIATSA_LOCUS3552	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS3552	anatomical structure development	gene	GO
+DIATSA_LOCUS3552	multicellular organismal process	gene	GO
+DIATSA_LOCUS3552	developmental process	gene	GO
+DIATSA_LOCUS4520	multicellular organism development	gene	GO
+DIATSA_LOCUS4520	anatomical structure development	gene	GO
+DIATSA_LOCUS4520	multicellular organismal process	gene	GO
+DIATSA_LOCUS4520	developmental process	gene	GO
+DIATSA_LOCUS4889	multicellular organism development	gene	GO
+DIATSA_LOCUS4889	anatomical structure development	gene	GO
+DIATSA_LOCUS4889	neuron differentiation	gene	GO
+DIATSA_LOCUS4889	multicellular organismal process	gene	GO
+DIATSA_LOCUS4889	developmental process	gene	GO
+DIATSA_LOCUS4889	generation of neurons	gene	GO
+DIATSA_LOCUS4889	neurogenesis	gene	GO
+DIATSA_LOCUS4889	neuron development	gene	GO
+DIATSA_LOCUS5371	multicellular organism development	gene	GO
+DIATSA_LOCUS5371	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS5371	anatomical structure development	gene	GO
+DIATSA_LOCUS5371	multicellular organismal process	gene	GO
+DIATSA_LOCUS5371	developmental process	gene	GO
+DIATSA_LOCUS11244	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS11244	anatomical structure development	gene	GO
+DIATSA_LOCUS11244	developmental process	gene	GO
+DIATSA_LOCUS13327	anatomical structure morphogenesis	gene	GO
+DIATSA_LOCUS13327	anatomical structure development	gene	GO
+DIATSA_LOCUS13327	developmental process	gene	GO
+DIATSA_LOCUS5201	anatomical structure development	gene	GO
+DIATSA_LOCUS5201	developmental process	gene	GO
+DIATSA_LOCUS8795	anatomical structure development	gene	GO
+DIATSA_LOCUS8795	developmental process	gene	GO
+DIATSA_LOCUS11666	multicellular organismal process	gene	GO
+DIATSA_LOCUS13514	multicellular organismal process	gene	GO
+DIATSA_LOCUS7641	multicellular organismal process	gene	GO
+DIATSA_LOCUS8870	multicellular organismal process	gene	GO
+DIATSA_LOCUS8272	developmental process	gene	GO
+DIATSA_LOCUS5812	maintenance of location	gene	GO
+DIATSA_LOCUS13015	Th1 and Th2 cell differentiation	gene	KEGG
+DIATSA_LOCUS13023	Th1 and Th2 cell differentiation	gene	KEGG
+DIATSA_LOCUS8312	Th1 and Th2 cell differentiation	gene	KEGG
+DIATSA_LOCUS11811	Motor proteins	gene	KEGG
+DIATSA_LOCUS12772	Motor proteins	gene	KEGG
+DIATSA_LOCUS13673	Motor proteins	gene	KEGG
+DIATSA_LOCUS2291	Motor proteins	gene	KEGG
+DIATSA_LOCUS3292	Motor proteins	gene	KEGG
+DIATSA_LOCUS4360	Motor proteins	gene	KEGG
+DIATSA_LOCUS4361	Motor proteins	gene	KEGG
+DIATSA_LOCUS4412	Motor proteins	gene	KEGG
+DIATSA_LOCUS6952	Motor proteins	gene	KEGG
+DIATSA_LOCUS7256	Motor proteins	gene	KEGG
+DIATSA_LOCUS8521	Motor proteins	gene	KEGG

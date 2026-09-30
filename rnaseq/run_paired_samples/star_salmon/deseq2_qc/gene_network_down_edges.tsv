@@ -1,38 +1,236 @@
 from	to	source_Class	target_Class
-DIATSA_LOCUS3766	cell killing	gene	GO
-DIATSA_LOCUS3766	killing of cells of another organism	gene	GO
-DIATSA_LOCUS3766	disruption of anatomical structure in another organism	gene	GO
-DIATSA_LOCUS3766	disruption of cell in another organism	gene	GO
-DIATSA_LOCUS3795	cell killing	gene	GO
-DIATSA_LOCUS3795	killing of cells of another organism	gene	GO
-DIATSA_LOCUS3795	disruption of anatomical structure in another organism	gene	GO
-DIATSA_LOCUS3795	disruption of cell in another organism	gene	GO
-DIATSA_LOCUS5755	iron ion transport	gene	GO
-DIATSA_LOCUS5755	transition metal ion transport	gene	GO
-DIATSA_LOCUS7417	iron ion transport	gene	GO
-DIATSA_LOCUS7417	transition metal ion transport	gene	GO
-DIATSA_LOCUS12916	monosaccharide metabolic process	gene	GO
-DIATSA_LOCUS12916	hexose metabolic process	gene	GO
-DIATSA_LOCUS9321	regulation of gluconeogenesis	gene	GO
-DIATSA_LOCUS9321	cellular modified amino acid metabolic process	gene	GO
-DIATSA_LOCUS9321	regulation of glucose metabolic process	gene	GO
-DIATSA_LOCUS9321	regulation of carbohydrate biosynthetic process	gene	GO
-DIATSA_LOCUS9321	S-adenosylhomocysteine metabolic process	gene	GO
-DIATSA_LOCUS9002	asparagine metabolic process	gene	GO
+DIATSA_LOCUS12223	defense response to bacterium	gene	GO
+DIATSA_LOCUS12223	response to bacterium	gene	GO
+DIATSA_LOCUS12223	defense response to other organism	gene	GO
+DIATSA_LOCUS12223	defense response	gene	GO
+DIATSA_LOCUS12223	response to biotic stimulus	gene	GO
+DIATSA_LOCUS12223	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS12223	response to other organism	gene	GO
+DIATSA_LOCUS12223	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS12223	response to external stimulus	gene	GO
+DIATSA_LOCUS12223	innate immune response	gene	GO
+DIATSA_LOCUS12223	defense response to symbiont	gene	GO
+DIATSA_LOCUS12223	immune response	gene	GO
+DIATSA_LOCUS12223	immune system process	gene	GO
+DIATSA_LOCUS12223	response to stress	gene	GO
+DIATSA_LOCUS3766	defense response to bacterium	gene	GO
+DIATSA_LOCUS3766	response to bacterium	gene	GO
+DIATSA_LOCUS3766	defense response to other organism	gene	GO
+DIATSA_LOCUS3766	defense response	gene	GO
+DIATSA_LOCUS3766	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3766	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3766	response to other organism	gene	GO
+DIATSA_LOCUS3766	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3766	response to external stimulus	gene	GO
+DIATSA_LOCUS3766	response to stress	gene	GO
+DIATSA_LOCUS3795	defense response to bacterium	gene	GO
+DIATSA_LOCUS3795	response to bacterium	gene	GO
+DIATSA_LOCUS3795	defense response to other organism	gene	GO
+DIATSA_LOCUS3795	defense response	gene	GO
+DIATSA_LOCUS3795	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3795	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3795	response to other organism	gene	GO
+DIATSA_LOCUS3795	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3795	response to external stimulus	gene	GO
+DIATSA_LOCUS3795	response to stress	gene	GO
+DIATSA_LOCUS5614	defense response to bacterium	gene	GO
+DIATSA_LOCUS5614	response to bacterium	gene	GO
+DIATSA_LOCUS5614	defense response to other organism	gene	GO
+DIATSA_LOCUS5614	defense response	gene	GO
+DIATSA_LOCUS5614	response to biotic stimulus	gene	GO
+DIATSA_LOCUS5614	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS5614	response to other organism	gene	GO
+DIATSA_LOCUS5614	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS5614	response to external stimulus	gene	GO
+DIATSA_LOCUS5614	response to stress	gene	GO
+DIATSA_LOCUS9948	defense response to bacterium	gene	GO
+DIATSA_LOCUS9948	response to bacterium	gene	GO
+DIATSA_LOCUS9948	defense response to other organism	gene	GO
+DIATSA_LOCUS9948	defense response	gene	GO
+DIATSA_LOCUS9948	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9948	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9948	response to other organism	gene	GO
+DIATSA_LOCUS9948	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9948	response to external stimulus	gene	GO
+DIATSA_LOCUS9948	innate immune response	gene	GO
+DIATSA_LOCUS9948	defense response to symbiont	gene	GO
+DIATSA_LOCUS9948	immune response	gene	GO
+DIATSA_LOCUS9948	immune system process	gene	GO
+DIATSA_LOCUS9948	response to stress	gene	GO
+DIATSA_LOCUS9949	defense response to bacterium	gene	GO
+DIATSA_LOCUS9949	response to bacterium	gene	GO
+DIATSA_LOCUS9949	defense response to other organism	gene	GO
+DIATSA_LOCUS9949	defense response	gene	GO
+DIATSA_LOCUS9949	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9949	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9949	response to other organism	gene	GO
+DIATSA_LOCUS9949	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9949	response to external stimulus	gene	GO
+DIATSA_LOCUS9949	innate immune response	gene	GO
+DIATSA_LOCUS9949	defense response to symbiont	gene	GO
+DIATSA_LOCUS9949	immune response	gene	GO
+DIATSA_LOCUS9949	immune system process	gene	GO
+DIATSA_LOCUS9949	response to stress	gene	GO
+DIATSA_LOCUS9950	defense response to bacterium	gene	GO
+DIATSA_LOCUS9950	response to bacterium	gene	GO
+DIATSA_LOCUS9950	defense response to other organism	gene	GO
+DIATSA_LOCUS9950	defense response	gene	GO
+DIATSA_LOCUS9950	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9950	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9950	response to other organism	gene	GO
+DIATSA_LOCUS9950	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9950	response to external stimulus	gene	GO
+DIATSA_LOCUS9950	innate immune response	gene	GO
+DIATSA_LOCUS9950	defense response to symbiont	gene	GO
+DIATSA_LOCUS9950	immune response	gene	GO
+DIATSA_LOCUS9950	immune system process	gene	GO
+DIATSA_LOCUS9950	response to stress	gene	GO
+DIATSA_LOCUS9951	defense response to bacterium	gene	GO
+DIATSA_LOCUS9951	response to bacterium	gene	GO
+DIATSA_LOCUS9951	defense response to other organism	gene	GO
+DIATSA_LOCUS9951	defense response	gene	GO
+DIATSA_LOCUS9951	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9951	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9951	response to other organism	gene	GO
+DIATSA_LOCUS9951	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9951	response to external stimulus	gene	GO
+DIATSA_LOCUS9951	innate immune response	gene	GO
+DIATSA_LOCUS9951	defense response to symbiont	gene	GO
+DIATSA_LOCUS9951	immune response	gene	GO
+DIATSA_LOCUS9951	immune system process	gene	GO
+DIATSA_LOCUS9951	response to stress	gene	GO
+DIATSA_LOCUS3728	defense response to other organism	gene	GO
+DIATSA_LOCUS3728	defense response	gene	GO
+DIATSA_LOCUS3728	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3728	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3728	response to other organism	gene	GO
+DIATSA_LOCUS3728	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3728	response to external stimulus	gene	GO
+DIATSA_LOCUS3728	protein metabolic process	gene	GO
+DIATSA_LOCUS3728	innate immune response	gene	GO
+DIATSA_LOCUS3728	defense response to symbiont	gene	GO
+DIATSA_LOCUS3728	immune response	gene	GO
+DIATSA_LOCUS3728	immune system process	gene	GO
+DIATSA_LOCUS3728	response to stress	gene	GO
+DIATSA_LOCUS3728	proteolysis	gene	GO
+DIATSA_LOCUS11689	translation	gene	GO
+DIATSA_LOCUS11689	protein metabolic process	gene	GO
+DIATSA_LOCUS11689	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS11689	Ribosome	gene	KEGG
+DIATSA_LOCUS3951	translation	gene	GO
+DIATSA_LOCUS3951	protein metabolic process	gene	GO
+DIATSA_LOCUS3951	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS3951	Ribosome	gene	KEGG
+DIATSA_LOCUS4238	translation	gene	GO
+DIATSA_LOCUS4238	protein metabolic process	gene	GO
+DIATSA_LOCUS4238	cytoplasmic translation	gene	GO
+DIATSA_LOCUS4238	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS4238	Ribosome	gene	KEGG
+DIATSA_LOCUS5720	translation	gene	GO
+DIATSA_LOCUS5720	protein metabolic process	gene	GO
+DIATSA_LOCUS5720	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS5720	Ribosome	gene	KEGG
+DIATSA_LOCUS6569	translation	gene	GO
+DIATSA_LOCUS6569	protein metabolic process	gene	GO
+DIATSA_LOCUS6569	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS6569	Ribosome	gene	KEGG
+DIATSA_LOCUS8453	translation	gene	GO
+DIATSA_LOCUS8453	protein metabolic process	gene	GO
+DIATSA_LOCUS8453	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS8453	Ribosome	gene	KEGG
+DIATSA_LOCUS8662	translation	gene	GO
+DIATSA_LOCUS8662	protein metabolic process	gene	GO
+DIATSA_LOCUS8662	cytoplasmic translation	gene	GO
+DIATSA_LOCUS8662	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS8662	Ribosome	gene	KEGG
+DIATSA_LOCUS9763	translation	gene	GO
+DIATSA_LOCUS9763	protein metabolic process	gene	GO
+DIATSA_LOCUS9763	cytoplasmic translation	gene	GO
+DIATSA_LOCUS9763	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS9763	Ribosome	gene	KEGG
+DIATSA_LOCUS982	translation	gene	GO
+DIATSA_LOCUS982	protein metabolic process	gene	GO
+DIATSA_LOCUS982	cytoplasmic translation	gene	GO
+DIATSA_LOCUS982	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS982	Ribosome	gene	KEGG
+DIATSA_LOCUS11522	protein metabolic process	gene	GO
+DIATSA_LOCUS11522	proteolysis	gene	GO
+DIATSA_LOCUS1253	protein metabolic process	gene	GO
+DIATSA_LOCUS1253	proteolysis	gene	GO
+DIATSA_LOCUS13337	protein metabolic process	gene	GO
+DIATSA_LOCUS13337	response to stress	gene	GO
+DIATSA_LOCUS13338	protein metabolic process	gene	GO
+DIATSA_LOCUS13338	response to stress	gene	GO
+DIATSA_LOCUS13588	protein metabolic process	gene	GO
+DIATSA_LOCUS13588	proteolysis	gene	GO
+DIATSA_LOCUS13588	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS13589	protein metabolic process	gene	GO
+DIATSA_LOCUS13589	proteolysis	gene	GO
+DIATSA_LOCUS13589	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS5995	protein metabolic process	gene	GO
+DIATSA_LOCUS5995	proteolysis	gene	GO
+DIATSA_LOCUS5995	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS5996	protein metabolic process	gene	GO
+DIATSA_LOCUS5996	proteolysis	gene	GO
+DIATSA_LOCUS5996	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS6005	protein metabolic process	gene	GO
+DIATSA_LOCUS6005	proteolysis	gene	GO
+DIATSA_LOCUS6005	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS6152	protein metabolic process	gene	GO
+DIATSA_LOCUS6152	proteolysis	gene	GO
+DIATSA_LOCUS7516	protein metabolic process	gene	GO
+DIATSA_LOCUS7516	proteolysis	gene	GO
+DIATSA_LOCUS8436	protein metabolic process	gene	GO
+DIATSA_LOCUS8436	proteolysis	gene	GO
+DIATSA_LOCUS8687	protein metabolic process	gene	GO
+DIATSA_LOCUS8687	proteolysis	gene	GO
+DIATSA_LOCUS8892	protein metabolic process	gene	GO
+DIATSA_LOCUS8892	proteolysis	gene	GO
+DIATSA_LOCUS9882	protein metabolic process	gene	GO
+DIATSA_LOCUS9882	proteolysis	gene	GO
+DIATSA_LOCUS9995	protein metabolic process	gene	GO
+DIATSA_LOCUS9995	proteolysis	gene	GO
+DIATSA_LOCUS9997	protein metabolic process	gene	GO
+DIATSA_LOCUS9997	proteolysis	gene	GO
+DIATSA_LOCUS9998	protein metabolic process	gene	GO
+DIATSA_LOCUS9998	response to stress	gene	GO
+DIATSA_LOCUS9998	proteolysis	gene	GO
 DIATSA_LOCUS3221	cellular modified amino acid metabolic process	gene	GO
 DIATSA_LOCUS3221	Drug metabolism - other enzymes	gene	KEGG
-DIATSA_LOCUS12223	antibacterial humoral response	gene	GO
-DIATSA_LOCUS3728	zymogen activation	gene	GO
-DIATSA_LOCUS7897	regulation of cytoplasmic pattern recognition receptor signaling pathway	gene	GO
-DIATSA_LOCUS7897	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	gene	GO
-DIATSA_LOCUS7897	negative regulation of innate immune response	gene	GO
-DIATSA_LOCUS6206	negative regulation of Notch signaling pathway	gene	GO
-DIATSA_LOCUS10408	Drug metabolism - other enzymes	gene	KEGG
-DIATSA_LOCUS10408	Fat digestion and absorption	gene	KEGG
-DIATSA_LOCUS10408	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS5022	cellular modified amino acid metabolic process	gene	GO
+DIATSA_LOCUS5022	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS5023	cellular modified amino acid metabolic process	gene	GO
+DIATSA_LOCUS5023	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS9321	cellular modified amino acid metabolic process	gene	GO
+DIATSA_LOCUS10688	polysaccharide catabolic process	gene	GO
+DIATSA_LOCUS10728	polysaccharide catabolic process	gene	GO
+DIATSA_LOCUS9930	polysaccharide catabolic process	gene	GO
+DIATSA_LOCUS11212	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS11212	Ribosome	gene	KEGG
+DIATSA_LOCUS12359	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS12359	Ribosome	gene	KEGG
+DIATSA_LOCUS13213	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS13213	Ribosome	gene	KEGG
+DIATSA_LOCUS2449	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS2449	Ribosome	gene	KEGG
 DIATSA_LOCUS10408	Glycerolipid metabolism	gene	KEGG
-DIATSA_LOCUS3060	Fat digestion and absorption	gene	KEGG
-DIATSA_LOCUS3060	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS10408	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS10408	Fat digestion and absorption	gene	KEGG
+DIATSA_LOCUS10408	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS10408	Biosynthesis of secondary metabolites	gene	KEGG
 DIATSA_LOCUS3060	Glycerolipid metabolism	gene	KEGG
-DIATSA_LOCUS5995	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS3060	Pancreatic secretion	gene	KEGG
+DIATSA_LOCUS3060	Fat digestion and absorption	gene	KEGG
+DIATSA_LOCUS3060	Biosynthesis of secondary metabolites	gene	KEGG
+DIATSA_LOCUS3603	Glycerolipid metabolism	gene	KEGG
+DIATSA_LOCUS3603	Biosynthesis of secondary metabolites	gene	KEGG
+DIATSA_LOCUS6958	Glycerolipid metabolism	gene	KEGG
+DIATSA_LOCUS6958	Biosynthesis of secondary metabolites	gene	KEGG
 DIATSA_LOCUS9828	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS1205	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS8468	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS1147	Biosynthesis of secondary metabolites	gene	KEGG
+DIATSA_LOCUS13669	Biosynthesis of secondary metabolites	gene	KEGG
+DIATSA_LOCUS2336	Biosynthesis of secondary metabolites	gene	KEGG
+DIATSA_LOCUS413	Biosynthesis of secondary metabolites	gene	KEGG
+DIATSA_LOCUS9002	Biosynthesis of secondary metabolites	gene	KEGG

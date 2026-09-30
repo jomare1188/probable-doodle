@@ -1,0 +1,225 @@
+from	to	source_Class	target_Class
+DIATSA_LOCUS12223	response to biotic stimulus	gene	GO
+DIATSA_LOCUS12223	response to bacterium	gene	GO
+DIATSA_LOCUS12223	defense response to bacterium	gene	GO
+DIATSA_LOCUS12223	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS12223	response to other organism	gene	GO
+DIATSA_LOCUS12223	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS12223	defense response	gene	GO
+DIATSA_LOCUS12223	defense response to other organism	gene	GO
+DIATSA_LOCUS12223	response to external stimulus	gene	GO
+DIATSA_LOCUS12223	response to stress	gene	GO
+DIATSA_LOCUS12223	innate immune response	gene	GO
+DIATSA_LOCUS12223	defense response to symbiont	gene	GO
+DIATSA_LOCUS12223	immune response	gene	GO
+DIATSA_LOCUS12223	immune system process	gene	GO
+DIATSA_LOCUS3728	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3728	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3728	response to other organism	gene	GO
+DIATSA_LOCUS3728	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3728	defense response	gene	GO
+DIATSA_LOCUS3728	defense response to other organism	gene	GO
+DIATSA_LOCUS3728	response to external stimulus	gene	GO
+DIATSA_LOCUS3728	response to stress	gene	GO
+DIATSA_LOCUS3728	innate immune response	gene	GO
+DIATSA_LOCUS3728	defense response to symbiont	gene	GO
+DIATSA_LOCUS3728	immune response	gene	GO
+DIATSA_LOCUS3728	immune system process	gene	GO
+DIATSA_LOCUS3766	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3766	response to bacterium	gene	GO
+DIATSA_LOCUS3766	defense response to bacterium	gene	GO
+DIATSA_LOCUS3766	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3766	response to other organism	gene	GO
+DIATSA_LOCUS3766	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3766	defense response	gene	GO
+DIATSA_LOCUS3766	defense response to other organism	gene	GO
+DIATSA_LOCUS3766	response to external stimulus	gene	GO
+DIATSA_LOCUS3766	killing of cells of another organism	gene	GO
+DIATSA_LOCUS3766	disruption of anatomical structure in another organism	gene	GO
+DIATSA_LOCUS3766	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS3766	cell killing	gene	GO
+DIATSA_LOCUS3766	response to stress	gene	GO
+DIATSA_LOCUS3794	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3794	response to bacterium	gene	GO
+DIATSA_LOCUS3794	defense response to bacterium	gene	GO
+DIATSA_LOCUS3794	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3794	response to other organism	gene	GO
+DIATSA_LOCUS3794	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3794	defense response	gene	GO
+DIATSA_LOCUS3794	defense response to other organism	gene	GO
+DIATSA_LOCUS3794	response to external stimulus	gene	GO
+DIATSA_LOCUS3794	killing of cells of another organism	gene	GO
+DIATSA_LOCUS3794	disruption of anatomical structure in another organism	gene	GO
+DIATSA_LOCUS3794	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS3794	cell killing	gene	GO
+DIATSA_LOCUS3794	response to stress	gene	GO
+DIATSA_LOCUS3795	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3795	response to bacterium	gene	GO
+DIATSA_LOCUS3795	defense response to bacterium	gene	GO
+DIATSA_LOCUS3795	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3795	response to other organism	gene	GO
+DIATSA_LOCUS3795	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3795	defense response	gene	GO
+DIATSA_LOCUS3795	defense response to other organism	gene	GO
+DIATSA_LOCUS3795	response to external stimulus	gene	GO
+DIATSA_LOCUS3795	killing of cells of another organism	gene	GO
+DIATSA_LOCUS3795	disruption of anatomical structure in another organism	gene	GO
+DIATSA_LOCUS3795	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS3795	cell killing	gene	GO
+DIATSA_LOCUS3795	response to stress	gene	GO
+DIATSA_LOCUS3796	response to biotic stimulus	gene	GO
+DIATSA_LOCUS3796	response to bacterium	gene	GO
+DIATSA_LOCUS3796	defense response to bacterium	gene	GO
+DIATSA_LOCUS3796	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS3796	response to other organism	gene	GO
+DIATSA_LOCUS3796	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS3796	defense response	gene	GO
+DIATSA_LOCUS3796	defense response to other organism	gene	GO
+DIATSA_LOCUS3796	response to external stimulus	gene	GO
+DIATSA_LOCUS3796	killing of cells of another organism	gene	GO
+DIATSA_LOCUS3796	disruption of anatomical structure in another organism	gene	GO
+DIATSA_LOCUS3796	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS3796	cell killing	gene	GO
+DIATSA_LOCUS3796	response to stress	gene	GO
+DIATSA_LOCUS5614	response to biotic stimulus	gene	GO
+DIATSA_LOCUS5614	response to bacterium	gene	GO
+DIATSA_LOCUS5614	defense response to bacterium	gene	GO
+DIATSA_LOCUS5614	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS5614	response to other organism	gene	GO
+DIATSA_LOCUS5614	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS5614	defense response	gene	GO
+DIATSA_LOCUS5614	defense response to other organism	gene	GO
+DIATSA_LOCUS5614	response to external stimulus	gene	GO
+DIATSA_LOCUS5614	response to stress	gene	GO
+DIATSA_LOCUS6387	response to biotic stimulus	gene	GO
+DIATSA_LOCUS6387	response to bacterium	gene	GO
+DIATSA_LOCUS6387	defense response to bacterium	gene	GO
+DIATSA_LOCUS6387	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS6387	response to other organism	gene	GO
+DIATSA_LOCUS6387	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS6387	defense response	gene	GO
+DIATSA_LOCUS6387	defense response to other organism	gene	GO
+DIATSA_LOCUS6387	response to external stimulus	gene	GO
+DIATSA_LOCUS6387	killing of cells of another organism	gene	GO
+DIATSA_LOCUS6387	disruption of anatomical structure in another organism	gene	GO
+DIATSA_LOCUS6387	disruption of cell in another organism	gene	GO
+DIATSA_LOCUS6387	cell killing	gene	GO
+DIATSA_LOCUS6387	response to stress	gene	GO
+DIATSA_LOCUS9387	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9387	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9387	response to other organism	gene	GO
+DIATSA_LOCUS9387	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9387	response to external stimulus	gene	GO
+DIATSA_LOCUS9390	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9390	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9390	response to other organism	gene	GO
+DIATSA_LOCUS9390	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9390	defense response	gene	GO
+DIATSA_LOCUS9390	response to external stimulus	gene	GO
+DIATSA_LOCUS9390	response to stress	gene	GO
+DIATSA_LOCUS9948	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9948	response to bacterium	gene	GO
+DIATSA_LOCUS9948	defense response to bacterium	gene	GO
+DIATSA_LOCUS9948	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9948	response to other organism	gene	GO
+DIATSA_LOCUS9948	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9948	defense response	gene	GO
+DIATSA_LOCUS9948	defense response to other organism	gene	GO
+DIATSA_LOCUS9948	response to external stimulus	gene	GO
+DIATSA_LOCUS9948	response to stress	gene	GO
+DIATSA_LOCUS9948	innate immune response	gene	GO
+DIATSA_LOCUS9948	defense response to symbiont	gene	GO
+DIATSA_LOCUS9948	immune response	gene	GO
+DIATSA_LOCUS9948	immune system process	gene	GO
+DIATSA_LOCUS9949	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9949	response to bacterium	gene	GO
+DIATSA_LOCUS9949	defense response to bacterium	gene	GO
+DIATSA_LOCUS9949	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9949	response to other organism	gene	GO
+DIATSA_LOCUS9949	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9949	defense response	gene	GO
+DIATSA_LOCUS9949	defense response to other organism	gene	GO
+DIATSA_LOCUS9949	response to external stimulus	gene	GO
+DIATSA_LOCUS9949	response to stress	gene	GO
+DIATSA_LOCUS9949	innate immune response	gene	GO
+DIATSA_LOCUS9949	defense response to symbiont	gene	GO
+DIATSA_LOCUS9949	immune response	gene	GO
+DIATSA_LOCUS9949	immune system process	gene	GO
+DIATSA_LOCUS9950	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9950	response to bacterium	gene	GO
+DIATSA_LOCUS9950	defense response to bacterium	gene	GO
+DIATSA_LOCUS9950	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9950	response to other organism	gene	GO
+DIATSA_LOCUS9950	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9950	defense response	gene	GO
+DIATSA_LOCUS9950	defense response to other organism	gene	GO
+DIATSA_LOCUS9950	response to external stimulus	gene	GO
+DIATSA_LOCUS9950	response to stress	gene	GO
+DIATSA_LOCUS9950	innate immune response	gene	GO
+DIATSA_LOCUS9950	defense response to symbiont	gene	GO
+DIATSA_LOCUS9950	immune response	gene	GO
+DIATSA_LOCUS9950	immune system process	gene	GO
+DIATSA_LOCUS9951	response to biotic stimulus	gene	GO
+DIATSA_LOCUS9951	response to bacterium	gene	GO
+DIATSA_LOCUS9951	defense response to bacterium	gene	GO
+DIATSA_LOCUS9951	response to external biotic stimulus	gene	GO
+DIATSA_LOCUS9951	response to other organism	gene	GO
+DIATSA_LOCUS9951	biological process involved in interspecies interaction between organisms	gene	GO
+DIATSA_LOCUS9951	defense response	gene	GO
+DIATSA_LOCUS9951	defense response to other organism	gene	GO
+DIATSA_LOCUS9951	response to external stimulus	gene	GO
+DIATSA_LOCUS9951	response to stress	gene	GO
+DIATSA_LOCUS9951	innate immune response	gene	GO
+DIATSA_LOCUS9951	defense response to symbiont	gene	GO
+DIATSA_LOCUS9951	immune response	gene	GO
+DIATSA_LOCUS9951	immune system process	gene	GO
+DIATSA_LOCUS11689	translation	gene	GO
+DIATSA_LOCUS11689	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS11689	Ribosome	gene	KEGG
+DIATSA_LOCUS3951	translation	gene	GO
+DIATSA_LOCUS3951	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS3951	Ribosome	gene	KEGG
+DIATSA_LOCUS4238	translation	gene	GO
+DIATSA_LOCUS4238	cytoplasmic translation	gene	GO
+DIATSA_LOCUS4238	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS4238	Ribosome	gene	KEGG
+DIATSA_LOCUS5720	translation	gene	GO
+DIATSA_LOCUS5720	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS5720	Ribosome	gene	KEGG
+DIATSA_LOCUS6569	translation	gene	GO
+DIATSA_LOCUS6569	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS6569	Ribosome	gene	KEGG
+DIATSA_LOCUS7498	translation	gene	GO
+DIATSA_LOCUS7498	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS7498	Ribosome	gene	KEGG
+DIATSA_LOCUS8453	translation	gene	GO
+DIATSA_LOCUS8453	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS8453	Ribosome	gene	KEGG
+DIATSA_LOCUS8662	translation	gene	GO
+DIATSA_LOCUS8662	cytoplasmic translation	gene	GO
+DIATSA_LOCUS8662	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS8662	Ribosome	gene	KEGG
+DIATSA_LOCUS9763	translation	gene	GO
+DIATSA_LOCUS9763	cytoplasmic translation	gene	GO
+DIATSA_LOCUS9763	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS9763	Ribosome	gene	KEGG
+DIATSA_LOCUS982	translation	gene	GO
+DIATSA_LOCUS982	cytoplasmic translation	gene	GO
+DIATSA_LOCUS982	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS982	Ribosome	gene	KEGG
+DIATSA_LOCUS13276	response to stress	gene	GO
+DIATSA_LOCUS9998	response to stress	gene	GO
+DIATSA_LOCUS11212	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS11212	Ribosome	gene	KEGG
+DIATSA_LOCUS12359	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS12359	Ribosome	gene	KEGG
+DIATSA_LOCUS2449	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS2449	Ribosome	gene	KEGG
+DIATSA_LOCUS3416	Coronavirus disease	gene	KEGG
+DIATSA_LOCUS3221	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS5022	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS4279	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS8468	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS9828	Drug metabolism - other enzymes	gene	KEGG
+DIATSA_LOCUS3060	Glycerolipid metabolism	gene	KEGG
+DIATSA_LOCUS6958	Glycerolipid metabolism	gene	KEGG

@@ -1,0 +1,7 @@
+sample,fastq_1,fastq_2,strandedness,group
+control_rep1,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction1_rep1_R1_paired.fq.gz,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction1_rep1_R2_paired.fq.gz,auto,control
+control_rep2,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction1_rep2_R1_paired.fq.gz,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction1_rep2_R2_paired.fq.gz,auto,control
+control_rep3,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction1_rep3_R1_paired.fq.gz,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction1_rep3_R2_paired.fq.gz,auto,control
+infected_rep1,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction2_rep1_R1_paired.fq.gz,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction2_rep1_R2_paired.fq.gz,auto,infected
+infected_rep2,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction2_rep2_R1_paired.fq.gz,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction2_rep2_R2_paired.fq.gz,auto,infected
+infected_rep3,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction2_rep3_R1_paired.fq.gz,/dados04/jorge/rnaseq_diatraea/raw_reads/interaction2_rep3_R2_paired.fq.gz,auto,infected

@@ -1,0 +1,27 @@
+section	item	strict	relaxed	shared	strict_only	relaxed_only
+STAR_total_mapped_pct	control_rep1	44.21	80.02			
+STAR_unique_pct	control_rep1	42.11	72.57			
+Salmon_reads	control_rep1	3958884	5547577			
+STAR_total_mapped_pct	control_rep2	41.97	78.88			
+STAR_unique_pct	control_rep2	39.96	71.05			
+Salmon_reads	control_rep2	7433165	10550621			
+STAR_total_mapped_pct	control_rep3	40.86	75.98			
+STAR_unique_pct	control_rep3	38.87	68.72			
+Salmon_reads	control_rep3	7711626	10980623			
+STAR_total_mapped_pct	infected_rep1	46.42	81.57			
+STAR_unique_pct	infected_rep1	44.21	74.11			
+Salmon_reads	infected_rep1	4391942	5950735			
+STAR_total_mapped_pct	infected_rep2	44.11	80.61			
+STAR_unique_pct	infected_rep2	42.06	72.83			
+Salmon_reads	infected_rep2	8324268	11369473			
+STAR_total_mapped_pct	infected_rep3	42.73	76.81			
+STAR_unique_pct	infected_rep3	40.70	69.79			
+Salmon_reads	infected_rep3	8649191	11844808			
+DEG	up	266	331	219	47	112
+DEG	down	147	143	98	49	45
+genes_tested	all	9934	11084	9931	3	1153
+log2FC_pearson_r	shared_tested_genes			0.908		
+GO	up	195	243	149	46	94
+GO	down	76	87	59	17	28
+KEGG	up	6	2	1	5	1
+KEGG	down	7	4	4	3	0

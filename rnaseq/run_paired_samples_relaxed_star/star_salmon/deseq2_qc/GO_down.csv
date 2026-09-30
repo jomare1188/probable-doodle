@@ -1,0 +1,88 @@
+"GO.ID","Term","Annotated","Significant","Expected","Classic","p.adj"
+"GO:0042742","defense response to bacterium",50,11,0.55,3.21088760559118e-12,2.655e-10
+"GO:0009617","response to bacterium",56,11,0.62,1.21660242615348e-11,2.655e-10
+"GO:0009607","response to biotic stimulus",116,14,1.28,1.52564170487058e-11,2.655e-10
+"GO:0043207","response to external biotic stimulus",116,14,1.28,1.52564170487058e-11,2.655e-10
+"GO:0051707","response to other organism",116,14,1.28,1.52564170487058e-11,2.655e-10
+"GO:0044419","biological process involved in interspecies interaction between organisms",128,14,1.41,5.93937811344496e-11,8.612e-10
+"GO:0006952","defense response",117,13,1.29,2.5736172598056e-10,3.199e-09
+"GO:0098542","defense response to other organism",106,12,1.17,1.09592674617629e-09,1.192e-08
+"GO:0009605","response to external stimulus",165,14,1.82,1.81650234193888e-09,1.756e-08
+"GO:0031640","killing of cells of another organism",12,5,0.13,1.04014111376807e-07,7.541e-07
+"GO:0141060","disruption of anatomical structure in another organism",12,5,0.13,1.04014111376807e-07,7.541e-07
+"GO:0141061","disruption of cell in another organism",12,5,0.13,1.04014111376807e-07,7.541e-07
+"GO:0001906","cell killing",14,5,0.15,2.58486807310004e-07,1.73e-06
+"GO:0006412","translation",133,10,1.47,1.50969466309271e-06,9.382e-06
+"GO:0006950","response to stress",410,15,4.52,2.71611058197523e-05,0.0001565
+"GO:0002181","cytoplasmic translation",17,4,0.19,2.87793654832728e-05,0.0001565
+"GO:0045087","innate immune response",79,6,0.87,0.000210459966902687,0.001077
+"GO:0140546","defense response to symbiont",84,6,0.93,0.000294836354258283,0.001425
+"GO:0006955","immune response",94,6,1.04,0.000542016378943736,0.002482
+"GO:0002376","immune system process",106,6,1.17,0.00102456408431536,0.004457
+"GO:0006207","'de novo' pyrimidine nucleobase biosynthetic process",5,2,0.06,0.00117254350522408,0.004637
+"GO:0019856","pyrimidine nucleobase biosynthetic process",5,2,0.06,0.00117254350522408,0.004637
+"GO:0006206","pyrimidine nucleobase metabolic process",6,2,0.07,0.00174631013066368,0.00633
+"GO:0046112","nucleobase biosynthetic process",6,2,0.07,0.00174631013066368,0.00633
+"GO:0046128","purine ribonucleoside metabolic process",7,2,0.08,0.00242746496094747,0.008123
+"GO:0170041","non-proteinogenic amino acid metabolic process",7,2,0.08,0.00242746496094747,0.008123
+"GO:0042278","purine nucleoside metabolic process",8,2,0.09,0.00321364340483929,0.01036
+"GO:0008284","positive regulation of cell population proliferation",9,2,0.1,0.00410251856444045,0.01275
+"GO:0045047","protein targeting to ER",11,2,0.12,0.00617923677477077,0.01792
+"GO:0072599","establishment of protein localization to endoplasmic reticulum",11,2,0.12,0.00617923677477077,0.01792
+"GO:0009119","ribonucleoside metabolic process",12,2,0.13,0.00736260982304191,0.02066
+"GO:0019538","protein metabolic process",1137,21,12.54,0.00835621860019127,0.02211
+"GO:0006826","iron ion transport",13,2,0.14,0.00863973856924956,0.02211
+"GO:0072528","pyrimidine-containing compound biosynthetic process",13,2,0.14,0.00863973856924956,0.02211
+"GO:0006575","cellular modified amino acid metabolic process",40,3,0.44,0.00945850628747303,0.02351
+"GO:0046498","S-adenosylhomocysteine metabolic process",1,1,0.01,0.0110306790761806,0.02461
+"GO:0060215","primitive hemopoiesis",1,1,0.01,0.0110306790761806,0.02461
+"GO:0060216","definitive hemopoiesis",1,1,0.01,0.0110306790761806,0.02461
+"GO:1901052","sarcosine metabolic process",1,1,0.01,0.0110306790761806,0.02461
+"GO:0009116","nucleoside metabolic process",15,2,0.17,0.0114667132364592,0.02494
+"GO:0009112","nucleobase metabolic process",16,2,0.18,0.0130123703492065,0.02695
+"GO:0070972","protein localization to endoplasmic reticulum",16,2,0.18,0.0130123703492065,0.02695
+"GO:0072527","pyrimidine-containing compound metabolic process",17,2,0.19,0.0146434045814206,0.02963
+"GO:1901657","glycosyl compound metabolic process",19,2,0.21,0.0181535955330157,0.03589
+"GO:0000272","polysaccharide catabolic process",20,2,0.22,0.0200288292439574,0.03678
+"GO:0006032","chitin catabolic process",20,2,0.22,0.0200288292439574,0.03678
+"GO:0006520","amino acid metabolic process",54,3,0.6,0.0212967029146498,0.03678
+"GO:0006111","regulation of gluconeogenesis",2,1,0.02,0.0219415628098689,0.03678
+"GO:0007198","adenylate cyclase-inhibiting serotonin receptor signaling pathway",2,1,0.02,0.0219415628098689,0.03678
+"GO:0031204","post-translational protein targeting to membrane, translocation",2,1,0.02,0.0219415628098689,0.03678
+"GO:0046348","amino sugar catabolic process",21,2,0.23,0.0219815931440078,0.03678
+"GO:1901072","glucosamine-containing compound catabolic process",21,2,0.23,0.0219815931440078,0.03678
+"GO:0042127","regulation of cell population proliferation",22,2,0.24,0.0240100051110735,0.0381
+"GO:0006030","chitin metabolic process",23,2,0.25,0.0261122139742224,0.0381
+"GO:0006749","glutathione metabolic process",25,2,0.28,0.0305307698476712,0.0381
+"GO:0016042","lipid catabolic process",110,4,1.21,0.0325711688116637,0.0381
+"GO:0006152","purine nucleoside catabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0006154","adenosine catabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0019482","beta-alanine metabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0019483","beta-alanine biosynthetic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0019731","antibacterial humoral response",3,1,0.03,0.0327339317719666,0.0381
+"GO:0030574","collagen catabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0031638","zymogen activation",3,1,0.03,0.0327339317719666,0.0381
+"GO:0033396","beta-alanine biosynthetic process via 3-ureidopropionate",3,1,0.03,0.0327339317719666,0.0381
+"GO:0034644","cellular response to UV",3,1,0.03,0.0327339317719666,0.0381
+"GO:0046085","adenosine metabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0046102","inosine metabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0046103","inosine biosynthetic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0046130","purine ribonucleoside catabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0046500","S-adenosylmethionine metabolic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0051262","protein tetramerization",3,1,0.03,0.0327339317719666,0.0381
+"GO:0051289","protein homotetramerization",3,1,0.03,0.0327339317719666,0.0381
+"GO:0170043","non-proteinogenic amino acid biosynthetic process",3,1,0.03,0.0327339317719666,0.0381
+"GO:0008283","cell population proliferation",26,2,0.29,0.0328435653717962,0.0381
+"GO:1901071","glucosamine-containing compound metabolic process",26,2,0.29,0.0328435653717962,0.0381
+"GO:1901136","carbohydrate derivative catabolic process",67,3,0.74,0.0372006045726565,0.04258
+"GO:0006026","aminoglycan catabolic process",29,2,0.32,0.0401753274297227,0.04391
+"GO:0050896","response to stimulus",1237,20,13.64,0.0404287735862059,0.04391
+"GO:0005976","polysaccharide metabolic process",30,2,0.33,0.0427447914237689,0.04391
+"GO:0006040","amino sugar metabolic process",30,2,0.33,0.0427447914237689,0.04391
+"GO:0006528","asparagine metabolic process",4,1,0.04,0.0434090530629816,0.04391
+"GO:0010906","regulation of glucose metabolic process",4,1,0.04,0.0434090530629816,0.04391
+"GO:0032963","collagen metabolic process",4,1,0.04,0.0434090530629816,0.04391
+"GO:0035162","embryonic hemopoiesis",4,1,0.04,0.0434090530629816,0.04391
+"GO:0043255","regulation of carbohydrate biosynthetic process",4,1,0.04,0.0434090530629816,0.04391
+"GO:0044205","'de novo' UMP biosynthetic process",4,1,0.04,0.0434090530629816,0.04391
+"GO:0009628","response to abiotic stimulus",74,3,0.82,0.0477013249092638,0.0477

@@ -61,9 +61,9 @@ We used `PANNZER2` (http://ekhidna2.biocenter.helsinki.fi/sanspanz/) to assing G
 
 ### 3. **RNAseq processing**
 
-We used a `Nextflow v25.04.7` pipeline `rnaseq (v3.12.0)` from nf-core (https://nf-co.re/rnaseq/3.12.0) to preprocces, align and quantify RNAseq data
+We used a `Nextflow v25.04.7` pipeline `rnaseq (v3.21.0)` from nf-core (https://nf-co.re/rnaseq/3.21.0) to preprocces, align and quantify RNAseq data
 
-We used the default method from `rnaseq (v3.12.0)` which uses `STAR` aligner and `Salmon` to quantify transcript abundance.
+We used the default method from `rnaseq (v3.21.0)` which uses `STAR` aligner and `Salmon` to quantify transcript abundance.
 
 Full report of preprocess and aligment can be found in 
 [Download full report (html)](rnaseq_diatraea/rnaseq/run_paired_samples/multiqc/star_salmon/multiqc_report.html)*(right-click and save as to view)*
@@ -135,9 +135,11 @@ Conclusion: nearly all unclassified reads are insect sequence. They are either s
 [View the full report (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/deseq2.plots.pdf)
 
 - Remove batch effects: We used RUVseq package (v1.40.0) to try to remove the unwanted variation in replicate 1 in both conditions (control and infected), we tried 
-RUVs, RUGg and RUVr methods (see: https://bioconductor.org/packages/release/bioc/manuals/RUVSeq/man/RUVSeq.pdf)
+RUVs, RUVg and RUVr methods (see: https://bioconductor.org/packages/release/bioc/manuals/RUVSeq/man/RUVSeq.pdf)
 
-code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
+code: `rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv_exploration.r` (all steps: `run_downstream.sh`, conda env `R_popstat_jorge`)
+
+Note: the first version of this analysis estimated the RUV factors from a stale `deseq2.dds.RData` left over from an earlier run (`gene-`/`rna-` IDs). The DESeq2 QC files, plots and all results below were regenerated from this run's own counts. The original files are kept in `rnaseq/run_paired_samples/star_salmon/deseq2_qc/original_analysis/`.
 
     - RUVs (We selected this correction for downstream analysis)
 ![RUVs](rnaseq/run_paired_samples/star_salmon/deseq2_qc/k1_RUVs_groups.png)
@@ -153,22 +155,22 @@ code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
 
 We conducted a differential expression analysis (DEA) using DESEeq2 R package between the two sample groups (control vs. infected). We used `lfcThreshold = 1` and `altHypothesis = "greaterAbs"` to identify transcripts that were differentially expressed at least twofold above or below the background expression level. We refer to upregulated genes as those more highly expressed in the control condition than in the infected, and downregulated genes as those more highly expressed in the infected than in the control condition.
 
-we found 82 genes down-regulated and 147 upregulated (p-value < 0.05). We corrected for multiple p-values using Benjamini–Hochberg (BH) procedure.
+The model included the RUVs (k = 1) factor W_1 (`~ W_1 + group`). We found 147 genes down-regulated and 266 up-regulated (adjusted p-value < 0.05, Benjamini–Hochberg). The first version of the analysis, with the stale RUV input, reported 82 down / 147 up; the corrected lists contain 80 of those 82 and all 147.
 
-- code: rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r
-- results: /home/diegoj/rnaseq_diatraea/rnaseq/run_paired_samples/star_salmon/deseq2_qc
+- code: `rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv_dea.r`
+- results: `rnaseq/run_paired_samples/star_salmon/deseq2_qc/` (`up_regulated.csv`, `down_regulated.csv`, `dea_all_genes.csv`)
 
 ### 6. **Functional Enrichment Analysis**
 
 To get insights about the function and the processes that are represented by the sets of up-regulated and down-regulated genes we carried out over representation analysis (ORA) for gene ontology terms (GO) and KEGG pathways.
 
-- GO: We used topGO R package (v2.58.0), p-value < 0.05 and corrected for multiple testing using BH procedure
+- GO: We used topGO R package (v2.58.0), p-value < 0.05 and corrected for multiple testing using BH procedure. The first version of the analysis compared topGO p-values as text, which dropped the most significant terms (e.g. *defense response to bacterium*, p = 3e-10, in the down-regulated genes). `go_enrichment.r` uses the numeric p-values: 195 terms up / 76 down.
 
     - Up: [View overrepresented GO terms in up-regulated genes (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_up.pdf)
 
     - Down: [View overrepresented GO terms in down-regulated genes (PDF)](rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_down.pdf)
 
-- KEGG: We used enrichKEGG function from Cluster profiler R package (v4.14.6) to get KEGG enriched categories in each gene set
+- KEGG: We used enrichKEGG function from Cluster profiler R package (v4.14.0) to get KEGG enriched categories in each gene set (6 pathways up / 7 down; code: `kegg_enrichment.r`). The Coronavirus disease pathway in the down-regulated genes is driven by ribosomal proteins shared with the Ribosome pathway.
 
     - Up: ![Overrepresented KEGG categories in up-regulated genes](rnaseq/run_paired_samples/star_salmon/deseq2_qc/kegg_up.png)
 
@@ -179,7 +181,7 @@ To get insights about the function and the processes that are represented by the
 
 We invstigated if some of the DEGs were predicted as Transcription Factors using http://www.insecttfdb.com/ which uses  AnimalTFDB (Animal Transcription Factor Database) version 4.0, to search PFAM transcription factors protein domains using Hmmer v3.3 in our querys.
 
-We found eight up-regulated differential expressed gene predicted as TF 
+We found eight up-regulated differential expressed gene predicted as TF. These were screened from the first DEG lists; all of them are still up-regulated in the corrected analysis (and in the relaxed STAR analysis). The proteins of the 343 DEGs that were added by the corrected and relaxed analyses have not been screened yet: `rnaseq/run_paired_samples/star_salmon/deseq2_qc/new_DEG_proteins_for_TF_screening.fasta` (412 proteins).
 
 | Query ID       | Domain Name | Accession    | E-value   | Score | Bias |
 |----------------|--------------|--------------|-----------|-------|------|
@@ -193,19 +195,20 @@ We found eight up-regulated differential expressed gene predicted as TF
 | CAH0748970.1   | bHLH         | PF00010.31   | 5.2e-05   | 15.2  | 0.4  |
 
  
-Remarkably one gene DIATSA_LOCUS4889 -> CAG9783855.1 (protein) was detected with GO and KEGG annotations 
+Remarkably one gene DIATSA_LOCUS4889 -> CAG9783855.1 (protein) is connected to enriched GO terms in the GO–KEGG network (log2FC 2.2, padj 0.001). In the first version of the analysis it was also linked to the KEGG pathway *Dorso-ventral axis formation*, which is no longer enriched in the corrected analysis.
 
 | Gene ID           | Term                                 | Type | Database |
 |--------------------|--------------------------------------|------|-----------|
-| DIATSA_LOCUS4889   | neurogenesis                         | gene | GO        |
-| DIATSA_LOCUS4889   | neuron development                   | gene | GO        |
+| DIATSA_LOCUS4889   | multicellular organism development   | gene | GO        |
+| DIATSA_LOCUS4889   | multicellular organismal process     | gene | GO        |
 | DIATSA_LOCUS4889   | anatomical structure development     | gene | GO        |
-| DIATSA_LOCUS4889   | nervous system development           | gene | GO        |
-| DIATSA_LOCUS4889   | cell differentiation                 | gene | GO        |
 | DIATSA_LOCUS4889   | developmental process                | gene | GO        |
+| DIATSA_LOCUS4889   | system development                   | gene | GO        |
 | DIATSA_LOCUS4889   | animal organ development             | gene | GO        |
-| DIATSA_LOCUS4889   | cellular developmental process       | gene | GO        |
-| DIATSA_LOCUS4889   | Dorso-ventral axis formation         | gene | KEGG      |
+| DIATSA_LOCUS4889   | neurogenesis                         | gene | GO        |
+| DIATSA_LOCUS4889   | generation of neurons                | gene | GO        |
+| DIATSA_LOCUS4889   | neuron differentiation               | gene | GO        |
+| DIATSA_LOCUS4889   | neuron development                   | gene | GO        |
 
 
 ### 8. **GO-KEGG Interaction Network**
@@ -223,13 +226,37 @@ Remarkably one gene DIATSA_LOCUS4889 -> CAG9783855.1 (protein) was detected with
 | | RAW counts | `rnaseq/run_paired_samples/star_salmon/salmon.merged.transcript_counts.tsv` |
 | **Differential Expression (DESeq2)** | Up-regulated genes | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/genes_up.txt` |
 | | Down-regulated genes | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/genes_down.txt` |
-| | Main R script | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv.r` |
+| | Main R script | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/ruv_dea.r` (all steps: `run_downstream.sh`) |
 | **Functional Enrichment (GO & KEGG)** | GO up results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_up.csv` |
 | | GO down results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/GO_down.csv` |
-| | GO–KEGG interaction network (up-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/up_network_edges_with_class.tsv` |
-| | GO–KEGG interaction network (down-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/down_network_edges_with_class.tsv` |
+| | KEGG up / down results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/kegg_up.csv`, `kegg_down.csv` |
+| | GO–KEGG interaction network (up-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/gene_network_up_edges.tsv` |
+| | GO–KEGG interaction network (down-regulated) | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/gene_network_down_edges.tsv` |
+| **First analysis (superseded)** | scripts and results | `rnaseq/run_paired_samples/star_salmon/deseq2_qc/original_analysis/` |
 | **Functional Annotation** | EggNOG results | `eggnog/annotation/proteins.emapper.emapper.annotations` |
 | | PANNZER results | `panzzer/annot_01/formated_go.txt` |
+
+### 10. **Relaxed STAR re-analysis**
+
+Because of the low default mapping rate (see *Mapping rate test*), we repeated the analysis with relaxed STAR filters (`--outFilterScoreMinOverLread 0.3 --outFilterMatchNminOverLread 0.3`), using the same pipeline version (nf-core/rnaseq 3.21.0) and the same downstream methods: RUVs k=1 + DESeq2, topGO, and KEGG.
+
+Setting up this comparison exposed the two issues in the first strict analysis described above: the text-based GO filter and the stale RUV input. The strict results in sections 4–9 are the corrected ones. Relaxed mapping vs the strict analysis:
+
+| | Strict | Relaxed |
+|---|---|---|
+| STAR mapped reads (unique + multi) | 41–46% | **76–82%** |
+| Reads quantified by Salmon | 3.96–8.65 M | 5.55–11.84 M (1.35–1.42x) |
+| Genes tested | 9,934 | 11,084 |
+| Up-regulated (higher in control) | 266 | 331 (219 shared) |
+| Down-regulated (higher in infected) | 147 | 143 (98 shared) |
+| GO terms up / down | 195 / 76 | 243 / 87 |
+| KEGG pathways up / down | 6 / 7 | 2 / 4 |
+
+log2 fold changes agree well between the two (Pearson r = 0.91 over shared genes). Defense and immune response GO terms remain the top down-regulated (infected) terms. The TF DIATSA_LOCUS4889 remains up-regulated.
+
+- results: `rnaseq/run_paired_samples_relaxed_star/star_salmon/deseq2_qc/` (DEGs, GO, KEGG, networks)
+- comparison: `rnaseq/run_paired_samples_relaxed_star/strict_vs_relaxed_summary.md`
+- details: `rnaseq/run_paired_samples_relaxed_star/README.md`
 
 
 ## RNAseq Sugarcane
