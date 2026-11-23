@@ -1,0 +1,84 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Nutraceutical; Colorectal cancer (increased; Xie 2019) [BugSigDB]",6,0.621,4,0.00139,0.0444,0.0444
+"Treatment with Cyclophosphamide (Decrease)",2,0.207,2,0.0106,0.329,0.136
+"Response to antibiotic (decreased; Ryan 2025) [BugSigDB]",6,0.621,3,0.0171,0.513,0.136
+"Antimicrobial agent (increased; Zhu 2017) [BugSigDB]",7,0.724,3,0.0277,0.803,0.136
+"Anti-Bacterial Agents(2 weeks); Bacterial Infections (decrease)",3,0.31,2,0.0297,0.832,0.136
+"Antimicrobial agent (decreased; Zhu 2017) [BugSigDB]",3,0.31,2,0.0297,0.832,0.136
+"Antimicrobial agent (increased; Zwittink 2020) [BugSigDB]",3,0.31,2,0.0297,0.832,0.136
+"Anti-Bacterial Agents(1 week); Bacterial Infections (decrease)",4,0.414,2,0.0554,1,0.222
+"Treatment outcome measurement (increased; Amaruddin 2022) [BugSigDB]",5,0.517,2,0.0862,1,0.297
+"Antimicrobial agent (increased; O'Sullivan 2013) [BugSigDB]",11,1.14,3,0.0961,1,0.297
+"Anticonvulsants (increase)",1,0.103,1,0.103,NA,NA
+"Azithromycin; Metronidazole; Pediatric Crohn's disease (increase)",1,0.103,1,0.103,NA,NA
+"Response to risperidone (decreased; Yuan 2021) [BugSigDB]",19,1.97,4,0.125,1,0.297
+"Anti-Bacterial Agents(vancomycin and metronidazole); Clostridium difficile negative (decrease)",7,0.724,2,0.158,1,0.297
+"Antibiotic; Premature Birth; Health (increase)",7,0.724,2,0.158,1,0.297
+"Infliximab; Crohn Disease (decrease)",7,0.724,2,0.158,1,0.297
+"Infliximab; Crohn Disease (increase)",7,0.724,2,0.158,1,0.297
+"Inulin(10%); Obesity (decrease)",7,0.724,2,0.158,1,0.297
+"Antimicrobial agent (decreased; Nikolaou 2020) [BugSigDB]",7,0.724,2,0.158,1,0.297
+"Innoculation Caesarean Section born infants using vaginal fluids (Increase)",2,0.207,1,0.196,NA,NA
+"Inulin; Ethanol (increase)",2,0.207,1,0.196,NA,NA
+"Response to allogeneic hematopoietic stem cell transplant (decreased; Galloway-Peña 2019) [BugSigDB]",8,0.828,2,0.197,1,0.35
+"Antimicrobial agent (increased; Nikolaou 2020) [BugSigDB]",16,1.66,3,0.225,1,0.379
+"Azithromycin; Pregnant (increase)",10,1.03,2,0.277,1,0.444
+"Azithromycin; Pregnant (decrease)",3,0.31,1,0.28,NA,NA
+"Antimicrobial agent (increased; Tapiainen 2019) [BugSigDB]",3,0.31,1,0.28,NA,NA
+"Antimicrobial agent (decreased; Zwittink 2020) [BugSigDB]",3,0.31,1,0.28,NA,NA
+"Treatment outcome measurement (decreased; Jiang 2024) [BugSigDB]",3,0.31,1,0.28,NA,NA
+"Acetylcysteine; Intestinal dysbiosis and glucose metabolic disorder (increase)",4,0.414,1,0.354,NA,NA
+"Amoxicillin; Pregnant (increase)",4,0.414,1,0.354,NA,NA
+"Anti-Inflammatory Agents,Non-Steroidal(indomethacin,ibuprofen,ketoprofen,diclofenac,piroxicam,celecoxib,nimesulid and aspirin); Aged (decrease)",4,0.414,1,0.354,NA,NA
+"Antibiotic(Amoxicillin Clavulanate); Health (increase)",4,0.414,1,0.354,NA,NA
+"Azithromycin; Non-pregnant (decrease)",4,0.414,1,0.354,NA,NA
+"Response to immunochemotherapy (increased; Katayama 2019) [BugSigDB]",4,0.414,1,0.354,NA,NA
+"Response to antiviral drug (decreased; Burkhart Colorado 2024) [BugSigDB]",4,0.414,1,0.354,NA,NA
+"Amoxicillin (decrease)",5,0.517,1,0.421,NA,NA
+"Amoxicillin; Pregnant (decrease)",5,0.517,1,0.421,NA,NA
+"Antiretroviral�Therapy,Highly Active; HIV Infections (increase)",5,0.517,1,0.421,NA,NA
+"Bismuth-containing quadruple therapy(56 days); Helicobacter pylori infection (decrease)",5,0.517,1,0.421,NA,NA
+"Administered Low Dose Penicillium (decrease) (Decrease)",6,0.621,1,0.482,NA,NA
+"Antibiotic(Ampicillin, Streptomycin ,Clindamycin) (decrease)",6,0.621,1,0.482,NA,NA
+"Antibiotic(Ampicillin, Streptomycin ,Clindamycin) (increase)",6,0.621,1,0.482,NA,NA
+"Bismuth quadruple therapy; Gastritis (increase)",6,0.621,1,0.482,NA,NA
+"Antimicrobial agent (increased; Zhang 2019) [BugSigDB]",6,0.621,1,0.482,NA,NA
+"Anthelmintics (decrease)",7,0.724,1,0.536,NA,NA
+"Anti-Bacterial Agents(1 week); Bacterial Infections (increase)",7,0.724,1,0.536,NA,NA
+"Anti-Bacterial Agents(2 weeks); Bacterial Infections (increase)",7,0.724,1,0.536,NA,NA
+"Azithromycin; Non-pregnant (increase)",7,0.724,1,0.536,NA,NA
+"Bismuth-containing quadruple therapy(14 days); Helicobacter pylori infection (increase)",7,0.724,1,0.536,NA,NA
+"Treatment with Prebiotics (short-chain galactooligosaccharides) in lactose Intolerant individuals (increased) (Increase)",7,0.724,1,0.536,NA,NA
+"Antimicrobial agent (decreased; Fouhy 2012) [BugSigDB]",7,0.724,1,0.536,NA,NA
+"Response to transplant (increased; Zou 2025) [BugSigDB]",17,1.76,2,0.539,1,0.822
+"Antimicrobial agent (decreased; Zhang 2019) [BugSigDB]",18,1.86,2,0.571,1,0.831
+"Azithromycin; Health (increase)",8,0.828,1,0.584,NA,NA
+"Azoxymethane; epigallocatechin gallate (increase)",8,0.828,1,0.584,NA,NA
+"Response to irinotecan (increased; Mahdy 2023) [BugSigDB]",8,0.828,1,0.584,NA,NA
+"Response to oxcarbazepine (decreased; Zhou 2022) [BugSigDB]",9,0.931,1,0.627,NA,NA
+"Treatment outcome measurement (increased; Melis 2021) [BugSigDB]",41,4.24,4,0.629,1,0.84
+"Response to immunochemotherapy (decreased; Zheng 2019) [BugSigDB]",20,2.07,2,0.63,1,0.84
+"Treatment with Prebiotics (GOS plus FOS, inulin and anthocyanins) and Probiotics (Bifidobacterium lactis HN019 and Lactobacillus acidophilus NCFM, decrease) (Decrease)",10,1.03,1,0.666,NA,NA
+"Antimicrobial agent (decreased; Coker 2020) [BugSigDB]",10,1.03,1,0.666,NA,NA
+"Amoxicillin (increase)",11,1.14,1,0.701,NA,NA
+"Antimicrobial agent (increased; Arat 2015) [BugSigDB]",13,1.35,1,0.76,NA,NA
+"Response to allogeneic hematopoietic stem cell transplant (increased; Galloway-Peña 2019) [BugSigDB]",14,1.45,1,0.785,NA,NA
+"Azithromycin; Health (decrease)",53,5.48,4,0.819,1,0.998
+"Response to antiviral drug (increased; Chuaypen 2023) [BugSigDB]",16,1.66,1,0.828,NA,NA
+"Treatment outcome measurement (increased; Boonchooduang 2025) [BugSigDB]",42,4.35,3,0.829,1,0.998
+"Response to oxcarbazepine (increased; Zhou 2022) [BugSigDB]",17,1.76,1,0.846,NA,NA
+"Response to antibiotic (increased; Krigul 2024) [BugSigDB]",32,3.31,2,0.862,1,0.998
+"Treatment outcome measurement (decreased; Zhang 2025) [BugSigDB]",18,1.86,1,0.862,NA,NA
+"Response to transplant (increased; Holle 2025) [BugSigDB]",33,3.41,2,0.873,1,0.998
+"Response to transplant (decreased; Zou 2025) [BugSigDB]",20,2.07,1,0.89,NA,NA
+"Response to immunochemotherapy (decreased; Frankel 2017) [BugSigDB]",22,2.28,1,0.912,NA,NA
+"Response to transplant (decreased; Holle 2025) [BugSigDB]",22,2.28,1,0.912,NA,NA
+"Response to drug (increased; Pereira 2024) [BugSigDB]",51,5.28,3,0.914,1,0.998
+"Response to immunochemotherapy (increased; Zheng 2019) [BugSigDB]",27,2.79,1,0.95,NA,NA
+"Response to immunochemotherapy (decreased; Wind 2020) [BugSigDB]",31,3.21,1,0.968,NA,NA
+"Treatment outcome measurement (decreased; Boonchooduang 2025) [BugSigDB]",64,6.62,3,0.971,1,0.998
+"Transplant outcome measurement (decreased; Holle 2025) [BugSigDB]",51,5.28,2,0.976,1,0.998
+"Treatment outcome measurement (increased; Asangba 2023) [BugSigDB]",35,3.62,1,0.98,NA,NA
+"Response to drug (decreased; Pereira 2024) [BugSigDB]",49,5.07,1,0.996,NA,NA
+"Treatment outcome measurement (decreased; Melis 2021) [BugSigDB]",55,5.69,1,0.998,NA,NA
+"Treatment outcome measurement (increased; Zhang 2025) [BugSigDB]",77,7.97,2,0.998,1,0.998

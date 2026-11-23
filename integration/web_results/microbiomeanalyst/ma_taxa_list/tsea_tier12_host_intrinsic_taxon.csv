@@ -1,0 +1,595 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Gestational diabetes (decreased; Gupta 2024) [BugSigDB]",155,4.47,18,2.83e-07,7.66e-05,7.66e-05
+"Gestational diabetes (increased; Gupta 2024) [BugSigDB]",79,2.28,12,1.88e-06,0.000507,0.000185
+"COVID-19 (increased; Wu 2021) [BugSigDB]",15,0.433,6,2.05e-06,0.000552,0.000185
+"Endometriosis (increased; Shan 2021) [BugSigDB]",25,0.722,7,4.34e-06,0.00116,0.000294
+"Extrahepatic cholestasis (increased; Guo 2018) [BugSigDB]",6,0.173,4,9.46e-06,0.00252,0.000371
+"COVID-19 (decreased; Newsome 2021) [BugSigDB]",63,1.82,10,9.53e-06,0.00254,0.000371
+"Colorectal Neoplasms (increase)",77,2.22,11,9.59e-06,0.00254,0.000371
+"Chronic hepatitis C virus infection (increased; Heidrich 2018) [BugSigDB]",13,0.375,5,1.96e-05,0.00519,0.000665
+"Liver Cirrhosis (Increase)",43,1.24,8,2.35e-05,0.00618,0.000708
+"Acne (decreased; Deng 2018) [BugSigDB]",33,0.953,7,3.19e-05,0.00835,0.000863
+"Colorectal cancer (increased; Xiaofeng 2023) [BugSigDB]",46,1.33,8,3.93e-05,0.0103,0.000953
+"Asthma(One-year-old child at risk) (decrease)",8,0.231,4,4.22e-05,0.011,0.000953
+"Cesarean section (increased; Wampach 2017) [BugSigDB]",16,0.462,5,6.22e-05,0.0161,0.00112
+"Viral disease (increased; Santiso-Bellón 2025) [BugSigDB]",16,0.462,5,6.22e-05,0.0161,0.00112
+"Viral disease (decreased; Santiso-Bellón 2025) [BugSigDB]",16,0.462,5,6.22e-05,0.0161,0.00112
+"Angina, Unstable (increase)",4,0.115,3,9.18e-05,0.0235,0.00146
+"Head and neck squamous cell carcinoma (increase)",4,0.115,3,9.18e-05,0.0235,0.00146
+"Colorectal Neoplasms (present)",39,1.13,7,9.94e-05,0.0252,0.0015
+"Autism spectrum disorder (decreased; He 2023) [BugSigDB]",28,0.808,6,0.000114,0.0288,0.00156
+"Lung transplantation (increased; Wu 2024) [BugSigDB]",18,0.52,5,0.000116,0.0293,0.00156
+"Parkinson's disease (increased; Pietrucci 2019) [BugSigDB]",10,0.289,4,0.000121,0.0304,0.00156
+"Diabetes mellitus (increased; Zhao 2020) [BugSigDB]",20,0.577,5,0.000201,0.0503,0.00248
+"Asthma(One-month-old child at risk) (decrease)",5,0.144,3,0.000225,0.0559,0.00254
+"Autoimmune Hepatitis (increased; Wei 2020) [BugSigDB]",5,0.144,3,0.000225,0.0559,0.00254
+"Age (decreased; Barker-Tejeda 2024) [BugSigDB]",59,1.7,8,0.000244,0.0604,0.00265
+"Obesity (increase )",21,0.606,5,0.000258,0.0635,0.00269
+"Insulin sensitivity measurement (decreased; Crusell 2020) [BugSigDB]",12,0.346,4,0.000273,0.0668,0.00274
+"Constipation (decreased; Wang 2023) [BugSigDB]",33,0.953,6,0.000297,0.0725,0.00287
+"Pancreatic carcinoma (increased; Ren 2017) [BugSigDB]",22,0.635,5,0.000326,0.0793,0.00305
+"Type I Diabetes (increased)",13,0.375,4,0.000385,0.0932,0.00337
+"Systemic scleroderma (increased; Nguyen 2023) [BugSigDB]",13,0.375,4,0.000385,0.0932,0.00337
+"Infantile Cholestasis (decrease)",6,0.173,3,0.00044,0.106,0.00341
+"Maternal Antenatal infection (increase)",6,0.173,3,0.00044,0.106,0.00341
+"Pancreatic Neoplasms (decrease)",6,0.173,3,0.00044,0.106,0.00341
+"Sepsis-Associated Encephalopathy (decrease)",6,0.173,3,0.00044,0.106,0.00341
+"Stroke (increased; Zeng 2019) [BugSigDB]",54,1.56,7,8e-04,0.189,0.00602
+"Thyroid carcinoma (increased; Feng 2019) [BugSigDB]",27,0.78,5,0.000891,0.209,0.00653
+"Cholangitis, Sclerosing; Colitis, Ulcerative (increase)",8,0.231,3,0.00118,0.276,0.0082
+"Pancreatic head carcinoma (increase )",8,0.231,3,0.00118,0.276,0.0082
+"Helminthiasis (decreased; Rosa 2018) [BugSigDB]",114,3.29,10,0.00147,0.342,0.00975
+"Helminthiasis (increased; Rosa 2018) [BugSigDB]",134,3.87,11,0.00148,0.342,0.00975
+"Gestational diabetes (increased; Crusell 2020) [BugSigDB]",19,0.549,4,0.00183,0.42,0.0115
+"Disposition index measurement (decreased; Crusell 2020) [BugSigDB]",19,0.549,4,0.00183,0.42,0.0115
+"Obesity (Increase)",64,1.85,7,0.00221,0.505,0.0135
+"Diabetic retinopathy (decreased; Das 2021) [BugSigDB]",33,0.953,5,0.00228,0.518,0.0135
+"Increase Susceptibility to Malaria (decrease)",10,0.289,3,0.00242,0.548,0.0135
+"Pregnant (increase)",10,0.289,3,0.00242,0.548,0.0135
+"Colorectal adenoma (increased; Chen 2013) [BugSigDB]",3,0.0866,2,0.00243,0.548,0.0135
+"Food allergy (decreased; Tanaka 2017) [BugSigDB]",3,0.0866,2,0.00243,0.548,0.0135
+"Diarrhea (Increase)",49,1.41,6,0.00258,0.572,0.014
+"Autism spectrum disorder (decreased; Finegold 2010) [BugSigDB]",21,0.606,4,0.0027,0.596,0.0143
+"Eczema (decrease)",35,1.01,5,0.00298,0.656,0.0155
+"Parkinson's disease (increased; Qian 2020) [BugSigDB]",22,0.635,4,0.00322,0.706,0.0165
+"Epilepsy (increased; Xie 2017) [BugSigDB]",69,1.99,7,0.00341,0.744,0.0171
+"Reaction time measurement (decreased; Holle 2025) [BugSigDB]",23,0.664,4,0.00382,0.828,0.0186
+"Constipation (decreased; Guo 2020) [BugSigDB]",53,1.53,6,0.00385,0.832,0.0186
+"Cholangitis, Sclerosing; Crohn's disease (increase)",12,0.346,3,0.00426,0.916,0.0191
+"Clostridium difficile infection (increase)",12,0.346,3,0.00426,0.916,0.0191
+"Ulcerative colitis (decreased; Gryaznova 2021) [BugSigDB]",12,0.346,3,0.00426,0.916,0.0191
+"COVID-19 (increased; Kim 2021) [BugSigDB]",38,1.1,5,0.0043,0.916,0.0191
+"Age (increased; Holle 2025) [BugSigDB]",38,1.1,5,0.0043,0.916,0.0191
+"COVID-19 (increased; Tao 2020) [BugSigDB]",24,0.693,4,0.00448,0.94,0.0192
+"Coffee consume (decrease)",4,0.115,2,0.00477,0.997,0.0192
+"Erectile Dysfunction and Diabetes Mellitus (Increase)",4,0.115,2,0.00477,0.997,0.0192
+"Parkinson's disease (decreased; Unger 2016) [BugSigDB]",4,0.115,2,0.00477,0.997,0.0192
+"Iron (increased; Finlayson-Trick 2023) [BugSigDB]",4,0.115,2,0.00477,0.997,0.0192
+"Iron (decreased; Finlayson-Trick 2023) [BugSigDB]",4,0.115,2,0.00477,0.997,0.0192
+"Schizophrenia (decreased; Chen 2021) [BugSigDB]",39,1.13,5,0.00483,0.997,0.0192
+"HIV infection (decreased; Monaco 2016) [BugSigDB]",74,2.14,7,0.00506,1,0.0199
+"Hypertension (Increase)",40,1.15,5,0.00539,1,0.0209
+"Hypertension (decrease)",26,0.751,4,0.00603,1,0.023
+"Diabetes Mellitus, Type 1 (decrease)",14,0.404,3,0.00676,1,0.0254
+"HIV mother to child transmission (increased; Jackson 2022) [BugSigDB]",43,1.24,5,0.00736,1,0.0261
+"Diabetes Mellitus, Type 2; Overweight (increase)",5,0.144,2,0.0078,1,0.0261
+"Diarrhea (increase)",5,0.144,2,0.0078,1,0.0261
+"Mucositis (decrease)",5,0.144,2,0.0078,1,0.0261
+"Colorectal cancer (increased; Yu 2015) [BugSigDB]",5,0.144,2,0.0078,1,0.0261
+"Major depressive disorder (increased; Lin 2017) [BugSigDB]",5,0.144,2,0.0078,1,0.0261
+"Asthma (increased; Chiu 2019) [BugSigDB]",5,0.144,2,0.0078,1,0.0261
+"Age (increased; Seyoum 2024) [BugSigDB]",5,0.144,2,0.0078,1,0.0261
+"HIV infection (increased; Ishizaka 2024) [BugSigDB]",5,0.144,2,0.0078,1,0.0261
+"Schizophrenia (increased; Ma 2020) [BugSigDB]",15,0.433,3,0.00828,1,0.027
+"Intestinal polyp (increased; Fang 2021) [BugSigDB]",15,0.433,3,0.00828,1,0.027
+"Eczema (decreased; Zheng 2016) [BugSigDB]",45,1.3,5,0.00893,1,0.0288
+"COVID-19 (increased; Ren 2021) [BugSigDB]",16,0.462,3,0.00997,1,0.0318
+"COVID-19 (increased; Khan 2021) [BugSigDB]",47,1.36,5,0.0107,1,0.0335
+"Cystic Fibrosis (increase)",6,0.173,2,0.0115,1,0.0335
+"Gastrointestinal Diseases (decrease)",6,0.173,2,0.0115,1,0.0335
+"Heart Failure (Increase)",6,0.173,2,0.0115,1,0.0335
+"Hepatic Encephalopathy (decrease)",6,0.173,2,0.0115,1,0.0335
+"Colorectal cancer (increased; Wang 2012) [BugSigDB]",6,0.173,2,0.0115,1,0.0335
+"Parkinson's disease (increased; Nie 2023) [BugSigDB]",6,0.173,2,0.0115,1,0.0335
+"Essential tremor (decreased; Huang 2023) [BugSigDB]",6,0.173,2,0.0115,1,0.0335
+"COVID-19 (increased; Newsome 2021) [BugSigDB]",48,1.39,5,0.0117,1,0.0337
+"Food allergy (increased; Chen 2016) [BugSigDB]",17,0.491,3,0.0119,1,0.0338
+"Parkinson Disease (increase )",18,0.52,3,0.0139,1,0.0385
+"Food allergy (increased; Ling 2014) [BugSigDB]",18,0.52,3,0.0139,1,0.0385
+"Endometriosis (decreased; Cai 2025) [BugSigDB]",18,0.52,3,0.0139,1,0.0385
+"Cholangitis, Sclerosing; Colitis, Ulcerative(Norse) (increase)",7,0.202,2,0.0158,1,0.0396
+"Colitis,Ulcerative (increase)",7,0.202,2,0.0158,1,0.0396
+"Constipation (present)",7,0.202,2,0.0158,1,0.0396
+"Food allergy (decreased; Künstner 2024) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Type 1 diabetes mellitus (decreased; Alkanani 2015) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Autoantibody measurement (decreased; Alkanani 2015) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Leukemia (decreased; Rashidi 2019) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Colorectal cancer (increased; Zhang 2019) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Graft versus host disease (increased; Payen 2020) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Anemia (decreased; Seyoum 2024) [BugSigDB]",7,0.202,2,0.0158,1,0.0396
+"Non-Alcoholic Fatty Liver Disease (Increase)",92,2.66,7,0.0161,1,0.0399
+"Stroke (increased; Xia 2021) [BugSigDB]",19,0.549,3,0.0162,1,0.0399
+"Breast Neoplasms (Increase)",35,1.01,4,0.0173,1,0.0423
+"Autism spectrum disorder (increased; Dan 2020) [BugSigDB]",54,1.56,5,0.0188,1,0.0456
+"Cholangitis, Sclerosing (increase)",8,0.231,2,0.0206,1,0.0459
+"Enterocolitis and Constipation (Increase)",8,0.231,2,0.0206,1,0.0459
+"Resistance to PD-L1 monoclonal antibodies (increase)",8,0.231,2,0.0206,1,0.0459
+"Stomach Neoplasms (increase )",8,0.231,2,0.0206,1,0.0459
+"Parkinson's disease (increased; Li 2017) [BugSigDB]",8,0.231,2,0.0206,1,0.0459
+"Milk allergic reaction (increased; Berni Canani 2018) [BugSigDB]",8,0.231,2,0.0206,1,0.0459
+"Parkinson's disease (decreased; Li 2019; PMID 31354427) [BugSigDB]",8,0.231,2,0.0206,1,0.0459
+"Glucose measurement (increased; Crusell 2020) [BugSigDB]",8,0.231,2,0.0206,1,0.0459
+"Parkinson's disease symptom measurement (increased; Jo 2022) [BugSigDB]",8,0.231,2,0.0206,1,0.0459
+"Atrial fibrillation (increased; Palmu 2023) [BugSigDB]",8,0.231,2,0.0206,1,0.0459
+"Diarrhea (decrease)",37,1.07,4,0.0209,1,0.046
+"Colorectal cancer (increased; Jin 2019) [BugSigDB]",21,0.606,3,0.0213,1,0.0463
+"Eczema (decreased; Zhang 2019) [BugSigDB]",21,0.606,3,0.0213,1,0.0463
+"Colorectal Neoplasms (decrease)",58,1.67,5,0.0249,1,0.0535
+"Diabetic Neuropathies (increase)",9,0.26,2,0.026,1,0.0535
+"End-stage liver disease (decrease)",9,0.26,2,0.026,1,0.0535
+"Insulin Resistance and  Fatty Liver (decrease)",9,0.26,2,0.026,1,0.0535
+"Multiple sclerosis (increased; Forbes 2018) [BugSigDB]",9,0.26,2,0.026,1,0.0535
+"Celiac disease (decreased; Bodkhe 2019) [BugSigDB]",9,0.26,2,0.026,1,0.0535
+"Age (increased; Singh 2019) [BugSigDB]",9,0.26,2,0.026,1,0.0535
+"HIV infection (increased; Zhou 2020) [BugSigDB]",40,1.15,4,0.0271,1,0.0551
+"HIV infection (increased; Zhou 2018) [BugSigDB]",23,0.664,3,0.0273,1,0.0551
+"Delivery method (increased; Hanachi 2022) [BugSigDB]",129,3.72,8,0.0316,1,0.0623
+"Acquired immunodeficiency syndrome (Increase)",10,0.289,2,0.032,1,0.0623
+"Coronary Artery Disease and  Type-2 Diabetes Mellitthem (Increase)",10,0.289,2,0.032,1,0.0623
+"Depressive Disorder, Major (increase)",10,0.289,2,0.032,1,0.0623
+"COVID-19 (decreased; Galperine 2023) [BugSigDB]",10,0.289,2,0.032,1,0.0623
+"Chronic kidney disease (increased; Wu 2021) [BugSigDB]",62,1.79,5,0.0322,1,0.0623
+"Urinary tract infection (decreased; Nuzzo 2021) [BugSigDB]",25,0.722,3,0.034,1,0.0648
+"Systemic lupus erythematosus (increased; Wen 2021) [BugSigDB]",25,0.722,3,0.034,1,0.0648
+"COVID-19 (decreased; Ren 2021) [BugSigDB]",26,0.751,3,0.0376,1,0.0697
+"Arthritis, Rheumatoid (decrease)",11,0.318,2,0.0383,1,0.0697
+"Hepatitis (decrease)",11,0.318,2,0.0383,1,0.0697
+"Non-Hodgkins lymphoma (increased; Montassier 2015) [BugSigDB]",11,0.318,2,0.0383,1,0.0697
+"Parkinson's disease (increased; Weis 2019) [BugSigDB]",11,0.318,2,0.0383,1,0.0697
+"Diarrhea (decreased; Li 2021) [BugSigDB]",11,0.318,2,0.0383,1,0.0697
+"Binge eating (increased; Li 2024) [BugSigDB]",11,0.318,2,0.0383,1,0.0697
+"Constipation (increase)",27,0.78,3,0.0414,1,0.0749
+"Anorexia nervosa (increased; Mack 2016) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Acute lymphoblastic leukemia (increased; Nearing 2019) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Lung cancer (increased; Zhuang 2019) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Leukemia (decreased; Chua 2020) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Parkinson's disease (increased; Baldini 2020) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Type 2 diabetes mellitus (increased; Das 2021) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Polycystic ovary syndrome (increased; He 2021) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Inflammation (decreased; Seyoum 2024) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Diarrhea (increased; Tesfaw 2024) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Endometriosis (increased; Cai 2025) [BugSigDB]",12,0.346,2,0.0451,1,0.0765
+"Gastric cancer (increased; Qi 2019) [BugSigDB]",28,0.808,3,0.0455,1,0.0765
+"Type 1 diabetes mellitus (decreased; Davis-Richardson 2014) [BugSigDB]",48,1.39,4,0.0484,1,0.081
+"Colitis, Ulcerative (increase)",29,0.837,3,0.0497,1,0.0816
+"Ankylosing spondylitis (decreased; Wen 2017) [BugSigDB]",29,0.837,3,0.0497,1,0.0816
+"Parkinson's disease (decreased; Del Chierico 2020) [BugSigDB]",29,0.837,3,0.0497,1,0.0816
+"Autism Spectrum Disorder (increase)",13,0.375,2,0.0524,1,0.0825
+"Breast Neoplasms (decrease)",13,0.375,2,0.0524,1,0.0825
+"Third Trimester Gestational Diabetes (increase)",13,0.375,2,0.0524,1,0.0825
+"Bipolar disorder (increased; Painold 2019) [BugSigDB]",13,0.375,2,0.0524,1,0.0825
+"Mood disorder (decreased; Zheng 2020) [BugSigDB]",13,0.375,2,0.0524,1,0.0825
+"HIV infection (decreased; Munjoma 2023) [BugSigDB]",13,0.375,2,0.0524,1,0.0825
+"Constipation (decreased; Gong 2025) [BugSigDB]",13,0.375,2,0.0524,1,0.0825
+"Crohn Disease (Increase)",30,0.866,3,0.0541,1,0.0837
+"Eczema (increase)",30,0.866,3,0.0541,1,0.0837
+"Alzheimer's disease (decreased; Kaiyrlykyzy 2022) [BugSigDB]",30,0.866,3,0.0541,1,0.0837
+"Colorectal adenoma (increased; Peters 2016) [BugSigDB]",31,0.895,3,0.0586,1,0.0898
+"Stroke (increased; Dang 2021) [BugSigDB]",31,0.895,3,0.0586,1,0.0898
+"Food Allergies (decrease)",14,0.404,2,0.06,1,0.0898
+"Diarrhea (increased; Lee 2019) [BugSigDB]",14,0.404,2,0.06,1,0.0898
+"Type 1 diabetes mellitus (increased; Leiva-Gea 2018) [BugSigDB]",14,0.404,2,0.06,1,0.0898
+"Hepatocellular carcinoma (increased; Jinato 2024) [BugSigDB]",14,0.404,2,0.06,1,0.0898
+"Metabolic Syndrome (decrease)",32,0.924,3,0.0634,1,0.0939
+"Colorectal cancer (increased; Sun 2020) [BugSigDB]",32,0.924,3,0.0634,1,0.0939
+"Cesarean section (increased; Liu 2019) [BugSigDB]",15,0.433,2,0.0679,1,0.0984
+"Disposition index measurement (increased; Crusell 2020) [BugSigDB]",15,0.433,2,0.0679,1,0.0984
+"HIV infection (decreased; Ishizaka 2021) [BugSigDB]",15,0.433,2,0.0679,1,0.0984
+"Spinal cord injury (increased; Kong 2023) [BugSigDB]",15,0.433,2,0.0679,1,0.0984
+"Colorectal Neoplasms (Increase)",54,1.56,4,0.0691,1,0.0996
+"Non-Alcoholic Fatty Liver Disease (decrease)",78,2.25,5,0.0733,1,0.105
+"Gestational diabetes (increased; Crusell 2018) [BugSigDB]",34,0.982,3,0.0734,1,0.105
+"Insulin Resistance (Increase)",16,0.462,2,0.0762,1,0.107
+"Short Bowel Syndrome (decrease)",16,0.462,2,0.0762,1,0.107
+"Breast cancer (increased; McCune 2024) [BugSigDB]",16,0.462,2,0.0762,1,0.107
+"Food allergy (decreased; Ling 2014) [BugSigDB]",36,1.04,3,0.0841,1,0.117
+"Eczema (increased; West 2015) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Cesarean section (decreased; Nagpal 2016) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Phenylketonuria (decreased; Verduci 2018) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Environmental exposure measurement (increased; Iszatt 2019) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Parkinson's disease (decreased; Jin 2019) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Colorectal cancer (increased; Clos-Garcia 2020) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Parkinson's disease (decreased; Baldini 2020) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Type 2 diabetes mellitus (decreased; Al Bataineh 2021) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Cognitive impairment (increased; Aho 2024) [BugSigDB]",3,0.0866,1,0.0842,NA,NA
+"Rheumatoid arthritis (increased; Chen 2016) [BugSigDB]",17,0.491,2,0.0848,1,0.117
+"COVID-19 (decreased; Gu 2020) [BugSigDB]",17,0.491,2,0.0848,1,0.117
+"Eczema (increased; Zheng 2016) [BugSigDB]",37,1.07,3,0.0897,1,0.123
+"HIV infection (increased; Xie 2021) [BugSigDB]",18,0.52,2,0.0936,1,0.127
+"Diabetic retinopathy (increased; Das 2021) [BugSigDB]",18,0.52,2,0.0936,1,0.127
+"Type 2 diabetes mellitus (increased; Gravdal 2023) [BugSigDB]",18,0.52,2,0.0936,1,0.127
+"Chronic kidney disease (decreased; Li 2019) [BugSigDB]",39,1.13,3,0.101,1,0.135
+"Gestational diabetes (decreased; Crusell 2020) [BugSigDB]",39,1.13,3,0.101,1,0.135
+"HIV infection (increased; Iwase 2024) [BugSigDB]",39,1.13,3,0.101,1,0.135
+"Breast ductal carcinoma in situ (increased; McCune 2024) [BugSigDB]",19,0.549,2,0.103,1,0.136
+"Diabetic Retinopathy (decrease)",4,0.115,1,0.111,NA,NA
+"HIV infection (decrease)",4,0.115,1,0.111,NA,NA
+"Intestinal Polyposis (Increase)",4,0.115,1,0.111,NA,NA
+"Liver Transplantation (Increase)",4,0.115,1,0.111,NA,NA
+"Lung Neoplasms (decrease)",4,0.115,1,0.111,NA,NA
+"Parkinson Disease (present )",4,0.115,1,0.111,NA,NA
+"Porphyromonas gingivalis; Diabetes Mellitus, Experimental (increase )",4,0.115,1,0.111,NA,NA
+"Prediabetic State (Increase)",4,0.115,1,0.111,NA,NA
+"Type 1 Diabetes (g_decrease)",4,0.115,1,0.111,NA,NA
+"Ulcerative Colitis (increase)",4,0.115,1,0.111,NA,NA
+"Ulcerative colitis at exacerbated stage (decrease )",4,0.115,1,0.111,NA,NA
+"Irritable bowel syndrome (decreased; Chassard 2012) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Type 1 diabetes mellitus (increased; Alkanani 2015) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Delivery method (decreased; Kuang 2016) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Schizophrenia (decreased; Yuan 2018) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Schizophrenia (increased; Nguyen 2019) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"HIV infection; Diabetes mellitus (decreased; Moon 2018) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Type 2 diabetes mellitus (increased; Li 2020) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Age (increased; Wu 2020) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Influenza A (H1N1) (increased; Gu 2020) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Alzheimer's disease (decreased; Hou 2021) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Irritable bowel syndrome (increased; Yang 2023) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Leukopenia (increased; Xiaofeng 2023) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Diabetic nephropathy (decreased; Wang 2024) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Diarrhea (increased; Dalby 2024) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Diarrhea (decreased; Dalby 2024) [BugSigDB]",4,0.115,1,0.111,NA,NA
+"Cystic Fibrosis (Increase)",20,0.577,2,0.112,1,0.148
+"Diabetes Mellitus (decrease)",41,1.18,3,0.113,1,0.149
+"Lactose intolerance (increased; Xue 2024) [BugSigDB]",41,1.18,3,0.113,1,0.149
+"Constipation (decrease)",42,1.21,3,0.12,1,0.154
+"Schizophrenia (decreased; Zheng 2019) [BugSigDB]",42,1.21,3,0.12,1,0.154
+"Inflammatory Bowel Diseases (Increase)",117,3.38,6,0.121,1,0.154
+"Cirrhosis (China, increase)",21,0.606,2,0.122,1,0.154
+"Colorectal cancer (decreased; Jin 2019) [BugSigDB]",21,0.606,2,0.122,1,0.154
+"Parkinson's disease (increased; Barichella 2019) [BugSigDB]",21,0.606,2,0.122,1,0.154
+"Schizophrenia (decreased; Ling 2022) [BugSigDB]",21,0.606,2,0.122,1,0.154
+"Obesity (decreased; Damms-Machado 2015) [BugSigDB]",22,0.635,2,0.131,1,0.163
+"Non-Hodgkins lymphoma (decreased; Montassier 2015) [BugSigDB]",22,0.635,2,0.131,1,0.163
+"Henoch-Schoenlein purpura (decreased; Wang 2018) [BugSigDB]",22,0.635,2,0.131,1,0.163
+"Eczema (decreased; Park 2020) [BugSigDB]",22,0.635,2,0.131,1,0.163
+"Schizophrenia (increased; Wang 2024) [BugSigDB]",44,1.27,3,0.133,1,0.164
+"Asthma(One-month-old child at risk) (increase)",5,0.144,1,0.136,NA,NA
+"Cholecystitis, Acute (increase)",5,0.144,1,0.136,NA,NA
+"Clostridium Infections (decrease)",5,0.144,1,0.136,NA,NA
+"Diabetic Nephropathies (decrease)",5,0.144,1,0.136,NA,NA
+"Diabetic Retinopathy (Increase)",5,0.144,1,0.136,NA,NA
+"HPV (increased)",5,0.144,1,0.136,NA,NA
+"Intestinal Diseases and Fatty Liver (decrease)",5,0.144,1,0.136,NA,NA
+"Pancreatitis (increase )",5,0.144,1,0.136,NA,NA
+"Parkinson Disease (absent )",5,0.144,1,0.136,NA,NA
+"Professional Athlete (decrease)",5,0.144,1,0.136,NA,NA
+"Spondylitis, Ankylosing (decrease )",5,0.144,1,0.136,NA,NA
+"Socioeconomic status (increased; Greenhill 2015) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Irritable bowel syndrome (decreased; Shukla 2015) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"HIV infection (increased; Stiksrud 2015) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Anorexia nervosa (decreased; Morita 2015) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Chronic fatigue syndrome (increased; Giloteaux 2016) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Asthma (increased; Stokholm 2018) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Waist circumference (increased; Fei 2019) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Cognitive impairment (increased; Nagpal 2019) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Obesity (increased; Kaplan 2019) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Polycystic ovary syndrome (decreased; Li 2020) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Constipation (decreased; Yang 2021) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Diarrhea (decreased; Ren 2024) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Inflammation (increased; Seyoum 2024) [BugSigDB]",5,0.144,1,0.136,NA,NA
+"Metabolic Syndrome (Increase)",45,1.3,3,0.139,1,0.17
+"Obesity (increased; Chen 2020) [BugSigDB]",45,1.3,3,0.139,1,0.17
+"Urinary tract infection (increased; Nuzzo 2021) [BugSigDB]",45,1.3,3,0.139,1,0.17
+"Fatty Liver (decrease)",23,0.664,2,0.141,1,0.17
+"Inflammatory bowel disease (decreased; PMID 33653942) [BugSigDB]",23,0.664,2,0.141,1,0.17
+"Schizophrenia (increased; Wei 2024) [BugSigDB]",23,0.664,2,0.141,1,0.17
+"Alzheimer Disease (decrease)",46,1.33,3,0.146,1,0.175
+"Obesity (decrease)",71,2.05,4,0.148,1,0.176
+"Alzheimer's disease (increased; Ling 2020) [BugSigDB]",24,0.693,2,0.151,1,0.179
+"Parkinson's disease (increased; Guo 2022) [BugSigDB]",24,0.693,2,0.151,1,0.179
+"Coronary Artery Disease (Negative correlation with Cardiac Valve Calcification)",6,0.173,1,0.161,NA,NA
+"Diabetic Neuropathies (decrease)",6,0.173,1,0.161,NA,NA
+"Inflammation (decrease)",6,0.173,1,0.161,NA,NA
+"Pancreatic head carcinoma (decrease )",6,0.173,1,0.161,NA,NA
+"Rett Syndrome (decrease)",6,0.173,1,0.161,NA,NA
+"Diarrhea (increased; Nielsin 2024) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Autism spectrum disorder (increased; Kang 2013) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Milk allergic reaction (increased; Bunyavanich 2016) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Ulcerative colitis (increased; Nishino 2018) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Egg allergy (increased; Fazlollahi 2018) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Parkinson's disease (decreased; Qian 2018) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Obesity (decreased; Del Chierico 2018) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Urinary tract infection (increased; Paalanne 2018) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Parkinson's disease (decreased; Weis 2019) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Colorectal cancer (decreased; Clos-Garcia 2020) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Insulin sensitivity measurement (increased; Crusell 2020) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Parkinson's disease (increased; Vascellari 2021) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Spontaneous preterm birth (decreased; Chong 2021) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Cognitive impairment (increased; Park 2022) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Parkinson's disease (increased; Zhang 2022) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Nutritional deficiency disease (increased; Seyoum 2024) [BugSigDB]",6,0.173,1,0.161,NA,NA
+"Bacterial Vaginosis (increase)",25,0.722,2,0.162,1,0.189
+"Eczema (increased; Park 2020) [BugSigDB]",25,0.722,2,0.162,1,0.189
+"Ulcerative colitis (increased; Zuo 2022) [BugSigDB]",25,0.722,2,0.162,1,0.189
+"Major depressive disorder (decreased; Chen 2020) [BugSigDB]",26,0.751,2,0.172,1,0.2
+"Urolithiasis (increased; Suryavanshi 2023) [BugSigDB]",50,1.44,3,0.174,1,0.202
+"HIV infection (increased; Ling 2016) [BugSigDB]",27,0.78,2,0.182,1,0.209
+"Parkinson's disease (increased; Vascellari 2020) [BugSigDB]",27,0.78,2,0.182,1,0.209
+"Alzheimer's (decrease)",7,0.202,1,0.186,NA,NA
+"Chronic Obstructive Pulmonary Disease (COPD) (Increase)",7,0.202,1,0.186,NA,NA
+"Dysentery (increase)",7,0.202,1,0.186,NA,NA
+"Metabolic Syndrome (decrease )",7,0.202,1,0.186,NA,NA
+"Obese (decrease)",7,0.202,1,0.186,NA,NA
+"Parasitic nematode infection (increase )",7,0.202,1,0.186,NA,NA
+"Type 1 diabetes mellitus (decreased; Murri 2013) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Irritable bowel syndrome (increased; Shukla 2015) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Food allergy (decreased; Savage 2018) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Parkinson's disease (increased; Wallen 2020) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Esophageal carcinoma (decreased; Peng 2020) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Gestational weight gain measurement (increased; Crusell 2020) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Cholestasis (increased; Ning 2023) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Parasitic infection (increased; Seyoum 2024) [BugSigDB]",7,0.202,1,0.186,NA,NA
+"Mood disorder (increased; Zheng 2020) [BugSigDB]",28,0.808,2,0.193,1,0.218
+"HIV infection (decreased; Zhou 2020) [BugSigDB]",28,0.808,2,0.193,1,0.218
+"Glucose (increased; Palmnäs-Bédard 2022) [BugSigDB]",28,0.808,2,0.193,1,0.218
+"Autoimmune disease (increased; Giongo 2011) [BugSigDB]",79,2.28,4,0.193,1,0.218
+"Place of residence measurement; Ethnic group (increased; De Filippo 2010) [BugSigDB]",53,1.53,3,0.196,1,0.221
+"Chemical And Drug Induced Liver Injury (Increase)",29,0.837,2,0.203,1,0.227
+"Parkinson's disease (increased; Qian 2018) [BugSigDB]",29,0.837,2,0.203,1,0.227
+"Diabetes Mellitus, Type 2 (increase)",8,0.231,1,0.209,NA,NA
+"End-stage liver disease (Increase)",8,0.231,1,0.209,NA,NA
+"Graft Vs Host Disease (Increase)",8,0.231,1,0.209,NA,NA
+"Hashimoto Disease (decrease)",8,0.231,1,0.209,NA,NA
+"HIV infection (increased; McHardy 2013) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Colorectal cancer (decreased; Zackular 2014) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Colorectal cancer (decreased; Yu 2015) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Age (increased; Kuang 2016) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Autism spectrum disorder (decreased; Zhang 2018) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Gastric cancer (decreased; Gunathilake 2020) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Constipation (decreased; Li 2020) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Endometriosis (decreased; Svensson 2021) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Anemia (increased; Long 2021) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Socioeconomic status (increased; Lapidot 2021) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Gestational diabetes (decreased; Chen 2022) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Body mass index (decreased; Himbert 2022) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Atrial fibrillation (decreased; Palmu 2023) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Colorectal cancer (decreased; Cai 2025) [BugSigDB]",8,0.231,1,0.209,NA,NA
+"Obesity (increased; Peters 2018) [BugSigDB]",30,0.866,2,0.214,1,0.236
+"Parkinson's disease (increased; Lin 2019) [BugSigDB]",30,0.866,2,0.214,1,0.236
+"HIV mother to child transmission (decreased; Jackson 2022) [BugSigDB]",30,0.866,2,0.214,1,0.236
+"Atherosclerosis (Increase)",31,0.895,2,0.225,1,0.246
+"Common variable immunodeficiency (increased; Berbers 2025) [BugSigDB]",31,0.895,2,0.225,1,0.246
+"Asthma (Increase)",9,0.26,1,0.232,NA,NA
+"Colorectal conventional adenoma (increase)",9,0.26,1,0.232,NA,NA
+"Diabetes Mellitus, Type 2 (decrease)",9,0.26,1,0.232,NA,NA
+"Head and neck squamous cell carcinoma (decrease)",9,0.26,1,0.232,NA,NA
+"Sleep Deprivation; Vasoplegia (increase )",9,0.26,1,0.232,NA,NA
+"Food allergy (increased; Künstner 2024) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Autism spectrum disorder (increased; Strati 2017) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Parkinson's disease (increased; Petrov 2017) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Ulcerative colitis (increased; Forbes 2018) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Rheumatoid arthritis (increased; Forbes 2018) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Parkinson's disease (decreased; Barichella 2019) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Obesity (decreased; Wang 2019) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"HIV infection (decreased; Sainz 2020) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Gestational weight gain measurement (decreased; Crusell 2020) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Autism spectrum disorder (increased; Ye 2021) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Intestinal polyp (decreased; Fang 2021) [BugSigDB]",9,0.26,1,0.232,NA,NA
+"Type 2 diabetes mellitus (increased; Pinna 2021) [BugSigDB]",115,3.32,5,0.237,1,0.258
+"Alzheimer's disease (increased; Li 2019) [BugSigDB]",33,0.953,2,0.246,1,0.267
+"Breast cancer (decreased; Hou 2021) [BugSigDB]",60,1.73,3,0.25,1,0.27
+"Colorectal Adenomatous Polyposis, Autosomal Recessive (increase)",10,0.289,1,0.254,NA,NA
+"Pancreatic Neoplasms (Increase)",10,0.289,1,0.254,NA,NA
+"Ulcerative colitis at remission stage (decrease )",10,0.289,1,0.254,NA,NA
+"Food allergy (decreased; Chen 2016) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Crohn's disease (increased; Nishino 2018) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Epilepsy (decreased; Xie 2017) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Asthma (decreased; Koleva 2017) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Schizophrenia (decreased; Shen 2018) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Henoch-Schoenlein purpura (increased; Wang 2018) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Cervical cancer (increased; Sims 2019) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Type 2 diabetes mellitus (decreased; Alvarez-Silva 2021) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Irritable bowel syndrome (decreased; Mei 2021) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Constipation (increased; Zhang 2021) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Postmenopausal osteoporosis (increased; Huang 2023) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Major depressive disorder (increased; Li 2023) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Lung cancer (decreased; Luan 2024) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Obesity (decreased; Study 83) [BugSigDB]",10,0.289,1,0.254,NA,NA
+"Diabetes Mellitus (Increase)",61,1.76,3,0.257,1,0.277
+"Gastric cancer (increased; Jeong 2024) [BugSigDB]",35,1.01,2,0.268,1,0.287
+"Parkinsons (decreased)",11,0.318,1,0.276,NA,NA
+"Autism spectrum disorder (increased; Pulikkan 2018) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Attention deficit hyperactivity disorder (increased; Jiang 2018) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Rheumatoid arthritis (decreased; Jeong 2019) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Colorectal cancer (decreased; Zhang 2019) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Gastric cancer (increased; Liang 2019) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Glucose measurement (decreased; Crusell 2020) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Rheumatoid arthritis (increased; Liu 2020) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"COVID-19 (increased; Zhou 2021; PMID 34168484) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Colorectal cancer (increased; Fang 2021) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Menopause (increased; Hou 2021) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Cognitive impairment (increased; Aljumaah 2022) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Body height (decreased; Surono 2024) [BugSigDB]",11,0.318,1,0.276,NA,NA
+"Nutritional deficiency disease (decreased; Seyoum 2024) [BugSigDB]",36,1.04,2,0.279,1,0.298
+"Uveitis (decrease)",37,1.07,2,0.29,1,0.308
+"Colorectal Carcinoma (US and Vietnam, decrease)",12,0.346,1,0.297,NA,NA
+"Autism spectrum disorder (increased; Finegold 2010) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Obesity (increased; Ross 2015) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Juvenile idiopathic arthritis (increased; Di Paola 2016) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Parkinson's disease (increased; Hill-Burns 2017) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Ulcerative colitis (increased; Ma 2018) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Crohn's disease (increased; Forbes 2018) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Stroke (decreased; Zeng 2019) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Chronic kidney disease (increased; Li 2019) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Constipation (decreased; Tian 2021) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Anxiety disorder (increased; Li 2023) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Body mass index (increased; Surono 2024) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"Biological sex (increased; Seyoum 2024) [BugSigDB]",12,0.346,1,0.297,NA,NA
+"COVID-19 (decreased; Tao 2020) [BugSigDB]",39,1.13,2,0.311,1,0.328
+"Intestinal polyp (increased; Wang 2023) [BugSigDB]",39,1.13,2,0.311,1,0.328
+"Colorectal carcinogenesis (Carcinoma, increase)",13,0.375,1,0.317,NA,NA
+"Hyperlipidemias (decrease)",13,0.375,1,0.317,NA,NA
+"Lipid Metabolism Disorders (Increase)",13,0.375,1,0.317,NA,NA
+"Polyposis Syndrome, Hereditary Mixed, 1 (increase )",13,0.375,1,0.317,NA,NA
+"Professional Athlete (increase)",13,0.375,1,0.317,NA,NA
+"Crohn's disease (decreased; Ma 2018) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Pemphigus vulgaris (increased; Huang 2019) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Cervical cancer (decreased; Sims 2019) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Type 2 diabetes mellitus (decreased; Das 2021) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Parkinson's disease (decreased; Jo 2022) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Essential thrombocythemia (increased; Eickhardt-Dalbøge 2023) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Bowel dysfunction (decreased; Li 2023) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Insulin sensitivity measurement (increased; Zhou 2024) [BugSigDB]",13,0.375,1,0.317,NA,NA
+"Liver Cirrhosis (decrease)",40,1.15,2,0.322,1,0.337
+"Multiple chemical sensitivity (increased; Watai 2024) [BugSigDB]",40,1.15,2,0.322,1,0.337
+"Obesity (increased; Dugas 2018) [BugSigDB]",41,1.18,2,0.333,1,0.345
+"Parkinson's disease (decreased; Rosario 2021) [BugSigDB]",41,1.18,2,0.333,1,0.345
+"Eczema (decreased; Song 2016) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Parkinson's disease (decreased; Heintz-Buschart 2018) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Asthma (decreased; Stokholm 2018) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Obesity (increased; Del Chierico 2018) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Age (decreased; Seyoum 2024) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Visceral adipose tissue measurement (increased; Gaber 2024) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Endometriosis (increased; Hicks 2024) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Chronic obstructive pulmonary disease (increased; Zhu 2025) [BugSigDB]",14,0.404,1,0.337,NA,NA
+"Obesity (decreased; Dugas 2018) [BugSigDB]",42,1.21,2,0.343,1,0.355
+"Inflammatory Bowel Diseases (decrease)",104,3,4,0.353,1,0.364
+"Arthritis, Rheumatoid (increase)",15,0.433,1,0.356,NA,NA
+"Obesity and Metabolic Diseases (decrease)",15,0.433,1,0.356,NA,NA
+"Neuromyelitis optica (increased; Shi 2020) [BugSigDB]",15,0.433,1,0.356,NA,NA
+"Obesity (increased; Balakrishnan 2021) [BugSigDB]",15,0.433,1,0.356,NA,NA
+"Osteoarthritis (increased; Ramasamy 2021) [BugSigDB]",15,0.433,1,0.356,NA,NA
+"Parkinson's disease (increased; Lubomski 2022) [BugSigDB]",15,0.433,1,0.356,NA,NA
+"Parkinson's disease (decreased; Babacan Yildiz 2023) [BugSigDB]",15,0.433,1,0.356,NA,NA
+"chromogranin A (increase)",16,0.462,1,0.375,NA,NA
+"Obesity (increased; Andoh 2016) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Colorectal adenoma (decreased; Peters 2016) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Asthma (increased; Koleva 2017) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Lung cancer (increased; Zhang 2018) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Lung cancer (decreased; Zhang 2018) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Multiple myeloma (increased; Zhang 2019) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Epilepsy (increased; Lee 2021) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Parkinson's disease (increased; Chen 2021) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Parkinson's disease (increased; Babacan Yildiz 2023) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Constipation (decreased; Li 2023) [BugSigDB]",16,0.462,1,0.375,NA,NA
+"Gastric cancer (increased; Gao 2018) [BugSigDB]",46,1.33,2,0.385,1,0.396
+"Short Bowel Syndrome (Increase)",17,0.491,1,0.393,NA,NA
+"Multiple sclerosis (decreased; Chen 2016) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Autism spectrum disorder (increased; Plaza-Díaz 2019) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Autism spectrum disorder (decreased; Ma 2019) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Major depressive disorder (increased; Rong 2019) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Parkinson's disease (increased; Aho 2019) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"HIV infection (decreased; Chandiwana 2023) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Metabolic syndrome (increased; Xing 2023) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Type 2 diabetes mellitus (decreased; Gravdal 2023) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Leukopenia (decreased; Xiaofeng 2023) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Diarrhea (decreased; Tesfaw 2024) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Breast cancer (decreased; McCune 2024) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Gestational diabetes (increased; Popova 2025) [BugSigDB]",17,0.491,1,0.393,NA,NA
+"Colitis (decrease)",18,0.52,1,0.411,NA,NA
+"Insulin Resistance (decrease)",18,0.52,1,0.411,NA,NA
+"Parkinson's disease (increased; Lin 2018) [BugSigDB]",18,0.52,1,0.411,NA,NA
+"Crohn's disease (decreased; Forbes 2018) [BugSigDB]",18,0.52,1,0.411,NA,NA
+"Digestive System Carcinoma (decreased; Peng 2020) [BugSigDB]",18,0.52,1,0.411,NA,NA
+"Epilepsy (increased; Gong 2021) [BugSigDB]",18,0.52,1,0.411,NA,NA
+"Chronic granulomatous disease (decreased; Chandrasekaran 2023) [BugSigDB]",18,0.52,1,0.411,NA,NA
+"Gastric cancer (decreased; Jeong 2024) [BugSigDB]",18,0.52,1,0.411,NA,NA
+"Intestinal polyp (decreased; Wang 2023) [BugSigDB]",50,1.44,2,0.426,1,0.436
+"Nephrolithiasis; Calcium Oxalate (decrease )",19,0.549,1,0.428,NA,NA
+"Autism spectrum disorder (decreased; Kang 2013) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Gastric cancer (decreased; Liang 2019) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Major depressive disorder (increased; Chen 2020) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Parkinson's disease (increased; Del Chierico 2020) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Diabetes mellitus (decreased; Zhao 2020) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Parkinson's disease (decreased; Vascellari 2021) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Age (increased; Nel Van Zyl 2021) [BugSigDB]",19,0.549,1,0.428,NA,NA
+"Ovarian cancer (decreased; Asangba 2023) [BugSigDB]",51,1.47,2,0.436,1,0.444
+"Cardiovascular Diseases (decrease)",20,0.577,1,0.444,NA,NA
+"Diarrhea (decreased; Lee 2019) [BugSigDB]",20,0.577,1,0.444,NA,NA
+"Age (increased; Kaplan 2019) [BugSigDB]",20,0.577,1,0.444,NA,NA
+"COVID-19 (increased; Gu 2020) [BugSigDB]",20,0.577,1,0.444,NA,NA
+"Autism spectrum disorder (decreased; Ding 2021) [BugSigDB]",20,0.577,1,0.444,NA,NA
+"Liver Cirrhosis (China, decrease)",52,1.5,2,0.446,1,0.453
+"Cardiovascular disease (increased; Garcia-Fernandez 2024) [BugSigDB]",53,1.53,2,0.456,1,0.461
+"Atherosclerosis (decrease)",22,0.635,1,0.476,NA,NA
+"Substance-related disorder (decreased; Xu 2017) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Schizophrenia (increased; Shen 2018) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Chronic kidney disease (increased; Lun 2019) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Lung cancer (decreased; Zhuang 2019) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Parkinson's disease (decreased; Vascellari 2020) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Psoriasis (increased; Wen 2023) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Crohn's disease (increased; Alsulaiman 2023) [BugSigDB]",22,0.635,1,0.476,NA,NA
+"Colorectal cancer (increased; Wu 2013) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Hashimoto's thyroiditis (increased; Zhao 2018) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Anxiety disorder (increased; Jiang 2018) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Spontaneous preterm birth (increased; Chong 2021) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Parkinson's disease (increased; Li 2021) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Colorectal cancer (decreased; Yuan 2022) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Epilepsy (increased; Zhou 2022) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Lactose intolerance (decreased; Xue 2024) [BugSigDB]",23,0.664,1,0.491,NA,NA
+"Alzheimer Disease (Increase)",24,0.693,1,0.506,NA,NA
+"Parkinson's disease (decreased; Lin 2018) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Chronic kidney disease (decreased; Lun 2019) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Retinopathy (increased; Huang 2021) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Autism spectrum disorder (decreased; Ye 2021) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Colorectal cancer (increased; Yang 2021) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Parkinson's disease (increased; Jo 2022) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Allergic asthma (increased; Wan 2023) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Schizophrenia (increased; Chen 2024) [BugSigDB]",24,0.693,1,0.506,NA,NA
+"Chemical And Drug Induced Liver Injury (decrease)",25,0.722,1,0.52,NA,NA
+"Constipation (increased; Guo 2020) [BugSigDB]",25,0.722,1,0.52,NA,NA
+"Schizophrenia (increased; Pan 2020) [BugSigDB]",25,0.722,1,0.52,NA,NA
+"Drug Resistant Epilepsy (Increase)",26,0.751,1,0.534,NA,NA
+"Obesity (decrease )",26,0.751,1,0.534,NA,NA
+"Pancreatic carcinoma (decreased; Ren 2017) [BugSigDB]",26,0.751,1,0.534,NA,NA
+"Parkinson's disease (increased; Ren 2020) [BugSigDB]",26,0.751,1,0.534,NA,NA
+"COVID-19 (increased; Cao 2021) [BugSigDB]",26,0.751,1,0.534,NA,NA
+"Metabolic syndrome (decreased; Xing 2023) [BugSigDB]",26,0.751,1,0.534,NA,NA
+"Alzheimer's disease (decreased; Zhuang 2018) [BugSigDB]",28,0.808,1,0.561,NA,NA
+"Parkinson's disease (decreased; Yu 2023) [BugSigDB]",28,0.808,1,0.561,NA,NA
+"Schizophrenia (decreased; Wei 2024) [BugSigDB]",28,0.808,1,0.561,NA,NA
+"Parkinson's disease (decreased; Aho 2019) [BugSigDB]",29,0.837,1,0.574,NA,NA
+"Constipation (increased; Yao 2023) [BugSigDB]",29,0.837,1,0.574,NA,NA
+"Age (increased; Ravikrishnan 2024) [BugSigDB]",30,0.866,1,0.586,NA,NA
+"Constipation (increased; Gong 2025) [BugSigDB]",30,0.866,1,0.586,NA,NA
+"Irritable bowel syndrome (decreased; Su 2023) [BugSigDB]",70,2.02,2,0.606,1,0.611
+"Nephrolithiasis (decreased; Tang 2018) [BugSigDB]",32,0.924,1,0.61,NA,NA
+"Abnormal sperm morphology (increased; Liu 2024) [BugSigDB]",32,0.924,1,0.61,NA,NA
+"Colorectal cancer (increased; Deng 2025) [BugSigDB]",32,0.924,1,0.61,NA,NA
+"HIV infection (decreased; Villanueva-Millán 2017) [BugSigDB]",33,0.953,1,0.621,NA,NA
+"Psychosis (increased; Schwarz 2018) [BugSigDB]",33,0.953,1,0.621,NA,NA
+"Gestational diabetes (decreased; Crusell 2018) [BugSigDB]",33,0.953,1,0.621,NA,NA
+"Schizophrenia (decreased; Chen 2024) [BugSigDB]",33,0.953,1,0.621,NA,NA
+"Schizophrenia (decreased; Wang 2024) [BugSigDB]",33,0.953,1,0.621,NA,NA
+"Autism spectrum disorder (decreased; Dan 2020) [BugSigDB]",110,3.18,3,0.622,1,0.624
+"Constipation (increased; Mancabelli 2017) [BugSigDB]",34,0.982,1,0.632,NA,NA
+"Crohn Disease (decrease)",36,1.04,1,0.653,NA,NA
+"Colorectal cancer (increased; Wirbel 2019) [BugSigDB]",36,1.04,1,0.653,NA,NA
+"Obesity (decreased; Martínez-Cuesta 2021) [BugSigDB]",36,1.04,1,0.653,NA,NA
+"Vitiligo (decreased; Kumar 2024) [BugSigDB]",36,1.04,1,0.653,NA,NA
+"Colitis, Ulcerative (decrease)",37,1.07,1,0.663,NA,NA
+"Fatty Liver (Increase)",37,1.07,1,0.663,NA,NA
+"HIV infection (decreased; Maghini 2025) [BugSigDB]",37,1.07,1,0.663,NA,NA
+"Age (increased; Barker-Tejeda 2024) [BugSigDB]",156,4.5,4,0.667,1,0.667
+"Delivery method (decreased; Hanachi 2022) [BugSigDB]",38,1.1,1,0.673,NA,NA
+"Dementia (increased; Stadlbauer 2020) [BugSigDB]",39,1.13,1,0.683,NA,NA
+"Colorectal cancer (decreased; Yang 2021) [BugSigDB]",39,1.13,1,0.683,NA,NA
+"Irritable bowel syndrome (increased; Su 2023) [BugSigDB]",39,1.13,1,0.683,NA,NA
+"Systemic scleroderma (decreased; Nguyen 2023) [BugSigDB]",39,1.13,1,0.683,NA,NA
+"Epilepsy (increased; Peng 2018) [BugSigDB]",40,1.15,1,0.692,NA,NA
+"HIV infection (increased; Ishizaka 2021) [BugSigDB]",40,1.15,1,0.692,NA,NA
+"Colorectal cancer (increased; Huang 2023) [BugSigDB]",42,1.21,1,0.71,NA,NA
+"Constipation (increased; Li 2023) [BugSigDB]",43,1.24,1,0.718,NA,NA
+"Colorectal cancer (decreased; Han 2022) [BugSigDB]",45,1.3,1,0.734,NA,NA
+"Colorectal cancer (decreased; Huang 2023) [BugSigDB]",45,1.3,1,0.734,NA,NA
+"Colorectal cancer (increased; Yuan 2022) [BugSigDB]",48,1.39,1,0.757,NA,NA
+"Colorectal cancer (decreased; Deng 2018) [BugSigDB]",51,1.47,1,0.778,NA,NA
+"Major depressive disorder (increased; Liu 2024) [BugSigDB]",51,1.47,1,0.778,NA,NA
+"COVID-19 (decreased; Khan 2021) [BugSigDB]",52,1.5,1,0.784,NA,NA
+"Insulin sensitivity measurement (decreased; Zhou 2024) [BugSigDB]",53,1.53,1,0.791,NA,NA
+"Major depressive disorder (decreased; Liu 2024) [BugSigDB]",57,1.65,1,0.814,NA,NA
+"Autoimmune disease (decreased; Giongo 2011) [BugSigDB]",58,1.67,1,0.819,NA,NA
+"Place of residence measurement; Ethnic group (decreased; De Filippo 2010) [BugSigDB]",59,1.7,1,0.825,NA,NA
+"Schizophrenia (increased; Ling 2022) [BugSigDB]",63,1.82,1,0.844,NA,NA
+"Colorectal cancer (increased; Jin 2024) [BugSigDB]",68,1.96,1,0.866,NA,NA
+"Male homosexuality (decreased; Huang 2024) [BugSigDB]",130,3.75,1,0.979,NA,NA

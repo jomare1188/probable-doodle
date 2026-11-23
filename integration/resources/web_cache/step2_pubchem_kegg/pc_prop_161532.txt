@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 161532,
+        "MolecularFormula": "C27H48N6O9",
+        "InChIKey": "NHKCCADZVLTPPO-UHFFFAOYSA-N",
+        "MonoisotopicMass": "600.34827713",
+        "Title": "Desferrioxamine E"
+      }
+    ]
+  }
+}

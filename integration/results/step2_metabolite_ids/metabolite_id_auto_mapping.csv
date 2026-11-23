@@ -1,0 +1,19 @@
+metabolite,query_name,query_note,pubchem_cid,pubchem_n_cids_for_name,pubchem_title,formula,monoisotopic_mass,inchikey,KEGG_from_pubchem,KEGG_from_kegg_name_search,KEGG_names,KEGG_chebi_links,HMDB_from_pubchem,ChEBI_from_pubchem,KEGG_route_agreement,retrieved
+Fusaric acid,fusaric acid,,3442,1,Fusaric Acid,C10H13NO2,179.094628657,DGMPVYSXXIOGJY-UHFFFAOYSA-N,C10146,C10146,C10146: Fusaric acid,C10146: 5199,HMDB0252556,CHEBI:5199,agree,2026-09-30
+Gln-C18:3,N-linolenoyl-L-glutamine,"N-acyl glutamine, C18:3 acyl = linolenoyl (assumed alpha-linolenic, 9Z,12Z,15Z)",5470078,1,N-linolenoyl-L-glutamine,C23H41N3O4,423.30970680,CBJQAJQOUVJPLQ-IFNWOZJISA-N,,,,,,,no KEGG,2026-09-30
+Gln-C16:3,N-hexadecatrienoyl-L-glutamine,"N-acyl glutamine, C16:3 acyl; double-bond positions not reported",,0,,,,,,,,,,,no KEGG,2026-09-30
+Gln-C17:3,N-heptadecatrienoyl-L-glutamine,"N-acyl glutamine, C17:3 acyl; double-bond positions not reported",,0,,,,,,,,,,,no KEGG,2026-09-30
+kynurenic acid,kynurenic acid,,3845,1,Kynurenic Acid,C10H7NO3,189.042593085,HCZHHEIFKROPDY-UHFFFAOYSA-N,"C01717,C14645",C01717,C01717: 4-Hydroxy-2-quinolinecarboxylic acid | C14645: Estradiol-17-phenylpropionate,C01717: 18344 | C14645: 34746,HMDB0000715,CHEBI:18344,agree,2026-09-30
+pyroglutamic acid,L-pyroglutamic acid,assumed L (5-oxo-L-proline); LC-MS does not resolve stereochemistry,7405,1,L-Pyroglutamic Acid,C5H7NO3,129.042593085,ODHCTXKNWHHXJC-VKHMYHEASA-N,C01879,C01879,C01879: 5-Oxoproline,C01879: 18183,HMDB0000267,CHEBI:18183,agree,2026-09-30
+soyasaponin Ba,soyasaponin Ba,,91973815,1,Soyasaponin Ba,C48H78O19,958.51373025,WFRQIKSNAYYUJZ-BKQVBUAGSA-N,,,,,,,no KEGG,2026-09-30
+"7,3',4'-Trihydroxyflavone","3',4',7-trihydroxyflavone","same compound, flavone numbering",5322065,1,"3',4',7-Trihydroxyflavone",C15H10O5,270.05282342,PVFGJHYLIHMCQD-UHFFFAOYSA-N,,,,,,CHEBI:196247,no KEGG,2026-09-30
+L-Tryptophan,L-tryptophan,,6305,1,L-Tryptophan,C11H12N2O2,204.089877630,QIVBCDIJIAJPQS-VIFPVBQESA-N,C00078,C00078,C00078: L-Tryptophan,C00078: 16828,HMDB0000929,CHEBI:16828,agree,2026-09-30
+p-coumaric acid,p-coumaric acid,trans isomer is the common natural form,637542,1,P-Coumaric Acid,C9H8O3,164.047344113,NGSWKAQJJWESNS-ZZXKWVIFSA-N,C00811,C00811,C00811: 4-Coumarate,C00811: 32374,HMDB0002035,"CHEBI:32374,CHEBI:36090",agree,2026-09-30
+ferulic acid,ferulic acid,trans isomer is the common natural form,445858,1,Ferulic Acid,C10H10O4,194.05790880,KSEBMYQBYZTDHS-HWKANZROSA-N,C01494,C01494,C01494: Ferulate,C01494: 17620,HMDB0000954,"CHEBI:17620,CHEBI:193350",agree,2026-09-30
+desferrioxamine D2,desferrioxamine D2,,14671620,1,Desmethylenylnocardamine,C26H46N6O9,586.33262707,SXTGVXKFOVZYIK-UHFFFAOYSA-N,,,,,,CHEBI:181598,no KEGG,2026-09-30
+desferrioxamine E,desferrioxamine E,synonym: nocardamine,161532,1,Desferrioxamine E,C27H48N6O9,600.34827713,NHKCCADZVLTPPO-UHFFFAOYSA-N,C23094,C23094,C23094: Desferrioxamine E,C23094: ,,CHEBI:50437,agree,2026-09-30
+spermidine,spermidine,,1102,1,Spermidine,C7H19N3,145.157897619,ATHGHQPFGPMSJY-UHFFFAOYSA-N,C00315,C00315,C00315: Spermidine,C00315: 16610,HMDB0001257,CHEBI:16610,agree,2026-09-30
+fumonisin B1,fumonisin B1,,2733487,1,Fumonisin B1,C34H59NO15,721.38847018,UVBUBMSSQKOIBE-DSLOAKGESA-N,,C19241,C19241: Fumonisin B1,C19241: 38221,,CHEBI:38221,KEGG name only,2026-09-30
+proline,L-proline,assumed L; LC-MS does not resolve stereochemistry,145742,1,L-Proline,C5H9NO2,115.063328530,ONIBWKKTOPOVIA-BYPYZUCNSA-N,C00148,C00148,C00148: L-Proline,C00148: 17203,HMDB0000162,CHEBI:17203,agree,2026-09-30
+sinapic acid,sinapic acid,,10743,1,Sinapic acid,C11H12O5,224.06847348,PCMORTLOPMLEFB-UHFFFAOYSA-N,,C00482,C00482: Sinapate,"C00482: 15714,77131",,,KEGG name only,2026-09-30
+pipecolic acid,L-pipecolic acid,assumed L (lysine catabolism); LC-MS does not resolve stereochemistry,439227,1,"Pipecolic acid, (-)-",C6H11NO2,129.078978594,HXEACLLIILLPRG-YFKPBYRVSA-N,C00408,,C00408: L-Pipecolate,"C00408: 30633,30913",HMDB0000716,CHEBI:30913,PubChem only,2026-09-30

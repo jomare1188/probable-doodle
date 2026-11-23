@@ -1,0 +1,193 @@
+ENTRY       R03687                      Reaction
+NAME        2-quinolinecarboxylic acid:acceptor 4-oxidoreductase (hydroxylating)
+DEFINITION  2-Quinolinecarboxylic acid + Acceptor + H2O <=> 4-Hydroxy-2-quinolinecarboxylic acid + Reduced acceptor
+EQUATION    C06325 + C00028 + C00001 <=> C01717 + C00030
+RCLASS      RC00046  C01717_C06325
+ENZYME      1.3.99.18
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.99  With unknown physiological acceptors
+                1.3.99.18
+                 R03687  2-Quinolinecarboxylic acid + Acceptor + H2O <=> 4-Hydroxy-2-quinolinecarboxylic acid + Reduced acceptor
+DBLINKS     RHEA: 16700
+///
+
+ENTRY       R03749                      Reaction
+NAME        (5-L-glutamyl)-L-amino-acid gamma-glutamyl cyclotransferase (5-oxoproline-forming)
+DEFINITION  (5-L-Glutamyl)-L-amino acid <=> 5-Oxoproline + L-Amino acid
+EQUATION    C03740 <=> C01879 + C00151
+COMMENT     general reaction (see R02743)
+RCLASS      RC00064  C00151_C03740
+            RC00777  C01879_C03740
+ENZYME      4.3.2.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.9
+                 R03749  (5-L-Glutamyl)-L-amino acid <=> 5-Oxoproline + L-Amino acid
+ORTHOLOGY   K00682  gamma-glutamylcyclotransferase [EC:4.3.2.9]
+            K22596  gamma-glutamylcyclotransferase, plant [EC:4.3.2.9]
+DBLINKS     RHEA: 20508
+///
+
+ENTRY       R03899                      Reaction
+NAME        N1-acetylspermine:oxygen oxidoreductase (3-acetamidopropanal-forming)
+DEFINITION  N1-Acetylspermine + Oxygen + H2O <=> Spermidine + 3-Acetamidopropanal + Hydrogen peroxide
+EQUATION    C02567 + C00007 + C00001 <=> C00315 + C18170 + C00027
+RCLASS      RC00053  C00315_C02567
+            RC00225  C02567_C18170
+            RC02755  C00007_C00027
+ENZYME      1.5.3.13        1.5.3.17
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.13
+                 R03899  N1-Acetylspermine + Oxygen + H2O <=> Spermidine + 3-Acetamidopropanal + Hydrogen peroxide
+                1.5.3.17
+                 R03899  N1-Acetylspermine + Oxygen + H2O <=> Spermidine + 3-Acetamidopropanal + Hydrogen peroxide
+ORTHOLOGY   K00308  N1-acetylpolyamine oxidase [EC:1.5.3.13]
+            K13367  polyamine oxidase [EC:1.5.3.17]
+DBLINKS     RHEA: 16136 25803
+///
+
+ENTRY       R05317                      Reaction
+NAME        L-tryptophan:oxygen alpha,beta-oxidoreductase
+DEFINITION  L-Tryptophan + Oxygen <=> alpha,beta-Didehydrotryptophan + Hydrogen peroxide
+EQUATION    C00078 + C00007 <=> C06732 + C00027
+RCLASS      RC01328  C00078_C06732
+            RC02755  C00007_C00027
+ENZYME      1.3.3.10
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.3  With oxygen as acceptor
+                1.3.3.10
+                 R05317  L-Tryptophan + Oxygen <=> alpha,beta-Didehydrotryptophan + Hydrogen peroxide
+DBLINKS     RHEA: 19904
+///
+
+ENTRY       R05329                      Reaction
+NAME        spermidine:eIF5A-lysine 4-aminobutyltransferase (propane-1,3-diamine-forming)
+DEFINITION  [eIF5A-precursor]-lysine + Spermidine <=> [eIF5A-precursor]-deoxyhypusine + 1,3-Diaminopropane
+EQUATION    C07281 + C00315 <=> C07282 + C00986
+COMMENT     multi-step reaction (see R07477+R07479+R07480+R07478)
+RCLASS      RC00053  C00315_C00986  C07281_C07282
+ENZYME      2.5.1.46
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.46
+                 R05329  [eIF5A-precursor]-lysine + Spermidine <=> [eIF5A-precursor]-deoxyhypusine + 1,3-Diaminopropane
+DBLINKS     RHEA: 33302
+///
+
+ENTRY       R05700                      Reaction
+NAME        coniferyl aldehyde:NAD oxidoreductase
+DEFINITION  Coniferyl aldehyde + H2O + NAD+ <=> Ferulate + NADH + H+
+EQUATION    C02666 + C00001 + C00003 <=> C01494 + C00004 + C00080
+COMMENT     see R05701 (NADP)
+RCLASS      RC00001  C00003_C00004
+            RC00218  C01494_C02666
+ENZYME      1.2.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.68
+                 R05700  Coniferyl aldehyde + H2O + NAD+ <=> Ferulate + NADH + H+
+ORTHOLOGY   K12355  coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+DBLINKS     RHEA: 23971
+///
+
+ENTRY       R05701                      Reaction
+NAME        coniferyl aldehyde:NADP oxidoreductase
+DEFINITION  Coniferyl aldehyde + H2O + NADP+ <=> Ferulate + NADPH + H+
+EQUATION    C02666 + C00001 + C00006 <=> C01494 + C00005 + C00080
+COMMENT     see R05700 (NADH)
+RCLASS      RC00001  C00005_C00006
+            RC00218  C01494_C02666
+ENZYME      1.2.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.68
+                 R05701  Coniferyl aldehyde + H2O + NADP+ <=> Ferulate + NADPH + H+
+ORTHOLOGY   K12355  coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+DBLINKS     RHEA: 23967
+///
+
+ENTRY       R05744                      Reaction
+NAME        trans-ferulate:CoASH ligase (ATP-hydrolysing)
+DEFINITION  Ferulate + CoA + ATP <=> Feruloyl-CoA + Products of ATP breakdown
+EQUATION    C01494 + C00010 + C00002 <=> C00406 + C07305
+COMMENT     It has not yet been established whether AMP + diphosphate or ADP + 
+            phosphate are formed in this reaction.
+RCLASS      RC00004  C00010_C00406
+            RC00131  C00406_C01494
+ENZYME      6.2.1.34
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.34
+                 R05744  Ferulate + CoA + ATP <=> Feruloyl-CoA + Products of ATP breakdown
+ORTHOLOGY   K12508  trans-feruloyl-CoA synthase [EC:6.2.1.34]
+///
+
+ENTRY       R06746                      Reaction
+NAME        L-proline:[peptidyl-carrier protein] ligase (AMP-forming)
+DEFINITION  L-Proline + Peptidyl-carrier protein + ATP <=> L-Prolyl-[pcp] + AMP + Diphosphate
+EQUATION    C00148 + C21097 + C00002 <=> C12470 + C00020 + C00013
+COMMENT     two-step reaction (see R12056+R12057)
+RCLASS      RC00039  C12470_C21097
+            RC01438  C00148_C12470
+ENZYME      6.2.1.53
+PATHWAY     rn00333  Prodigiosin biosynthesis
+            rn00401  Novobiocin biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00837  Prodigiosin biosynthesis, L-proline => prodigiosin
+            M00838  Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.53
+                 R06746  L-Proline + Peptidyl-carrier protein + ATP <=> L-Prolyl-[pcp] + AMP + Diphosphate
+ORTHOLOGY   K12719  L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.1.53]
+            K12720  peptidyl carrier protein
+            K21780  L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.1.53]
+            K21781  peptidyl carrier protein
+///
+
+ENTRY       R07213                      Reaction
+NAME        L-tryptophan,tetrahydrobiopterin:oxygen oxidoreductase(5-hydroxylating)
+DEFINITION  L-Tryptophan + Tetrahydrobiopterin + Oxygen <=> 5-Hydroxy-L-tryptophan + 4a-Hydroxytetrahydrobiopterin
+EQUATION    C00078 + C00272 + C00007 <=> C00643 + C15522
+RCLASS      RC00490  C00078_C00643
+ENZYME      1.14.16.4
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.16  With reduced pteridine as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.16.4
+                 R07213  L-Tryptophan + Tetrahydrobiopterin + Oxygen <=> 5-Hydroxy-L-tryptophan + 4a-Hydroxytetrahydrobiopterin
+ORTHOLOGY   K00502  tryptophan 5-monooxygenase [EC:1.14.16.4]
+DBLINKS     RHEA: 16712
+///

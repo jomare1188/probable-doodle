@@ -1,0 +1,14 @@
+cpd:C00148	path:map00330
+cpd:C00148	path:map00332
+cpd:C00148	path:map00333
+cpd:C00148	path:map00401
+cpd:C00148	path:map00404
+cpd:C00148	path:map00470
+cpd:C00148	path:map00970
+cpd:C00148	path:map01100
+cpd:C00148	path:map01110
+cpd:C00148	path:map01230
+cpd:C00148	path:map02010
+cpd:C00148	path:map04974
+cpd:C00148	path:map04978
+cpd:C00148	path:map05230

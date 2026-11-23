@@ -1,0 +1,297 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Firm/semi-hard cheese (gouda and edam type) [FMBN]",16,1.6,12,7.36e-10,2.09e-07,2.09e-07
+"Salami-type sausage [FMBN]",19,1.9,12,1.57e-08,4.44e-06,1.68e-06
+"Porridge (ready to eat) [FMBN]",16,1.6,11,1.78e-08,5.01e-06,1.68e-06
+"Cheese, Butter cheese (Brazil) [FMBN]",21,2.1,12,7.69e-08,2.16e-05,5.46e-06
+"Alcoholic beverages [FMBN]",17,1.7,10,7.23e-07,0.000202,4.08e-05
+"Other wine-like fruit drinks [FMBN]",21,2.1,11,9.27e-07,0.000259,4.08e-05
+"Cheese, burrata [FMBN]",11,1.1,8,1e-06,0.000279,4.08e-05
+"Cheese, saint nectaire [FMBN]",15,1.5,9,2.19e-06,0.000607,7.78e-05
+"Raw doughs and pre-mixes [FMBN]",19,1.9,10,2.88e-06,0.000796,9.1e-05
+"Chicken carcase [FMBN]",28,2.8,12,4.32e-06,0.00119,0.000119
+"Cheese, brie [FMBN]",16,1.6,9,4.59e-06,0.00126,0.000119
+"Cheese, parmigiano reggiano [FMBN]",7,0.699,6,5.66e-06,0.00155,0.000134
+"Cheese, coulommiers [FMBN]",13,1.3,8,6.59e-06,0.00179,0.000144
+"Cottage cheese [FMBN]",8,0.799,6,2.08e-05,0.00564,0.000394
+"Cheese, grana padano [FMBN]",8,0.799,6,2.08e-05,0.00564,0.000394
+"Cow milk, whole [FMBN]",23,2.3,10,2.52e-05,0.00678,0.000447
+"Dishes, incl. Ready to eat meals (excluding soups and salads) [FMBN]",15,1.5,8,2.77e-05,0.00743,0.000463
+"Cheese 2 (after ripening) [cFMD]",24,2.4,10,3.96e-05,0.0106,0.000592
+"Soyabeans (without pods) [FMBN]",24,2.4,10,3.96e-05,0.0106,0.000592
+"Cucumbers [FMBN]",12,1.2,7,4.32e-05,0.0114,0.000613
+"Fish sauce [FMBN]",20,2,9,4.76e-05,0.0126,0.000644
+"Cheese, gruyere [FMBN]",6,0.599,5,5.07e-05,0.0133,0.000654
+"Cheese, raclette [FMBN]",9,0.899,6,5.73e-05,0.015,0.000708
+"Cheese [FMBN]",13,1.3,7,8.58e-05,0.0224,0.001
+"Soy sauce [FMBN]",17,1.7,8,8.81e-05,0.0229,0.001
+"Cheese, asiago [FMBN]",10,0.999,6,0.000132,0.0341,0.00144
+"Yoghurt, sheep milk [FMBN]",7,0.699,5,0.000163,0.0421,0.0016
+"Cheese, fontina [FMBN]",7,0.699,5,0.000163,0.0421,0.0016
+"Cheese, jarlsberg [FMBN]",7,0.699,5,0.000163,0.0421,0.0016
+"Aspergillus Douchi [FMBN]",19,1.9,8,0.00023,0.0587,0.00218
+"Cheese 1 (after ripening) [cFMD]",24,2.4,9,0.000262,0.0665,0.00233
+"Soft brined cheese (feta type) [FMBN]",15,1.5,7,0.000271,0.0686,0.00233
+"Kimchi [FMBN]",15,1.5,7,0.000271,0.0686,0.00233
+"Raw milk cheese [cFMD]",20,2,8,0.000352,0.0884,0.00294
+"Lait caillé [FMBN]",8,0.799,5,0.000401,0.1,0.00325
+"Cheese (core) [cFMD]",16,1.6,7,0.000442,0.11,0.0034
+"Juice, grape [FMBN]",16,1.6,7,0.000442,0.11,0.0034
+"Suero costeño [FMBN]",12,1.2,6,0.000489,0.121,0.00366
+"Insects (Gryllodes sigillatus) [FMBN]",21,2.1,8,0.000522,0.128,0.0038
+"Yucha (all subtypes) [cFMD]",43,4.3,12,0.000587,0.144,0.00417
+"Pickles [FMBN]",38,3.8,11,0.000717,0.175,0.00497
+"Traditional sour milk products, Shubat [FMBN]",9,0.899,5,0.00083,0.202,0.00516
+"Asiago [cFMD]",13,1.3,6,0.000835,0.202,0.00516
+"Caciocavallo [cFMD]",13,1.3,6,0.000835,0.202,0.00516
+"Soft-ripened washed-rind cheese (limburger type) [FMBN]",13,1.3,6,0.000835,0.202,0.00516
+"Raisin wine [FMBN]",13,1.3,6,0.000835,0.202,0.00516
+"Pecorino [cFMD]",18,1.8,7,0.00104,0.247,0.00626
+"Spices [FMBN]",23,2.3,8,0.00106,0.251,0.00626
+"Kefir [FMBN]",6,0.599,4,0.00121,0.286,0.00689
+"Cheese, vacherin fribourgeois [FMBN]",6,0.599,4,0.00121,0.286,0.00689
+"Sauerkraut (all subtypes) [cFMD]",24,2.4,8,0.00146,0.341,0.00811
+"Provolone [cFMD]",19,1.9,7,0.00151,0.351,0.00819
+"Whey, sour [FMBN]",10,0.999,5,0.00153,0.355,0.00819
+"Cassava [cFMD]",42,4.2,11,0.0018,0.416,0.00932
+"Brine fermented vegetables (all subtypes) [cFMD]",36,3.6,10,0.0018,0.416,0.00932
+"Tomatoes (Plum tomato) [FMBN]",15,1.5,6,0.00206,0.471,0.0101
+"Pears [FMBN]",15,1.5,6,0.00206,0.471,0.0101
+"Wine and wine-like drinks [FMBN]",15,1.5,6,0.00206,0.471,0.0101
+"Cheese (all subtypes) [cFMD]",20,2,7,0.00213,0.482,0.0103
+"Toma [cFMD]",11,1.1,5,0.00258,0.58,0.0122
+"Fresh uncured cheese [FMBN]",7,0.699,4,0.00261,0.585,0.0122
+"Pre processed vegetables [cFMD]",57,5.69,13,0.00273,0.608,0.0125
+"Parmigiano reggiano [cFMD]",16,1.6,6,0.00303,0.672,0.0134
+"Wheat bread and rolls [FMBN]",16,1.6,6,0.00303,0.672,0.0134
+"Dried fish [FMBN]",22,2.2,7,0.00395,0.87,0.0168
+"Cow milk, skimmed (low fat) [FMBN]",22,2.2,7,0.00395,0.87,0.0168
+"Cheese, livarot [FMBN]",22,2.2,7,0.00395,0.87,0.0168
+"Goat milk [FMBN]",12,1.2,5,0.00407,0.884,0.017
+"Koumiss (all subtypes) [cFMD]",17,1.7,6,0.0043,0.929,0.0172
+"Cheese, munster [FMBN]",17,1.7,6,0.0043,0.929,0.0172
+"Wine, white [FMBN]",17,1.7,6,0.0043,0.929,0.0172
+"Gari (all subtypes) [cFMD]",34,3.4,9,0.00442,0.941,0.0174
+"Table olives ready for consumption [FMBN]",8,0.799,4,0.00482,1,0.0185
+"Hard cheese (cheddar, emmental type) [FMBN]",8,0.799,4,0.00482,1,0.0185
+"Blue cheese [cFMD]",23,2.3,7,0.00522,1,0.0193
+"Fontina [cFMD]",23,2.3,7,0.00522,1,0.0193
+"Millet [cFMD]",23,2.3,7,0.00522,1,0.0193
+"Mixed vegetable pickle [cFMD]",29,2.9,8,0.00553,1,0.0201
+"Radish (all subtypes) [cFMD]",69,6.89,14,0.00593,1,0.0211
+"Provolone del monaco [cFMD]",18,1.8,6,0.00593,1,0.0211
+"Spirits not from fruit [FMBN]",13,1.3,5,0.0061,1,0.0214
+"Soybean (all subtypes) [cFMD]",36,3.6,9,0.00667,1,0.0229
+"Barley grains [FMBN]",24,2.4,7,0.00677,1,0.0229
+"Tomatoes (Cherry tomatoes) [FMBN]",24,2.4,7,0.00677,1,0.0229
+"Nunu (all subtypes) [cFMD]",19,1.9,6,0.00798,1,0.0253
+"Kunu (all subtypes) [cFMD]",19,1.9,6,0.00798,1,0.0253
+"Fiore sardo [cFMD]",9,0.899,4,0.00802,1,0.0253
+"Milk [FMBN]",9,0.899,4,0.00802,1,0.0253
+"Yoghurt, cow milk, plain [FMBN]",9,0.899,4,0.00802,1,0.0253
+"Beer [FMBN]",9,0.899,4,0.00802,1,0.0253
+"Firm - ripened cheeses [FMBN]",5,0.5,3,0.00837,1,0.0256
+"Cheese, caciocavallo [FMBN]",5,0.5,3,0.00837,1,0.0256
+"Starter cultures [FMBN]",5,0.5,3,0.00837,1,0.0256
+"Grana [cFMD]",25,2.5,7,0.00864,1,0.0261
+"Cured seasoned pork meat [FMBN]",14,1.4,5,0.00874,1,0.0261
+"Mustard (all subtypes) [cFMD]",32,3.2,8,0.0105,1,0.0307
+"Tea leaves and stalks, fermented [FMBN]",32,3.2,8,0.0105,1,0.0307
+"Kimchi (all subtypes) [cFMD]",26,2.6,7,0.0109,1,0.0315
+"Fresh meat (after ripening) [cFMD]",39,3.9,9,0.0116,1,0.0333
+"Chorizo and similar [FMBN]",15,1.5,5,0.0121,1,0.034
+"Montasio [cFMD]",10,0.999,4,0.0123,1,0.034
+"Pig muscle [FMBN]",10,0.999,4,0.0123,1,0.034
+"Sourdough starter [FMBN]",10,0.999,4,0.0123,1,0.034
+"Sauerkraut [FMBN]",27,2.7,7,0.0135,1,0.0365
+"Ogi (all subtypes) [cFMD]",21,2.1,6,0.0135,1,0.0365
+"Fresh cheese B (core) [cFMD]",6,0.599,3,0.0155,1,0.0408
+"Liver-type sausage [FMBN]",6,0.599,3,0.0155,1,0.0408
+"Cheese, robiola [FMBN]",6,0.599,3,0.0155,1,0.0408
+"Probiotics (all subtypes) [cFMD]",16,1.6,5,0.0162,1,0.0418
+"Cow, ox or bull fresh meat [FMBN]",16,1.6,5,0.0162,1,0.0418
+"Milk [cFMD]",22,2.2,6,0.0171,1,0.0437
+"Cooked pork ham [FMBN]",17,1.7,5,0.0211,1,0.0535
+"Water buffalo milk [FMBN]",23,2.3,6,0.0213,1,0.0535
+"Cheese 1 (before ripening) [cFMD]",12,1.2,4,0.0248,1,0.0582
+"Italian-type salami [FMBN]",12,1.2,4,0.0248,1,0.0582
+"Salmons (Atlantic salmon) [FMBN]",12,1.2,4,0.0248,1,0.0582
+"Butter [FMBN]",12,1.2,4,0.0248,1,0.0582
+"Condiments (including table-top formats) [FMBN]",12,1.2,4,0.0248,1,0.0582
+"Whey [FMBN]",12,1.2,4,0.0248,1,0.0582
+"Fresh cheese A (core) [cFMD]",7,0.699,3,0.0252,1,0.0582
+"Fresh cheese A (rind) [cFMD]",7,0.699,3,0.0252,1,0.0582
+"Ripened cheese B (core) [cFMD]",7,0.699,3,0.0252,1,0.0582
+"Mozzarella [FMBN]",7,0.699,3,0.0252,1,0.0582
+"Chinese soy sauce brine [cFMD]",24,2.4,6,0.0261,1,0.0598
+"Fresh cheese [cFMD]",18,1.8,5,0.027,1,0.0599
+"Korean rice vinegar (all subtypes) [cFMD]",18,1.8,5,0.027,1,0.0599
+"Chicken fresh meat [FMBN]",18,1.8,5,0.027,1,0.0599
+"Chocolate and chocolate products [FMBN]",18,1.8,5,0.027,1,0.0599
+"Lettuce (all subtypes) [cFMD]",52,5.2,10,0.0281,1,0.0618
+"Cream, plain [FMBN]",31,3.1,7,0.0285,1,0.0622
+"Milk kefir [cFMD]",13,1.3,4,0.0332,1,0.0708
+"Whey [cFMD]",13,1.3,4,0.0332,1,0.0708
+"Miscellaneous cooked sausages [FMBN]",13,1.3,4,0.0332,1,0.0708
+"Bovine, minced meat [FMBN]",19,1.9,5,0.0338,1,0.0716
+"Ripened cheese A (core) [cFMD]",8,0.799,3,0.0374,1,0.0782
+"Table grapes and similar- (Table grapes) [FMBN]",8,0.799,3,0.0374,1,0.0782
+"Salami (all subtypes) [cFMD]",26,2.6,6,0.0378,1,0.0785
+"Bacon [FMBN]",20,2,5,0.0415,1,0.0843
+"Shrimps and prawns [FMBN]",20,2,5,0.0415,1,0.0843
+"Salt [FMBN]",20,2,5,0.0415,1,0.0843
+"Romaines [FMBN]",14,1.4,4,0.043,1,0.0847
+"Capelin [FMBN]",14,1.4,4,0.043,1,0.0847
+"Sheep milk [FMBN]",14,1.4,4,0.043,1,0.0847
+"Palms (trunk sap) [FMBN]",14,1.4,4,0.043,1,0.0847
+"Salame felino [cFMD]",21,2.1,5,0.0503,1,0.0979
+"Pearl oyster mushrooms [FMBN]",21,2.1,5,0.0503,1,0.0979
+"Aguamiel pulque [cFMD]",9,0.899,3,0.0521,1,0.0987
+"Caciotta [cFMD]",9,0.899,3,0.0521,1,0.0987
+"Yogurt (all subtypes) [cFMD]",9,0.899,3,0.0521,1,0.0987
+"Milk powder, skimmed [FMBN]",9,0.899,3,0.0521,1,0.0987
+"Sweet peppers [FMBN]",15,1.5,4,0.0542,1,0.101
+"Wine, red [FMBN]",15,1.5,4,0.0542,1,0.101
+"Meat stew [FMBN]",15,1.5,4,0.0542,1,0.101
+"Post processed vegetables [cFMD]",66,6.59,11,0.0562,1,0.104
+"Fermented soybean (all subtypes) [cFMD]",43,4.3,8,0.0568,1,0.104
+"Sausage (after ripening) [cFMD]",36,3.6,7,0.0595,1,0.108
+"Red pepper sauce (all subtypes) [cFMD]",22,2.2,5,0.0601,1,0.109
+"Cheddar [cFMD]",16,1.6,4,0.0669,1,0.119
+"Raw milk [cFMD]",16,1.6,4,0.0669,1,0.119
+"Lard d'Arnard [FMBN]",16,1.6,4,0.0669,1,0.119
+"Gouda cheese [cFMD]",10,0.999,3,0.0692,1,0.119
+"Non PDO cheese [cFMD]",10,0.999,3,0.0692,1,0.119
+"Sourdough starter [cFMD]",10,0.999,3,0.0692,1,0.119
+"Apples and similar- [FMBN]",10,0.999,3,0.0692,1,0.119
+"Smoked salmon [FMBN]",10,0.999,3,0.0692,1,0.119
+"Peaches and similar- [FMBN]",23,2.3,5,0.0709,1,0.121
+"Duck fresh meat [FMBN]",23,2.3,5,0.0709,1,0.121
+"Cheese (rind) [cFMD]",38,3.8,7,0.0762,1,0.128
+"Coffee arabica [cFMD]",38,3.8,7,0.0762,1,0.128
+"Iru (all subtypes) [cFMD]",31,3.1,6,0.0803,1,0.13
+"Amaranth (all subtypes) [cFMD]",31,3.1,6,0.0803,1,0.13
+"Grapes (all subtypes) [cFMD]",31,3.1,6,0.0803,1,0.13
+"Ass milk [FMBN]",17,1.7,4,0.0809,1,0.13
+"Bovine carcase [FMBN]",17,1.7,4,0.0809,1,0.13
+"Other species of genus Tuber, not elsewhere mentioned [FMBN]",17,1.7,4,0.0809,1,0.13
+"Smoked cheese [cFMD]",5,0.5,2,0.0809,1,0.13
+"Cheese, emmental [FMBN]",5,0.5,2,0.0809,1,0.13
+"Brassica rapa var. parachinensis [cFMD]",39,3.9,7,0.0854,1,0.136
+"PDO cheese [cFMD]",11,1.1,3,0.0884,1,0.137
+"Cheese 2 (before ripening) [cFMD]",11,1.1,3,0.0884,1,0.137
+"Milk (all subtypes) [cFMD]",11,1.1,3,0.0884,1,0.137
+"Wheat flour white [FMBN]",11,1.1,3,0.0884,1,0.137
+"Fresh raw sausages [FMBN]",11,1.1,3,0.0884,1,0.137
+"Edible casings [FMBN]",32,3.2,6,0.0911,1,0.141
+"Surface ripened soft cheeses [cFMD]",25,2.5,5,0.0954,1,0.146
+"Pig minced meat [FMBN]",18,1.8,4,0.0963,1,0.147
+"Alfalfa sprouts [FMBN]",26,2.6,5,0.109,1,0.163
+"Cheddar cheese (spiked with E. coli) [cFMD]",12,1.2,3,0.11,1,0.163
+"Cod, dried [FMBN]",12,1.2,3,0.11,1,0.163
+"Cheese, langres [FMBN]",12,1.2,3,0.11,1,0.163
+"Truffles (Summer truffles) [FMBN]",12,1.2,3,0.11,1,0.163
+"Apples [FMBN]",19,1.9,4,0.113,1,0.164
+"Wine grapes and similar- (Wine grapes) [FMBN]",19,1.9,4,0.113,1,0.164
+"Plaice, european [FMBN]",19,1.9,4,0.113,1,0.164
+"Maasdam [cFMD]",6,0.599,2,0.114,1,0.164
+"Water buffalo mozzarella [cFMD]",6,0.599,2,0.114,1,0.164
+"Cheese, canestrato pugliese [FMBN]",6,0.599,2,0.114,1,0.164
+"Brine [cFMD]",27,2.7,5,0.124,1,0.177
+"Tomme [cFMD]",20,2,4,0.131,1,0.186
+"Flounders [FMBN]",20,2,4,0.131,1,0.186
+"Melons [FMBN]",13,1.3,3,0.133,1,0.186
+"Grape leaves [FMBN]",13,1.3,3,0.133,1,0.186
+"Dutch-type cheese [cFMD]",7,0.699,2,0.149,1,0.205
+"Ovine pasteurized-milk yogurt [cFMD]",7,0.699,2,0.149,1,0.205
+"Table olives [FMBN]",7,0.699,2,0.149,1,0.205
+"Fish and seafood processed [FMBN]",7,0.699,2,0.149,1,0.205
+"Cured meat (after ripening) [cFMD]",21,2.1,4,0.15,1,0.206
+"Wall rocket [FMBN]",29,2.9,5,0.155,1,0.212
+"Mung bean sprouts [FMBN]",14,1.4,3,0.157,1,0.213
+"Water kefir (figs, fresh grain) [cFMD]",22,2.2,4,0.17,1,0.23
+"Salame napoli [cFMD]",15,1.5,3,0.183,1,0.242
+"Common mushrooms [FMBN]",15,1.5,3,0.183,1,0.242
+"Yak fresh meat [FMBN]",15,1.5,3,0.183,1,0.242
+"Cow milk, semi skimmed (half fat) [FMBN]",15,1.5,3,0.183,1,0.242
+"Mozzarella [cFMD]",8,0.799,2,0.186,1,0.242
+"Maize meal [FMBN]",8,0.799,2,0.186,1,0.242
+"Naturally leavened bread dough [FMBN]",8,0.799,2,0.186,1,0.242
+"Sweet peppers and similar- [FMBN]",8,0.799,2,0.186,1,0.242
+"Strawberries [FMBN]",8,0.799,2,0.186,1,0.242
+"Finocchiona [cFMD]",23,2.3,4,0.191,1,0.244
+"Taleggio [cFMD]",23,2.3,4,0.191,1,0.244
+"Water kefir (all subtypes) [cFMD]",23,2.3,4,0.191,1,0.244
+"Grape must (all subtypes) [cFMD]",16,1.6,3,0.209,1,0.267
+"Lettuces and similar- (Iceberg lettuce) [FMBN]",24,2.4,4,0.212,1,0.269
+"Continental-type cheese [cFMD]",9,0.899,2,0.225,1,0.282
+"Tomatoes and similar- [FMBN]",9,0.899,2,0.225,1,0.282
+"Felino-type sausages [cFMD]",17,1.7,3,0.237,1,0.294
+"Meat (all subtypes) [cFMD]",17,1.7,3,0.237,1,0.294
+"Lamb fresh meat [FMBN]",17,1.7,3,0.237,1,0.294
+"Pig sausage [cFMD]",10,0.999,2,0.263,1,0.323
+"Lettuces [FMBN]",10,0.999,2,0.263,1,0.323
+"Hongeo [cFMD]",18,1.8,3,0.265,1,0.323
+"Palm wine (all subtypes) [cFMD]",18,1.8,3,0.265,1,0.323
+"Radish sprouts [FMBN]",35,3.5,5,0.267,1,0.324
+"Cured meat (before ripening) [cFMD]",27,2.7,4,0.28,1,0.339
+"Bovine muscle [FMBN]",11,1.1,2,0.302,1,0.363
+"Cocoa pulp bean mass [cFMD]",28,2.8,4,0.304,1,0.363
+"Sausage (before ripening) [cFMD]",28,2.8,4,0.304,1,0.363
+"Brie [cFMD]",20,2,3,0.322,1,0.378
+"Raw meat (all subtypes) [cFMD]",20,2,3,0.322,1,0.378
+"Roman rocket [FMBN]",20,2,3,0.322,1,0.378
+"Florence fennels and similar- [FMBN]",20,2,3,0.322,1,0.378
+"Raw carcass [cFMD]",29,2.9,4,0.328,1,0.381
+"Water kefir (figs, fresh liquid) [cFMD]",29,2.9,4,0.328,1,0.381
+"Cacciatore italiano [cFMD]",12,1.2,2,0.341,1,0.39
+"Salame ungherese [cFMD]",12,1.2,2,0.341,1,0.39
+"Cured unripened raw sausages [FMBN]",12,1.2,2,0.341,1,0.39
+"Hen egg mixed whole [FMBN]",12,1.2,2,0.341,1,0.39
+"Cods, hakes, haddocks [FMBN]",21,2.1,3,0.351,1,0.4
+"Cocoa beans (all subtypes) [cFMD]",40,4,5,0.37,1,0.42
+"Wine [FMBN]",31,3.1,4,0.376,1,0.425
+"Bovine milk [cFMD]",13,1.3,2,0.379,1,0.425
+"Lettuce [cFMD]",13,1.3,2,0.379,1,0.425
+"Cheese, cantal [FMBN]",5,0.5,1,0.41,NA,NA
+"Salads [FMBN]",5,0.5,1,0.41,NA,NA
+"Salame felino IGP [cFMD]",14,1.4,2,0.416,1,0.465
+"Meat batter [cFMD]",33,3.3,4,0.423,1,0.471
+"Water kefir (figs, dried grain) [cFMD]",15,1.5,2,0.451,1,0.499
+"Crisp lettuces [FMBN]",15,1.5,2,0.451,1,0.499
+"Water based beverages (Water kefir) [FMBN]",6,0.599,1,0.469,NA,NA
+"Hakes [FMBN]",16,1.6,2,0.486,1,0.535
+"Washed rind cheeses [cFMD]",26,2.6,3,0.49,1,0.536
+"Sprouts, shoots and similar [FMBN]",26,2.6,3,0.49,1,0.536
+"Amaranthus spp. [cFMD]",36,3.6,4,0.493,1,0.536
+"Spinacia oleracea [cFMD]",17,1.7,2,0.519,1,0.561
+"Lamb's lettuces [FMBN]",17,1.7,2,0.519,1,0.561
+"Prawns (all subtypes) [cFMD]",39,3.9,4,0.559,1,0.601
+"Ripened cheese A (rind) [cFMD]",29,2.9,3,0.567,1,0.608
+"Lambic beer [cFMD]",8,0.799,1,0.57,NA,NA
+"Cheese, epoisses [FMBN]",8,0.799,1,0.57,NA,NA
+"Cider [FMBN]",8,0.799,1,0.57,NA,NA
+"Pork (all subtypes) [cFMD]",30,3,3,0.591,1,0.628
+"Pig carcase [FMBN]",30,3,3,0.591,1,0.628
+"Pu-erh tea [cFMD]",31,3.1,3,0.614,1,0.646
+"Raw carcasses, meat (before processing) [cFMD]",31,3.1,3,0.614,1,0.646
+"Ripened cheese B (rind) [cFMD]",31,3.1,3,0.614,1,0.646
+"Brassica oleracea var. alboglabra [cFMD]",32,3.2,3,0.636,1,0.661
+"Ripened cheese C1 (rind) [cFMD]",32,3.2,3,0.636,1,0.661
+"Anchovies (all subtypes) [cFMD]",32,3.2,3,0.636,1,0.661
+"Spinach (spiked with STEC) [cFMD]",21,2.1,2,0.637,1,0.661
+"Oyster, pacific cupped [FMBN]",22,2.2,2,0.663,1,0.685
+"Stock cubes or granulate, chicken [FMBN]",25,2.5,2,0.732,1,0.752
+"Marzolina [cFMD]",37,3.7,3,0.734,1,0.752
+"Ham, pork [FMBN]",13,1.3,1,0.747,NA,NA
+"Chocolate starter [cFMD]",26,2.6,2,0.752,1,0.768
+"Water kefir (figs, dried liquid) [cFMD]",15,1.5,1,0.796,NA,NA
+"Ripened cheese C2 (rind) [cFMD]",29,2.9,2,0.805,1,0.819
+"Ripened cheese D2 (rind) [cFMD]",30,3,2,0.82,1,0.831
+"Salmon (all subtypes) [cFMD]",44,4.4,3,0.835,1,0.844
+"Brassica oleracea var. italica [cFMD]",17,1.7,1,0.835,NA,NA
+"Baby leaf spinaches [FMBN]",17,1.7,1,0.835,NA,NA
+"Ripened cheese D1 (rind) [cFMD]",35,3.5,2,0.881,1,0.887
+"Carrots [FMBN]",22,2.2,1,0.904,NA,NA
+"Leafy greens (all subtypes) [cFMD]",68,6.79,4,0.924,1,0.928
+"Chicken (all subtypes) [cFMD]",43,4.3,2,0.941,1,0.941
+"Spinach (all subtypes) [cFMD]",27,2.7,1,0.944,NA,NA

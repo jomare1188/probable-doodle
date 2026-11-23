@@ -1,0 +1,294 @@
+genus	web_name	web_note	confidence_tier	direction	log2_effect_infected_vs_control
+Brucella	Brucella		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	up_in_infected	8.16998421180457
+Microbacterium	Microbacterium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.72599789942891
+Bacillus	Bacillus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.32139190804311
+Lactobacillus	Lactobacillus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-3.80058420612329
+Lactococcus	Lactococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	up_in_infected	4.30647274312865
+Rhizobium	Rhizobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.97339588387037
+Methylobacterium	Methylobacterium		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-5.34150636051453
+Lactiplantibacillus	Lactiplantibacillus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.71591891858769
+Ensifer	Ensifer		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.28906364576688
+Granulicatella	Granulicatella		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.69543372968873
+Stenotrophomonas	Stenotrophomonas		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-4.3960809453077
+Streptomyces	Streptomyces		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.62256392420854
+Staphylococcus	Staphylococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.8462945806413
+Pediococcus	Pediococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.45989997681143
+Carnobacterium	Carnobacterium		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-3.00838740346752
+Enterococcus	Enterococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-1.63047383995312
+Priestia	Priestia		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.37695615098039
+Cutibacterium	Cutibacterium		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-4.2364370769053
+Sphingomonas	Sphingomonas		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-5.46655296730823
+Streptococcus	Streptococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-1.54652276838542
+Jeotgalibaca	Jeotgalibaca		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.24981270818384
+Melissococcus	Melissococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.57687954260159
+Brevibacillus	Brevibacillus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-3.10987311728389
+Methylorubrum	Methylorubrum		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-4.79626743267326
+Ligilactobacillus	Ligilactobacillus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.2471425562955
+Mycolicibacterium	Mycolicibacterium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.70784236201324
+Aerococcus	Aerococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.41786953789233
+Trichococcus	Trichococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.68686843077366
+Tetragenococcus	Tetragenococcus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.82372063332698
+Vagococcus	Vagococcus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-1.93177882408602
+Dapisostemonum CCIBt 3536	Dapisostemonum	strain suffix removed	2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-5.58498378779705
+Fictibacillus	Fictibacillus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.2888291915937
+Anoxybacillus	Anoxybacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.27494384920047
+Aureimonas	Aureimonas		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.10543534743486
+Shinella	Shinella		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	7.36763428959839
+Catellicoccus	Catellicoccus		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.08321335680516
+Arthrobacter	Arthrobacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.49386570725267
+Allorhizobium	Allorhizobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.79056945235174
+Limosilactobacillus	Limosilactobacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.50896463959755
+Lentilactobacillus	Lentilactobacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-3.31283180196966
+Salibacterium	Salibacterium		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.10681751254389
+Rossellomorea	Rossellomorea		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.07712620541477
+Mucilaginibacter	Mucilaginibacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-6.73980017011416
+Mycobacterium	Mycobacterium		1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees	down_in_infected	-2.40491270284616
+Levilactobacillus	Levilactobacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.89746372192451
+Agrobacterium	Agrobacterium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	7.13228164691036
+Pseudochrobactrum	Pseudochrobactrum		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.4796965792761
+Devosia	Devosia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.77297717032665
+Bhargavaea	Bhargavaea		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.21153740987443
+Xanthomonas	Xanthomonas		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-5.76424430823078
+Pararhizobium	Pararhizobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	7.51345782467826
+Leuconostoc	Leuconostoc		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.36008132790258
+Listeria	Listeria		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.16948209808964
+Coleofasciculus PCC-7420	Coleofasciculus	strain suffix removed	2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-4.23685800528964
+Alcaligenes	Alcaligenes		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.72483056494098
+Lacticaseibacillus	Lacticaseibacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.09297198367761
+Aliicoccus	Aliicoccus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.82151337887299
+Scytonema UTEX 2349	Scytonema	strain suffix removed	2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-4.08449957680584
+Agrococcus	Agrococcus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	8.35641393606331
+Rathayibacter	Rathayibacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.68425091745324
+Desemzia	Desemzia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-4.16921032503387
+Ferruginibacter	Ferruginibacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.24610698153694
+Curtobacterium	Curtobacterium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.09090179300393
+Falsochrobactrum	Falsochrobactrum		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	8.04446183959903
+Salinicoccus	Salinicoccus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.85709435256288
+Cellulomonas	Cellulomonas		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.26836813089736
+Aliihoeflea	Aliihoeflea		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.6527996797064
+Liquorilactobacillus	Liquorilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.82123045490085
+Klebsiella	Klebsiella		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.01418144871817
+Mycetocola	Mycetocola		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.31530853282883
+Modestobacter	Modestobacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	7.1353212496439
+Neorhizobium	Neorhizobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.79756462499439
+Nitratireductor	Nitratireductor		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.84654029231475
+Prevotella	Prevotella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-8.53613024063861
+Enterobacter	Enterobacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.4617217043026
+Niallia	Niallia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.73874385808331
+Bartonella	Bartonella		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	6.80854439322505
+Hansschlegelia	Hansschlegelia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.25324607354845
+Anaerococcus	Anaerococcus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-4.25560454732849
+Cohaesibacter	Cohaesibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	7.20316656452469
+Turicibacter	Turicibacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.24949746895633
+Variovorax	Variovorax		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-6.50160644867343
+Cellulosimicrobium	Cellulosimicrobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.70091308925983
+Spirosoma	Spirosoma		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-5.57699399077211
+Hoeflea	Hoeflea		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.71997338282649
+Desmonostoc	Desmonostoc		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-6.6133220019638
+Pallidibacillus	Pallidibacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.51826779096796
+Hyphomicrobium	Hyphomicrobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.46629671892959
+Pseudahrensia	Pseudahrensia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.99787260222764
+Deinococcus	Deinococcus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-7.0345420604804
+EUB33-2		placeholder clade (no genus name)	2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-3.48764684961899
+Endobacterium	Endobacterium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	6.30483036455528
+Pseudaminobacter	Pseudaminobacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	6.42927755094759
+Pseudarthrobacter	Pseudarthrobacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.97657261341128
+Weissella	Weissella		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.23486634599677
+Paenochrobactrum	Paenochrobactrum		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	6.22853010020546
+Sorangium	Sorangium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.34851282034338
+Sphingoaurantiacus	Sphingoaurantiacus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.95779187415112
+Aliirhizobium	Aliirhizobium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.93426292964409
+Aminobacter	Aminobacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.57922968117415
+Lentilitoribacter	Lentilitoribacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.0836259593932
+Isoptericola	Isoptericola		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.83798145896051
+Lentibacillus	Lentibacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.54343953062184
+Mammaliicoccus	Mammaliicoccus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.15208896553905
+Salinarimonas	Salinarimonas		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-6.10859977282166
+Longibaculum	Longibaculum		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.65017879998527
+Micrococcus	Micrococcus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.00413449948338
+Marinilactibacillus	Marinilactibacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.2075642198438
+Leucobacter	Leucobacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	5.41048030604293
+Oenococcus	Oenococcus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.36292345840196
+Martelella	Martelella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.42911426626975
+Abiotrophia	Abiotrophia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.98486868803768
+Cytobacillus	Cytobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.96466357879505
+Mesorhizobium	Mesorhizobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.38073994353508
+Rhizorhabdus	Rhizorhabdus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.46105598454463
+Frondihabitans	Frondihabitans		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.43023972054669
+Sphingopyxis	Sphingopyxis		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.62936386182432
+Paucisalibacillus	Paucisalibacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.16662627047266
+Pannonibacter	Pannonibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.31474550389325
+Ciceribacter	Ciceribacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.39313461802152
+Geobacillus	Geobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.49214913761042
+Paenibacillus	Paenibacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	1.38132731394336
+Pinisolibacter	Pinisolibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.34343999698519
+Latilactobacillus	Latilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.91687285224831
+Delftia	Delftia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-5.37898023531916
+Oceanobacillus	Oceanobacillus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.44132492358504
+UCG-004		placeholder clade (no genus name)	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.44486793094427
+Psychroglaciecola	Psychroglaciecola		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-5.89707629024139
+Planococcus	Planococcus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.70794284572186
+Schinkia	Schinkia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-2.71790939216714
+Xanthobacter	Xanthobacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.38152709577669
+Nodularia PCC-9350	Nodularia	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.64322748197496
+Phyllobacterium	Phyllobacterium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.23836036473157
+Cryobacterium	Cryobacterium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.46077287066768
+Methylorhabdus	Methylorhabdus		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.35271928698914
+Massilia	Massilia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.18677647459605
+Agromyces	Agromyces		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.64444445250747
+Galbitalea	Galbitalea		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.96370665287318
+Maritalea	Maritalea		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.86883255301848
+Facklamia	Facklamia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.85671253489113
+Brevibacterium	Brevibacterium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.67109973148753
+Clavibacter	Clavibacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.65756401944917
+Pseudoclavibacter	Pseudoclavibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	5.02008706565003
+Desmonostoc PCC-7422	Desmonostoc	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.18546634537075
+Frigoribacterium	Frigoribacterium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.58030581180222
+Dolosigranulum	Dolosigranulum		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.22423303800318
+Tardiphaga	Tardiphaga		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.72765387420523
+Intestinibacter	Intestinibacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.49080710031613
+Stakelama	Stakelama		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.75852977065141
+Acholeplasma	Acholeplasma		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	-3.18380169058405
+Halalkalibacter	Halalkalibacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.74854960658043
+Pisciglobus	Pisciglobus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.39694667696089
+Roseibium	Roseibium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.58081176834964
+Sphingosinicella	Sphingosinicella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.51945837240131
+Actinotalea	Actinotalea		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.42125395557463
+Gemella	Gemella		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.7747360848849
+Kocuria	Kocuria		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	2.62692954341601
+Microvirga	Microvirga		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	1.12918683902398
+Fischerella PCC-9339	Fischerella	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.23606011233202
+Ewamiania TS0513	Ewamiania	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.96928805797823
+Haemophilus	Haemophilus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.240357852167
+Apilactobacillus	Apilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.04604533430741
+Rivularia PCC-7116	Rivularia	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.05992168843633
+Sutcliffiella	Sutcliffiella		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.9340145963529
+Bombilactobacillus	Bombilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.14365252445099
+Alkalihalophilus	Alkalihalophilus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.0094407337641
+Chamaesiphon	Chamaesiphon		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.92431048041665
+Ahrensia	Ahrensia		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.76073356776425
+Rubellimicrobium	Rubellimicrobium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.19915337718465
+Mesobacillus	Mesobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.68364440007191
+Gulosibacter	Gulosibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.42954882858681
+Lacticigenium	Lacticigenium		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.32397159354437
+Rhodococcoides	Rhodococcoides		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-6.80926644609725
+Ancylobacter	Ancylobacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.89410801113804
+Rhodopseudomonas	Rhodopseudomonas		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.68765642363294
+Loigolactobacillus	Loigolactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.06985841268853
+Nostoc PCC-73102	Nostoc	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.29333682892255
+Achromobacter	Achromobacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.97429779493113
+Companilactobacillus	Companilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.30997744880354
+Sinorhizobium	Sinorhizobium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.30471039637052
+Nocardioides	Nocardioides		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.04646374753324
+Pseudovibrio	Pseudovibrio		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.26472476535882
+Minunostoc	Minunostoc		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.26600114662158
+Schleiferilactobacillus	Schleiferilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.26078510913533
+Okibacterium	Okibacterium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.36905736317444
+Exiguobacterium	Exiguobacterium		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.38657485669889
+Escherichia	Escherichia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.16955146332664
+Sinomonas	Sinomonas		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	4.0242085733384
+Roseomonas	Roseomonas		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-5.85292972590746
+Novosphingobium	Novosphingobium		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.56714395039139
+Peribacillus	Peribacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.00975270141049
+Corynebacterium	Corynebacterium		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.49651228150423
+Amphiplicatus	Amphiplicatus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.94524197723877
+Xenococcus PCC-7305	Xenococcus	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.28281708441345
+Paraburkholderia	Paraburkholderia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-6.45735864877088
+Parageobacillus	Parageobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.49433701388737
+Fructilactobacillus	Fructilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.74926089375046
+Calothrix PCC-6303	Calothrix	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.48354307024888
+Culicoidibacter	Culicoidibacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.81173897145982
+Atopostipes	Atopostipes		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.07444459279985
+Beijerinckia	Beijerinckia		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	2.02700204281549
+Photobacterium	Photobacterium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.16605785494223
+Candidatus Aquiluna	Candidatus Aquiluna		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.20675374710816
+Gottfriedia	Gottfriedia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.94856329547185
+Aurantimicrobium	Aurantimicrobium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.90648164548044
+Nostoc PCC-7107	Nostoc	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.29362728930547
+Burkholderia	Burkholderia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.52776666038248
+Hymenobacter	Hymenobacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.55835840198306
+Brochothrix	Brochothrix		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.25508068413687
+Secundilactobacillus	Secundilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.07211456146312
+Brasilonema	Brasilonema		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.31331773334469
+Acinetobacter	Acinetobacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.22785738151434
+Micromonospora	Micromonospora		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.00375047791004
+Rhizobacter	Rhizobacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-6.02090030552862
+Limibaculum	Limibaculum		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	4.06337532281857
+Neobacillus	Neobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.51245362265505
+Pluralibacter	Pluralibacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.2886091418897
+Chroococcidiopsis PCC 7203	Chroococcidiopsis	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.57083690492032
+Heyndrickxia	Heyndrickxia		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.59637898506798
+Dactylosporangium	Dactylosporangium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	3.55671781542917
+Tianweitania	Tianweitania		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.78921038816125
+Marisediminicola	Marisediminicola		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.69424847083617
+Conyzicola	Conyzicola		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.7372987534639
+Paenisporosarcina	Paenisporosarcina		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.79145511412438
+Cnuibacter	Cnuibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.76180581801001
+Rhodocaloribacter	Rhodocaloribacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.19261737945676
+Azospirillum	Azospirillum		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.66655526057443
+Rhodobium	Rhodobium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.8333197228028
+Metabacillus	Metabacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.14444264914034
+Pseudochelatococcus	Pseudochelatococcus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.67340253675511
+Jeotgalibacillus	Jeotgalibacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.94273602894505
+Candidatus Flaviluna	Candidatus Flaviluna		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.96128777433733
+Candidatus Hodgkinia	Candidatus Hodgkinia		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.74830469634158
+Komarekiella	Komarekiella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.07449762797522
+Atopobacter	Atopobacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.96418312737497
+Gemmatirosa	Gemmatirosa		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-4.18649467809272
+Atopococcus	Atopococcus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.83101866736897
+Geodermatophilus	Geodermatophilus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.44388751895385
+Halotia CENA158	Halotia	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.874084404926
+Fortiea	Fortiea		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.26429951231166
+Scytonema UCFS19	Scytonema	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.35226635434524
+Nostoc PCC-7524	Nostoc	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.58845168752573
+Periweissella	Periweissella		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.35368486776824
+Tranquillimonas	Tranquillimonas		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.78547003315344
+Terrilactibacillus	Terrilactibacillus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.85008669494922
+Anderseniella	Anderseniella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.71366005720633
+Candidatus Phytoplasma	Candidatus Phytoplasma		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.77208958525121
+Kosakonia	Kosakonia		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.56280349131962
+Demequina	Demequina		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.46886571145725
+Allofustis	Allofustis		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.48300864937871
+Bosea	Bosea		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.77017084916888
+Iphinoe LOS-B1	Iphinoe	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.71406498469589
+Anaerorhabdus	Anaerorhabdus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.02048963578547
+Angustibacter	Angustibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.57225266258682
+Pseudolabrys	Pseudolabrys		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.51341741544896
+Chryseoglobus	Chryseoglobus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.59732037922866
+Shouchella	Shouchella		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.55245581150337
+Tepidibacter	Tepidibacter		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	2.99942147533351
+Tolypothrix	Tolypothrix		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.32234570904249
+Mycoplasmoides	Mycoplasmoides		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.37724534648155
+Chelativorans	Chelativorans		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.31517630577413
+Sphingobacterium	Sphingobacterium		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-0.716816500840357
+Pelagibacterium	Pelagibacterium		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.50334052179036
+Pontimonas	Pontimonas		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.4120852836903
+Glutamicibacter	Glutamicibacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	up_in_infected	3.13985579710868
+Roseisolibacter	Roseisolibacter		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.48729125077749
+Chroococcidiopsis PCC-6712	Chroococcidiopsis	strain suffix removed	3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.76339583667455
+Craurococcus	Craurococcus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-5.31863853046487
+Moorea	Moorea		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.76177699573781
+Geothermomicrobium	Geothermomicrobium		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	2.8868316801735
+Dolichospermum NIES41	Dolichospermum	strain suffix removed	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.1616367514184
+Agrilactobacillus	Agrilactobacillus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.44619701147074
+Zhihengliuella	Zhihengliuella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.53225026393456
+Flavobacterium	Flavobacterium		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	up_in_infected	4.59583640521151
+Nostoc	Nostoc		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.5365704013577
+Erysipelotrichaceae UCG-003		placeholder clade (no genus name)	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.21547755735706
+Actinoplanes	Actinoplanes		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	up_in_infected	3.18932560984638
+Leclercia	Leclercia		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.45475362046192
+Paucilactobacillus	Paucilactobacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.23437695591897
+Caldovatus	Caldovatus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-4.24687337666442
+Aegeococcus	Aegeococcus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.33475544754681
+Actinomadura	Actinomadura		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.27910477833783
+Plantibacter	Plantibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.08431138677401
+Paenarthrobacter	Paenarthrobacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.17116324431718
+Zhengella	Zhengella		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.13320112242005
+Sulfitobacter	Sulfitobacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.33476018952693
+Sphaerotilus	Sphaerotilus		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	down_in_infected	-3.40318009369195
+Zymomonas	Zymomonas		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-2.51828015173936
+Parasphingopyxis	Parasphingopyxis		2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	up_in_infected	1.55647903287915
+Candidatus Liberibacter	Candidatus Liberibacter		3a: |effect|>1 + ANCOM-BC2 structural zero (one group only)	up_in_infected	3.09050648990151
+Marininema	Marininema		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.3012635876196
+Pueribacillus	Pueribacillus		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-3.15954590323197
+Macrococcoides	Macrococcoides		3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	-1.38007650680134

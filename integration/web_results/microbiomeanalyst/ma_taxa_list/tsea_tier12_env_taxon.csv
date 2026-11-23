@@ -1,0 +1,10 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Living at high altitude (increase)",6,3.23,3,0.728,1,1
+"Living at high altitude (increased)",6,3.23,3,0.728,1,1
+"Exposure to Azinphos-Methyl Pesticide",5,2.69,2,0.859,1,1
+"Living at high altitude (decrease)",12,6.46,5,0.878,1,1
+"Living at high altitude (decreased)",12,6.46,5,0.878,1,1
+"Ingestion High levels Arsenic (decrease)",8,4.3,2,0.981,1,1
+"Smoking (increased)",12,6.46,2,0.999,1,1
+"Ingestion High levels Nickel (increase)",17,9.15,3,1,1,1
+"Organochlorine pesticides Intoxication",26,14,1,1,NA,NA

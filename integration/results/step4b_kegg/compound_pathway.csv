@@ -1,0 +1,58 @@
+metabolite,KEGG,map
+kynurenic acid,C01717,map00380
+pyroglutamic acid,C01879,map00480
+pyroglutamic acid,C01879,map04382
+L-Tryptophan,C00078,map00260
+L-Tryptophan,C00078,map00380
+L-Tryptophan,C00078,map00400
+L-Tryptophan,C00078,map00404
+L-Tryptophan,C00078,map00901
+L-Tryptophan,C00078,map00966
+L-Tryptophan,C00078,map00970
+L-Tryptophan,C00078,map00996
+L-Tryptophan,C00078,map00997
+L-Tryptophan,C00078,map00999
+L-Tryptophan,C00078,map01060
+L-Tryptophan,C00078,map01061
+L-Tryptophan,C00078,map01063
+L-Tryptophan,C00078,map01070
+L-Tryptophan,C00078,map04361
+L-Tryptophan,C00078,map04726
+L-Tryptophan,C00078,map04974
+L-Tryptophan,C00078,map04978
+L-Tryptophan,C00078,map05143
+L-Tryptophan,C00078,map05230
+p-coumaric acid,C00811,map00130
+p-coumaric acid,C00811,map00350
+p-coumaric acid,C00811,map00940
+p-coumaric acid,C00811,map00950
+p-coumaric acid,C00811,map01061
+ferulic acid,C01494,map00627
+ferulic acid,C01494,map00940
+ferulic acid,C01494,map00996
+ferulic acid,C01494,map01061
+desferrioxamine E,C23094,map00975
+spermidine,C00315,map00330
+spermidine,C00315,map00410
+spermidine,C00315,map00480
+spermidine,C00315,map00940
+spermidine,C00315,map00975
+spermidine,C00315,map02010
+spermidine,C00315,map04976
+proline,C00148,map00330
+proline,C00148,map00332
+proline,C00148,map00333
+proline,C00148,map00401
+proline,C00148,map00404
+proline,C00148,map00470
+proline,C00148,map00970
+proline,C00148,map02010
+proline,C00148,map04974
+proline,C00148,map04978
+proline,C00148,map05230
+sinapic acid,C00482,map00940
+sinapic acid,C00482,map01061
+pipecolic acid,C00408,map00310
+pipecolic acid,C00408,map00960
+pipecolic acid,C00408,map01060
+pipecolic acid,C00408,map01064

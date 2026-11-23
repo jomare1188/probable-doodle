@@ -1,0 +1,5 @@
+C01494	Ferulate; Ferulic acid; 4-Hydroxy-3-methoxycinnamic acid; 3-Methoxy-4-hydroxy-trans-cinnamate; 4-Hydroxy-3-methoxycinnamate
+C05619	5-Hydroxyferulic acid; 5-Hydroxyferulate
+C10446	Diferulic acid
+C10470	Isoferulic acid
+C18087	2'-Hydroxyferulic acid

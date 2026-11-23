@@ -1,0 +1,197 @@
+ENTRY       R00135                      Reaction
+DEFINITION  Peptide + H2O <=> L-Proline + Peptide
+EQUATION    C00012 + C00001 <=> C00148 + C00012
+ENZYME      3.4.11.5
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.4  Acting on peptide bonds (peptidases)
+               3.4.11  Aminopeptidases
+                3.4.11.5
+                 R00135  Peptide + H2O <=> L-Proline + Peptide
+ORTHOLOGY   K01259  proline iminopeptidase [EC:3.4.11.5]
+            K11142  cytosol aminopeptidase [EC:3.4.11.1 3.4.11.5]
+///
+
+ENTRY       R00251                      Reaction
+NAME        5-oxo-L-proline amidohydrolase (ATP-hydrolysing)
+DEFINITION  ATP + 5-Oxoproline + 2 H2O <=> ADP + Orthophosphate + L-Glutamate
+EQUATION    C00002 + C01879 + 2 C00001 <=> C00008 + C00009 + C00025
+RCLASS      RC00002  C00002_C00008
+            RC00553  C00025_C01879
+ENZYME      3.5.2.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.2  In cyclic amides
+                3.5.2.9
+                 R00251  ATP + 5-Oxoproline + 2 H2O <=> ADP + Orthophosphate + L-Glutamate
+ORTHOLOGY   K01469  5-oxoprolinase (ATP-hydrolysing) [EC:3.5.2.9]
+            K07160  5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]
+            K23123  5-oxoprolinase (ATP-hydrolysing) subunit B [EC:3.5.2.9]
+            K23124  5-oxoprolinase (ATP-hydrolysing) subunit C [EC:3.5.2.9]
+DBLINKS     RHEA: 10351
+///
+
+ENTRY       R00459                      Reaction
+DEFINITION  L-Lysine <=> L-Pipecolate
+EQUATION    C00047 <=> C00408
+COMMENT     four-step reaction (see R00715+R02313+R02317+R08414)
+RCLASS      RC00301  C00047_C00408
+///
+
+ENTRY       R00671                      Reaction
+NAME        L-ornithine ammonia-lyase (cyclizing; L-proline-forming)
+DEFINITION  L-Ornithine <=> L-Proline + Ammonia
+EQUATION    C00077 <=> C00148 + C00014
+RCLASS      RC00354  C00077_C00148
+ENZYME      4.3.1.12
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.1  Ammonia-lyases
+                4.3.1.12
+                 R00671  L-Ornithine <=> L-Proline + Ammonia
+ORTHOLOGY   K01750  ornithine cyclodeaminase [EC:4.3.1.12]
+            K27542  arginine dihydrolase / ornithine cyclodeaminase [EC:3.5.3.27 4.3.1.12]
+DBLINKS     RHEA: 24371
+///
+
+ENTRY       R00673                      Reaction
+NAME        L-tryptophan indole-lyase (deaminating; pyruvate-forming)
+DEFINITION  L-Tryptophan + H2O <=> Indole + Pyruvate + Ammonia
+EQUATION    C00078 + C00001 <=> C00463 + C00022 + C00014
+COMMENT     multi-step reaction
+            intermediate (2-aminoacrylate Schiff base with PLP)
+RCLASS      RC00209  C00078_C00463
+            RC00355  C00022_C00078
+ENZYME      4.1.99.1
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.1
+                 R00673  L-Tryptophan + H2O <=> Indole + Pyruvate + Ammonia
+ORTHOLOGY   K01667  tryptophanase [EC:4.1.99.1]
+DBLINKS     RHEA: 19556
+///
+
+ENTRY       R00674                      Reaction
+NAME        L-serine hydro-lyase (adding indole; L-tryptophan-forming)
+DEFINITION  L-Serine + Indole <=> L-Tryptophan + H2O
+EQUATION    C00065 + C00463 <=> C00078 + C00001
+COMMENT     multi-step reaction
+            intermediate (2-aminoacrylate Schiff base with PLP)
+RCLASS      RC00209  C00078_C00463
+            RC00210  C00065_C00078
+ENZYME      4.2.1.20        4.2.1.122
+PATHWAY     rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.20
+                 R00674  L-Serine + Indole <=> L-Tryptophan + H2O
+                4.2.1.122
+                 R00674  L-Serine + Indole <=> L-Tryptophan + H2O
+ORTHOLOGY   K01695  tryptophan synthase alpha chain [EC:4.2.1.20]
+            K01696  tryptophan synthase beta chain [EC:4.2.1.20]
+            K06001  tryptophan synthase beta chain [EC:4.2.1.20]
+DBLINKS     RHEA: 26437
+///
+
+ENTRY       R00675                      Reaction
+NAME        L-tryptophan:NAD+ oxidoreductase (deaminating)
+DEFINITION  L-Tryptophan + NAD+ + H2O <=> Indolepyruvate + Ammonia + NADH + H+
+EQUATION    C00078 + C00003 + C00001 <=> C00331 + C00014 + C00004 + C00080
+COMMENT     see R00676 (NADPH)
+RCLASS      RC00001  C00003_C00004
+            RC00006  C00078_C00331
+ENZYME      1.4.1.19
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.19
+                 R00675  L-Tryptophan + NAD+ + H2O <=> Indolepyruvate + Ammonia + NADH + H+
+ORTHOLOGY   K28781  tryptophan dehydrogenase [EC:1.4.1.19]
+DBLINKS     RHEA: 13476
+///
+
+ENTRY       R00676                      Reaction
+NAME        L-tryptophan:NADP+ oxidoreductase (deaminating)
+DEFINITION  L-Tryptophan + NADP+ + H2O <=> Indolepyruvate + Ammonia + NADPH + H+
+EQUATION    C00078 + C00006 + C00001 <=> C00331 + C00014 + C00005 + C00080
+COMMENT     see R00675 (NADH)
+RCLASS      RC00001  C00005_C00006
+            RC00006  C00078_C00331
+ENZYME      1.4.1.19
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.19
+                 R00676  L-Tryptophan + NADP+ + H2O <=> Indolepyruvate + Ammonia + NADPH + H+
+DBLINKS     RHEA: 13480
+///
+
+ENTRY       R00677                      Reaction
+NAME        L-tryptophan:oxygen oxidoreductase (deaminating)
+DEFINITION  L-Tryptophan + H2O + Oxygen <=> Indolepyruvate + Ammonia + Hydrogen peroxide
+EQUATION    C00078 + C00001 + C00007 <=> C00331 + C00014 + C00027
+RCLASS      RC00006  C00078_C00331
+            RC02755  C00007_C00027
+ENZYME      1.4.3.2
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.2
+                 R00677  L-Tryptophan + H2O + Oxygen <=> Indolepyruvate + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.2
+               R01259  L-Amino acid <=> 2-Oxo acid
+                R00677  L-Tryptophan <=> Indolepyruvate
+ORTHOLOGY   K03334  L-amino-acid oxidase [EC:1.4.3.2]
+DBLINKS     RHEA: 61247
+///
+
+ENTRY       R00678                      Reaction
+NAME        L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing)
+DEFINITION  L-Tryptophan + Oxygen <=> L-Formylkynurenine
+EQUATION    C00078 + C00007 <=> C02700
+RCLASS      RC00356  C00078_C02700
+ENZYME      1.13.11.11      1.13.11.52
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00038  Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate
+            M00912  NAD biosynthesis, tryptophan => quinolinate => NAD
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.11  With incorporation of two atoms of oxygen
+                1.13.11.11
+                 R00678  L-Tryptophan + Oxygen <=> L-Formylkynurenine
+                1.13.11.52
+                 R00678  L-Tryptophan + Oxygen <=> L-Formylkynurenine
+ORTHOLOGY   K00453  tryptophan 2,3-dioxygenase [EC:1.13.11.11]
+            K00463  indoleamine 2,3-dioxygenase [EC:1.13.11.52]
+DBLINKS     RHEA: 24539
+///

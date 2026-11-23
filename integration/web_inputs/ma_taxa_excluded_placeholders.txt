@@ -1,0 +1,4 @@
+genus	confidence_tier	direction	web_note
+EUB33-2	2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)	down_in_infected	placeholder clade (no genus name)
+UCG-004	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	placeholder clade (no genus name)
+Erysipelotrichaceae UCG-003	3b: |effect|>1 + ANCOM-BC2 same direction, not significant	down_in_infected	placeholder clade (no genus name)

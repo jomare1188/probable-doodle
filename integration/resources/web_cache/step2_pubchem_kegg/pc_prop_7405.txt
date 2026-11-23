@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 7405,
+        "MolecularFormula": "C5H7NO3",
+        "InChIKey": "ODHCTXKNWHHXJC-VKHMYHEASA-N",
+        "MonoisotopicMass": "129.042593085",
+        "Title": "L-Pyroglutamic Acid"
+      }
+    ]
+  }
+}

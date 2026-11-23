@@ -1,0 +1,12 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"bromochloromethane",5,6.76,1,NA,NA,NA
+"Exposure to Azinphos-Methyl Pesticide",5,6.76,4,NA,NA,NA
+"Ingestion High levels Arsenic (decrease)",8,10.8,3,NA,NA,NA
+"Ingestion High levels Nickel (increase)",17,23,6,NA,NA,NA
+"Inhabiting Big City (vs countryside) (Finnish, increase)",6,8.11,1,NA,NA,NA
+"Living at high altitude (decrease)",12,16.2,7,NA,NA,NA
+"Living at high altitude (decreased)",12,16.2,7,NA,NA,NA
+"Living at high altitude (increase)",6,8.11,3,NA,NA,NA
+"Living at high altitude (increased)",6,8.11,3,NA,NA,NA
+"Organochlorine pesticides Intoxication",26,35.2,2,NA,NA,NA
+"Smoking (increased)",12,16.2,2,NA,NA,NA

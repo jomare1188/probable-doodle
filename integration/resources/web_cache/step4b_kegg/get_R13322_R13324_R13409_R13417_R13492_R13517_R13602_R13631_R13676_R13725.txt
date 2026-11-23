@@ -1,0 +1,158 @@
+ENTRY       R13322                      Reaction
+DEFINITION  Ferulate + H2O <=> 3-Hydroxy-3-(4-hydroxy-3-methoxyphenyl)propanoate
+EQUATION    C01494 + C00001 <=> C22892
+COMMENT     the first step of two-step reaction (see R13324, R13322+R13323)
+ENZYME      4.1.2.65
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.65
+                 R13322  Ferulate + H2O <=> 3-Hydroxy-3-(4-hydroxy-3-methoxyphenyl)propanoate
+///
+
+ENTRY       R13324                      Reaction
+NAME        ferulate acetate-lyase (vanillin-forming)
+DEFINITION  Ferulate + H2O <=> 4-Hydroxy-3-methoxy-benzaldehyde + Acetate
+EQUATION    C01494 + C00001 <=> C00755 + C00033
+COMMENT     two-step reaction (see R13322+R13323)
+ENZYME      4.1.2.65
+PATHWAY     rn00996  Biosynthesis of various alkaloids
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.65
+                 R13324  Ferulate + H2O <=> 4-Hydroxy-3-methoxy-benzaldehyde + Acetate
+ORTHOLOGY   K27598  vanillin synthease [EC:4.1.2.65]
+///
+
+ENTRY       R13409                      Reaction
+DEFINITION  Methylcobalamin + L-Tryptophan <=> Cob(I)alamin + L-2-Methyltryptophan
+EQUATION    C06453 + C00078 <=> C00853 + C16831
+COMMENT     the first step of two-step reaction (see R08547, R13409+R13182)
+RCLASS      RC02140  C00078_C16831
+ENZYME      2.1.1.106
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.106
+                 R13409  Methylcobalamin + L-Tryptophan <=> Cob(I)alamin + L-2-Methyltryptophan
+///
+
+ENTRY       R13417                      Reaction
+NAME        L-tryptophan,nitric oxide, reduced ferredoxin:oxygen oxidoreductase (4-nitro-L-tryptophan-forming)
+DEFINITION  L-Tryptophan + Nitric oxide + Oxygen + Reduced ferredoxin + H+ <=> 4-Nitro-L-tryptophan + H2O + Oxidized ferredoxin
+EQUATION    C00078 + C00533 + C00007 + C00138 + C00080 <=> C22980 + C00001 + C00139
+ENZYME      1.14.15.41
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.41
+                 R13417  L-Tryptophan + Nitric oxide + Oxygen + Reduced ferredoxin + H+ <=> 4-Nitro-L-tryptophan + H2O + Oxidized ferredoxin
+///
+
+ENTRY       R13492                      Reaction
+NAME        L-tryptophan:hydrogen-peroxide 5-oxidoreductase
+DEFINITION  L-Tryptophan + Hydrogen peroxide <=> 5-Hydroxy-L-tryptophan + H2O
+EQUATION    C00078 + C00027 <=> C00643 + C00001
+RCLASS      RC00490  C00078_C00643
+ENZYME      1.11.2.8
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.11  Acting on a peroxide as acceptor
+               1.11.2  Peroxygenases
+                1.11.2.8
+                 R13492  L-Tryptophan + Hydrogen peroxide <=> 5-Hydroxy-L-tryptophan + H2O
+///
+
+ENTRY       R13517                      Reaction
+NAME        spermidine:8-amino-7-oxononanoate aminotransferase
+DEFINITION  Spermidine + 8-Amino-7-oxononanoate <=> N-(3-Aminopropyl)-4-aminobutanal + 7,8-Diaminononanoate
+EQUATION    C00315 + C01092 <=> C23055 + C01037
+RCLASS      RC00887  C01037_C01092
+ENZYME      2.6.1.127
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.127
+                 R13517  Spermidine + 8-Amino-7-oxononanoate <=> N-(3-Aminopropyl)-4-aminobutanal + 7,8-Diaminononanoate
+ORTHOLOGY   K19562  bifunctional dethiobiotin synthetase / spermidine---8-amino-7-oxononanoate transaminase [EC:6.3.3.3 2.6.1.127]
+///
+
+ENTRY       R13602                      Reaction
+DEFINITION  Desferrioxamine G1 + ATP <=> Desferrioxamine E + Diphosphate + AMP
+EQUATION    C23093 + C00002 <=> C23094 + C00013 + C00020
+ENZYME      2.3.1.-
+PATHWAY     rn00975  Biosynthesis of various siderophores
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M01053  Deferoxamine biosynthesis, lysine => deferoxamine E/B
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.-
+                 R13602  Desferrioxamine G1 + ATP <=> Desferrioxamine E + Diphosphate + AMP
+ORTHOLOGY   K28684  desferrioxamine E synthetase [EC:6.3.2.-]
+///
+
+ENTRY       R13631                      Reaction
+NAME        L-tryptophan:NADPH oxidoreductase (5-brominating)
+DEFINITION  L-Tryptophan + NADPH + Bromide + Oxygen + H+ <=> 5-Bromo-L-tryptophan + NADP+ + 2 H2O
+EQUATION    C00078 + C00005 + C01324 + C00007 + C00080 <=> C23128 + C00006 + 2 C00001
+RCLASS      RC01637  C00078_C23128
+ENZYME      1.14.19.82
+PATHWAY     rn00997  Biosynthesis of various other secondary metabolites
+MODULE      M01073  Aetokthonotoxin biosynthesis, tryptophan => aetokthonotoxin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.82
+                 R13631  L-Tryptophan + NADPH + Bromide + Oxygen + H+ <=> 5-Bromo-L-tryptophan + NADP+ + 2 H2O
+ORTHOLOGY   K28723  tryptophan 5-brominase (NADPH) [EC:1.14.19.82]
+            K28724  tryptophan 5-brominase (NADPH) [EC:1.14.19.82]
+///
+
+ENTRY       R13676                      Reaction
+NAME        acyl-CoA:aromatic amino acid N-acetyltransferase
+DEFINITION  Acyl-CoA + L-Tryptophan <=> N-Acyl-L-tryptophan + CoA
+EQUATION    C00040 + C00078 <=> C23151 + C00010
+ENZYME      2.3.1.339
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.339
+                 R13676  Acyl-CoA + L-Tryptophan <=> N-Acyl-L-tryptophan + CoA
+///
+
+ENTRY       R13725                      Reaction
+DEFINITION  Phloretate + NAD+ <=> 4-Coumarate + NADH + H+
+EQUATION    C01744 + C00003 <=> C00811 + C00004 + C00080
+RCLASS      RC00669  C00811_C01744
+ENZYME      1.3.1.130
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.130
+                 R13725  Phloretate + NAD+ <=> 4-Coumarate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.1.130
+               R13711  Hydroxy-dihydrocinnamate <=> Hydroxy-trans-cinnamate
+                R13725  Phloretate <=> Phloretate
+REFERENCE   1  [PMID:29776925]
+  AUTHORS   Santamaria L, Reveron I, Lopez de Felipe F, de Las Rivas B, Munoz R.
+  TITLE     Unravelling the Reduction Pathway as an Alternative Metabolic Route to Hydroxycinnamate Decarboxylation in Lactobacillus plantarum.
+  JOURNAL   Appl Environ Microbiol 84:AEM.01123-18 (2018)
+            DOI:10.1128/AEM.01123-18
+///

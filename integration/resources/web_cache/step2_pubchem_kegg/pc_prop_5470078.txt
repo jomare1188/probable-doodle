@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5470078,
+        "MolecularFormula": "C23H41N3O4",
+        "InChIKey": "CBJQAJQOUVJPLQ-IFNWOZJISA-N",
+        "MonoisotopicMass": "423.30970680",
+        "Title": "N-linolenoyl-L-glutamine"
+      }
+    ]
+  }
+}

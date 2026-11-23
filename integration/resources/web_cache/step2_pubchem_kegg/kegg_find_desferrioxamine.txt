@@ -1,0 +1,3 @@
+C06940	Deferoxamine; Desferrioxamine B
+C23093	Desferrioxamine G1
+C23094	Desferrioxamine E

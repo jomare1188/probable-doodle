@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1102,
+        "MolecularFormula": "C7H19N3",
+        "InChIKey": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+        "MonoisotopicMass": "145.157897619",
+        "Title": "Spermidine"
+      }
+    ]
+  }
+}

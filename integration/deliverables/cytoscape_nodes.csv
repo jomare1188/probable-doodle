@@ -1,0 +1,151 @@
+"id","type","label","log2FC","log2FC_note","differential","direction","final_class"
+"Fusaric acid","metabolite","Fusaric acid",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","external: fungus (Fusarium)"
+"Gln-C18:3","metabolite","Gln-C18:3",-1.02179680166041,"",FALSE,"down_in_infected","co-metabolism"
+"Gln-C16:3","metabolite","Gln-C16:3",0.750805495972648,"",FALSE,"up_in_infected","co-metabolism"
+"Gln-C17:3","metabolite","Gln-C17:3",-0.754232820384308,"",TRUE,"down_in_infected","co-metabolism"
+"kynurenic acid","metabolite","kynurenic acid",-0.799784357684269,"",TRUE,"down_in_infected","microbial"
+"pyroglutamic acid","metabolite","pyroglutamic acid",3.37632712082864,"",TRUE,"up_in_infected","co-metabolism"
+"soyasaponin Ba","metabolite","soyasaponin Ba",-5.3194070966191,"",TRUE,"down_in_infected","external: diet (sugarcane; identity uncertain)"
+"7,3',4'-Trihydroxyflavone","metabolite","7,3',4'-Trihydroxyflavone",-7.14910486266962,"",TRUE,"down_in_infected","external: diet (sugarcane; putative)"
+"L-Tryptophan","metabolite","L-Tryptophan",0.492354555781842,"",TRUE,"up_in_infected","co-metabolism"
+"p-coumaric acid","metabolite","p-coumaric acid",1.39107357778283,"",TRUE,"up_in_infected","external: diet (sugarcane)"
+"ferulic acid","metabolite","ferulic acid",1.49762287869115,"",TRUE,"up_in_infected","external: diet (sugarcane)"
+"desferrioxamine D2","metabolite","desferrioxamine D2",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","microbial (bacterial siderophore)"
+"desferrioxamine E","metabolite","desferrioxamine E",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","microbial (bacterial siderophore)"
+"spermidine","metabolite","spermidine",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","co-metabolism"
+"fumonisin B1","metabolite","fumonisin B1",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","external: fungus (Fusarium)"
+"proline","metabolite","proline",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","co-metabolism"
+"sinapic acid","metabolite","sinapic acid",8.14910486266962,"detected only in infected (capped)",TRUE,"up_in_infected","external: diet (sugarcane)"
+"pipecolic acid","metabolite","pipecolic acid",1.07563777844679,"",FALSE,"up_in_infected","microbial"
+"DIATSA_LOCUS10286","host gene","OPLAH",-0.841985232163131,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS11032","host gene","WARS2",0.992130086470963,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS11714","host gene","HDC",-1.09158916869234,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS13354","host gene","Dm:P5cr-2",0.656795993693067,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS13643","host gene","GGCT",1.22940858532552,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS13644","host gene","GGCT",0.336699183078016,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS1828","host gene","Tdc2",0.791978391338453,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS2456","host gene","DDC",0.968049912458032,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS2472","host gene","amd",-0.222021732745596,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS2892","host gene","SMS",-0.343975379641261,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS3434","host gene","SRM",0.276451688055906,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS3626","host gene","P4HA2",-0.864217410752238,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS45","host gene","LAP3",0.704291406293216,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS5112","host gene","Dm:P5cr",-0.100915004921516,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS5425","host gene","Dm:loopin-1,S-Lap3,S-Lap4,S-Lap5,S-Lap7,S-Lap8",0.0250468555918386,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS5426","host gene","Dm:loopin-1,S-Lap3,S-Lap4,S-Lap5,S-Lap7,S-Lap8",1.59881935340298,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS5596","host gene","PAOX",-0.993180888227325,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS6118","host gene","Dm:pdgy",0.333931996997944,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS6123","host gene","Dm:pdgy",-0.0373701678528527,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS6124","host gene","Dm:pdgy",0.283298389102323,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS6125","host gene","Dm:pdgy",-0.416141173675147,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS6126","host gene","Dm:pdgy",-0.39538143587411,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS6182","host gene","DIATSA_LOCUS6182",-0.24556490858196,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS6849","host gene","EPRS",-0.45446438454378,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS6852","host gene","EPRS",0.788179455746063,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS6864","host gene","WARS",-0.609500180932398,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS7455","host gene","PARS2",1.04093876602672,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS757","host gene","TDO2",0.0792984880756358,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS8163","host gene","Dm:CG7737",-0.731755838583574,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS8165","host gene","Dm:CG7737",-0.115600252313408,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS8166","host gene","Dm:CG7737",-0.611295121209358,"",FALSE,"down_in_infected",NA
+"DIATSA_LOCUS8450","host gene","Dm:CG7737",0.145883384335117,"",FALSE,"up_in_infected",NA
+"DIATSA_LOCUS9241","host gene","PRODH",-0.0876570415819215,"",FALSE,"down_in_infected",NA
+"Brucella","bacterium","Brucella",8.16998421180457,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Microbacterium","bacterium","Microbacterium",6.72599789942891,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Bacillus","bacterium","Bacillus",-2.32139190804311,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Lactobacillus","bacterium","Lactobacillus",-3.80058420612329,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Lactococcus","bacterium","Lactococcus",4.30647274312865,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Rhizobium","bacterium","Rhizobium",6.97339588387037,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Methylobacterium","bacterium","Methylobacterium",-5.34150636051453,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Lactiplantibacillus","bacterium","Lactiplantibacillus",-2.71591891858769,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Ensifer","bacterium","Ensifer",6.28906364576688,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Granulicatella","bacterium","Granulicatella",-2.69543372968873,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Stenotrophomonas","bacterium","Stenotrophomonas",-4.3960809453077,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Streptomyces","bacterium","Streptomyces",3.62256392420854,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Staphylococcus","bacterium","Staphylococcus",-2.8462945806413,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Pediococcus","bacterium","Pediococcus",-2.45989997681143,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Carnobacterium","bacterium","Carnobacterium",-3.00838740346752,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Enterococcus","bacterium","Enterococcus",-1.63047383995312,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Priestia","bacterium","Priestia",-2.37695615098039,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Cutibacterium","bacterium","Cutibacterium",-4.2364370769053,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Sphingomonas","bacterium","Sphingomonas",-5.46655296730823,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Streptococcus","bacterium","Streptococcus",-1.54652276838542,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Jeotgalibaca","bacterium","Jeotgalibaca",-2.24981270818384,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Melissococcus","bacterium","Melissococcus",-2.57687954260159,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Brevibacillus","bacterium","Brevibacillus",-3.10987311728389,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Methylorubrum","bacterium","Methylorubrum",-4.79626743267326,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Ligilactobacillus","bacterium","Ligilactobacillus",-2.2471425562955,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Mycolicibacterium","bacterium","Mycolicibacterium",6.70784236201324,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Aerococcus","bacterium","Aerococcus",-2.41786953789233,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Tetragenococcus","bacterium","Tetragenococcus",-2.82372063332698,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Vagococcus","bacterium","Vagococcus",-1.93177882408602,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Fictibacillus","bacterium","Fictibacillus",-2.2888291915937,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Anoxybacillus","bacterium","Anoxybacillus",-2.27494384920047,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Aureimonas","bacterium","Aureimonas",6.10543534743486,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Shinella","bacterium","Shinella",7.36763428959839,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Arthrobacter","bacterium","Arthrobacter",4.49386570725267,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Allorhizobium","bacterium","Allorhizobium",4.79056945235174,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Limosilactobacillus","bacterium","Limosilactobacillus",-2.50896463959755,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Lentilactobacillus","bacterium","Lentilactobacillus",-3.31283180196966,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Rossellomorea","bacterium","Rossellomorea",-2.07712620541477,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Mucilaginibacter","bacterium","Mucilaginibacter",-6.73980017011416,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Fusarium","fungus","Fusarium",1.75001809766352,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Mycobacterium","bacterium","Mycobacterium",-2.40491270284616,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees"
+"Levilactobacillus","bacterium","Levilactobacillus",-2.89746372192451,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Agrobacterium","bacterium","Agrobacterium",7.13228164691036,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Pseudochrobactrum","bacterium","Pseudochrobactrum",6.4796965792761,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Devosia","bacterium","Devosia",6.77297717032665,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Xanthomonas","bacterium","Xanthomonas",-5.76424430823078,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Leuconostoc","bacterium","Leuconostoc",-2.36008132790258,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Listeria","bacterium","Listeria",-2.16948209808964,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Alcaligenes","bacterium","Alcaligenes",5.72483056494098,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Lacticaseibacillus","bacterium","Lacticaseibacillus",-2.09297198367761,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Rathayibacter","bacterium","Rathayibacter",5.68425091745324,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Desemzia","bacterium","Desemzia",-4.16921032503387,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Ferruginibacter","bacterium","Ferruginibacter",-2.24610698153694,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Curtobacterium","bacterium","Curtobacterium",5.09090179300393,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Cellulomonas","bacterium","Cellulomonas",5.26836813089736,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Klebsiella","bacterium","Klebsiella",4.01418144871817,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Candida","fungus","Candida",7.6542305439723,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Mycetocola","bacterium","Mycetocola",5.31530853282883,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Neorhizobium","bacterium","Neorhizobium",5.79756462499439,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Nitratireductor","bacterium","Nitratireductor",6.84654029231475,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Enterobacter","bacterium","Enterobacter",3.4617217043026,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Bartonella","bacterium","Bartonella",6.80854439322505,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Anaerococcus","bacterium","Anaerococcus",-4.25560454732849,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Turicibacter","bacterium","Turicibacter",-2.24949746895633,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Variovorax","bacterium","Variovorax",-6.50160644867343,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Cellulosimicrobium","bacterium","Cellulosimicrobium",4.70091308925983,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Spirosoma","bacterium","Spirosoma",-5.57699399077211,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Hoeflea","bacterium","Hoeflea",5.71997338282649,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Hyphomicrobium","bacterium","Hyphomicrobium",3.46629671892959,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Deinococcus","bacterium","Deinococcus",-7.0345420604804,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Pseudarthrobacter","bacterium","Pseudarthrobacter",5.97657261341128,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Weissella","bacterium","Weissella",-2.23486634599677,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Sorangium","bacterium","Sorangium",5.34851282034338,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Aminobacter","bacterium","Aminobacter",5.57922968117415,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Lentibacillus","bacterium","Lentibacillus",-2.54343953062184,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Mammaliicoccus","bacterium","Mammaliicoccus",-2.15208896553905,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Micrococcus","bacterium","Micrococcus",3.00413449948338,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Leucobacter","bacterium","Leucobacter",5.41048030604293,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Mesorhizobium","bacterium","Mesorhizobium",4.38073994353508,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Paenibacillus","bacterium","Paenibacillus",1.38132731394336,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Delftia","bacterium","Delftia",-5.37898023531916,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Oceanobacillus","bacterium","Oceanobacillus",-2.44132492358504,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Phyllobacterium","bacterium","Phyllobacterium",3.23836036473157,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Cryobacterium","bacterium","Cryobacterium",4.46077287066768,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Agromyces","bacterium","Agromyces",4.64444445250747,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Clavibacter","bacterium","Clavibacter",3.65756401944917,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Acholeplasma","bacterium","Acholeplasma",-3.18380169058405,"ALDEx2 log2 CLR difference",TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Roseibium","bacterium","Roseibium",4.58081176834964,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Kocuria","bacterium","Kocuria",2.62692954341601,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Microvirga","bacterium","Microvirga",1.12918683902398,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Ancylobacter","bacterium","Ancylobacter",3.89410801113804,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Rhodopseudomonas","bacterium","Rhodopseudomonas",3.68765642363294,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Sinomonas","bacterium","Sinomonas",4.0242085733384,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Beijerinckia","bacterium","Beijerinckia",2.02700204281549,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Dactylosporangium","bacterium","Dactylosporangium",3.55671781542917,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Tepidibacter","bacterium","Tepidibacter",2.99942147533351,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Parasphingopyxis","bacterium","Parasphingopyxis",1.55647903287915,"ALDEx2 log2 CLR difference",TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)"
+"Diatraea (host)","external source","Diatraea (host)",NA,"",NA,NA,NA
+"sugarcane (diet)","external source","sugarcane (diet)",NA,"",NA,NA,NA

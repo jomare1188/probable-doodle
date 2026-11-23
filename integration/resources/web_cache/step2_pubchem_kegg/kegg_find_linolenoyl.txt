@@ -1,0 +1,6 @@
+C03035	gamma-Linolenoyl-CoA; (6Z,9Z,12Z)-Octadecatrienoyl-CoA
+C16161	alpha-Linolenoyl-ACP; alpha-Linolenoyl-[acyl-carrier protein]; (9Z,12Z,15Z)-Octadecatrienoyl-ACP; (9Z,12Z,15Z)-Octadecatrienoyl-[acyl-carrier protein]
+C16162	(9Z,12Z,15Z)-Octadecatrienoyl-CoA; alpha-Linolenoyl-CoA
+C16345	Volicitin; N-(17-Hydroxylinolenoyl)-L-glutamine
+C21531	alpha-Linolenoyl-[glycerolipid]; (9Z,12Z,15Z)-Octadeca-9,12,15-trienoyl-[glycerolipid]
+C22563	gamma-Linolenoyl-[glycerolipid]; (6Z,9Z,12Z)-Octadeca-6,9,12-trienoyl-[glycerolipid]

@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 91973815,
+        "MolecularFormula": "C48H78O19",
+        "InChIKey": "WFRQIKSNAYYUJZ-BKQVBUAGSA-N",
+        "MonoisotopicMass": "958.51373025",
+        "Title": "Soyasaponin Ba"
+      }
+    ]
+  }
+}

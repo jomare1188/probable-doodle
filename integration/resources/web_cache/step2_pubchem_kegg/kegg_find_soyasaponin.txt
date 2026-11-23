@@ -1,0 +1,5 @@
+C08982	Soyasaponin A1
+C08983	Soyasaponin I
+C12081	Soyasaponin II
+C13837	Dehydrosoyasaponin I; DHS-I
+C19865	Soyasaponin III

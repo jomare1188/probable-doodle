@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5322065,
+        "MolecularFormula": "C15H10O5",
+        "InChIKey": "PVFGJHYLIHMCQD-UHFFFAOYSA-N",
+        "MonoisotopicMass": "270.05282342",
+        "Title": "3',4',7-Trihydroxyflavone"
+      }
+    ]
+  }
+}

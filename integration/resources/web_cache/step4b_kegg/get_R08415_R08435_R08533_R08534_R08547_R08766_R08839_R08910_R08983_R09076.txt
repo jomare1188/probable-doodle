@@ -1,0 +1,168 @@
+ENTRY       R08415                      Reaction
+DEFINITION  L-Pipecolate <=> 1-Indolizidinone
+EQUATION    C00408 <=> C16697
+COMMENT     multi-step reaction
+            incomplete reaction
+RCLASS      RC02176  C00408_C16697
+PATHWAY     rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+///
+
+ENTRY       R08435                      Reaction
+DEFINITION  4-Coumarate <=> 3,4-Dihydroxybenzaldehyde
+EQUATION    C00811 <=> C16700
+COMMENT     multi-step reaction
+            incomplete reaction
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+///
+
+ENTRY       R08533                      Reaction
+NAME        UDPglucose:sinapate 4-O-beta-D-glucosyltransferase
+DEFINITION  UDP-glucose + Sinapate <=> UDP + 4-O-beta-D-Glucosyl-sinapate
+EQUATION    C00029 + C00482 <=> C00015 + C02919
+RCLASS      RC00005  C00015_C00029
+            RC00171  C00482_C02919
+ENZYME      2.4.1.126
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.126
+                 R08533  UDP-glucose + Sinapate <=> UDP + 4-O-beta-D-Glucosyl-sinapate
+///
+
+ENTRY       R08534                      Reaction
+NAME        hydroxycinnamoyl glucosyltransferase
+DEFINITION  UDP-glucose + 4-Coumarate <=> UDP + p-Coumaroyl-D-glucose
+EQUATION    C00029 + C00811 <=> C00015 + C16827
+RCLASS      RC00005  C00015_C00029
+            RC00523  C00811_C16827
+ENZYME      2.4.1.126
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.126
+                 R08534  UDP-glucose + 4-Coumarate <=> UDP + p-Coumaroyl-D-glucose
+///
+
+ENTRY       R08547                      Reaction
+NAME        S-adenosyl-L-methionine:L-tryptophan 2-C-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + L-Tryptophan <=> S-Adenosyl-L-homocysteine + L-2-Methyltryptophan
+EQUATION    C00019 + C00078 <=> C00021 + C16831
+COMMENT     two-step reaction (see R13409+R13182)
+RCLASS      RC00003  C00019_C00021
+            RC02140  C00078_C16831
+ENZYME      2.1.1.106
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.106
+                 R08547  S-Adenosyl-L-methionine + L-Tryptophan <=> S-Adenosyl-L-homocysteine + L-2-Methyltryptophan
+ORTHOLOGY   K21551  tryptophan 2-C-methyltransferase [EC:2.1.1.106]
+DBLINKS     RHEA: 17324
+///
+
+ENTRY       R08766                      Reaction
+NAME        3-(4-hydroxyphenyl)lactate hydro-lyase (4-coumarate-forming)
+DEFINITION  (R)-3-(4-Hydroxyphenyl)lactate <=> 4-Coumarate + H2O
+EQUATION    C03964 <=> C00811 + C00001
+COMMENT     enzyme not yet characterized
+RCLASS      RC02347  C00811_C03964
+ENZYME      4.2.1.-
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.-
+                 R08766  (R)-3-(4-Hydroxyphenyl)lactate <=> 4-Coumarate + H2O
+REFERENCE   1  [PMID:11583838]
+  AUTHORS   Meganathan R
+  TITLE     Ubiquinone biosynthesis in microorganisms.
+  JOURNAL   FEMS Microbiol Lett 203:131-9 (2001)
+            DOI:10.1111/j.1574-6968.2001.tb10831.x
+///
+
+ENTRY       R08839                      Reaction
+NAME        UDP-glucose:ferulate D-glucosyltransferase
+DEFINITION  UDP-glucose + Ferulate <=> 1-O-Feruloyl-beta-D-glucose + UDP
+EQUATION    C00029 + C01494 <=> C17759 + C00015
+COMMENT     ec 2.4.1.120 forms only glucose esters
+            ec 2.4.1.126 forms a mixture of glucose esters and 4-glucosides
+RCLASS      RC00005  C00015_C00029
+            RC00523  C01494_C17759
+ENZYME      2.4.1.120       2.4.1.126
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.120
+                 R08839  UDP-glucose + Ferulate <=> 1-O-Feruloyl-beta-D-glucose + UDP
+                2.4.1.126
+                 R08839  UDP-glucose + Ferulate <=> 1-O-Feruloyl-beta-D-glucose + UDP
+            Glycosyltransferase reactions [br08203.html]
+             Glucosyltransferase reactions
+              R08839
+DBLINKS     RHEA: 57471
+///
+
+ENTRY       R08910                      Reaction
+NAME        gamma-L-glutamyl-butirosin-B gamma-glutamyl cyclotransferase (5-oxoproline-forming)
+DEFINITION  gamma-L-Glutamyl-butirosin B <=> Butirosin B + 5-Oxoproline
+EQUATION    C18005 <=> C17586 + C01879
+RCLASS      RC00096  C17586_C18005
+            RC00777  C01879_C18005
+ENZYME      4.3.2.6
+PATHWAY     rn00524  Neomycin, kanamycin and gentamicin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.6
+                 R08910  gamma-L-Glutamyl-butirosin B <=> Butirosin B + 5-Oxoproline
+ORTHOLOGY   K13564  gamma-L-glutamyl-butirosin B gamma-L-glutamyl cyclotransferase [EC:4.3.2.6]
+DBLINKS     RHEA: 33998
+///
+
+ENTRY       R08983                      Reaction
+DEFINITION  3 p-Coumaroyl-CoA + Spermidine <=> N1,N5,N10-Tricoumaroyl spermidine + 3 CoA
+EQUATION    3 C00223 + C00315 <=> C18069 + 3 C00010
+COMMENT     multi-step reaction
+RCLASS      RC00004  C00010_C00223
+            RC02392  C00315_C18069
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+///
+
+ENTRY       R09076                      Reaction
+NAME        spermidine:oxygen oxidoreductase (spermidine-forming)
+DEFINITION  Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide
+EQUATION    C00750 + C00007 + C00001 <=> C00315 + C05665 + C00027
+RCLASS      RC00053  C00315_C00750
+            RC00225  C00750_C05665
+            RC02755  C00007_C00027
+ENZYME      1.5.3.16        1.5.3.17
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00410  beta-Alanine metabolism
+            rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.16
+                 R09076  Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide
+                1.5.3.17
+                 R09076  Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide
+ORTHOLOGY   K12259  spermine oxidase [EC:1.5.3.16 1.5.3.-]
+            K13366  polyamine oxidase [EC:1.5.3.14 1.5.3.16 1.5.3.-]
+            K13367  polyamine oxidase [EC:1.5.3.17]
+            K17839  polyamine oxidase [EC:1.5.3.17 1.5.3.-]
+DBLINKS     RHEA: 25807
+///

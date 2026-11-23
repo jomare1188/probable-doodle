@@ -1,0 +1,158 @@
+ENTRY       R12598                      Reaction
+DEFINITION  N-Citryl-spermidine + Spermidine + ATP <=> N8,N'8-Citryl-bis(spermidine) + AMP + Diphosphate
+EQUATION    C20885 + C00315 + C00002 <=> C22004 + C00020 + C00013
+ENZYME      6.3.2.-
+PATHWAY     rn00975  Biosynthesis of various siderophores
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M01060  Petrobactin biosynthesis, spermidine => petrobactin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.-
+                 R12598  N-Citryl-spermidine + Spermidine + ATP <=> N8,N'8-Citryl-bis(spermidine) + AMP + Diphosphate
+ORTHOLOGY   K24109  3,4-dihydroxybenzoyl-citryl-spermidine/N-citryl-spermidine--spermidine ligase [EC:6.3.2.-]
+REFERENCE   1  [PMID:18758617]
+  AUTHORS   Oves-Costales D, Kadi N, Fogg MJ, Song L, Wilson KS, Challis GL
+  TITLE     Petrobactin biosynthesis: AsbB catalyzes condensation of spermidine with N8-citryl-spermidine and its N1-(3,4-dihydroxybenzoyl) derivative.
+  JOURNAL   Chem Commun (Camb) 4034-6 (2008)
+            DOI:10.1039/b809353a
+DBLINKS     RHEA: 63815
+///
+
+ENTRY       R12599                      Reaction
+DEFINITION  N1-(3,4-Dihydroxybenzoyl)-N8-citryl spermidine + Spermidine + ATP <=> N1-(3,4-Dihydroxybenzoyl)-N8,N'8-citryl-bis(spermidine) + AMP + Diphosphate
+EQUATION    C20952 + C00315 + C00002 <=> C22069 + C00020 + C00013
+ENZYME      6.3.2.-
+PATHWAY     rn00975  Biosynthesis of various siderophores
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M01060  Petrobactin biosynthesis, spermidine => petrobactin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.-
+                 R12599  N1-(3,4-Dihydroxybenzoyl)-N8-citryl spermidine + Spermidine + ATP <=> N1-(3,4-Dihydroxybenzoyl)-N8,N'8-citryl-bis(spermidine) + AMP + Diphosphate
+ORTHOLOGY   K24109  3,4-dihydroxybenzoyl-citryl-spermidine/N-citryl-spermidine--spermidine ligase [EC:6.3.2.-]
+REFERENCE   1  [PMID:18758617]
+  AUTHORS   Oves-Costales D, Kadi N, Fogg MJ, Song L, Wilson KS, Challis GL
+  TITLE     Petrobactin biosynthesis: AsbB catalyzes condensation of spermidine with N8-citryl-spermidine and its N1-(3,4-dihydroxybenzoyl) derivative.
+  JOURNAL   Chem Commun (Camb) 4034-6 (2008)
+            DOI:10.1039/b809353a
+DBLINKS     RHEA: 63819
+///
+
+ENTRY       R12688                      Reaction
+NAME        L-kynurenine:2-oxoglutarate aminotransferase
+DEFINITION  L-Kynurenine + 2-Oxoglutarate <=> 4-Hydroxy-2-quinolinecarboxylic acid + L-Glutamate + H2O
+EQUATION    C00328 + C00026 <=> C01717 + C00025 + C00001
+COMMENT     two-step reaction (see R01956+R03445)
+ENZYME      2.6.1.7
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.7
+                 R12688  L-Kynurenine + 2-Oxoglutarate <=> 4-Hydroxy-2-quinolinecarboxylic acid + L-Glutamate + H2O
+///
+
+ENTRY       R12692                      Reaction
+NAME        L-kynurenine:glyoxylate aminotransferase (cyclizing)
+DEFINITION  L-Kynurenine + Glyoxylate <=> 4-Hydroxy-2-quinolinecarboxylic acid + Glycine + H2O
+EQUATION    C00328 + C00048 <=> C01717 + C00037 + C00001
+COMMENT     two-step reaction (see R01957+R03445)
+ENZYME      2.6.1.63
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.63
+                 R12692  L-Kynurenine + Glyoxylate <=> 4-Hydroxy-2-quinolinecarboxylic acid + Glycine + H2O
+///
+
+ENTRY       R12758                      Reaction
+DEFINITION  L-Tryptophan <=> Indole + Dehydroalanine
+EQUATION    C00078 <=> C00463 + C02218
+COMMENT     a part of multi-step reaction
+            ec 4.1.99.1 (see R00673, R12758+R08698)
+RCLASS      RC00209  C00078_C00463
+            RC01037  C00078_C02218
+ENZYME      4.1.99.1
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.1
+                 R12758  L-Tryptophan <=> Indole + Dehydroalanine
+///
+
+ENTRY       R12782                      Reaction
+DEFINITION  ATP + L-Tryptophan <=> Diphosphate + (L-Tryptophyl)adenylate
+EQUATION    C00002 + C00078 <=> C00013 + C22391
+COMMENT     the first step of two-step reaction (see R12784, R12782+R12783)
+ENZYME      6.2.1.73
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.73
+                 R12782  ATP + L-Tryptophan <=> Diphosphate + (L-Tryptophyl)adenylate
+DBLINKS     RHEA: 61795
+///
+
+ENTRY       R12784                      Reaction
+NAME        L-tryptophan:[L-tryptophyl-carrier protein] ligase (AMP-forming)
+DEFINITION  ATP + L-Tryptophan + Peptidyl-carrier protein <=> AMP + Diphosphate + L-Tryptophyl-[peptidyl-carrier protein]
+EQUATION    C00002 + C00078 + C21097 <=> C00020 + C00013 + C22392
+COMMENT     two-step reaction (see R12782+R12783)
+ENZYME      6.2.1.73
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.73
+                 R12784  ATP + L-Tryptophan + Peptidyl-carrier protein <=> AMP + Diphosphate + L-Tryptophyl-[peptidyl-carrier protein]
+DBLINKS     RHEA: 61791
+///
+
+ENTRY       R12957                      Reaction
+DEFINITION  L-Tryptophan <=> 3-(Aminomethyl)indole
+EQUATION    C00078 <=> C21601
+COMMENT     unclear reaction
+PATHWAY     rn00999  Biosynthesis of various plant secondary metabolites
+            rn01110  Biosynthesis of secondary metabolites
+REFERENCE   1  [PMID:16930646]
+  AUTHORS   Larsson KA, Zetterlund I, Delp G, Jonsson LM
+  TITLE     N-Methyltransferase involved in gramine biosynthesis in barley: cloning and characterization.
+  JOURNAL   Phytochemistry 67:2002-8 (2006)
+            DOI:10.1016/j.phytochem.2006.06.036
+///
+
+ENTRY       R13287                      Reaction
+DEFINITION  4-Coumarate + H2O <=> 3-Hydroxy-3-(4-hydroxyphenyl)propanoate
+EQUATION    C00811 + C00001 <=> C22890
+COMMENT     the first step of two-step reaction (see R13289, R13287+R13288)
+ENZYME      4.1.2.66
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.66
+                 R13287  4-Coumarate + H2O <=> 3-Hydroxy-3-(4-hydroxyphenyl)propanoate
+///
+
+ENTRY       R13289                      Reaction
+NAME        4-coumarate acetate-lyase (4-hydroxybenzaldehyde-forming)
+DEFINITION  4-Coumarate + H2O <=> 4-Hydroxybenzaldehyde + Acetate
+EQUATION    C00811 + C00001 <=> C00633 + C00033
+COMMENT     two-step reaction (see R13287+R13288)
+ENZYME      4.1.2.66
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.66
+                 R13289  4-Coumarate + H2O <=> 4-Hydroxybenzaldehyde + Acetate
+///

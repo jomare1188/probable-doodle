@@ -1,0 +1,3 @@
+C01717	4-Hydroxy-2-quinolinecarboxylic acid; Kynurenic acid; Kynurenate
+C05663	6-Hydroxykynurenate; 6-Hydroxykynurenic acid; 4,6-Dihydroxyquinaldic acid
+C08480	6-Hydroxykynurenic acid

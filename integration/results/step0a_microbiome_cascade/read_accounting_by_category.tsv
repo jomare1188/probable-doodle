@@ -1,0 +1,13 @@
+sample	variant	Archaea	Bacteria	Eukaryota (non-fungal)	Fungi	organelle (chloroplast/mitochondria)	unclassified
+control_1	genus-rule cascade (primary)	3	81243	2022	315	132	10906
+control_2	genus-rule cascade (primary)	0	58119	3657	460	61	6728
+control_3	genus-rule cascade (primary)	0	35292	1112	381	74	2579
+infected_1	genus-rule cascade (primary)	27	98808	66	2311	25	18598
+infected_2	genus-rule cascade (primary)	6	71697	34	1172	18	11550
+infected_3	genus-rule cascade (primary)	4	72487	33	1721	19	12971
+control_1	unclassified-only cascade (sensitivity)	2	81246	2022	313	132	10906
+control_2	unclassified-only cascade (sensitivity)	0	58127	3652	457	61	6728
+control_3	unclassified-only cascade (sensitivity)	0	35300	1106	379	74	2579
+infected_1	unclassified-only cascade (sensitivity)	26	98807	73	2306	25	18598
+infected_2	unclassified-only cascade (sensitivity)	6	71693	38	1172	18	11550
+infected_3	unclassified-only cascade (sensitivity)	4	72484	37	1720	19	12971

@@ -1,0 +1,24 @@
+C00315	Spermidine; N-(3-Aminopropyl)-1,4-butane-diamine
+C00612	N1-Acetylspermidine
+C01029	N8-Acetylspermidine
+C02090	Trypanothione; N1,N8-Bis(gamma-L-glutamyl-L-cysteinyl-glycyl)spermidine; N1,N8-Bis(glutathionyl)spermidine; Reduced trypanothione
+C03375	Norspermidine; Bis(3-aminopropyl)amine; 3,3'-Iminobispropylamine
+C05730	Glutathionylspermidine; N1-(gamma-L-Glutamyl-L-cysteinyl-glycyl)-spermidine
+C06366	sym-Homospermidine; Homospermidine
+C09347	Atherospermidine
+C15853	Dehydrospermidine
+C18069	N1,N5,N10-Tricoumaroyl spermidine
+C18070	N1,N5,N10-Tricaffeoyl spermidine
+C18071	N1,N5,N10-Triferuloyl spermidine
+C18072	N1,N5,N10-Tri(hydroxyferuloyl) spermidine
+C18073	N1,N5-Di(hydroxyferuloyl)-N10-sinapoyl spermidine
+C18172	Carboxyspermidine; 2-Amino-4-[(4-aminobutyl)amino]-butanoic acid
+C18174	Carboxynorspermidine
+C20885	N-Citryl-spermidine
+C20952	N1-(3,4-Dihydroxybenzoyl)-N8-citryl spermidine; 3,4-Dihydroxybenzoyl-citryl-spermidine
+C21009	N4-Aminopropylspermidine
+C21010	N4-Bis(aminopropyl)spermidine
+C21169	N1,N8-Bis(4-coumaroyl)spermidine; N1,N10-Dicoumaroyl spermidine
+C21170	N1,N8-Bis(sinapoyl)spermidine; N1,N10-Disinapoyl spermidine
+C22004	N8,N'8-Citryl-bis(spermidine)
+C22069	N1-(3,4-Dihydroxybenzoyl)-N8,N'8-citryl-bis(spermidine)

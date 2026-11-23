@@ -1,0 +1,20 @@
+"metabolite","link_type","concordant","discordant"
+"L-Tryptophan","gene-metabolite (KEGG reaction)",4,3
+"ferulic acid","gene-metabolite (KEGG reaction)",2,4
+"p-coumaric acid","gene-metabolite (KEGG reaction)",2,4
+"proline","gene-metabolite (KEGG reaction)",6,4
+"pyroglutamic acid","gene-metabolite (KEGG reaction)",2,1
+"sinapic acid","gene-metabolite (KEGG reaction)",2,4
+"spermidine","gene-metabolite (KEGG reaction)",2,5
+"L-Tryptophan","taxon-metabolite (tier 1-2)",50,47
+"ferulic acid","taxon-metabolite (tier 1-2)",1,0
+"p-coumaric acid","taxon-metabolite (tier 1-2)",3,0
+"proline","taxon-metabolite (tier 1-2)",50,47
+"pyroglutamic acid","taxon-metabolite (tier 1-2)",49,26
+"spermidine","taxon-metabolite (tier 1-2)",40,22
+"L-Tryptophan","gene-metabolite-taxon chain",200,479
+"ferulic acid","gene-metabolite-taxon chain",2,4
+"p-coumaric acid","gene-metabolite-taxon chain",6,12
+"proline","gene-metabolite-taxon chain",300,670
+"pyroglutamic acid","gene-metabolite-taxon chain",98,127
+"spermidine","gene-metabolite-taxon chain",80,354

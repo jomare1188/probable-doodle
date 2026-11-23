@@ -1,0 +1,186 @@
+ENTRY       R02951                      Reaction
+NAME        UDPglucose:trans-4-hydroxycinnamate 4-O-beta-D-glucosyltransferase
+DEFINITION  UDP-glucose + 4-Coumarate <=> UDP + 4-O-beta-D-Glucosyl-4-hydroxycinnamate
+EQUATION    C00029 + C00811 <=> C00015 + C04415
+RCLASS      RC00005  C00015_C00029
+            RC00171  C00811_C04415
+ENZYME      2.4.1.126
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.126
+                 R02951  UDP-glucose + 4-Coumarate <=> UDP + 4-O-beta-D-Glucosyl-4-hydroxycinnamate
+DBLINKS     RHEA: 21639
+///
+
+ENTRY       R02952                      Reaction
+NAME        phenylacrylic acid decarboxylase
+DEFINITION  4-Coumarate <=> 4-Hydroxystyrene + CO2
+EQUATION    C00811 <=> C05627 + C00011
+RCLASS      RC00814  C00811_C05627
+ENZYME      4.1.1.102
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.102
+                 R02952  4-Coumarate <=> 4-Hydroxystyrene + CO2
+DBLINKS     RHEA: 33230
+///
+
+ENTRY       R03366                      Reaction
+NAME        S-adenosyl-L-methionine:3,4-dihydroxy-trans-cinnamate 3-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Caffeate <=> S-Adenosyl-L-homocysteine + Ferulate
+EQUATION    C00019 + C01197 <=> C00021 + C01494
+RCLASS      RC00003  C00019_C00021
+            RC00392  C01197_C01494
+ENZYME      2.1.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.68
+                 R03366  S-Adenosyl-L-methionine + Caffeate <=> S-Adenosyl-L-homocysteine + Ferulate
+ORTHOLOGY   K13066  caffeic acid 3-O-methyltransferase / acetylserotonin O-methyltransferase / flavone 3'-O-methyltransferase [EC:2.1.1.68 2.1.1.4 2.1.1.42]
+DBLINKS     RHEA: 20228
+///
+
+ENTRY       R03439                      Reaction
+NAME        kynurenate:oxygen oxidoreductase (hydroxylating)
+DEFINITION  4-Hydroxy-2-quinolinecarboxylic acid + Oxygen + NADH + H+ <=> 7,8-Dihydro-7,8-dihydroxykynurenate + NAD+
+EQUATION    C01717 + C00007 + C00004 + C00080 <=> C01249 + C00003
+COMMENT     NADPH (see R03440)
+RCLASS      RC00001  C00003_C00004
+            RC00091  C01249_C01717
+ENZYME      1.14.99.2
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.99  Miscellaneous
+                1.14.99.2
+                 R03439  4-Hydroxy-2-quinolinecarboxylic acid + Oxygen + NADH + H+ <=> 7,8-Dihydro-7,8-dihydroxykynurenate + NAD+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.99.2
+               R03441  Reduced acceptor <=> Acceptor
+                R03439  NADH <=> NAD+
+///
+
+ENTRY       R03440                      Reaction
+NAME        kynurenate:oxygen oxidoreductase (hydroxylating)
+DEFINITION  4-Hydroxy-2-quinolinecarboxylic acid + Oxygen + NADPH + H+ <=> 7,8-Dihydro-7,8-dihydroxykynurenate + NADP+
+EQUATION    C01717 + C00007 + C00005 + C00080 <=> C01249 + C00006
+COMMENT     NADH (see R03439)
+RCLASS      RC00001  C00005_C00006
+            RC00091  C01249_C01717
+ENZYME      1.14.99.2
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.99  Miscellaneous
+                1.14.99.2
+                 R03440  4-Hydroxy-2-quinolinecarboxylic acid + Oxygen + NADPH + H+ <=> 7,8-Dihydro-7,8-dihydroxykynurenate + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.99.2
+               R03441  Reduced acceptor <=> Acceptor
+                R03440  NADPH <=> NADP+
+///
+
+ENTRY       R03441                      Reaction
+NAME        kynurenate,acceptor:oxygen oxidoreductase (hydroxylating)
+DEFINITION  4-Hydroxy-2-quinolinecarboxylic acid + Reduced acceptor + Oxygen <=> 7,8-Dihydro-7,8-dihydroxykynurenate + Acceptor
+EQUATION    C01717 + C00030 + C00007 <=> C01249 + C00028
+RCLASS      RC00091  C01249_C01717
+ENZYME      1.14.99.2
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.99  Miscellaneous
+                1.14.99.2
+                 R03441  4-Hydroxy-2-quinolinecarboxylic acid + Reduced acceptor + Oxygen <=> 7,8-Dihydro-7,8-dihydroxykynurenate + Acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.99.2
+               R03441  Reduced acceptor <=> Acceptor
+DBLINKS     RHEA: 11971
+///
+
+ENTRY       R03445                      Reaction
+DEFINITION  4-(2-Aminophenyl)-2,4-dioxobutanoate <=> 4-Hydroxy-2-quinolinecarboxylic acid + H2O
+EQUATION    C01252 <=> C01717 + C00001
+COMMENT     spontaneous
+            the second step of two-step reaction (see R12688, R01956+R03445 / R12692, R01957+R03445)
+RCLASS      RC00930  C01252_C01717
+ENZYME      2.6.1.7         2.6.1.63
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.7
+                 R03445  4-(2-Aminophenyl)-2,4-dioxobutanoate <=> 4-Hydroxy-2-quinolinecarboxylic acid + H2O
+                2.6.1.63
+                 R03445  4-(2-Aminophenyl)-2,4-dioxobutanoate <=> 4-Hydroxy-2-quinolinecarboxylic acid + H2O
+DBLINKS     RHEA: 42455
+///
+
+ENTRY       R03579                      Reaction
+NAME        N-feruloylglycine amidohydrolase
+DEFINITION  N-Feruloylglycine + H2O <=> Ferulate + Glycine
+EQUATION    C02564 + C00001 <=> C01494 + C00037
+RCLASS      RC00096  C00037_C02564
+            RC00957  C01494_C02564
+ENZYME      3.5.1.71
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.71
+                 R03579  N-Feruloylglycine + H2O <=> Ferulate + Glycine
+DBLINKS     RHEA: 10487
+///
+
+ENTRY       R03661                      Reaction
+NAME        L-proline:tRNA(Pro) ligase (AMP-forming)
+DEFINITION  ATP + L-Proline + tRNA(Pro) <=> AMP + Diphosphate + L-Prolyl-tRNA(Pro)
+EQUATION    C00002 + C00148 + C01649 <=> C00020 + C00013 + C02702
+RCLASS      RC00055  C01649_C02702
+            RC00523  C00148_C02702
+ENZYME      6.1.1.15
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.15
+                 R03661  ATP + L-Proline + tRNA(Pro) <=> AMP + Diphosphate + L-Prolyl-tRNA(Pro)
+ORTHOLOGY   K01881  prolyl-tRNA synthetase [EC:6.1.1.15]
+            K14163  bifunctional glutamyl/prolyl-tRNA synthetase [EC:6.1.1.17 6.1.1.15]
+DBLINKS     RHEA: 14308
+///
+
+ENTRY       R03664                      Reaction
+NAME        L-tryptophan -tRNA(Trp) ligase (AMP-forming)
+DEFINITION  ATP + L-Tryptophan + tRNA(Trp) <=> AMP + Diphosphate + L-Tryptophanyl-tRNA(Trp)
+EQUATION    C00002 + C00078 + C01652 <=> C00020 + C00013 + C03512
+RCLASS      RC00055  C01652_C03512
+            RC00523  C00078_C03512
+ENZYME      6.1.1.2
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.2
+                 R03664  ATP + L-Tryptophan + tRNA(Trp) <=> AMP + Diphosphate + L-Tryptophanyl-tRNA(Trp)
+ORTHOLOGY   K01867  tryptophanyl-tRNA synthetase [EC:6.1.1.2]
+DBLINKS     RHEA: 24083
+///

@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 145742,
+        "MolecularFormula": "C5H9NO2",
+        "InChIKey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
+        "MonoisotopicMass": "115.063328530",
+        "Title": "L-Proline"
+      }
+    ]
+  }
+}

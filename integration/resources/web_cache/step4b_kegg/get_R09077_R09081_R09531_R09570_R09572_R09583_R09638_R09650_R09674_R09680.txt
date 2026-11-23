@@ -1,0 +1,168 @@
+ENTRY       R09077                      Reaction
+NAME        spermidine:oxygen oxidoreductase (3-aminopropanal-forming)
+DEFINITION  Spermidine + Oxygen + H2O <=> Putrescine + 3-Aminopropanal + Hydrogen peroxide
+EQUATION    C00315 + C00007 + C00001 <=> C00134 + C05665 + C00027
+RCLASS      RC00053  C00134_C00315
+            RC00225  C00315_C05665
+            RC02755  C00007_C00027
+ENZYME      1.5.3.17
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00410  beta-Alanine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.17
+                 R09077  Spermidine + Oxygen + H2O <=> Putrescine + 3-Aminopropanal + Hydrogen peroxide
+ORTHOLOGY   K13367  polyamine oxidase [EC:1.5.3.17]
+            K17839  polyamine oxidase [EC:1.5.3.17 1.5.3.-]
+DBLINKS     RHEA: 25811
+///
+
+ENTRY       R09081                      Reaction
+NAME        carboxyspermidine carboxy-lyase (spermidine-forming)
+DEFINITION  Carboxyspermidine <=> Spermidine + CO2
+EQUATION    C18172 <=> C00315 + C00011
+RCLASS      RC00299  C00315_C18172
+ENZYME      4.1.1.96
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.96
+                 R09081  Carboxyspermidine <=> Spermidine + CO2
+ORTHOLOGY   K13747  carboxynorspermidine decarboxylase [EC:4.1.1.96]
+DBLINKS     RHEA: 34098 34102
+///
+
+ENTRY       R09531                      Reaction
+NAME        S-adenosylmethioninamine:spermidine 3-aminopropyltransferase (thermospermine synthesizing)
+DEFINITION  S-Adenosylmethioninamine + Spermidine <=> 5'-Methylthioadenosine + Thermospermine + H+
+EQUATION    C01137 + C00315 <=> C00170 + C19669 + C00080
+RCLASS      RC00021  C00170_C01137
+            RC00053  C00315_C19669
+ENZYME      2.5.1.79
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.79
+                 R09531  S-Adenosylmethioninamine + Spermidine <=> 5'-Methylthioadenosine + Thermospermine + H+
+DBLINKS     RHEA: 30518
+///
+
+ENTRY       R09570                      Reaction
+NAME        L-tryptophan:FADH2 oxidoreductase (7-halogenating)
+DEFINITION  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 7-Chloro-L-tryptophan + FAD + 2 H2O
+EQUATION    C00078 + C01352 + C00698 + C00007 + C00080 <=> C19687 + C00016 + 2 C00001
+RCLASS      RC00126  C00016_C01352
+            RC00949  C00078_C19687
+ENZYME      1.14.19.9
+PATHWAY     rn00404  Staurosporine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00789  Rebeccamycin biosynthesis, tryptophan => rebeccamycin
+            M00790  Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.9
+                 R09570  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 7-Chloro-L-tryptophan + FAD + 2 H2O
+ORTHOLOGY   K14266  tryptophan 7-halogenase [EC:1.14.19.9]
+DBLINKS     RHEA: 26497
+///
+
+ENTRY       R09572                      Reaction
+NAME        L-proline,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  L-Proline + 2-Oxoglutarate + Oxygen <=> cis-3-Hydroxy-L-proline + Succinate + CO2
+EQUATION    C00148 + C00026 + C00007 <=> C19706 + C00042 + C00011
+RCLASS      RC00661  C00148_C19706
+ENZYME      1.14.11.28
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.28
+                 R09572  L-Proline + 2-Oxoglutarate + Oxygen <=> cis-3-Hydroxy-L-proline + Succinate + CO2
+DBLINKS     RHEA: 20268
+///
+
+ENTRY       R09583                      Reaction
+NAME        L-tryptophan,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+DEFINITION  L-Tryptophan + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> N-Hydroxy-L-tryptophan + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00078 + C03024 + C00007 <=> C19716 + C03161 + C00001
+COMMENT     the first step of three-step reaction (see R08160, R09583+R09584+R09585)
+RCLASS      RC00365  C00078_C19716
+ENZYME      1.14.14.156
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.156
+                 R09583  L-Tryptophan + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> N-Hydroxy-L-tryptophan + [Oxidized NADPH---hemoprotein reductase] + H2O
+DBLINKS     RHEA: 25008
+///
+
+ENTRY       R09638                      Reaction
+NAME        dimethylallyl-diphosphate:L-tryptophan 7-dimethylallyltransferase
+DEFINITION  Dimethylallyl diphosphate + L-Tryptophan <=> Diphosphate + 7-(3-Methylbut-2-enyl)-L-tryptophan
+EQUATION    C00235 + C00078 <=> C00013 + C19767
+RCLASS      RC00209  C00078_C19767
+ENZYME      2.5.1.80
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.80
+                 R09638  Dimethylallyl diphosphate + L-Tryptophan <=> Diphosphate + 7-(3-Methylbut-2-enyl)-L-tryptophan
+DBLINKS     RHEA: 30566
+///
+
+ENTRY       R09650                      Reaction
+NAME        L-prolinamide amidohydrolase
+DEFINITION  L-Prolinamide + H2O <=> L-Proline + Ammonia
+EQUATION    C19781 + C00001 <=> C00148 + C00014
+RCLASS      RC02596  C00148_C19781
+ENZYME      3.5.1.101
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.101
+                 R09650  L-Prolinamide + H2O <=> L-Proline + Ammonia
+DBLINKS     RHEA: 26513
+///
+
+ENTRY       R09674                      Reaction
+NAME        fumonisin B1 acylhydrolase
+DEFINITION  Fumonisin B1 + 2 H2O <=> Aminopentol + 2 Propane-1,2,3-tricarboxylate
+EQUATION    C19241 + 2 C00001 <=> C19805 + 2 C19806
+RCLASS      RC00094  C19241_C19806
+            RC02055  C19241_C19805
+ENZYME      3.1.1.87
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.87
+                 R09674  Fumonisin B1 + 2 H2O <=> Aminopentol + 2 Propane-1,2,3-tricarboxylate
+DBLINKS     RHEA: 30366
+///
+
+ENTRY       R09680                      Reaction
+NAME        (S)-piperidine-2-carboxamide amidohydrolase
+DEFINITION  (S)-Piperidine-2-carboxamide + H2O <=> L-Pipecolate + Ammonia
+EQUATION    C19809 + C00001 <=> C00408 + C00014
+RCLASS      RC02596  C00408_C19809
+ENZYME      3.5.1.101
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.101
+                 R09680  (S)-Piperidine-2-carboxamide + H2O <=> L-Pipecolate + Ammonia
+///

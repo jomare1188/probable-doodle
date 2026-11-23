@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 637542,
+        "MolecularFormula": "C9H8O3",
+        "InChIKey": "NGSWKAQJJWESNS-ZZXKWVIFSA-N",
+        "MonoisotopicMass": "164.047344113",
+        "Title": "P-Coumaric Acid"
+      }
+    ]
+  }
+}

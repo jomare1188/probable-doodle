@@ -1,0 +1,207 @@
+ENTRY       R02206                      Reaction
+NAME        L-pipecolate:(acceptor) 1,6-oxidoreductase
+DEFINITION  L-Pipecolate + Acceptor <=> (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate + Reduced acceptor
+EQUATION    C00408 + C00028 <=> C00450 + C00030
+RCLASS      RC00083  C00408_C00450
+ENZYME      1.5.99.3
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.99  With unknown physiological acceptors
+                1.5.99.3
+                 R02206  L-Pipecolate + Acceptor <=> (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate + Reduced acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.99.3
+               R02206  Acceptor <=> Reduced acceptor
+DBLINKS     RHEA: 19780
+///
+
+ENTRY       R02221                      Reaction
+NAME        sinapate:CoA ligase (AMP-forming)
+DEFINITION  ATP + Sinapate + CoA <=> AMP + Diphosphate + Sinapoyl-CoA
+EQUATION    C00002 + C00482 + C00010 <=> C00020 + C00013 + C00411
+RCLASS      RC00004  C00010_C00411
+            RC00131  C00411_C00482
+ENZYME      6.2.1.12
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.12
+                 R02221  ATP + Sinapate + CoA <=> AMP + Diphosphate + Sinapoyl-CoA
+ORTHOLOGY   K01904  4-coumarate--CoA ligase [EC:6.2.1.12]
+DBLINKS     RHEA: 72590
+///
+
+ENTRY       R02253                      Reaction
+NAME        trans-cinnamate,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (4-hydroxylating)
+DEFINITION  trans-Cinnamate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 4-Coumarate + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00423 + C03024 + C00007 <=> C00811 + C03161 + C00001
+RCLASS      RC00490  C00423_C00811
+ENZYME      1.14.14.91
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01220  Degradation of aromatic compounds
+MODULE      M00039  Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+            M00137  Flavanone biosynthesis, phenylalanine => naringenin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.91
+                 R02253  trans-Cinnamate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 4-Coumarate + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K00487  trans-cinnamate 4-monooxygenase [EC:1.14.14.91]
+DBLINKS     RHEA: 10611
+///
+
+ENTRY       R02379                      Reaction
+NAME        S-adenosyl-L-methionine:3,4-dihydroxy-trans-cinnamate 3-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 5-Hydroxyferulic acid <=> S-Adenosyl-L-homocysteine + Sinapate
+EQUATION    C00019 + C05619 <=> C00021 + C00482
+RCLASS      RC00003  C00019_C00021
+            RC00392  C00482_C05619
+ENZYME      2.1.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.68
+                 R02379  S-Adenosyl-L-methionine + 5-Hydroxyferulic acid <=> S-Adenosyl-L-homocysteine + Sinapate
+ORTHOLOGY   K13066  caffeic acid 3-O-methyltransferase / acetylserotonin O-methyltransferase / flavone 3'-O-methyltransferase [EC:2.1.1.68 2.1.1.4 2.1.1.42]
+DBLINKS     RHEA: 60955
+///
+
+ENTRY       R02380                      Reaction
+NAME        UDPglucose:sinapate D-glucosyltransferase
+DEFINITION  UDP-glucose + Sinapate <=> UDP + 1-O-Sinapoyl-beta-D-glucose
+EQUATION    C00029 + C00482 <=> C00015 + C01175
+COMMENT     ec 2.4.1.120 forms only glucose esters
+            ec 2.4.1.126 forms a mixture of glucose esters and 4-glucosides (see R08533)
+RCLASS      RC00005  C00015_C00029
+            RC00523  C00482_C01175
+ENZYME      2.4.1.120       2.4.1.126
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.120
+                 R02380  UDP-glucose + Sinapate <=> UDP + 1-O-Sinapoyl-beta-D-glucose
+                2.4.1.126
+                 R02380  UDP-glucose + Sinapate <=> UDP + 1-O-Sinapoyl-beta-D-glucose
+            Glycosyltransferase reactions [br08203.html]
+             Glucosyltransferase reactions
+              R02380
+ORTHOLOGY   K13068  sinapate 1-glucosyltransferase [EC:2.4.1.120]
+DBLINKS     RHEA: 13308
+///
+
+ENTRY       R02381                      Reaction
+NAME        sinapoylcholine sinapohydrolase
+DEFINITION  Sinapine + H2O <=> Sinapate + Choline
+EQUATION    C00933 + C00001 <=> C00482 + C00114
+RCLASS      RC00020  C00482_C00933
+            RC00041  C00114_C00933
+ENZYME      3.1.1.49
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.49
+                 R02381  Sinapine + H2O <=> Sinapate + Choline
+DBLINKS     RHEA: 10019
+///
+
+ENTRY       R02722                      Reaction
+NAME        L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan and glyceraldehyde-3-phosphate-forming]
+DEFINITION  L-Serine + Indoleglycerol phosphate <=> L-Tryptophan + D-Glyceraldehyde 3-phosphate + H2O
+EQUATION    C00065 + C03506 <=> C00078 + C00118 + C00001
+COMMENT     multi-step reaction (see R02340+R00674)
+RCLASS      RC00210  C00065_C00078
+            RC00700  C00118_C03506
+            RC02868  C00078_C03506
+ENZYME      4.2.1.20
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00023  Tryptophan biosynthesis, chorismate => tryptophan
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.20
+                 R02722  L-Serine + Indoleglycerol phosphate <=> L-Tryptophan + D-Glyceraldehyde 3-phosphate + H2O
+ORTHOLOGY   K01694  tryptophan synthase [EC:4.2.1.20]
+            K01695  tryptophan synthase alpha chain [EC:4.2.1.20]
+            K01696  tryptophan synthase beta chain [EC:4.2.1.20]
+            K06001  tryptophan synthase beta chain [EC:4.2.1.20]
+DBLINKS     RHEA: 10535
+///
+
+ENTRY       R02743                      Reaction
+NAME        gamma-L-glutamyl-L-cysteine gamma-glutamyl cyclotransferase (5-oxoproline-forming)
+DEFINITION  gamma-L-Glutamyl-L-cysteine <=> 5-Oxoproline + L-Cysteine
+EQUATION    C00669 <=> C01879 + C00097
+RCLASS      RC00064  C00097_C00669
+            RC00777  C00669_C01879
+ENZYME      4.3.2.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.9
+                 R02743  gamma-L-Glutamyl-L-cysteine <=> 5-Oxoproline + L-Cysteine
+ORTHOLOGY   K00682  gamma-glutamylcyclotransferase [EC:4.3.2.9]
+            K22596  gamma-glutamylcyclotransferase, plant [EC:4.3.2.9]
+///
+
+ENTRY       R02869                      Reaction
+NAME        S-adenosylmethioninamine:spermidine 3-aminopropyltransferase
+DEFINITION  S-Adenosylmethioninamine + Spermidine <=> 5'-Methylthioadenosine + Spermine
+EQUATION    C01137 + C00315 <=> C00170 + C00750
+RCLASS      RC00021  C00170_C01137
+            RC00053  C00315_C00750
+ENZYME      2.5.1.22
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn00330  Arginine and proline metabolism
+            rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.22
+                 R02869  S-Adenosylmethioninamine + Spermidine <=> 5'-Methylthioadenosine + Spermine
+ORTHOLOGY   K00802  spermine synthase [EC:2.5.1.22]
+DBLINKS     RHEA: 19976
+///
+
+ENTRY       R02950                      Reaction
+NAME        4-coumarate:oxygen oxidoreductase
+DEFINITION  4-Coumarate + Oxygen + Caffeate <=> Caffeate + H2O + Caffeoquinone
+EQUATION    C00811 + C00007 + C01197 <=> C01197 + C00001 + C16828
+RCLASS      RC00046  C00811_C01197
+ENZYME      1.14.18.1
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.18  With another compound as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.18.1
+                 R02950  4-Coumarate + Oxygen + Caffeate <=> Caffeate + H2O + Caffeoquinone
+///

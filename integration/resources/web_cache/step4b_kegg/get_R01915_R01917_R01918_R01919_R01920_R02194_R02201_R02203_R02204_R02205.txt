@@ -1,0 +1,220 @@
+ENTRY       R01915                      Reaction
+NAME        spermidine:(acceptor) oxidoreductase
+DEFINITION  Spermidine + Acceptor + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Reduced acceptor
+EQUATION    C00315 + C00028 + C00001 <=> C00986 + C00555 + C00030
+RCLASS      RC00053  C00315_C00986
+            RC00225  C00315_C00555
+ENZYME      1.5.99.6
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.99  With unknown physiological acceptors
+                1.5.99.6
+                 R01915  Spermidine + Acceptor + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Reduced acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.99.6
+               R01915  Acceptor <=> Reduced acceptor
+ORTHOLOGY   K00316  spermidine dehydrogenase [EC:1.5.99.6]
+DBLINKS     RHEA: 14276
+///
+
+ENTRY       R01917                      Reaction
+NAME        gamma-L-glutamyl-L-cysteinyl-glycine:spermidine ligase (ADP-forming)
+DEFINITION  ATP + Glutathione + Spermidine <=> ADP + Orthophosphate + Glutathionylspermidine
+EQUATION    C00002 + C00051 + C00315 <=> C00008 + C00009 + C05730
+RCLASS      RC00002  C00002_C00008
+            RC00090  C00051_C05730
+            RC00096  C00315_C05730
+ENZYME      6.3.1.8         6.3.1.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.8
+                 R01917  ATP + Glutathione + Spermidine <=> ADP + Orthophosphate + Glutathionylspermidine
+                6.3.1.9
+                 R01917  ATP + Glutathione + Spermidine <=> ADP + Orthophosphate + Glutathionylspermidine
+ORTHOLOGY   K01460  glutathionylspermidine amidase/synthetase [EC:3.5.1.78 6.3.1.8]
+            K01833  trypanothione synthetase/amidase [EC:6.3.1.9 3.5.1.-]
+            K01917  glutathionylspermidine synthase [EC:6.3.1.8]
+DBLINKS     RHEA: 21275
+///
+
+ENTRY       R01918                      Reaction
+NAME        gamma-L-glutamyl-L-cysteinyl-glycine:spermidine amidase
+DEFINITION  Glutathionylspermidine + H2O <=> Glutathione + Spermidine
+EQUATION    C05730 + C00001 <=> C00051 + C00315
+RCLASS      RC00090  C00051_C05730
+            RC00096  C00315_C05730
+ENZYME      3.5.1.78        3.5.1.-
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.78
+                 R01918  Glutathionylspermidine + H2O <=> Glutathione + Spermidine
+                3.5.1.-
+                 R01918  Glutathionylspermidine + H2O <=> Glutathione + Spermidine
+ORTHOLOGY   K01460  glutathionylspermidine amidase/synthetase [EC:3.5.1.78 6.3.1.8]
+            K01833  trypanothione synthetase/amidase [EC:6.3.1.9 3.5.1.-]
+DBLINKS     RHEA: 17176
+///
+
+ENTRY       R01919                      Reaction
+NAME        spermidine:putrescine 4-aminobutyltransferase (propane-1,3-diamine-forming)
+DEFINITION  Putrescine + Spermidine <=> sym-Homospermidine + 1,3-Diaminopropane
+EQUATION    C00134 + C00315 <=> C06366 + C00986
+RCLASS      RC00053  C00134_C06366  C00315_C00986
+ENZYME      2.5.1.44        2.5.1.45
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.44
+                 R01919  Putrescine + Spermidine <=> sym-Homospermidine + 1,3-Diaminopropane
+                2.5.1.45
+                 R01919  Putrescine + Spermidine <=> sym-Homospermidine + 1,3-Diaminopropane
+DBLINKS     RHEA: 11239
+///
+
+ENTRY       R01920                      Reaction
+NAME        S-adenosylmethioninamine:putrescine 3-aminopropyltransferase
+DEFINITION  S-Adenosylmethioninamine + Putrescine <=> 5'-Methylthioadenosine + Spermidine
+EQUATION    C01137 + C00134 <=> C00170 + C00315
+RCLASS      RC00021  C00170_C01137
+            RC00053  C00134_C00315
+ENZYME      2.5.1.16
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn00330  Arginine and proline metabolism
+            rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00034  Methionine salvage pathway
+            M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.16
+                 R01920  S-Adenosylmethioninamine + Putrescine <=> 5'-Methylthioadenosine + Spermidine
+ORTHOLOGY   K00797  spermidine synthase [EC:2.5.1.16]
+            K24034  spermidine synthase / saccharopine dehydrogenase (NADP+, L-glutamate-forming) [EC:2.5.1.16 1.5.1.10]
+DBLINKS     RHEA: 12724
+///
+
+ENTRY       R02194                      Reaction
+NAME        ferulate:CoA ligase (AMP-forming)
+DEFINITION  ATP + Ferulate + CoA <=> AMP + Diphosphate + Feruloyl-CoA
+EQUATION    C00002 + C01494 + C00010 <=> C00020 + C00013 + C00406
+RCLASS      RC00004  C00010_C00406
+            RC00131  C00406_C01494
+ENZYME      6.2.1.12
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.12
+                 R02194  ATP + Ferulate + CoA <=> AMP + Diphosphate + Feruloyl-CoA
+ORTHOLOGY   K01904  4-coumarate--CoA ligase [EC:6.2.1.12]
+DBLINKS     RHEA: 36254
+///
+
+ENTRY       R02201                      Reaction
+NAME        L-pipecolate:NAD+ 2-oxidoreductase
+DEFINITION  L-Pipecolate + NAD+ <=> Delta1-Piperideine-2-carboxylate + NADH + H+
+EQUATION    C00408 + C00003 <=> C04092 + C00004 + C00080
+COMMENT     NADPH (see R02203)
+RCLASS      RC00001  C00003_C00004
+            RC00135  C00408_C04092
+ENZYME      1.5.1.1
+PATHWAY     rn00310  Lysine degradation
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.1
+                 R02201  L-Pipecolate + NAD+ <=> Delta1-Piperideine-2-carboxylate + NADH + H+
+ORTHOLOGY   K19743  1-piperideine-2-carboxylate/1-pyrroline-2-carboxylate reductase [NAD(P)H] [EC:1.5.1.1]
+DBLINKS     RHEA: 30810
+///
+
+ENTRY       R02203                      Reaction
+NAME        L-pipecolate:NADP+ 2-oxidoreductase
+DEFINITION  L-Pipecolate + NADP+ <=> Delta1-Piperideine-2-carboxylate + NADPH + H+
+EQUATION    C00408 + C00006 <=> C04092 + C00005 + C00080
+COMMENT     NADH (see R02201)
+RCLASS      RC00001  C00005_C00006
+            RC00135  C00408_C04092
+ENZYME      1.5.1.1         1.5.1.21
+PATHWAY     rn00310  Lysine degradation
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.1
+                 R02203  L-Pipecolate + NADP+ <=> Delta1-Piperideine-2-carboxylate + NADPH + H+
+                1.5.1.21
+                 R02203  L-Pipecolate + NADP+ <=> Delta1-Piperideine-2-carboxylate + NADPH + H+
+ORTHOLOGY   K13609  delta1-piperideine-2-carboxylate reductase [EC:1.5.1.21]
+            K19743  1-piperideine-2-carboxylate/1-pyrroline-2-carboxylate reductase [NAD(P)H] [EC:1.5.1.1]
+DBLINKS     RHEA: 12527
+///
+
+ENTRY       R02204                      Reaction
+NAME        L-pipecolate:oxygen 1,6-oxidoreductase
+DEFINITION  L-Pipecolate + Oxygen <=> (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate + Hydrogen peroxide
+EQUATION    C00408 + C00007 <=> C00450 + C00027
+RCLASS      RC00083  C00408_C00450
+            RC02755  C00007_C00027
+ENZYME      1.5.3.7
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.7
+                 R02204  L-Pipecolate + Oxygen <=> (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate + Hydrogen peroxide
+ORTHOLOGY   K00306  sarcosine oxidase / L-pipecolate oxidase [EC:1.5.3.1 1.5.3.7]
+DBLINKS     RHEA: 11995
+///
+
+ENTRY       R02205                      Reaction
+NAME        L-pipecolate:(acceptor) 1,6-oxidoreductase
+DEFINITION  L-Pipecolate + FAD <=> FADH2 + (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate
+EQUATION    C00408 + C00016 <=> C01352 + C00450
+RCLASS      RC00083  C00408_C00450
+            RC00126  C00016_C01352
+ENZYME      1.5.99.3
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.99  With unknown physiological acceptors
+                1.5.99.3
+                 R02205  L-Pipecolate + FAD <=> FADH2 + (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.99.3
+               R02206  Acceptor <=> Reduced acceptor
+                R02205  FAD <=> FADH2
+///

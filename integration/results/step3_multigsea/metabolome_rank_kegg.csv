@@ -1,0 +1,13 @@
+"metabolite","KEGG","published_p","direction","rank"
+"Fusaric acid","C10146",4.5433783589765e-11,"up_in_infected",10.3426210949324
+"kynurenic acid","C01717",2.25796279989041e-07,"down_in_infected",-6.64628321738687
+"pyroglutamic acid","C01879",1.2734076467309e-12,"up_in_infected",11.895032546554
+"L-Tryptophan","C00078",0.00586458145114455,"up_in_infected",2.23176297757141
+"p-coumaric acid","C00811",2.1246531417022e-06,"up_in_infected",5.67271196017379
+"ferulic acid","C01494",5.0180948679955e-06,"up_in_infected",5.29946113252769
+"desferrioxamine E","C23094",3.74845191200552e-11,"up_in_infected",10.4261480562423
+"spermidine","C00315",2.88629246335857e-12,"up_in_infected",11.5396596646537
+"fumonisin B1","C19241",6.21349523591494e-11,"up_in_infected",10.2066640303152
+"proline","C00148",5.13477115708772e-06,"up_in_infected",5.28947890697004
+"sinapic acid","C00482",6.33705156982095e-07,"up_in_infected",6.1981127586476
+"pipecolic acid","C00408",0.0482257586554195,"up_in_infected",1.31672093159967

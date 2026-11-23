@@ -1,0 +1,7 @@
+cpd:C00408	path:map00310
+cpd:C00408	path:map00960
+cpd:C00408	path:map01060
+cpd:C00408	path:map01064
+cpd:C00408	path:map01100
+cpd:C00408	path:map01110
+cpd:C00408	path:map01120

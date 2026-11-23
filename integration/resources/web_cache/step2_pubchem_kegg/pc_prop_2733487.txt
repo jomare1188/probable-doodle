@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2733487,
+        "MolecularFormula": "C34H59NO15",
+        "InChIKey": "UVBUBMSSQKOIBE-DSLOAKGESA-N",
+        "MonoisotopicMass": "721.38847018",
+        "Title": "Fumonisin B1"
+      }
+    ]
+  }
+}

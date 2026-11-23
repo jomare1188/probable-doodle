@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 445858,
+        "MolecularFormula": "C10H10O4",
+        "InChIKey": "KSEBMYQBYZTDHS-HWKANZROSA-N",
+        "MonoisotopicMass": "194.05790880",
+        "Title": "Ferulic Acid"
+      }
+    ]
+  }
+}

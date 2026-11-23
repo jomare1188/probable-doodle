@@ -1,0 +1,9 @@
+cpd:C00315	path:map00330
+cpd:C00315	path:map00410
+cpd:C00315	path:map00480
+cpd:C00315	path:map00940
+cpd:C00315	path:map00975
+cpd:C00315	path:map01100
+cpd:C00315	path:map01110
+cpd:C00315	path:map02010
+cpd:C00315	path:map04976

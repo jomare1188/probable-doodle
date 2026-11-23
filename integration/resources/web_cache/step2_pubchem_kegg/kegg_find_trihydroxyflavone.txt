@@ -1,0 +1,9 @@
+C01477	Apigenin; 4',5,7-Trihydroxyflavone; 5,7,4'-Trihydroxyflavone
+C04608	Apigenin 7-O-beta-D-glucoside; 7-O-beta-D-Glucosyl-5,7,4'-trihydroxyflavone; Apigenin 7-O-glucoside; Apigetrin; 7-(beta-D-Glucopyranosyloxy)-5-hydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one; Cosmetin; Cosmosiin
+C04858	Apigenin 7-O-[beta-D-apiosyl-(1->2)-beta-D-glucoside]; 7-O-(beta-D-Apiofuranosyl-1,2-beta-D-glucosyl)-5,7,4'-trihydroxyflavone; Apiin; 7-[(2-O-D-Apio-beta-D-furanosyl-beta-D-glucopyranosyl)oxy]-5-hydroxy-2-(4-hydroxy-phenyl)-4H-1-benzopyran-4-one; Apigenin-7-apioglucoside; Apioside
+C10023	Baicalein; 5,6,7-Trihydroxyflavone
+C10037	Resokaempherol; 5-Deoxykaempferol; 3,7,4'-Trihydroxyflavone
+C10044	Galangin; 3,5,7-Trihydroxyflavone
+C10113	Norwogonin; 5,7,8-Trihydroxyflavone
+C10195	Vicenin-2; Apigenin-6,8-di-C-glycoside; 5,7,4'-Trihydroxyflavone-6,8-di-C-glucoside
+C15222	3,6,4'-Trihydroxyflavone; 3,6-Dihydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one

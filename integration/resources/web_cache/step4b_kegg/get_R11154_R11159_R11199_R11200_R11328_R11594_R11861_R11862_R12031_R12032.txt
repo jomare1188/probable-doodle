@@ -1,0 +1,156 @@
+ENTRY       R11154                      Reaction
+NAME        S-adenosyl 3-(methylsulfanyl)propylamine:spermidine 3-aminopropyltransferase [N4-bis(aminopropyl)spermidine synthesizing]
+DEFINITION  2 S-Adenosylmethioninamine + Spermidine <=> 2 5'-Methylthioadenosine + N4-Bis(aminopropyl)spermidine
+EQUATION    2 C01137 + C00315 <=> 2 C00170 + C21010
+COMMENT     two-step reaction (see R11159+R11160)
+RCLASS      RC00021  C00170_C01137
+            RC03374  C00315_C21010
+ENZYME      2.5.1.128
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.128
+                 R11154  2 S-Adenosylmethioninamine + Spermidine <=> 2 5'-Methylthioadenosine + N4-Bis(aminopropyl)spermidine
+DBLINKS     RHEA: 44135
+///
+
+ENTRY       R11159                      Reaction
+NAME        S-adenosyl 3-(methylsulfanyl)propylamine:spermidine 3-aminopropyltransferase (N4-aminopropylspermidine synthesizing)
+DEFINITION  S-Adenosylmethioninamine + Spermidine <=> 5'-Methylthioadenosine + N4-Aminopropylspermidine
+EQUATION    C01137 + C00315 <=> C00170 + C21009
+RCLASS      RC00021  C00170_C01137
+            RC01349  C00315_C21009
+ENZYME      2.5.1.128
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.128
+                 R11159  S-Adenosylmethioninamine + Spermidine <=> 5'-Methylthioadenosine + N4-Aminopropylspermidine
+DBLINKS     RHEA: 42879
+///
+
+ENTRY       R11199                      Reaction
+NAME        sinapoyl-CoA:spermidine N-sinapoyltransferase
+DEFINITION  2 Sinapoyl-CoA + Spermidine <=> 2 CoA + N1,N8-Bis(sinapoyl)spermidine
+EQUATION    2 C00411 + C00315 <=> 2 C00010 + C21170
+RCLASS      RC00004  C00010_C00411
+            RC03386  C00315_C21170
+ENZYME      2.3.1.248
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.248
+                 R11199  2 Sinapoyl-CoA + Spermidine <=> 2 CoA + N1,N8-Bis(sinapoyl)spermidine
+///
+
+ENTRY       R11200                      Reaction
+NAME        4-coumaroyl-CoA:spermidine N-(4-coumaroyl)transferase
+DEFINITION  2 p-Coumaroyl-CoA + Spermidine <=> 2 CoA + N1,N8-Bis(4-coumaroyl)spermidine
+EQUATION    2 C00223 + C00315 <=> 2 C00010 + C21169
+RCLASS      RC00004  C00010_C00223
+            RC03386  C00315_C21169
+ENZYME      2.3.1.249
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.249
+                 R11200  2 p-Coumaroyl-CoA + Spermidine <=> 2 CoA + N1,N8-Bis(4-coumaroyl)spermidine
+DBLINKS     RHEA: 45183
+///
+
+ENTRY       R11328                      Reaction
+NAME        L-tryptophan ammonia-lyase (3-indoleacrylate-forming)
+DEFINITION  L-Tryptophan <=> 3-Indoleacrylate + Ammonia
+EQUATION    C00078 <=> C21283 + C00014
+RCLASS      RC00361  C00078_C21283
+ENZYME      4.3.1.31
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.1  Ammonia-lyases
+                4.3.1.31
+                 R11328  L-Tryptophan <=> 3-Indoleacrylate + Ammonia
+DBLINKS     RHEA: 41262
+///
+
+ENTRY       R11594                      Reaction
+NAME        L-proline,2-oxoglutarate:oxygen oxidoreductase (cis-4-hydroxylating)
+DEFINITION  L-Proline + 2-Oxoglutarate + Oxygen <=> cis-4-Hydroxy-L-proline + Succinate + CO2
+EQUATION    C00148 + C00026 + C00007 <=> C01015 + C00042 + C00011
+RCLASS      RC00478  C00148_C01015
+ENZYME      1.14.11.56
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.56
+                 R11594  L-Proline + 2-Oxoglutarate + Oxygen <=> cis-4-Hydroxy-L-proline + Succinate + CO2
+///
+
+ENTRY       R11861                      Reaction
+NAME        glutathione gamma-glutamyl cyclotransferase (5-oxoproline-forming)
+DEFINITION  Glutathione <=> Cys-Gly + 5-Oxoproline
+EQUATION    C00051 <=> C01419 + C01879
+RCLASS      RC00064  C00051_C01419
+            RC00777  C00051_C01879
+ENZYME      4.3.2.7
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.7
+                 R11861  Glutathione <=> Cys-Gly + 5-Oxoproline
+ORTHOLOGY   K07232  glutathione-specific gamma-glutamylcyclotransferase [EC:4.3.2.7]
+DBLINKS     RHEA: 47727
+///
+
+ENTRY       R11862                      Reaction
+NAME        epsilon-(gamma-L-glutamyl)-L-lysine gamma-glutamyl cyclotransferase (5-oxoproline-forming)
+DEFINITION  epsilon-(gamma-L-Glutamyl)-L-lysine <=> L-Lysine + 5-Oxoproline
+EQUATION    C21730 <=> C00047 + C01879
+RCLASS      RC00096  C00047_C21730
+            RC00777  C01879_C21730
+ENZYME      4.3.2.8
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.8
+                 R11862  epsilon-(gamma-L-Glutamyl)-L-lysine <=> L-Lysine + 5-Oxoproline
+DBLINKS     RHEA: 16964
+///
+
+ENTRY       R12031                      Reaction
+NAME        L-tryptophan:FADH2 oxidoreductase (5-halogenating)
+DEFINITION  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 5-Chloro-L-tryptophan + FAD + 2 H2O
+EQUATION    C00078 + C01352 + C00698 + C00007 + C00080 <=> C21865 + C00016 + 2 C00001
+RCLASS      RC01637  C00078_C21865
+ENZYME      1.14.19.58
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.58
+                 R12031  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 5-Chloro-L-tryptophan + FAD + 2 H2O
+DBLINKS     RHEA: 55899
+///
+
+ENTRY       R12032                      Reaction
+NAME        L-tryptophan:FADH2 oxidoreductase (6-halogenating)
+DEFINITION  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 6-Chloro-L-tryptophan + FAD + 2 H2O
+EQUATION    C00078 + C01352 + C00698 + C00007 + C00080 <=> C21866 + C00016 + 2 C00001
+RCLASS      RC01637  C00078_C21866
+ENZYME      1.14.19.59
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.59
+                 R12032  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 6-Chloro-L-tryptophan + FAD + 2 H2O
+///

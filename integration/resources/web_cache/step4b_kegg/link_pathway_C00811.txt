@@ -1,0 +1,8 @@
+cpd:C00811	path:map00130
+cpd:C00811	path:map00350
+cpd:C00811	path:map00940
+cpd:C00811	path:map00950
+cpd:C00811	path:map01061
+cpd:C00811	path:map01100
+cpd:C00811	path:map01110
+cpd:C00811	path:map01220

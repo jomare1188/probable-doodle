@@ -1,0 +1,12 @@
+metabolite	KEGG	direction
+Fusaric acid	C10146	up_in_infected
+kynurenic acid	C01717	down_in_infected
+pyroglutamic acid	C01879	up_in_infected
+L-Tryptophan	C00078	up_in_infected
+p-coumaric acid	C00811	up_in_infected
+ferulic acid	C01494	up_in_infected
+desferrioxamine E	C23094	up_in_infected
+spermidine	C00315	up_in_infected
+fumonisin B1	C19241	up_in_infected
+proline	C00148	up_in_infected
+sinapic acid	C00482	up_in_infected

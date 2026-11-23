@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3442,
+        "MolecularFormula": "C10H13NO2",
+        "InChIKey": "DGMPVYSXXIOGJY-UHFFFAOYSA-N",
+        "MonoisotopicMass": "179.094628657",
+        "Title": "Fusaric Acid"
+      }
+    ]
+  }
+}

@@ -24,7 +24,6 @@ RNAseq
 Microbiome
 Metabolomics
 Integration
-
 ```
 
 ## RNAseq Workflow Description

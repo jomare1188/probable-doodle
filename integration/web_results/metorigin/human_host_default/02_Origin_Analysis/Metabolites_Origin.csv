@@ -1,0 +1,13 @@
+"HMDBID","KEGGID","Name","Diff","Origin","Links"
+"HMDB0252556","C10146","Fusaricacid",1,"Food related","Food related(T3DB:T3D3741)"
+"HMDB0000715","C01717","kynurenicacid",1,"Microbiota; Food related; Drug related","Microbiota(ChEBI:18344); Food related(FooDB:FDB022200 T3DB:T3D4160); Drug related(DrugBank:DB11937)"
+"HMDB0000267","C01879","pyroglutamicacid",1,"Host; Microbiota; Food related; Drug related","Microbiota(BIGG:5oxpro KEGG:C01879); Food related(FooDB:FDB014506 HMDB:HMDB0000267 T3DB:T3D4270); Drug related(DrugBank:DB03088)"
+"HMDB0000929","C00078","L-Tryptophan",1,"Host; Microbiota; Food related; Drug related; Environment","Microbiota(BIGG:trp__L ChEBI:16828 KEGG:C00078,D00020); Food related(FooDB:FDB002250 HMDB:HMDB0000929 T3DB:T3D4369); Drug related(DrugBank:DB00150 KEGG:C00078,D00020 T3DB:T3D4369); Environment(HMDB:HMDB0000929)"
+"HMDB0002035","C00811","p-coumaricacid",1,"Microbiota; Food related; Drug related","Microbiota(BIGG:T4hcinnm HMDB:HMDB0002035 KEGG:C00811); Food related(FooDB:FDB002593 HMDB:HMDB0002035); Drug related(DrugBank:DB04066)"
+"HMDB0000954","C01494","ferulicacid",1,"Microbiota; Food related; Drug related","Microbiota(BIGG:fer ChEBI:17620,193350 HMDB:HMDB0000954 KEGG:C01494); Food related(FooDB:FDB012802 HMDB:HMDB0000954); Drug related(DrugBank:DB07767)"
+NA,NA,"desferrioxamineE",1,"Unknown",NA
+"HMDB0001257","C00315","spermidine",1,"Host; Microbiota; Food related; Drug related","Microbiota(BIGG:spmd ChEBI:16610 KEGG:C00315); Food related(FooDB:FDB012039 HMDB:HMDB0001257 T3DB:T3D4167); Drug related(DrugBank:DB03566)"
+"HMDB0034702","C19241","fumonisinB1",1,"Food related","Food related(FooDB:FDB013235 HMDB:HMDB0034702 T3DB:T3D3603)"
+"HMDB0000162","C00148","proline",1,"Host; Microbiota; Food related; Drug related; Environment","Microbiota(BIGG:pro__L ChEBI:17203 KEGG:C00148,D00035); Food related(FooDB:FDB000570 HMDB:HMDB0000162 T3DB:T3D4411); Drug related(DrugBank:DB00172 KEGG:C00148,D00035 T3DB:T3D4411); Environment(HMDB:HMDB0000162 T3DB:T3D4411)"
+"HMDB0032616","C00482","sinapicacid",1,"Microbiota; Food related; Drug related","Microbiota(KEGG:C00482); Food related(FooDB:FDB031174 HMDB:HMDB0032616); Drug related(DrugBank:DB08587)"
+"HMDB0000716","C00408","pipecolicacid",0,"Host; Microbiota; Food related","Microbiota(BIGG:Lpipecol KEGG:C00408); Food related(FooDB:FDB000546 HMDB:HMDB0000716)"

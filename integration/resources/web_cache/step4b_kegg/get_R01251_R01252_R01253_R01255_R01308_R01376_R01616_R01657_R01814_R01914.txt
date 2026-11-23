@@ -1,0 +1,212 @@
+ENTRY       R01251                      Reaction
+NAME        L-proline:NADP+ 5-oxidoreductase
+DEFINITION  L-Proline + NADP+ <=> (S)-1-Pyrroline-5-carboxylate + NADPH + H+
+EQUATION    C00148 + C00006 <=> C03912 + C00005 + C00080
+COMMENT     NADH (see R01248)
+RCLASS      RC00001  C00005_C00006
+            RC00083  C00148_C03912
+ENZYME      1.5.1.2
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00015  Proline biosynthesis, glutamate => proline
+            M00972  Proline metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.2
+                 R01251  L-Proline + NADP+ <=> (S)-1-Pyrroline-5-carboxylate + NADPH + H+
+ORTHOLOGY   K00286  pyrroline-5-carboxylate reductase [EC:1.5.1.2]
+DBLINKS     RHEA: 14112
+///
+
+ENTRY       R01252                      Reaction
+NAME        L-proline,2-oxoglutarate:oxygen oxidoreductase (4-hydroxylating)
+DEFINITION  L-Proline + 2-Oxoglutarate + Oxygen <=> Hydroxyproline + Succinate + CO2
+EQUATION    C00148 + C00026 + C00007 <=> C01157 + C00042 + C00011
+RCLASS      RC00478  C00148_C01157
+ENZYME      1.14.11.2       1.14.11.57
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.2
+                 R01252  L-Proline + 2-Oxoglutarate + Oxygen <=> Hydroxyproline + Succinate + CO2
+                1.14.11.57
+                 R01252  L-Proline + 2-Oxoglutarate + Oxygen <=> Hydroxyproline + Succinate + CO2
+ORTHOLOGY   K00472  prolyl 4-hydroxylase [EC:1.14.11.2]
+DBLINKS     RHEA: 51511
+///
+
+ENTRY       R01253                      Reaction
+NAME        L-proline:quinone oxidoreductase
+DEFINITION  L-Proline + Quinone <=> (S)-1-Pyrroline-5-carboxylate + Hydroquinone
+EQUATION    C00148 + C15602 <=> C03912 + C15603
+RCLASS      RC00083  C00148_C03912
+ENZYME      1.5.5.2
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00970  Proline degradation, proline => glutamate
+            M00972  Proline metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.5  With a quinone or similar compound as acceptor
+                1.5.5.2
+                 R01253  L-Proline + Quinone <=> (S)-1-Pyrroline-5-carboxylate + Hydroquinone
+ORTHOLOGY   K00318  proline dehydrogenase [EC:1.5.5.2]
+            K13821  RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]
+DBLINKS     RHEA: 23787
+///
+
+ENTRY       R01255                      Reaction
+NAME        proline racemase
+DEFINITION  L-Proline <=> D-Proline
+EQUATION    C00148 <=> C00763
+RCLASS      RC00479  C00148_C00763
+ENZYME      5.1.1.4
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             5. Isomerase reactions
+              5.1  Racemases and epimerases
+               5.1.1  Acting on amino acids and derivatives
+                5.1.1.4
+                 R01255  L-Proline <=> D-Proline
+ORTHOLOGY   K01777  proline racemase [EC:5.1.1.4]
+DBLINKS     RHEA: 10683
+///
+
+ENTRY       R01308                      Reaction
+DEFINITION  4-Hydroxybenzoate + Acetate + NADH + H+ <=> 4-Coumarate + 2 H2O + NAD+
+EQUATION    C00156 + C00033 + C00004 + C00080 <=> C00811 + 2 C00001 + C00003
+COMMENT     beta-oxidation, three-step reaction (addition of water, oxidation, 
+            cleavage)
+RCLASS      RC00001  C00003_C00004
+            RC00493  C00033_C00811
+            RC00494  C00156_C00811
+///
+
+ENTRY       R01376                      Reaction
+NAME        L-tryptophan:phenylpyruvate aminotransferase
+DEFINITION  L-Tryptophan + Phenylpyruvate <=> Indolepyruvate + L-Phenylalanine
+EQUATION    C00078 + C00166 <=> C00331 + C00079
+RCLASS      RC00006  C00078_C00331  C00079_C00166
+ENZYME      2.6.1.28
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.28
+                 R01376  L-Tryptophan + Phenylpyruvate <=> Indolepyruvate + L-Phenylalanine
+DBLINKS     RHEA: 13744
+///
+
+ENTRY       R01616                      Reaction
+NAME        4-coumarate:CoA ligase (AMP-forming)
+DEFINITION  ATP + 4-Coumarate + CoA <=> AMP + Diphosphate + p-Coumaroyl-CoA
+EQUATION    C00002 + C00811 + C00010 <=> C00020 + C00013 + C00223
+RCLASS      RC00004  C00010_C00223
+            RC00131  C00223_C00811
+ENZYME      6.2.1.12
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00039  Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+            M00137  Flavanone biosynthesis, phenylalanine => naringenin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.12
+                 R01616  ATP + 4-Coumarate + CoA <=> AMP + Diphosphate + p-Coumaroyl-CoA
+ORTHOLOGY   K01904  4-coumarate--CoA ligase [EC:6.2.1.12]
+REFERENCE   1  [PMID:12232327]
+  AUTHORS   Loscher R, Heide L
+  TITLE     Biosynthesis of p-Hydroxybenzoate from p-Coumarate and p-Coumaroyl-Coenzyme A in Cell-Free Extracts of Lithospermum erythrorhizon Cell Cultures.
+  JOURNAL   Plant Physiol 106:271-279 (1994)
+            DOI:10.1104/pp.106.1.271
+REFERENCE   2  [PMID:11583838]
+  AUTHORS   Meganathan R
+  TITLE     Ubiquinone biosynthesis in microorganisms.
+  JOURNAL   FEMS Microbiol Lett 203:131-9 (2001)
+            DOI:10.1111/j.1574-6968.2001.tb10831.x
+DBLINKS     RHEA: 19644
+///
+
+ENTRY       R01657                      Reaction
+NAME        dimethylallyl-diphosphate:L-tryptophan dimethylallyltransferase
+DEFINITION  Dimethylallyl diphosphate + L-Tryptophan <=> Diphosphate + 4-(3-Methylbut-2-enyl)-L-tryptophan
+EQUATION    C00235 + C00078 <=> C00013 + C04290
+RCLASS      RC00209  C00078_C04290
+ENZYME      2.5.1.34
+PATHWAY     rn00901  Indole alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00963  Chanoclavine aldehyde biosynthesis, tryptophan => chanoclavine-I aldehyde
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.34
+                 R01657  Dimethylallyl diphosphate + L-Tryptophan <=> Diphosphate + 4-(3-Methylbut-2-enyl)-L-tryptophan
+ORTHOLOGY   K14130  tryptophan 4-dimethylallyltransferase [EC:2.5.1.34]
+DBLINKS     RHEA: 14176
+///
+
+ENTRY       R01814                      Reaction
+NAME        L-tryptophan,tetrahydrobiopterin:oxygen oxidoreductase (5-hydroxylating)
+DEFINITION  Tetrahydrobiopterin + L-Tryptophan + Oxygen <=> 5-Hydroxy-L-tryptophan + Dihydrobiopterin + H2O
+EQUATION    C00272 + C00078 + C00007 <=> C00643 + C00268 + C00001
+COMMENT     two-step reaction (see R07213+R04734)
+RCLASS      RC00023  C00268_C00272
+            RC00490  C00078_C00643
+ENZYME      1.14.16.4
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+MODULE      M00037  Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.16  With reduced pteridine as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.16.4
+                 R01814  Tetrahydrobiopterin + L-Tryptophan + Oxygen <=> 5-Hydroxy-L-tryptophan + Dihydrobiopterin + H2O
+ORTHOLOGY   K00502  tryptophan 5-monooxygenase [EC:1.14.16.4]
+///
+
+ENTRY       R01914                      Reaction
+NAME        spermidine:(acceptor) oxidoreductase
+DEFINITION  Spermidine + Oxygen + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Hydrogen peroxide
+EQUATION    C00315 + C00007 + C00001 <=> C00986 + C00555 + C00027
+RCLASS      RC00053  C00315_C00986
+            RC00225  C00315_C00555
+            RC02755  C00007_C00027
+ENZYME      1.5.3.14        1.5.99.6
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00410  beta-Alanine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.14
+                 R01914  Spermidine + Oxygen + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Hydrogen peroxide
+               1.5.99  With unknown physiological acceptors
+                1.5.99.6
+                 R01914  Spermidine + Oxygen + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.99.6
+               R01915  Acceptor <=> Reduced acceptor
+                R01914  Oxygen <=> Hydrogen peroxide
+ORTHOLOGY   K00316  spermidine dehydrogenase [EC:1.5.99.6]
+            K13366  polyamine oxidase [EC:1.5.3.14 1.5.3.16 1.5.3.-]
+DBLINKS     RHEA: 25823
+///

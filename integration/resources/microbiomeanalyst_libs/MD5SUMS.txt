@@ -1,0 +1,16 @@
+aef54003958cecd1b9e84c40e6aafe23  agora.met.qs
+bdc343a687146e3d1d371681269e8a66  agora.qs
+2a2c3b662699e29e8f7cfa9e50526794  agora_tax.qs
+6076e3acdad82d53343e33cfc4cc2457  bacpathway.met.qs
+a03fe113c08fd7096af3eaf600d46589  edge.bac.qs
+a006d6abee84450c1a84cc21b97884ee  embl.met.qs
+2f096ed192ecca9e2527ddb64ca9cb69  embl.qs
+96e28a4d0082870acccfc995f85dfd9c  embl_tax.qs
+99ccce9c234f162d51927afca5ca402a  gem2kegg.qs
+e4befb3a305a3d0eaa46192eacccaaa7  general_kegg2name.qs
+9dae406287be41e3f84a3eb92e385419  kegg_all_mummichog.qs
+9c20676a4de40c3a359b281a2dab4e15  kegg_bac_mummichog.qs
+cde10f43d7a8d725b6f30db3a8ab0146  kegg_hsa_bac_mummichog.qs
+7938b4090b5282f227e3c945e27a890e  kegg_hsa_mummichog.qs
+411b30714332ca2b4e2cc5b55acf2a67  synonymGem.qs
+20a69e92faf47764219d854510f6ea1a  taxMapKEGG.qs

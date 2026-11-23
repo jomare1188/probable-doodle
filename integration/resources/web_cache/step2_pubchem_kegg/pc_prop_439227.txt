@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 439227,
+        "MolecularFormula": "C6H11NO2",
+        "InChIKey": "HXEACLLIILLPRG-YFKPBYRVSA-N",
+        "MonoisotopicMass": "129.078978594",
+        "Title": "Pipecolic acid, (-)-"
+      }
+    ]
+  }
+}

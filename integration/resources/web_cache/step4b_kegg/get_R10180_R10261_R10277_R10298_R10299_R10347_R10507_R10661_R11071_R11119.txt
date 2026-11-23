@@ -1,0 +1,183 @@
+ENTRY       R10180                      Reaction
+NAME        L-tryptophan:pyruvate aminotransferase
+DEFINITION  L-Tryptophan + Pyruvate <=> Indolepyruvate + L-Alanine
+EQUATION    C00078 + C00022 <=> C00331 + C00041
+RCLASS      RC00006  C00078_C00331
+            RC00008  C00022_C00041
+ENZYME      2.6.1.99
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.99
+                 R10180  L-Tryptophan + Pyruvate <=> Indolepyruvate + L-Alanine
+ORTHOLOGY   K16903  L-tryptophan---pyruvate aminotransferase [EC:2.6.1.99]
+DBLINKS     RHEA: 27589
+///
+
+ENTRY       R10261                      Reaction
+NAME        1-O-sinapoyl-beta-D-glucose:cyanidin-3-O-beta-D-glucoside 5-O-beta-D-glucosyltransferase
+DEFINITION  1-O-Sinapoyl-beta-D-glucose + Cyanidin 3-O-glucoside <=> Sinapate + Cyanidin 3,5-O-diglucoside
+EQUATION    C01175 + C08604 <=> C00482 + C08639
+RCLASS      RC00171  C08604_C08639
+            RC00523  C00482_C01175
+ENZYME      2.4.1.299
+PATHWAY     rn00942  Anthocyanin biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.299
+                 R10261  1-O-Sinapoyl-beta-D-glucose + Cyanidin 3-O-glucoside <=> Sinapate + Cyanidin 3,5-O-diglucoside
+            Glycosyltransferase reactions [br08203.html]
+             Glucosyltransferase reactions
+              R10261
+ORTHOLOGY   K17194  cyanidin 3-O-glucoside 5-O-glucosyltransferase (acyl-glucose) [EC:2.4.1.299]
+DBLINKS     RHEA: 35430
+///
+
+ENTRY       R10277                      Reaction
+NAME        L-lysine ammonia-lyase (cyclizing; ammonia-forming)
+DEFINITION  L-Lysine <=> L-Pipecolate + Ammonia
+EQUATION    C00047 <=> C00408 + C00014
+RCLASS      RC00354  C00047_C00408
+ENZYME      4.3.1.28
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.1  Ammonia-lyases
+                4.3.1.28
+                 R10277  L-Lysine <=> L-Pipecolate + Ammonia
+DBLINKS     RHEA: 34306
+///
+
+ENTRY       R10298                      Reaction
+NAME        1-O-sinapoyl-beta-D-glucose:pelargonidin-3-O-beta-D-glucoside 5-O-beta-D-glucosyltransferase
+DEFINITION  Pelargonidin 3-O-glucoside + 1-O-Sinapoyl-beta-D-glucose <=> Pelargonin + Sinapate
+EQUATION    C12137 + C01175 <=> C08725 + C00482
+RCLASS      RC00171  C08725_C12137
+            RC00523  C00482_C01175
+ENZYME      2.4.1.299
+PATHWAY     rn00942  Anthocyanin biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.299
+                 R10298  Pelargonidin 3-O-glucoside + 1-O-Sinapoyl-beta-D-glucose <=> Pelargonin + Sinapate
+            Glycosyltransferase reactions [br08203.html]
+             Glucosyltransferase reactions
+              R10298
+ORTHOLOGY   K17194  cyanidin 3-O-glucoside 5-O-glucosyltransferase (acyl-glucose) [EC:2.4.1.299]
+///
+
+ENTRY       R10299                      Reaction
+NAME        1-O-sinapoyl-beta-D-glucose:delphinidin-3-O-beta-D-glucoside 5-O-beta-D-glucosyltransferase
+DEFINITION  Delphinidin 3-O-glucoside + 1-O-Sinapoyl-beta-D-glucose <=> Delphinidin 3,5-diglucoside + Sinapate
+EQUATION    C12138 + C01175 <=> C16312 + C00482
+RCLASS      RC00171  C12138_C16312
+            RC00523  C00482_C01175
+ENZYME      2.4.1.299
+PATHWAY     rn00942  Anthocyanin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.299
+                 R10299  Delphinidin 3-O-glucoside + 1-O-Sinapoyl-beta-D-glucose <=> Delphinidin 3,5-diglucoside + Sinapate
+            Glycosyltransferase reactions [br08203.html]
+             Glucosyltransferase reactions
+              R10299
+ORTHOLOGY   K17194  cyanidin 3-O-glucoside 5-O-glucosyltransferase (acyl-glucose) [EC:2.4.1.299]
+///
+
+ENTRY       R10347                      Reaction
+NAME        N1-aminopropylagmatine amidinohydrolase
+DEFINITION  N1-(3-Aminopropyl)agmatine + H2O <=> Spermidine + Urea
+EQUATION    C20560 + C00001 <=> C00315 + C00086
+RCLASS      RC00024  C00315_C20560
+            RC00329  C00086_C20560
+ENZYME      3.5.3.24
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.3  In linear amidines
+                3.5.3.24
+                 R10347  N1-(3-Aminopropyl)agmatine + H2O <=> Spermidine + Urea
+ORTHOLOGY   K27683  N1-aminopropylagmatine ureohydrolase [EC:3.5.3.24]
+DBLINKS     RHEA: 35830
+///
+
+ENTRY       R10507                      Reaction
+NAME        L-proline:(acceptor) oxidoreductase
+DEFINITION  L-Proline + FAD <=> (S)-1-Pyrroline-5-carboxylate + FADH2
+EQUATION    C00148 + C00016 <=> C03912 + C01352
+RCLASS      RC00083  C00148_C03912
+            RC00126  C00016_C01352
+ENZYME      1.5.-.-
+PATHWAY     rn00332  Carbapenem biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.-  Acting on the CH-NH group of donors
+                1.5.-.-
+                 R10507  L-Proline + FAD <=> (S)-1-Pyrroline-5-carboxylate + FADH2
+ORTHOLOGY   K18318  carbapenem biosynthesis protein, putative proline dehydrogenase [EC:1.5.-.-]
+            K18319  carbapenem biosynthesis protein CpmE
+///
+
+ENTRY       R10661                      Reaction
+DEFINITION  L-Tryptophan + L-Proline + 2 ATP <=> Brevianamide F + 2 AMP + 2 Diphosphate
+EQUATION    C00078 + C00148 + 2 C00002 <=> C20563 + 2 C00020 + 2 C00013
+COMMENT     cyclo(L-Trp-L-Pro) synthase
+RCLASS      RC03348  C00078_C20563
+            RC03349  C00148_C20563
+PATHWAY     rn00404  Staurosporine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00786  Fumitremorgin alkaloid biosynthesis, tryptophan + proline => fumitremorgin C/A
+ORTHOLOGY   K18281  brevianamide F synthase [EC:6.3.2.-]
+///
+
+ENTRY       R11071                      Reaction
+NAME        ferulate carboxy-lyase
+DEFINITION  Ferulate <=> 4-Vinylguaiacol + CO2
+EQUATION    C01494 <=> C17883 + C00011
+RCLASS      RC00814  C01494_C17883
+ENZYME      4.1.1.102
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.102
+                 R11071  Ferulate <=> 4-Vinylguaiacol + CO2
+DBLINKS     RHEA: 33810
+///
+
+ENTRY       R11119                      Reaction
+DEFINITION  L-Tryptophan + Oxygen <=> IPA imine + Hydrogen peroxide
+EQUATION    C00078 + C00007 <=> C21124 + C00027
+RCLASS      RC02566  C00078_C21124
+ENZYME      1.4.3.-
+PATHWAY     rn00404  Staurosporine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00805  Staurosporine biosynthesis, tryptophan => staurosporine
+            M00808  Violacein biosynthesis, tryptophan => violacein
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.-
+                 R11119  L-Tryptophan + Oxygen <=> IPA imine + Hydrogen peroxide
+ORTHOLOGY   K20075  tryptophan oxidase StaO [EC:1.4.3.-]
+            K20086  tryptophan oxidase VioA [EC:1.4.3.-]
+///

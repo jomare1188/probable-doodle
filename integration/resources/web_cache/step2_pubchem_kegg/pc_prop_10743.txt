@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10743,
+        "MolecularFormula": "C11H12O5",
+        "InChIKey": "PCMORTLOPMLEFB-UHFFFAOYSA-N",
+        "MonoisotopicMass": "224.06847348",
+        "Title": "Sinapic acid"
+      }
+    ]
+  }
+}

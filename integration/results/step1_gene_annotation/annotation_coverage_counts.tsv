@@ -1,0 +1,5 @@
+set	n_genes	eggNOG_hit	preferred_name	KEGG_KO	KEGG_reaction	Dmel_ortholog	Dmel_one2one	KO_or_Dmel
+all genes tested by DESeq2	11084	10806	6740	7020	1460	7358	5904	8839
+DE genes (padj<0.05)	474	460	249	287	51	289	215	355
+DE up in infected	143	136	48	65	15	60	33	79
+DE down in infected	331	324	201	222	36	229	182	276

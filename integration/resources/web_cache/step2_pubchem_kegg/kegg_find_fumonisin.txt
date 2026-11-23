@@ -1,0 +1,2 @@
+C19241	Fumonisin B1
+C19242	Fumonisin B2

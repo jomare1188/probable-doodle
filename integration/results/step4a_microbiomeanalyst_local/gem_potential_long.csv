@@ -1,0 +1,217 @@
+"db","genus","kegg","metabolite_study","gem_metID","gem_name","potential","passes_server_threshold","genus_direction","confidence_tier","genus_log2_effect"
+"AGORA","Mycobacterium","C00148","proline","pro__L","L-Proline",0.643192222318143,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.40491270284616
+"AGORA","Mycolicibacterium","C00148","proline","pro__L","L-Proline",0.643192222318142,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.70784236201324
+"AGORA","Curtobacterium","C00148","proline","pro__L","L-Proline",0.705001938949022,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.09090179300393
+"AGORA","Microbacterium","C00148","proline","pro__L","L-Proline",0.635351146464919,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.72599789942891
+"AGORA","Arthrobacter","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.49386570725267
+"AGORA","Kocuria","C00148","proline","pro__L","L-Proline",0.677486061345835,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.62692954341601
+"AGORA","Micrococcus","C00148","proline","pro__L","L-Proline",0.643192222318143,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.00413449948338
+"AGORA","Cellulosimicrobium","C00148","proline","pro__L","L-Proline",0.643192222318143,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.70091308925983
+"AGORA","Cutibacterium","C00148","proline","pro__L","L-Proline",0.664732829729689,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.2364370769053
+"AGORA","Spirosoma","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.57699399077211
+"AGORA","Bacillus","C00148","proline","pro__L","L-Proline",0.702084028346003,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.32139190804311
+"AGORA","Oceanobacillus","C00148","proline","pro__L","L-Proline",0.643192222318143,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.44132492358504
+"AGORA","Listeria","C00148","proline","pro__L","L-Proline",0.629306677066097,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.16948209808964
+"AGORA","Brevibacillus","C00148","proline","pro__L","L-Proline",0.808795922573857,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.10987311728389
+"AGORA","Paenibacillus","C00148","proline","pro__L","L-Proline",0.657147492810914,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.38132731394336
+"AGORA","Staphylococcus","C00148","proline","pro__L","L-Proline",0.744755800178836,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.8462945806413
+"AGORA","Mammaliicoccus","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.15208896553905
+"AGORA","Aerococcus","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.41786953789233
+"AGORA","Enterococcus","C00148","proline","pro__L","L-Proline",0.702675808411217,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.63047383995312
+"AGORA","Lactobacillus","C00148","proline","pro__L","L-Proline",0.528045559061056,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.80058420612329
+"AGORA","Lacticaseibacillus","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.09297198367761
+"AGORA","Pediococcus","C00148","proline","pro__L","L-Proline",0.635351146464919,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.45989997681143
+"AGORA","Leuconostoc","C00148","proline","pro__L","L-Proline",0.512775354353063,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.36008132790258
+"AGORA","Weissella","C00148","proline","pro__L","L-Proline",0.635351146464919,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.23486634599677
+"AGORA","Lactococcus","C00148","proline","pro__L","L-Proline",0.635351146464919,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",4.30647274312865
+"AGORA","Streptococcus","C00148","proline","pro__L","L-Proline",0.508162559204615,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.54652276838542
+"AGORA","Bartonella","C00148","proline","pro__L","L-Proline",0.643192222318143,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.80854439322505
+"AGORA","Methylobacterium","C00148","proline","pro__L","L-Proline",0.718662548601979,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.34150636051453
+"AGORA","Methylorubrum","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.79626743267326
+"AGORA","Mesorhizobium","C00148","proline","pro__L","L-Proline",0.774810495377308,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.38073994353508
+"AGORA","Agrobacterium","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",7.13228164691036
+"AGORA","Alcaligenes","C00148","proline","pro__L","L-Proline",0.718662548601979,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.72483056494098
+"AGORA","Delftia","C00148","proline","pro__L","L-Proline",0.705001938949021,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.37898023531916
+"AGORA","Enterobacter","C00148","proline","pro__L","L-Proline",0.652062173665289,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.4617217043026
+"AGORA","Klebsiella","C00148","proline","pro__L","L-Proline",0.671968915142406,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.01418144871817
+"AGORA","Stenotrophomonas","C00148","proline","pro__L","L-Proline",0.638103393796768,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.3960809453077
+"AGORA","Mycobacterium","C00315","spermidine","spmd","Spermidine",0.677162264899081,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.40491270284616
+"AGORA","Curtobacterium","C00315","spermidine","spmd","Spermidine",0.677162264899079,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.09090179300393
+"AGORA","Microbacterium","C00315","spermidine","spmd","Spermidine",0.705228435543966,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.72599789942891
+"AGORA","Arthrobacter","C00315","spermidine","spmd","Spermidine",0.67716226489908,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.49386570725267
+"AGORA","Micrococcus","C00315","spermidine","spmd","Spermidine",0.67716226489908,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.00413449948338
+"AGORA","Cellulosimicrobium","C00315","spermidine","spmd","Spermidine",0.67716226489908,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.70091308925983
+"AGORA","Spirosoma","C00315","spermidine","spmd","Spermidine",0.582365056852562,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.57699399077211
+"AGORA","Bacillus","C00315","spermidine","spmd","Spermidine",0.717282651576913,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.32139190804311
+"AGORA","Oceanobacillus","C00315","spermidine","spmd","Spermidine",0.67716226489908,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.44132492358504
+"AGORA","Listeria","C00315","spermidine","spmd","Spermidine",0.680121013057525,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.16948209808964
+"AGORA","Brevibacillus","C00315","spermidine","spmd","Spermidine",0.712334226108886,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.10987311728389
+"AGORA","Paenibacillus","C00315","spermidine","spmd","Spermidine",0.712334226108886,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.38132731394336
+"AGORA","Methylorubrum","C00315","spermidine","spmd","Spermidine",0.67716226489908,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.79626743267326
+"AGORA","Mesorhizobium","C00315","spermidine","spmd","Spermidine",0.677162264899079,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.38073994353508
+"AGORA","Alcaligenes","C00315","spermidine","spmd","Spermidine",0.654850895114461,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.72483056494098
+"AGORA","Delftia","C00315","spermidine","spmd","Spermidine",0.67716226489908,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.37898023531916
+"AGORA","Enterobacter","C00315","spermidine","spmd","Spermidine",0.880122477679921,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.4617217043026
+"AGORA","Klebsiella","C00315","spermidine","spmd","Spermidine",0.799058313503335,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.01418144871817
+"AGORA","Stenotrophomonas","C00315","spermidine","spmd","Spermidine",0.694709758587577,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.3960809453077
+"AGORA","Mycobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.40491270284616
+"AGORA","Mycolicibacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706617,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.70784236201324
+"AGORA","Curtobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.09090179300393
+"AGORA","Microbacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.817813055688646,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.72599789942891
+"AGORA","Arthrobacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.49386570725267
+"AGORA","Kocuria","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.813694028999626,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.62692954341601
+"AGORA","Micrococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.00413449948338
+"AGORA","Cellulosimicrobium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.70091308925983
+"AGORA","Cutibacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.817813055688646,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.2364370769053
+"AGORA","Spirosoma","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.57699399077211
+"AGORA","Bacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.850942467127013,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.32139190804311
+"AGORA","Oceanobacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.44132492358504
+"AGORA","Listeria","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.826889337474735,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.16948209808964
+"AGORA","Brevibacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.906395533234793,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.10987311728389
+"AGORA","Paenibacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.814809476540282,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.38132731394336
+"AGORA","Staphylococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.829236768119148,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.8462945806413
+"AGORA","Mammaliicoccus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706617,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.15208896553905
+"AGORA","Aerococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.41786953789233
+"AGORA","Lacticaseibacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706617,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.09297198367761
+"AGORA","Lactococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.653041064906256,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",4.30647274312865
+"AGORA","Streptococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.639664723193107,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.54652276838542
+"AGORA","Methylobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.813694028999627,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.34150636051453
+"AGORA","Methylorubrum","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.79626743267326
+"AGORA","Mesorhizobium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706617,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.38073994353508
+"AGORA","Agrobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",7.13228164691036
+"AGORA","Alcaligenes","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.798812449914596,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.72483056494098
+"AGORA","Delftia","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.806122181706618,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.37898023531916
+"AGORA","Enterobacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.822312604048171,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.4617217043026
+"AGORA","Klebsiella","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.82231260404817,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.01418144871817
+"AGORA","Stenotrophomonas","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.813694028999627,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.3960809453077
+"EMBL","Agrobacterium","C01879","pyroglutamic acid","5oxpro","Pyroglutamic acid",0.580444362319626,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",7.13228164691036
+"EMBL","Rhizobium","C01879","pyroglutamic acid","5oxpro","Pyroglutamic acid",0.609364447249126,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.97339588387037
+"EMBL","Sphingomonas","C01879","pyroglutamic acid","5oxpro","Pyroglutamic acid",0.571129922759907,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.46655296730823
+"EMBL","Mycobacterium","C00148","proline","pro__L","L-Proline",0.825971468292683,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.40491270284616
+"EMBL","Mycolicibacterium","C00148","proline","pro__L","L-Proline",0.817042320652174,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.70784236201324
+"EMBL","Cellulomonas","C00148","proline","pro__L","L-Proline",0.804316111111111,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.26836813089736
+"EMBL","Clavibacter","C00148","proline","pro__L","L-Proline",0.7425915,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.65756401944917
+"EMBL","Curtobacterium","C00148","proline","pro__L","L-Proline",0.760268066666667,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.09090179300393
+"EMBL","Microbacterium","C00148","proline","pro__L","L-Proline",0.84236815,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.72599789942891
+"EMBL","Arthrobacter","C00148","proline","pro__L","L-Proline",0.846710176923077,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.49386570725267
+"EMBL","Kocuria","C00148","proline","pro__L","L-Proline",0.8012036,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.62692954341601
+"EMBL","Micrococcus","C00148","proline","pro__L","L-Proline",0.811535733333333,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.00413449948338
+"EMBL","Pseudarthrobacter","C00148","proline","pro__L","L-Proline",0.8210849,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.97657261341128
+"EMBL","Cellulosimicrobium","C00148","proline","pro__L","L-Proline",0.803683975,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.70091308925983
+"EMBL","Cutibacterium","C00148","proline","pro__L","L-Proline",0.82444679,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.2364370769053
+"EMBL","Streptomyces","C00148","proline","pro__L","L-Proline",0.94293102,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.62256392420854
+"EMBL","Deinococcus","C00148","proline","pro__L","L-Proline",0.829386631818182,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-7.0345420604804
+"EMBL","Bacillus","C00148","proline","pro__L","L-Proline",0.780237169871795,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.32139190804311
+"EMBL","Oceanobacillus","C00148","proline","pro__L","L-Proline",0.77748935,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.44132492358504
+"EMBL","Listeria","C00148","proline","pro__L","L-Proline",0.7714216,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.16948209808964
+"EMBL","Brevibacillus","C00148","proline","pro__L","L-Proline",0.82522205,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.10987311728389
+"EMBL","Paenibacillus","C00148","proline","pro__L","L-Proline",0.80268292,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.38132731394336
+"EMBL","Staphylococcus","C00148","proline","pro__L","L-Proline",0.82351018,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.8462945806413
+"EMBL","Mammaliicoccus","C00148","proline","pro__L","L-Proline",0.78657485,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.15208896553905
+"EMBL","Aerococcus","C00148","proline","pro__L","L-Proline",0.853886333333333,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.41786953789233
+"EMBL","Granulicatella","C00148","proline","pro__L","L-Proline",0.74691285,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.69543372968873
+"EMBL","Enterococcus","C00148","proline","pro__L","L-Proline",0.866898384615385,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.63047383995312
+"EMBL","Tetragenococcus","C00148","proline","pro__L","L-Proline",0.809627,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.82372063332698
+"EMBL","Vagococcus","C00148","proline","pro__L","L-Proline",0.847846775,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.93177882408602
+"EMBL","Lactobacillus","C00148","proline","pro__L","L-Proline",0.640341128571429,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.80058420612329
+"EMBL","Ligilactobacillus","C00148","proline","pro__L","L-Proline",0.688834366666667,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.2471425562955
+"EMBL","Lentilactobacillus","C00148","proline","pro__L","L-Proline",0.778051,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-3.31283180196966
+"EMBL","Lacticaseibacillus","C00148","proline","pro__L","L-Proline",0.78365725,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.09297198367761
+"EMBL","Pediococcus","C00148","proline","pro__L","L-Proline",0.77733615,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.45989997681143
+"EMBL","Leuconostoc","C00148","proline","pro__L","L-Proline",0.72189635,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.36008132790258
+"EMBL","Weissella","C00148","proline","pro__L","L-Proline",0.797662,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.23486634599677
+"EMBL","Lactococcus","C00148","proline","pro__L","L-Proline",0.8234585,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",4.30647274312865
+"EMBL","Streptococcus","C00148","proline","pro__L","L-Proline",0.735153719148936,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.54652276838542
+"EMBL","Turicibacter","C00148","proline","pro__L","L-Proline",0.58191535,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.24949746895633
+"EMBL","Bartonella","C00148","proline","pro__L","L-Proline",0.635943888,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.80854439322505
+"EMBL","Beijerinckia","C00148","proline","pro__L","L-Proline",0.7699624,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.02700204281549
+"EMBL","Rhodopseudomonas","C00148","proline","pro__L","L-Proline",0.7138255,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.68765642363294
+"EMBL","Brucella","C00148","proline","pro__L","L-Proline",0.7778808,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",8.16998421180457
+"EMBL","Hyphomicrobium","C00148","proline","pro__L","L-Proline",0.79627575,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.46629671892959
+"EMBL","Methylobacterium","C00148","proline","pro__L","L-Proline",0.81783304,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.34150636051453
+"EMBL","Methylorubrum","C00148","proline","pro__L","L-Proline",0.81675425,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.79626743267326
+"EMBL","Microvirga","C00148","proline","pro__L","L-Proline",0.83813744,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.12918683902398
+"EMBL","Agrobacterium","C00148","proline","pro__L","L-Proline",0.82302895,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",7.13228164691036
+"EMBL","Rhizobium","C00148","proline","pro__L","L-Proline",0.840393958333333,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.97339588387037
+"EMBL","Sphingomonas","C00148","proline","pro__L","L-Proline",0.7898098125,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.46655296730823
+"EMBL","Alcaligenes","C00148","proline","pro__L","L-Proline",0.81675425,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.72483056494098
+"EMBL","Delftia","C00148","proline","pro__L","L-Proline",0.81675425,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.37898023531916
+"EMBL","Sorangium","C00148","proline","pro__L","L-Proline",0.7778808,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.34851282034338
+"EMBL","Enterobacter","C00148","proline","pro__L","L-Proline",0.7076338,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.4617217043026
+"EMBL","Klebsiella","C00148","proline","pro__L","L-Proline",0.7487853,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.01418144871817
+"EMBL","Stenotrophomonas","C00148","proline","pro__L","L-Proline",0.7080843,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.3960809453077
+"EMBL","Xanthomonas","C00148","proline","pro__L","L-Proline",0.6810758,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.76424430823078
+"EMBL","Acholeplasma","C00148","proline","pro__L","L-Proline",0.54902115,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-3.18380169058405
+"EMBL","Mycobacterium","C00315","spermidine","spmd","Spermidine",0.545061829268293,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.40491270284616
+"EMBL","Streptomyces","C00315","spermidine","spmd","Spermidine",0.663483284,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.62256392420854
+"EMBL","Deinococcus","C00315","spermidine","spmd","Spermidine",0.67340325,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-7.0345420604804
+"EMBL","Bacillus","C00315","spermidine","spmd","Spermidine",0.688263867307692,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.32139190804311
+"EMBL","Oceanobacillus","C00315","spermidine","spmd","Spermidine",0.531298,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.44132492358504
+"EMBL","Brevibacillus","C00315","spermidine","spmd","Spermidine",0.65774215,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.10987311728389
+"EMBL","Paenibacillus","C00315","spermidine","spmd","Spermidine",0.7029493,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.38132731394336
+"EMBL","Turicibacter","C00315","spermidine","spmd","Spermidine",0.6508823,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.24949746895633
+"EMBL","Bartonella","C00315","spermidine","spmd","Spermidine",0.6603548,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.80854439322505
+"EMBL","Beijerinckia","C00315","spermidine","spmd","Spermidine",0.6496985,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.02700204281549
+"EMBL","Rhodopseudomonas","C00315","spermidine","spmd","Spermidine",0.6568879,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.68765642363294
+"EMBL","Brucella","C00315","spermidine","spmd","Spermidine",0.6462463,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",8.16998421180457
+"EMBL","Hyphomicrobium","C00315","spermidine","spmd","Spermidine",0.7816915,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.46629671892959
+"EMBL","Methylobacterium","C00315","spermidine","spmd","Spermidine",0.7285844,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.34150636051453
+"EMBL","Methylorubrum","C00315","spermidine","spmd","Spermidine",0.6462463,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.79626743267326
+"EMBL","Agrobacterium","C00315","spermidine","spmd","Spermidine",0.509042571428571,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",7.13228164691036
+"EMBL","Alcaligenes","C00315","spermidine","spmd","Spermidine",0.6462463,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.72483056494098
+"EMBL","Delftia","C00315","spermidine","spmd","Spermidine",0.6462463,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.37898023531916
+"EMBL","Sorangium","C00315","spermidine","spmd","Spermidine",0.6462463,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.34851282034338
+"EMBL","Enterobacter","C00315","spermidine","spmd","Spermidine",0.76287795,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.4617217043026
+"EMBL","Klebsiella","C00315","spermidine","spmd","Spermidine",0.7642232,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.01418144871817
+"EMBL","Stenotrophomonas","C00315","spermidine","spmd","Spermidine",0.6711568,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.3960809453077
+"EMBL","Xanthomonas","C00315","spermidine","spmd","Spermidine",0.73438295,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.76424430823078
+"EMBL","Mycobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.87042935,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.40491270284616
+"EMBL","Mycolicibacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.880345969565217,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.70784236201324
+"EMBL","Cellulomonas","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.873949777777778,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.26836813089736
+"EMBL","Clavibacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.84364525,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.65756401944917
+"EMBL","Curtobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.86106725,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.09090179300393
+"EMBL","Microbacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.86766325,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.72599789942891
+"EMBL","Arthrobacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.8489673,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.49386570725267
+"EMBL","Kocuria","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.8725296,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.62692954341601
+"EMBL","Micrococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.86440665,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.00413449948338
+"EMBL","Pseudarthrobacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.86529295,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.97657261341128
+"EMBL","Cellulosimicrobium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.85914335,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.70091308925983
+"EMBL","Cutibacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.87602856,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.2364370769053
+"EMBL","Streptomyces","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.885197895,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.62256392420854
+"EMBL","Deinococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.803849527272727,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-7.0345420604804
+"EMBL","Bacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.825764221153846,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.32139190804311
+"EMBL","Oceanobacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.847954870833333,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.44132492358504
+"EMBL","Listeria","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.79792361875,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.16948209808964
+"EMBL","Brevibacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.8782647,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-3.10987311728389
+"EMBL","Paenibacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.87912031,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.38132731394336
+"EMBL","Staphylococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.642683456,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.8462945806413
+"EMBL","Mammaliicoccus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.6525102,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.15208896553905
+"EMBL","Aerococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.722418383333333,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.41786953789233
+"EMBL","Enterococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.685302276923077,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.63047383995312
+"EMBL","Tetragenococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.559850666666667,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.82372063332698
+"EMBL","Ligilactobacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.622790591666667,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-2.2471425562955
+"EMBL","Lentilactobacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.8145984,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-3.31283180196966
+"EMBL","Lacticaseibacillus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.569841464285714,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.09297198367761
+"EMBL","Leuconostoc","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.5821838125,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.36008132790258
+"EMBL","Lactococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.6373848,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",4.30647274312865
+"EMBL","Streptococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.635601544680851,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-1.54652276838542
+"EMBL","Turicibacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.7358123,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-2.24949746895633
+"EMBL","Anaerococcus","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.652617111111111,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-4.25560454732849
+"EMBL","Beijerinckia","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.8546932,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",2.02700204281549
+"EMBL","Rhodopseudomonas","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.79174755,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.68765642363294
+"EMBL","Brucella","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.84364525,TRUE,"up_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",8.16998421180457
+"EMBL","Hyphomicrobium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.861916,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.46629671892959
+"EMBL","Methylobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.7747549,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.34150636051453
+"EMBL","Methylorubrum","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.84364525,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.79626743267326
+"EMBL","Microvirga","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.861916,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",1.12918683902398
+"EMBL","Agrobacterium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.87408505,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",7.13228164691036
+"EMBL","Rhizobium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.880442922222222,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",6.97339588387037
+"EMBL","Sphingomonas","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.883374532142857,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-5.46655296730823
+"EMBL","Alcaligenes","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.7501962,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.72483056494098
+"EMBL","Delftia","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.7501962,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.37898023531916
+"EMBL","Sorangium","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.84364525,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",5.34851282034338
+"EMBL","Enterobacter","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.7711245,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.4617217043026
+"EMBL","Klebsiella","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.7519221,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",4.01418144871817
+"EMBL","Stenotrophomonas","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.87520918,TRUE,"down_in_infected","1: ALDEx2 BH<0.1 + ANCOM-BC2 agrees",-4.3960809453077
+"EMBL","Xanthomonas","C00078","L-Tryptophan","trp__L","L-Tryptophan",0.87771435,TRUE,"down_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",-5.76424430823078
+"EMBL","Rhodopseudomonas","C01494","ferulic acid","fer","Ferulate",0.5503523,TRUE,"up_in_infected","2: |effect|>1 + ANCOM-BC2 q<0.1 (passed sensitivity)",3.68765642363294

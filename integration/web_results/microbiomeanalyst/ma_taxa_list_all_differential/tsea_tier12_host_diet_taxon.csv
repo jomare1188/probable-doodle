@@ -1,0 +1,141 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Lytic gut phage PA13076 (Increase)",7,1.99,3,0.319,1,1
+"High-sucrose diet (decrease)",4,1.14,2,0.322,1,1
+"Probiotics(Bifidobacterium bifidum CCFM16; 8 weeks); Dermatitis, Atopic (Decrease)",4,1.14,2,0.322,1,1
+"Diet (increased; Nguyen 2023) [BugSigDB]",4,1.14,2,0.322,1,1
+"Ethanol (decrease)",5,1.42,2,0.441,1,1
+"Fructo-oligosaccharide-shitake high diet (increase)",5,1.42,2,0.441,1,1
+"fructooligosaccharide(14 days); Health (decrease)",5,1.42,2,0.441,1,1
+"Probiotics(Bifidobacterium bifidum CCFM16; 8 weeks); Dermatitis, Atopic (Increase)",5,1.42,2,0.441,1,1
+"Probiotics(Lactobacillus acidophilus,Bifidobacterium longum,Enterococcus faecalis); High-sucrose diet (Increase)",5,1.42,2,0.441,1,1
+"Breastfeeding duration (increased; Dalby 2024) [BugSigDB]",5,1.42,2,0.441,1,1
+"Ketogenic diet (increased; Xie 2017) [BugSigDB]",23,6.55,7,0.497,1,1
+"Diet (increased; Ruengsomwong 2016) [BugSigDB]",9,2.56,3,0.497,1,1
+"Probiotics; Colorectal Neoplasms (Increase)",31,8.83,9,0.542,1,1
+"Lytic gut phage PA13076 (Absent)",6,1.71,2,0.547,1,1
+"Prebiotics; Health (Increase)",6,1.71,2,0.547,1,1
+"Probiotics(42 days); Anti-Bacterial Agents(42 days); Bacterial Infections (Decrease)",6,1.71,2,0.547,1,1
+"Whole Grains; Obesity (Decrease)",6,1.71,2,0.547,1,1
+"Fasting blood glucose measurement (increased; Crusell 2020) [BugSigDB]",6,1.71,2,0.547,1,1
+"Ketogenic diet (decreased; Xie 2017) [BugSigDB]",10,2.85,3,0.577,1,1
+"Diet (decreased; De Filippis 2016) [BugSigDB]",3,0.855,1,0.635,NA,NA
+"Non-alcoholic fatty liver disease (decreased; Boursier 2016) [BugSigDB]",3,0.855,1,0.635,NA,NA
+"Diet (decreased; Healey 2018) [BugSigDB]",3,0.855,1,0.635,NA,NA
+"Non-alcoholic fatty liver disease (increased; Da Silva 2018) [BugSigDB]",3,0.855,1,0.635,NA,NA
+"Ketogenic diet (increased; Gong 2021) [BugSigDB]",3,0.855,1,0.635,NA,NA
+"Coconut Oil; Diet, High-Fat; 2 weeks (decrease)",7,1.99,2,0.638,1,1
+"Diet, Ketogenic; Drug Resistant Epilepsy (decrease)",7,1.99,2,0.638,1,1
+"Synbiotics; Obesity (Decrease)",7,1.99,2,0.638,1,1
+"Alcohol drinking (decreased; Qiao 2024) [BugSigDB]",7,1.99,2,0.638,1,1
+"Probiotics(42 days); Anti-Bacterial Agents(42 days); Bacterial Infections (Increase)",16,4.56,4,0.713,1,1
+"Breastfeeding duration (decreased; Ho 2018) [BugSigDB]",16,4.56,4,0.713,1,1
+"Diet (decreased; Jang 2019) [BugSigDB]",20,5.7,5,0.717,1,1
+"Cow's milk fermented with the probiotic Lactobacillus paracasei CBA L74 (increase)",4,1.14,1,0.739,NA,NA
+"Dietary Fiber; Obesity (absent)",4,1.14,1,0.739,NA,NA
+"Extract of camu camu; Ascorbic Acid; Obesity (decrease)",4,1.14,1,0.739,NA,NA
+"Fructose; Glucose (decrease)",4,1.14,1,0.739,NA,NA
+"Ginseng polysaccharides (decrease)",4,1.14,1,0.739,NA,NA
+"Ginseng polysaccharides; Colitis, Ulcerative (increase)",4,1.14,1,0.739,NA,NA
+"Glycyrrhizic Acid; Non-alcoholic Fatty Liver Disease (increase)",4,1.14,1,0.739,NA,NA
+"High-amylose maize type 2 resistant starch, maize (increase)",4,1.14,1,0.739,NA,NA
+"Higher-fat diet; Health (increase)",4,1.14,1,0.739,NA,NA
+"Litesse/ Ultra/ polydextrose; B40; Overweight (Decrease)",4,1.14,1,0.739,NA,NA
+"Milk, Human (Decrease)",4,1.14,1,0.739,NA,NA
+"Multiple Micronutrient Powder+Fe (Decrease)",4,1.14,1,0.739,NA,NA
+"Nondigestible(10%) Fructans; Obesity (Increase)",4,1.14,1,0.739,NA,NA
+"Probiotics; Milk Hypersensitivity (Increase)",4,1.14,1,0.739,NA,NA
+"Probiotics(Lactobacillus acidophilus,Bifidobacterium longum,Enterococcus faecalis); Diet, High-Fat (Increase)",4,1.14,1,0.739,NA,NA
+"propidium monoazide; Prebiotics; Premature Birth (Decrease)",4,1.14,1,0.739,NA,NA
+"Sea buckthorn seed protein (Decrease)",4,1.14,1,0.739,NA,NA
+"Yangyin Tiluo Decoction; Cardiovascular Diseases; Metabolic Syndrome (Increase)",4,1.14,1,0.739,NA,NA
+"Maternal milk (increased; Ford 2019) [BugSigDB]",4,1.14,1,0.739,NA,NA
+"CPPS3 polysaccharide, Codonopsis pilosula; Enterocolitis, Pseudomembranous (increase)",9,2.56,2,0.777,1,1
+"Human Breast Milk-Fed (decrease) (Decrease)",9,2.56,2,0.777,1,1
+"Whole Grains; Obesity (Increase)",9,2.56,2,0.777,1,1
+"Short-chain galactooligosaccharide; Lactose Intolerance (Increase)",14,3.99,3,0.81,1,1
+"Coconut Oil; Diet, High-Fat; 8 weeks (decrease)",5,1.42,1,0.814,NA,NA
+"Diet, High-Fat; Eight different dietary fibers (increase)",5,1.42,1,0.814,NA,NA
+"Exercise (increase)",5,1.42,1,0.814,NA,NA
+"Fatty Acids, Omega-3; Health (increase)",5,1.42,1,0.814,NA,NA
+"Fish Proteins (decrease)",5,1.42,1,0.814,NA,NA
+"High Fat Diet (decrease) (Decrease)",5,1.42,1,0.814,NA,NA
+"High-amylose maize type 2 resistant starch, maize (decrease)",5,1.42,1,0.814,NA,NA
+"Macrobiotic Ma-Pi 2 diet; Diabetes Mellitus, Type 2 (Decrease)",5,1.42,1,0.814,NA,NA
+"Pb-acetate water (Decrease)",5,1.42,1,0.814,NA,NA
+"Pomegranate extract nutraceutical; Metabolic Syndrome (Increase)",5,1.42,1,0.814,NA,NA
+"Probiotics; Colonic Neoplasms (Increase)",5,1.42,1,0.814,NA,NA
+"Probiotics; Obesity (Decrease)",5,1.42,1,0.814,NA,NA
+"Weight Loss (Increase)",5,1.42,1,0.814,NA,NA
+"Non-alcoholic fatty liver disease (increased; Michail 2015) [BugSigDB]",5,1.42,1,0.814,NA,NA
+"Diet (increased; Castro-Penalonga 2018) [BugSigDB]",5,1.42,1,0.814,NA,NA
+"Response to diet (decreased; Chen 2022) [BugSigDB]",5,1.42,1,0.814,NA,NA
+"yacon syrup; Enterocolitis, Pseudomembranous (Increase)",10,2.85,2,0.827,1,1
+"Fasting blood glucose measurement (decreased; Crusell 2020) [BugSigDB]",11,3.13,2,0.867,1,1
+"Prebiotics; Diabetes Mellitus, Type 1 (Increase)",6,1.71,1,0.867,NA,NA
+"Fasting (decreased; Ozkul 2020) [BugSigDB]",12,3.42,2,0.898,1,1
+"Arabinoxylan-Oligosaccharide; Health (absent)",7,1.99,1,0.905,NA,NA
+"Beef Proteins (decrease)",7,1.99,1,0.905,NA,NA
+"Fatty Acids; Obesity (present)",7,1.99,1,0.905,NA,NA
+"Flavonoid-rich orange juice; Depression (decrease)",7,1.99,1,0.905,NA,NA
+"Food restriction (increase)",7,1.99,1,0.905,NA,NA
+"Inulin-type fructan prebiotic; Higher-fiber dietary (increase)",7,1.99,1,0.905,NA,NA
+"Nondigestible(10%) Fructans; Obesity (Decrease)",7,1.99,1,0.905,NA,NA
+"Pork Proteins (Decrease)",7,1.99,1,0.905,NA,NA
+"Probiotics(Bifidobacterium breve Bb99 Propionibacterium freundenreichii subsp, shermanii JS, Lactobacillus rhamnosus Lc705, Lactobacillus rhamnosus GG); Infant Formula (Increase)",7,1.99,1,0.905,NA,NA
+"Short-chain galactooligosaccharide; Lactose Intolerance (Decrease)",7,1.99,1,0.905,NA,NA
+"Diet (increased; Jang 2019) [BugSigDB]",7,1.99,1,0.905,NA,NA
+"Smoking behavior (increased; Yang 2022) [BugSigDB]",7,1.99,1,0.905,NA,NA
+"Coconut Oil; Diet, High-Fat; 2 weeks (increase)",8,2.28,1,0.932,NA,NA
+"Exercise; Diet, Mediterranean(energy restricted); Metabolic Syndrome (decrease)",8,2.28,1,0.932,NA,NA
+"High-sucrose diet (increase)",8,2.28,1,0.932,NA,NA
+"Soybean Oil; Diet, High-Fat; 2 weeks (Increase)",8,2.28,1,0.932,NA,NA
+"yacon syrup (Increase)",8,2.28,1,0.932,NA,NA
+"Non-alcoholic fatty liver disease (increased; Raman 2013) [BugSigDB]",8,2.28,1,0.932,NA,NA
+"Response to ketogenic diet (decreased; Ang 2020) [BugSigDB]",8,2.28,1,0.932,NA,NA
+"Exercise (increased; Sun 2023) [BugSigDB]",8,2.28,1,0.932,NA,NA
+"Breastfeeding duration (decreased; Dalby 2024) [BugSigDB]",28,7.98,5,0.936,1,1
+"Dextran Sulfate (decrease)",14,3.99,2,0.941,1,1
+"Probiotics; Colorectal Neoplasms (Decrease)",29,8.26,5,0.948,1,1
+"Fasting mimicking diet; 1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine (decrease)",9,2.56,1,0.952,NA,NA
+"Flavonoid-low orange cordial; Depression (increase)",9,2.56,1,0.952,NA,NA
+"lipid-linked oligosaccharides; Metabolic Syndrome (Increase)",9,2.56,1,0.952,NA,NA
+"Prebiotics; Obesity (Increase)",9,2.56,1,0.952,NA,NA
+"Probiotics; Obesity (Increase)",9,2.56,1,0.952,NA,NA
+"Soluble corn fiber; Health (Increase)",9,2.56,1,0.952,NA,NA
+"Human Breast Milk-Fed (increase) (Increase)",15,4.27,2,0.955,1,1
+"Lifestyle measurement (increased; Oduaran 2020) [BugSigDB]",21,5.98,3,0.964,1,1
+"Alkaline electrolyzed water (increase)",10,2.85,1,0.966,NA,NA
+"Red wine (Increase)",10,2.85,1,0.966,NA,NA
+"Diet (decreased; Ramaboli 2024) [BugSigDB]",10,2.85,1,0.966,NA,NA
+"Alcohol drinking (decreased; Bjørkhaug 2019) [BugSigDB]",16,4.56,2,0.967,1,1
+"Dextran Sulfate (increase)",17,4.84,2,0.975,1,1
+"Fasting (increased; Li 2024) [BugSigDB]",17,4.84,2,0.975,1,1
+"Response to ketogenic diet (increased; Ang 2020) [BugSigDB]",11,3.13,1,0.976,NA,NA
+"Physical activity (increased; Urban 2024) [BugSigDB]",11,3.13,1,0.976,NA,NA
+"Response to ketogenic diet (decreased; Zhang 2018) [BugSigDB]",18,5.13,2,0.981,1,1
+"Smoking behavior (decreased; Peng 2024) [BugSigDB]",12,3.42,1,0.983,NA,NA
+"Probiotics(Lactobacillus plantarum CCFM8610; 8 weeks); Dermatitis, Atopic (Decrease)",24,6.84,3,0.984,1,1
+"Probiotics(Lactobacillus plantarum CCFM8610; 8 weeks); Dermatitis, Atopic (Increase)",19,5.41,2,0.986,1,1
+"Synbiotics; Obesity (Increase)",19,5.41,2,0.986,1,1
+"Non-alcoholic fatty liver disease (decreased; Martínez-Sanz 2023) [BugSigDB]",35,9.97,5,0.987,1,1
+"Alcohol drinking (increased; Bjørkhaug 2019) [BugSigDB]",20,5.7,2,0.99,1,1
+"Response to diet (increased; Li 2024) [BugSigDB]",20,5.7,2,0.99,1,1
+"Obesity (decreased; PRJEB12123) [GMrepo]",20,5.7,2,0.99,1,1
+"High Fat Diet (increase) (Increase)",14,3.99,1,0.991,NA,NA
+"Breastfeeding duration (increased; Ho 2018) [BugSigDB]",21,5.98,2,0.992,1,1
+"Non-alcoholic fatty liver disease (increased; Zhang 2024) [BugSigDB]",22,6.27,2,0.994,1,1
+"Non-alcoholic fatty liver disease (increased; Martínez-Sanz 2023) [BugSigDB]",34,9.69,4,0.995,1,1
+"Diet (increased; Brasili 2019) [BugSigDB]",16,4.56,1,0.996,NA,NA
+"Beverage consumption measurement (increased; Le Roy 2022) [BugSigDB]",23,6.55,2,0.996,1,1
+"Lifestyle measurement (decreased; Oduaran 2020) [BugSigDB]",17,4.84,1,0.997,NA,NA
+"Obesity (increased; PRJEB12123) [GMrepo]",26,7.41,2,0.998,1,1
+"Polydextrose; Health (Decrease)",20,5.7,1,0.999,NA,NA
+"Diet, High-Fat (increase)",28,7.98,2,0.999,1,1
+"Flavonoid-rich orange juice; Depression (increase)",23,6.55,1,1,NA,NA
+"Fructose; Glucose (increase)",23,6.55,1,1,NA,NA
+"Diet, High-Fat (decrease)",38,10.8,3,1,1,1
+"Diet (increased; Klimenko 2018) [BugSigDB]",38,10.8,3,1,1,1
+"Response to ketogenic diet (increased; Zhang 2018) [BugSigDB]",26,7.41,1,1,NA,NA
+"Non-alcoholic fatty liver disease (decreased; Zhang 2024) [BugSigDB]",43,12.2,3,1,1,1
+"Diet (increased; Ni Lochlainn 2024) [BugSigDB]",80,22.8,2,1,1,1
+"Obesity (increased; PRJNA1125836) [GMrepo]",151,43,10,1,1,1

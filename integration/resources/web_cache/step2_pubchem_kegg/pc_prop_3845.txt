@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3845,
+        "MolecularFormula": "C10H7NO3",
+        "InChIKey": "HCZHHEIFKROPDY-UHFFFAOYSA-N",
+        "MonoisotopicMass": "189.042593085",
+        "Title": "Kynurenic Acid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 14671620,
+        "MolecularFormula": "C26H46N6O9",
+        "InChIKey": "SXTGVXKFOVZYIK-UHFFFAOYSA-N",
+        "MonoisotopicMass": "586.33262707",
+        "Title": "Desmethylenylnocardamine"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6305,
+        "MolecularFormula": "C11H12N2O2",
+        "InChIKey": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
+        "MonoisotopicMass": "204.089877630",
+        "Title": "L-Tryptophan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Azelaic acid (negative_correlated)",7,11.8,1,NA,NA,NA
+"Sebacic acid (negative_correlated)",5,8.43,1,NA,NA,NA
+"Asymmetric dimethylarginine (positive_correlated)",7,11.8,1,NA,NA,NA
+"Betaine (positive_correlated)",5,8.43,1,NA,NA,NA
+"Chenodeoxycholic acid (positive_correlated)",5,8.43,1,NA,NA,NA
+"Cholic acid (positive_correlated)",7,11.8,1,NA,NA,NA
+"L-Alanine (positive_correlated)",4,6.75,1,NA,NA,NA
+"L-Lactic acid (positive_correlated)",4,6.75,1,NA,NA,NA
+"L-Leucine (positive_correlated)",4,6.75,1,NA,NA,NA
+"L-Lysine (positive_correlated)",5,8.43,1,NA,NA,NA
+"L-Phenylalanine (positive_correlated)",4,6.75,1,NA,NA,NA
+"Taurine (positive_correlated)",8,13.5,1,NA,NA,NA

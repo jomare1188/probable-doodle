@@ -1,0 +1,31 @@
+C00078	L-Tryptophan; Tryptophan; (S)-alpha-Amino-beta-(3-indolyl)-propionic acid
+C00525	D-Tryptophan
+C00643	5-Hydroxy-L-tryptophan; Oxitriptan
+C00806	Tryptophan; alpha-Amino-beta-(3-indolyl)-propionic acid
+C00977	L-Tryptophanamide
+C01017	5-Hydroxytryptophan; 5-HTP
+C02732	Peptide tryptophan
+C02983	Abrine; L-Abrine; N-Methyl-L-tryptophane
+C03137	N-Acetyl-D-tryptophan
+C03414	N2-Malonyl-D-tryptophan
+C03512	L-Tryptophanyl-tRNA(Trp)
+C04290	4-(3-Methylbut-2-enyl)-L-tryptophan; 4-Dimethylallyl-L-tryptophan; 4-Prenyl-L-tryptophan; 4-(3-Methylbut-2-en-1-yl)-L-tryptophan
+C06067	Dimethylallyltryptophan; 4-Dimethylallyltryptophan
+C06732	alpha,beta-Didehydrotryptophan
+C16831	L-2-Methyltryptophan; 2-Methyl-L-tryptophan
+C19687	7-Chloro-L-tryptophan
+C19688	2-Imino-3-(7-chloroindol-3-yl)propanoate; 7-Chlorodehydrotryptophan
+C19716	N-Hydroxy-L-tryptophan
+C19717	N,N-Dihydroxy-L-tryptophan
+C19767	7-(3-Methylbut-2-enyl)-L-tryptophan; 7-Prenyl-L-tryptophan
+C21777	4-Hydroxy-L-tryptophan
+C21865	5-Chloro-L-tryptophan
+C21866	6-Chloro-L-tryptophan
+C21867	6-Chloro-D-tryptophan
+C21868	6,7-Dichloro-L-tryptophan
+C21892	(2S)-3-(1H-Indol-3-yl)-2-isocyanopropanoate; L-Tryptophan isonitrile
+C22980	4-Nitro-L-tryptophan
+C23128	5-Bromo-L-tryptophan
+C23151	N-Acyl-L-tryptophan
+C23178	(2E)-N-Acyl-2-dehydrotryptophan
+C23194	5,7-Dibromo-L-Tryptophan

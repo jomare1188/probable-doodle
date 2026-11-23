@@ -1,0 +1,169 @@
+ENTRY       R07292                      Reaction
+NAME        4-hydroxy-3-methoxycinnamoyl-sugar hydrolase
+DEFINITION  Feruloyl-polysaccharide + H2O <=> Ferulate + Polysaccharide
+EQUATION    C06741 + C00001 <=> C01494 + C00420
+ENZYME      3.1.1.73
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.73
+                 R07292  Feruloyl-polysaccharide + H2O <=> Ferulate + Polysaccharide
+///
+
+ENTRY       R07300                      Reaction
+NAME        N8-acetylspermidine amidohydrolase
+DEFINITION  N8-Acetylspermidine + H2O <=> Acetate + Spermidine
+EQUATION    C01029 + C00001 <=> C00033 + C00315
+RCLASS      RC00096  C00315_C01029
+            RC00300  C00033_C01029
+ENZYME      3.5.1.48
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.48
+                 R07300  N8-Acetylspermidine + H2O <=> Acetate + Spermidine
+DBLINKS     RHEA: 23931
+///
+
+ENTRY       R07440                      Reaction
+DEFINITION  Ferulate + NADPH + H+ + Oxygen <=> 5-Hydroxyferulic acid + NADP+ + H2O
+EQUATION    C01494 + C00005 + C00080 + C00007 <=> C05619 + C00006 + C00001
+COMMENT     ferulate 5-hydroxylase
+RCLASS      RC00001  C00005_C00006
+            RC00046  C01494_C05619
+ENZYME      1.14.13.-
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R07440  Ferulate + NADPH + H+ + Oxygen <=> 5-Hydroxyferulic acid + NADP+ + H2O
+ORTHOLOGY   K09755  ferulate-5-hydroxylase [EC:1.14.-.-]
+///
+
+ENTRY       R07441                      Reaction
+NAME        sinapoyl aldehyde:NAD oxidoreductase
+DEFINITION  Sinapoyl aldehyde + NAD+ + H2O <=> Sinapate + NADH + H+
+EQUATION    C05610 + C00003 + C00001 <=> C00482 + C00004 + C00080
+COMMENT     see R07442 (NADP)
+RCLASS      RC00001  C00003_C00004
+            RC00218  C00482_C05610
+ENZYME      1.2.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.68
+                 R07441  Sinapoyl aldehyde + NAD+ + H2O <=> Sinapate + NADH + H+
+ORTHOLOGY   K12355  coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+///
+
+ENTRY       R07442                      Reaction
+NAME        sinapoyl aldehyde:NADP oxidoreductase
+DEFINITION  Sinapoyl aldehyde + NADP+ + H2O <=> Sinapate + NADPH + H+
+EQUATION    C05610 + C00006 + C00001 <=> C00482 + C00005 + C00080
+COMMENT     see R07441 (NADH)
+RCLASS      RC00001  C00005_C00006
+            RC00218  C00482_C05610
+ENZYME      1.2.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.68
+                 R07442  Sinapoyl aldehyde + NADP+ + H2O <=> Sinapate + NADPH + H+
+ORTHOLOGY   K12355  coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+///
+
+ENTRY       R07477                      Reaction
+NAME        spermidine:NAD+ oxidoreductase
+DEFINITION  Spermidine + NAD+ <=> Dehydrospermidine + NADH + H+
+EQUATION    C00315 + C00003 <=> C15853 + C00004 + C00080
+COMMENT     the first step of multi-step reaction (see R05329, R07477+R07479+R07480+R07478)
+            subsequently R07479
+RCLASS      RC00001  C00003_C00004
+            RC01819  C00315_C15853
+ENZYME      2.5.1.46
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.46
+                 R07477  Spermidine + NAD+ <=> Dehydrospermidine + NADH + H+
+DBLINKS     RHEA: 19908
+///
+
+ENTRY       R07826                      Reaction
+NAME        p-coumarate 3-hydroxylase
+DEFINITION  4-Coumarate <=> Caffeate
+EQUATION    C00811 <=> C01197
+COMMENT     incomplete reaction
+RCLASS      RC00046  C00811_C01197
+ENZYME      1.14.13.-
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R07826  4-Coumarate <=> Caffeate
+///
+
+ENTRY       R08023                      Reaction
+DEFINITION  4-Coumarate <=> Naringin chalcone
+EQUATION    C00811 <=> C16423
+COMMENT     multi-step reaction
+            incomplete reaction
+RCLASS      RC01855  C00811_C16423
+///
+
+ENTRY       R08160                      Reaction
+NAME        L-tryptophan,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+DEFINITION  L-Tryptophan + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> Indole-3-acetaldehyde oxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+EQUATION    C00078 + 2 C03024 + 2 C00007 <=> C02937 + 2 C03161 + C00011 + 3 C00001
+COMMENT     three-step reaction (see R09583+R09584+R09585)
+RCLASS      RC02295  C00078_C02937
+ENZYME      1.14.14.156
+PATHWAY     rn00380  Tryptophan metabolism
+            rn00966  Glucosinolate biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+MODULE      M00370  Glucosinolate biosynthesis, tryptophan => glucobrassicin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.156
+                 R08160  L-Tryptophan + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> Indole-3-acetaldehyde oxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+ORTHOLOGY   K11812  tryptophan N-monooxygenase [EC:1.14.14.156]
+            K11813  tryptophan N-monooxygenase [EC:1.14.14.156]
+DBLINKS     RHEA: 33282
+///
+
+ENTRY       R08414                      Reaction
+DEFINITION  (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate <=> L-Pipecolate
+EQUATION    C00450 <=> C00408
+COMMENT     unclear reaction
+            incomplete reaction
+RCLASS      RC00083  C00408_C00450
+PATHWAY     rn00310  Lysine degradation
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+ORTHOLOGY   K26065  L-pipecolate oxidase
+///

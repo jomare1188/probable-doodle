@@ -1,0 +1,19 @@
+Name,KEGGID,HMDBID,Diff
+Fusaric acid,C10146,HMDB0252556,1
+Gln-C18:3,,,0
+Gln-C16:3,,,0
+Gln-C17:3,,,1
+kynurenic acid,C01717,HMDB0000715,1
+pyroglutamic acid,C01879,HMDB0000267,1
+soyasaponin Ba,,,1
+"7,3',4'-Trihydroxyflavone",,,1
+L-Tryptophan,C00078,HMDB0000929,1
+p-coumaric acid,C00811,HMDB0002035,1
+ferulic acid,C01494,HMDB0000954,1
+desferrioxamine D2,,,1
+desferrioxamine E,C23094,,1
+spermidine,C00315,HMDB0001257,1
+fumonisin B1,C19241,,1
+proline,C00148,HMDB0000162,1
+sinapic acid,C00482,HMDB0032616,1
+pipecolic acid,C00408,HMDB0000716,0

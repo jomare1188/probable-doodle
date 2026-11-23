@@ -1,0 +1,3 @@
+C00811	4-Coumarate; p-Coumaric acid; trans-4-Hydroxycinnamate; trans-p-Hydroxycinnamate; 4-Hydroxycinnamic acid; 4-Hydroxycinnamate
+C01772	trans-2-Hydroxycinnamate; trans-2-Hydroxycinnamic acid; 2-Hydroxycinnamate; 2-Coumaric acid; o-Coumaric acid; 2-Coumarate
+C11457	3-(3-Hydroxyphenyl)propanoic acid; Dihydro-3-coumaric acid; 3-Hydroxyphenylpropanoate; 3-(3-Hydroxyphenyl)propanoate

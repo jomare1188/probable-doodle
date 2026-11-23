@@ -1,0 +1,32 @@
+C00148	L-Proline; 2-Pyrrolidinecarboxylic acid
+C00763	D-Proline
+C01015	cis-4-Hydroxy-L-proline; L-Allohydroxyproline
+C01078	Procollagen L-proline; [Procollagen]-L-proline
+C01157	Hydroxyproline; L-Hydroxyproline; trans-4-Hydroxy-L-proline
+C01632	N-Carbobenzoxyglycylproline; Z-Gly-Pro; Z-Gly-Pro-OH
+C01843	Polyproline
+C01877	4-Oxoproline; 4-Oxo-L-proline
+C01879	5-Oxoproline; Pidolic acid; Pyroglutamic acid; 5-Pyrrolidone-2-carboxylic acid; Pyroglutamate; 5-Oxo-L-proline; L-Pyroglutamic acid; L-5-Pyrrolidone-2-carboxylic acid
+C02237	5-Oxo-D-proline; D-Pyroglutamic acid; D-5-Pyrrolidone-2-carboxylic acid
+C03183	Z-Gly-Pro-Leu-Gly-Pro; Carbobenzoxyglycyl-prolyl-leucyl-glycyl-proline; N-[(Phenylmethoxy)carbonyl]glycyl-L-prolyl-L-leucylglycyl-L-proline
+C03440	cis-4-Hydroxy-D-proline
+C03633	Peptidylproline (omega=0)
+C03651	trans-4-Hydroxy-D-proline
+C03798	Peptidylproline (omega=180)
+C04397	Procollagen trans-3-hydroxy-L-proline; [Procollagen]-trans-3-hydroxy-L-proline
+C04398	Procollagen trans-4-hydroxy-L-proline
+C05147	trans-3-Hydroxy-L-proline; trans-L-3-Hydroxyproline
+C05939	Linatine; N-(gamma-L-Glutamyl)amino-D-proline
+C08269	(-)-Betonicine; Betonicine; trans-4-Hydroxy-L-proline betaine
+C10172	Stachydrine; Proline betaine; L-Proline betaine
+C11711	Succinylproline; Succinyl-L-proline
+C16435	Proline
+C17366	(2S,5S)-trans-Carboxymethylproline; (2S,5S)-5-Carboxymethylproline
+C19483	N-Nitrosohydroxyproline; 4-Hydroxy-1-nitroso-L-proline
+C19485	N-Nitrosoproline; 1-Nitroso-L-proline
+C19706	cis-3-Hydroxy-L-proline; cis-3-Hydroxyproline
+C20705	4-O-(beta-L-Arabinofuranosyl-(1->2)-beta-L-arabinofuranosyl-(1->2)-beta-L-arabinofuranosyl)-(2S,4S)-4-hydroxyproline; (Ara-f)3-Hyp
+C20706	4-O-(beta-L-Arabinofuranosyl)-(2S,4S)-4-hydroxyproline
+C21513	Turicine; (+)-Turicine; cis-4-Hydroxy-D-proline betaine
+C21514	D-Proline betaine
+C22223	N-Methyl-L-proline
